@@ -1,0 +1,260 @@
+[
+  {
+    "id": "U01",
+    "desc": "Memuat: tidak ada error konsol; WebGL aktif; menggambar > 0 draw call",
+    "ok": true,
+    "note": "draw calls=23; error="
+  },
+  {
+    "id": "U02",
+    "desc": "P0: bubble pengantar tampil dan kartu Maju berdenyut (menuntun pemain)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U03",
+    "desc": "Seret kartu dari palet ke papan → 1 kartu; tutorial lanjut; tombol Jalankan berdenyut",
+    "ok": true,
+    "note": "kartu=1"
+  },
+  {
+    "id": "U04",
+    "desc": "Jalankan 1 kartu → pesan \"Masih kurang 3 petak\" (tutorial petunjuk jelas)",
+    "ok": true,
+    "note": "Masih kurang 3 petak lagi menuju lampu. Tambahkan kartu Maju lagi sampai Bit tiba di lampu."
+  },
+  {
+    "id": "U05",
+    "desc": "P0: 4 kartu Maju → lampu menyala, hasil muncul, 3 bintang (2 kali jalankan)",
+    "ok": true,
+    "note": "3 dari 3 bintang | Skor 100★ Tujuan tercapai★ Tanpa hint pengurang skor★ Berhasil dalam 2 kali coba (batas bintang: 3)"
+  },
+  {
+    "id": "U24",
+    "desc": "Teks hasil menyebut jumlah percobaan SEBENARNYA (bukan batas ★)",
+    "ok": true,
+    "note": "runs sebenarnya=2; teks=\"Skor 100★ Tujuan tercapai★ Tanpa hint pengurang skor★ Berhasil dalam 2 kali coba (batas bintang: 3)\""
+  },
+  {
+    "id": "U18a",
+    "desc": "\"Lihat versi kode\" P0 = 4 × maju()",
+    "ok": true,
+    "note": "\"maju()\\nmaju()\\nmaju()\\nmaju()\""
+  },
+  {
+    "id": "U17a",
+    "desc": "Tombol \"Coba lagi\" tersembunyi saat 3 bintang",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U19a",
+    "desc": "Overlay hasil TIDAK tertutup oleh Esc (pemain harus memilih)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U06a",
+    "desc": "5 kartu Maju → Bit menabrak tong; pesan jelas; kartu penyebab berkedip merah; tong sampah berdenyut",
+    "ok": true,
+    "note": "indeks kartu error=4; Kebanyakan atau salah arah! Seret kartu yang tidak perlu ke 🗑️ tempat sampah, lalu jalankan lagi."
+  },
+  {
+    "id": "U06b",
+    "desc": "Seret kartu ke tempat sampah → kartu terhapus (4 tersisa)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U06c",
+    "desc": "Setelah buang kartu berlebih → berhasil",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U08a",
+    "desc": "Tap kartu palet 8× → 8 kartu (batas p0)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U08b",
+    "desc": "Kartu ke-9 ditolak + toast \"Papan penuh\"",
+    "ok": true,
+    "note": "{\"n\":8,\"toast\":\"Papan penuh. Maksimal 8 kartu.\"}"
+  },
+  {
+    "id": "U08c",
+    "desc": "Label papan menampilkan \"8/8 kartu\"",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U09a",
+    "desc": "b7: ganti stage via menu → judul \"Kotak Berbentuk\"",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U10",
+    "desc": "Picker memperbarui teks kartu di papan",
+    "ok": true,
+    "note": "⠿📦Isi kotak 🔢 jumlah ikan dengan “lima”"
+  },
+  {
+    "id": "U09b",
+    "desc": "b7: teks ke kotak angka → \"Tidak muat!\"; kartu berkedip merah; Bit bereaksi",
+    "ok": true,
+    "note": "Tidak muat! Kotak bulat (angka) tidak bisa diisi “lima”. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "U07",
+    "desc": "Seret-susun ulang: kartu pertama dipindah ke bawah → urutan berubah",
+    "ok": true,
+    "note": "sebelum: otak 🔢 jumlah ikan de / otak 🔤 nama perahu de / otak ⏻ lampu mercusuar → sesudah: otak 🔤 nama perahu de / otak ⏻ lampu mercusuar / otak 🔢 jumlah ikan de"
+  },
+  {
+    "id": "U10b",
+    "desc": "b7: 3 kartu benar → berhasil; 3★ (2 kali jalankan, tanpa hint)",
+    "ok": true,
+    "note": "3 dari 3 bintang"
+  },
+  {
+    "id": "U18b",
+    "desc": "\"Lihat versi kode\" b7 benar",
+    "ok": true,
+    "note": "\"nama_perahu = \\\"Kenari\\\"\\nlampu_mercusuar = nyala\\njumlah_ikan = 5\""
+  },
+  {
+    "id": "U11a",
+    "desc": "b8: 3 ÷ 2 → ditolak \"tidak bisa dibagi rata\"",
+    "ok": true,
+    "note": "3 tidak bisa dibagi rata dengan 2. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "U11b",
+    "desc": "b8: 3 × 4 + 2 = 14 → berhasil",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U18c",
+    "desc": "\"Lihat versi kode\" b8 = berat = 3 / berat = berat * 4 / berat = berat + 2",
+    "ok": true,
+    "note": "\"berat = 3\\nberat = berat * 4\\nberat = berat + 2\""
+  },
+  {
+    "id": "U12a",
+    "desc": "Easy: urutan hint = 1 gratis → 2 gratis → 3 (−10%)",
+    "ok": true,
+    "note": "Petunjuk 1 (gratis) → Petunjuk 2 (gratis) → Petunjuk 3 (−10% skor)"
+  },
+  {
+    "id": "U12b",
+    "desc": "Teks hint 3 B10 yang tampil (kini parsial: kartu pertama saja)",
+    "ok": null,
+    "note": "Kartu pertamamu: Isi kotak “berat” dengan 3 atau 4. Dua kartu sisanya kamu pikirkan sendiri."
+  },
+  {
+    "id": "U12c",
+    "desc": "Easy + hint 3 dipakai + 1 kali jalankan → 2★, skor 60 (=100×1×2/3×0,9)",
+    "ok": true,
+    "note": "2 dari 3 bintang | Skor 60★ Tujuan tercapai☆ Kamu memakai hint pengurang skor. Coba tanpa hint itu untuk bintang ini.★ Berhasil dalam 1 kali coba (batas bintang: 3)"
+  },
+  {
+    "id": "U17b",
+    "desc": "Tombol \"Coba lagi\" tampil saat <3★ dan mempertahankan program",
+    "ok": true,
+    "note": "kartu setelah retry=3"
+  },
+  {
+    "id": "U13a",
+    "desc": "Medium: hint 2 berbiaya −10%",
+    "ok": true,
+    "note": "Petunjuk 2 (−10% skor)"
+  },
+  {
+    "id": "U13b",
+    "desc": "Hard: hint 2 = −15% dan hint 3 TIDAK tersedia",
+    "ok": true,
+    "note": "Petunjuk 2 (−15% skor) | setelah hint 2: tombol=0"
+  },
+  {
+    "id": "U14a",
+    "desc": "Langkah: hasil langsung dinilai begitu KARTU TERAKHIR selesai (3 kartu → hasil setelah langkah ke-3)",
+    "ok": true,
+    "note": "overlay terbuka setelah langkah 1–4: false,false,true,true"
+  },
+  {
+    "id": "U14b",
+    "desc": "Sulit + Langkah → pengali ×1,25; 3★ (1 kali jalankan) → skor 125",
+    "ok": true,
+    "note": "3 dari 3 bintang | Skor 125★ Tujuan tercapai★ Tanpa hint pengurang skor★ Berhasil dalam 1 kali coba (batas bintang: 1)Tombol Langkah dipakai di tingkat Sulit: pengali skor ×1,25"
+  },
+  {
+    "id": "U15",
+    "desc": "Sulit tanpa Langkah, benar sekali jalan → 3★, skor 150 (pengali sementara ×1,5, F13)",
+    "ok": true,
+    "note": "Skor 150★ Tujuan tercapai★ Tanpa hint pengurang skor★ Berhasil dalam 1 kali coba (batas bintang: 1)"
+  },
+  {
+    "id": "U16",
+    "desc": "Ganti kesulitan yang membuang kartu → pemain diberi tahu (toast/pesan)",
+    "ok": true,
+    "note": "2 → 1 kartu; toast=\"1 kartu dibuang karena tidak ada di tingkat Mudah: Maju\""
+  },
+  {
+    "id": "U19b",
+    "desc": "Esc menutup menu stage",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U20a",
+    "desc": "Keyboard: Enter pada kartu palet menambah kartu",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U20b",
+    "desc": "Keyboard: Enter pada kartu papan membuka pemilih",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U20c",
+    "desc": "Keyboard: Delete menghapus kartu",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U20d",
+    "desc": "Fokus keyboard terlihat (outline ≥ 2px) pada kartu",
+    "ok": true,
+    "note": "{\"w\":\"3px\",\"st\":\"solid\"}"
+  },
+  {
+    "id": "U23",
+    "desc": "Tombol 🐇 mempercepat animasi (4 kartu)",
+    "ok": true,
+    "note": "normal=2863ms, cepat=1469ms"
+  },
+  {
+    "id": "U21",
+    "desc": "Ganti kesulitan 3× tanpa bermain → TIDAK menambah entri catatan uji",
+    "ok": true,
+    "note": "entri catatan = 0 (semua runs=0)"
+  },
+  {
+    "id": "U22",
+    "desc": "Ulang→Jalankan cepat: selama proses berjalan tombol tetap nonaktif dan status \"running\" benar",
+    "ok": true,
+    "note": "{\"running\":true,\"runDis\":true,\"stepDis\":true,\"hintDis\":true}"
+  },
+  {
+    "id": "U25",
+    "desc": "Klik ganda cepat ▶ Jalankan → hanya 1 eksekusi tercatat",
+    "ok": true,
+    "note": "runs=1"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "J07",
+    "desc": "J07: Buat Mesin [Susun, Susun, Atap] → tutup → Maju/Jalankan Mesin ke tiga lahan → menang",
+    "ok": true,
+    "note": "13/13 | Tiga menara, satu Mesin!"
+  },
+  {
+    "id": "J08a",
+    "desc": "J08: Mesin [Ulangi masukan [Susun], Atap] dengan masukan 2, 4, 3 lewat picker → menang",
+    "ok": true,
+    "note": "indentasi - in1 in2 in1 in1 - | Satu Mesin, tiga tinggi berbeda!"
+  },
+  {
+    "id": "J08b",
+    "desc": "J08: kode semu Mesin bermasukan berindentasi benar",
+    "ok": true,
+    "note": "\"fungsi mesin(masukan):\\n    ulangi masukan kali:\\n        susun_balok()\\n    pasang_atap()\\nmesin(4)\""
+  },
+  {
+    "id": "J09",
+    "desc": "J09: Mesin [Keluarkan masukan × 4] lalu Isi kotak dengan hasil Mesin(2), (3), (5) → menang",
+    "ok": true,
+    "note": "Bata pas untuk semua menara!"
+  },
+  {
+    "id": "J10-v0",
+    "desc": "J10 (keadaan 0): Mesin [Ulangi 3 [Susun], Atap] · Ulangi 5 [Maju, Jika tanda → Jalankan Mesin] → menang",
+    "ok": true,
+    "note": "mesin,ulangi,susun,akhir✓,atap,akhir✓,ulangi,maju,jika,akhir | Menara hanya di lahan bertanda!"
+  },
+  {
+    "id": "J10-v2",
+    "desc": "J10 (keadaan 2): Mesin [Ulangi 3 [Susun], Atap] · Ulangi 5 [Maju, Jika tanda → Jalankan Mesin] → menang",
+    "ok": true,
+    "note": "mesin,ulangi,susun,akhir✓,atap,akhir✓,ulangi,maju,jika,akhir | Menara hanya di lahan bertanda!"
+  }
+]

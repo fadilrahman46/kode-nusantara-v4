@@ -1,0 +1,524 @@
+{
+  "ref": {
+    "s02": {
+      "variants": 1,
+      "limit": 8,
+      "len": 6,
+      "results": [
+        {
+          "i": 0,
+          "label": "",
+          "ok": true,
+          "msg": ""
+        }
+      ],
+      "paletteOk": {
+        "easy": true,
+        "medium": true,
+        "hard": true
+      }
+    },
+    "s03": {
+      "variants": 1,
+      "limit": 10,
+      "len": 8,
+      "results": [
+        {
+          "i": 0,
+          "label": "",
+          "ok": true,
+          "msg": ""
+        }
+      ],
+      "paletteOk": {
+        "easy": true,
+        "medium": true,
+        "hard": true
+      }
+    },
+    "s04": {
+      "variants": 1,
+      "limit": 16,
+      "len": 13,
+      "results": [
+        {
+          "i": 0,
+          "label": "",
+          "ok": true,
+          "msg": ""
+        }
+      ],
+      "paletteOk": {
+        "easy": true,
+        "medium": true,
+        "hard": true
+      }
+    },
+    "s05": {
+      "variants": 2,
+      "limit": 8,
+      "len": 6,
+      "results": [
+        {
+          "i": 0,
+          "label": "lantai merah",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 1,
+          "label": "lantai biru",
+          "ok": true,
+          "msg": ""
+        }
+      ],
+      "paletteOk": {
+        "easy": true,
+        "medium": true,
+        "hard": true
+      }
+    },
+    "s06": {
+      "variants": 2,
+      "limit": 8,
+      "len": 5,
+      "results": [
+        {
+          "i": 0,
+          "label": "ada tembok di depan",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 1,
+          "label": "jalan lurus",
+          "ok": true,
+          "msg": ""
+        }
+      ],
+      "paletteOk": {
+        "easy": true,
+        "medium": true,
+        "hard": true
+      }
+    },
+    "s07": {
+      "variants": 8,
+      "limit": 12,
+      "len": 11,
+      "results": [
+        {
+          "i": 0,
+          "label": "persimpangan 1 bertembok, persimpangan 2 bertembok, lantai merah",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 1,
+          "label": "persimpangan 1 bertembok, persimpangan 2 bertembok, lantai biru",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 2,
+          "label": "persimpangan 1 bertembok, persimpangan 2 lurus, lantai merah",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 3,
+          "label": "persimpangan 1 bertembok, persimpangan 2 lurus, lantai biru",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 4,
+          "label": "persimpangan 1 lurus, persimpangan 2 bertembok, lantai merah",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 5,
+          "label": "persimpangan 1 lurus, persimpangan 2 bertembok, lantai biru",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 6,
+          "label": "persimpangan 1 lurus, persimpangan 2 lurus, lantai merah",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 7,
+          "label": "persimpangan 1 lurus, persimpangan 2 lurus, lantai biru",
+          "ok": true,
+          "msg": ""
+        }
+      ],
+      "paletteOk": {
+        "easy": true,
+        "medium": true,
+        "hard": true
+      }
+    },
+    "s11": {
+      "variants": 1,
+      "limit": 10,
+      "len": 9,
+      "results": [
+        {
+          "i": 0,
+          "label": "",
+          "ok": true,
+          "msg": ""
+        }
+      ],
+      "paletteOk": {
+        "easy": true,
+        "medium": true,
+        "hard": true
+      }
+    },
+    "s12": {
+      "variants": 4,
+      "limit": 8,
+      "len": 6,
+      "results": [
+        {
+          "i": 0,
+          "label": "muatan 8, sakelar nyala",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 1,
+          "label": "muatan 8, sakelar mati",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 2,
+          "label": "muatan 3, sakelar nyala",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 3,
+          "label": "muatan 3, sakelar mati",
+          "ok": true,
+          "msg": ""
+        }
+      ],
+      "paletteOk": {
+        "easy": true,
+        "medium": true,
+        "hard": true
+      }
+    },
+    "s13": {
+      "variants": 2,
+      "limit": 10,
+      "len": 9,
+      "results": [
+        {
+          "i": 0,
+          "label": "ada tembok di persimpangan",
+          "ok": true,
+          "msg": ""
+        },
+        {
+          "i": 1,
+          "label": "jalan lurus",
+          "ok": true,
+          "msg": ""
+        }
+      ],
+      "paletteOk": {
+        "easy": true,
+        "medium": true,
+        "hard": true
+      }
+    }
+  },
+  "neg": {
+    "s02": {
+      "tanpa belok": {
+        "anyFail": true,
+        "allFail": true,
+        "res": [
+          false
+        ]
+      }
+    },
+    "s03": {
+      "tanpa tombol": {
+        "anyFail": true,
+        "allFail": true,
+        "res": [
+          false
+        ]
+      },
+      "tanpa taruh": {
+        "anyFail": true,
+        "allFail": true,
+        "res": [
+          false
+        ]
+      }
+    },
+    "s04": {
+      "hanya 2 peti": {
+        "anyFail": true,
+        "allFail": true,
+        "res": [
+          false
+        ]
+      }
+    },
+    "s05": {
+      "tekan tanpa syarat": {
+        "anyFail": true,
+        "allFail": false,
+        "res": [
+          true,
+          false
+        ]
+      },
+      "tidak menekan": {
+        "anyFail": true,
+        "allFail": false,
+        "res": [
+          false,
+          true
+        ]
+      }
+    },
+    "s06": {
+      "tanpa selain itu": {
+        "anyFail": true,
+        "allFail": false,
+        "res": [
+          true,
+          false
+        ]
+      },
+      "selalu belok": {
+        "anyFail": true,
+        "allFail": false,
+        "res": [
+          true,
+          false
+        ]
+      }
+    },
+    "s07": {
+      "tanpa jembatan": {
+        "anyFail": true,
+        "allFail": false,
+        "res": [
+          false,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ]
+      },
+      "belokan sama arah": {
+        "anyFail": true,
+        "allFail": false,
+        "res": [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true
+        ]
+      }
+    },
+    "s11": {
+      "muatan salah": {
+        "anyFail": true,
+        "allFail": true,
+        "res": [
+          false
+        ]
+      },
+      "belum sampai": {
+        "anyFail": true,
+        "allFail": true,
+        "res": [
+          false
+        ]
+      }
+    },
+    "s12": {
+      "selalu gerbang A": {
+        "anyFail": true,
+        "allFail": false,
+        "res": [
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "selalu tekan": {
+        "anyFail": true,
+        "allFail": false,
+        "res": [
+          true,
+          false,
+          true,
+          false
+        ]
+      }
+    },
+    "s13": {
+      "tanpa hitung lilin": {
+        "anyFail": true,
+        "allFail": true,
+        "res": [
+          false,
+          false
+        ]
+      },
+      "tanpa selain itu": {
+        "anyFail": true,
+        "allFail": false,
+        "res": [
+          true,
+          false
+        ]
+      }
+    }
+  },
+  "struct": {
+    "s02": [],
+    "s03": [],
+    "s04": [],
+    "s05": [],
+    "s06": [],
+    "s07": [],
+    "s11": [],
+    "s12": [],
+    "s13": []
+  },
+  "nojika": {
+    "s05/easy": {
+      "solvedWithoutJika": null,
+      "explored": 8
+    },
+    "s05/hard": {
+      "solvedWithoutJika": null,
+      "explored": 63
+    },
+    "s06/easy": {
+      "solvedWithoutJika": null,
+      "explored": 33
+    },
+    "s06/hard": {
+      "solvedWithoutJika": null,
+      "explored": 44
+    },
+    "s07/easy": {
+      "solvedWithoutJika": null,
+      "explored": 68
+    },
+    "s07/hard": {
+      "solvedWithoutJika": null,
+      "explored": 68
+    },
+    "s12/easy": {
+      "solvedWithoutJika": null,
+      "explored": 85
+    },
+    "s12/hard": {
+      "solvedWithoutJika": null,
+      "explored": 85
+    },
+    "s13/easy": {
+      "solvedWithoutJika": null,
+      "explored": 247192
+    },
+    "s13/hard": {
+      "solvedWithoutJika": null,
+      "explored": 298107
+    }
+  },
+  "stageOrder": [
+    "p0 B01 · Pengantar",
+    "s02 B02 · Dermaga Gelap",
+    "s03 B03 · Dermaga Gelap",
+    "s04 B04 · Dermaga Gelap",
+    "s05 B05 · Jalan Pasar",
+    "s06 B06 · Jalan Pasar",
+    "s07 B07 · Jalan Pasar",
+    "b6 B08 · Gudang Kotak",
+    "b7 B09 · Gudang Kotak",
+    "b8 B10 · Gudang Kotak",
+    "s11 B11 · Gudang Kotak",
+    "s12 B12 · Mercusuar Urutan",
+    "s13 B13 · Mercusuar Urutan",
+    "j01 J01 · Kincir Rusak",
+    "j02 J02 · Kincir Rusak",
+    "j03 J03 · Kincir Rusak",
+    "j04 J04 · Kincir Rusak",
+    "j05 J05 · Kincir Rusak",
+    "j06 J06 · Kincir Rusak",
+    "j07 J07 · Bengkel Pak Rakit",
+    "j08 J08 · Bengkel Pak Rakit",
+    "j09 J09 · Bengkel Pak Rakit",
+    "j10 J10 · Bengkel Pak Rakit",
+    "j11 J11 · Gudang Rak",
+    "j12 J12 · Gudang Rak",
+    "j13 J13 · Gudang Rak",
+    "j14 J14 · Mercusuar Ulang",
+    "ma01 MA01 · Cermin dalam Cermin",
+    "ma02 MA02 · Cermin dalam Cermin",
+    "ma03 MA03 · Cermin dalam Cermin",
+    "ma04 MA04 · Perpustakaan",
+    "ma05 MA05 · Perpustakaan",
+    "ma06 MA06 · Perpustakaan",
+    "ma07 MA07 · Arsip Kampung",
+    "ma08 MA08 · Arsip Kampung",
+    "ma09 MA09 · Arsip Kampung",
+    "ma10 MA10 · Arsip Kampung",
+    "mb01 MB01 · Pabrik Cetakan",
+    "mb02 MB02 · Pabrik Cetakan",
+    "mb03 MB03 · Pabrik Cetakan",
+    "mb04 MB04 · Kebun Binatang Kode",
+    "mb05 MB05 · Kebun Binatang Kode",
+    "mb06 MB06 · Kebun Binatang Kode",
+    "mb07 MB07 · Kebun Binatang Kode",
+    "mb08 MB08 · Kebun Binatang Kode",
+    "mb09 MB09 · Kebun Binatang Kode",
+    "mb10 MB10 · Kebun Binatang Kode",
+    "se01 SE01 · Pelabuhan Sistem",
+    "se02 SE02 · Pelabuhan Sistem",
+    "se03 SE03 · Pelabuhan Sistem",
+    "se04 SE04 · Pelabuhan Sistem",
+    "se05 SE05 · Pelabuhan Sistem",
+    "se06 SE06 · Pelabuhan Sistem",
+    "se07 SE07 · Pelabuhan Sistem",
+    "se08 SE08 · Pelabuhan Sistem",
+    "se09 SE09 · Pelabuhan Sistem",
+    "se10 SE10 · Pelabuhan Sistem",
+    "ex01 EX01 · Pabrik Otomasi",
+    "ex02 EX02 · Pabrik Otomasi",
+    "ex03 EX03 · Pabrik Otomasi",
+    "ex04 EX04 · Kota Layanan",
+    "ex05 EX05 · Kota Layanan",
+    "ex06 EX06 · Kota Layanan",
+    "ex07 EX07 · Kota Layanan",
+    "ex08 EX08 · Kota Layanan",
+    "ex09 EX09 · Kota Layanan",
+    "ex10 EX10 · Kota Layanan"
+  ]
+}

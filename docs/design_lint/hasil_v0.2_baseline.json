@@ -1,0 +1,90 @@
+{
+ "errors": [
+  {
+   "rule": "L1",
+   "msg": "J7: memakai 'slot_nilai' yang TIDAK diperkenalkan di stage mana pun"
+  },
+  {
+   "rule": "L1",
+   "msg": "J8: memakai 'slot_nilai' yang TIDAK diperkenalkan di stage mana pun"
+  },
+  {
+   "rule": "L1",
+   "msg": "J10: memakai 'slot_nilai' yang TIDAK diperkenalkan di stage mana pun"
+  },
+  {
+   "rule": "L1",
+   "msg": "J11: memakai 'slot_nilai' yang TIDAK diperkenalkan di stage mana pun"
+  },
+  {
+   "rule": "L3",
+   "msg": "B: 9 stage berturut-turut memperkenalkan mekanik baru (B1–B9); batas 3"
+  },
+  {
+   "rule": "L3",
+   "msg": "J: 8 stage berturut-turut memperkenalkan mekanik baru (J3–J10); batas 3"
+  },
+  {
+   "rule": "L4",
+   "msg": "B-M1 (Dermaga Gelap): semua stage memperkenalkan mekanik baru; tidak ada latihan/pelintir"
+  },
+  {
+   "rule": "L4",
+   "msg": "B-M2 (Jalan Pasar): semua stage memperkenalkan mekanik baru; tidak ada latihan/pelintir"
+  },
+  {
+   "rule": "L4",
+   "msg": "B-M3 (Gudang Kotak): semua stage memperkenalkan mekanik baru; tidak ada latihan/pelintir"
+  },
+  {
+   "rule": "L4",
+   "msg": "J-M2 (Bengkel Pak Rakit): semua stage memperkenalkan mekanik baru; tidak ada latihan/pelintir"
+  },
+  {
+   "rule": "L7",
+   "msg": "riddle J-M1 (\"Berapa tepukan dalam 3 × 4?…\") memakai 'ulangi_bersarang' yang belum diajarkan sampai akhir misi"
+  },
+  {
+   "rule": "L11",
+   "msg": "B9: berlabel 'Gabungan' tetapi memperkenalkan mekanik baru (pembanding)"
+  },
+  {
+   "rule": "L12",
+   "msg": "mekanik 'tipe' (B7) tidak dipakai di stage mana pun sesudahnya (dalam lingkup spesifikasi ini)"
+  },
+  {
+   "rule": "L12",
+   "msg": "mekanik 'jika_dalam_ulangi' (J4) tidak dipakai di stage mana pun sesudahnya (dalam lingkup spesifikasi ini)"
+  },
+  {
+   "rule": "L12",
+   "msg": "mekanik 'komposisi_fungsi' (J8) tidak dipakai di stage mana pun sesudahnya (dalam lingkup spesifikasi ini)"
+  },
+  {
+   "rule": "L13",
+   "msg": "konsep wajib 'logika_boolean' tidak diajarkan oleh stage mana pun"
+  }
+ ],
+ "warnings": [
+  {
+   "rule": "L15",
+   "msg": "Test1: mekanik yang dilewati pemain tetapi tidak diuji: aksi"
+  }
+ ],
+ "stats": {
+  "B": {
+   "stage": 10,
+   "K": 9,
+   "LP": 1,
+   "max_run_K": 9,
+   "run": "B1–B9"
+  },
+  "J": {
+   "stage": 12,
+   "K": 9,
+   "LP": 3,
+   "max_run_K": 8,
+   "run": "J3–J10"
+  }
+ }
+}

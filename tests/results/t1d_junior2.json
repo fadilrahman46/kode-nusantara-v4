@@ -1,0 +1,254 @@
+[
+  {
+    "id": "R-j07",
+    "desc": "j07: program acuan (13 kartu, batas 13) lulus di semua 1 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 13/13"
+  },
+  {
+    "id": "R-j08",
+    "desc": "j08: program acuan (13 kartu, batas 13) lulus di semua 1 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 13/13"
+  },
+  {
+    "id": "R-j09",
+    "desc": "j09: program acuan (5 kartu, batas 5) lulus di semua 1 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 5/5"
+  },
+  {
+    "id": "R-j10",
+    "desc": "j10: program acuan (7 kartu, batas 8) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 7/8"
+  },
+  {
+    "id": "R-j11",
+    "desc": "j11: program acuan (2 kartu, batas 2) lulus di semua 1 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 2/2"
+  },
+  {
+    "id": "R-j12",
+    "desc": "j12: program acuan (2 kartu, batas 2) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 2/2"
+  },
+  {
+    "id": "R-j13",
+    "desc": "j13: program acuan (3 kartu, batas 3) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 3/3"
+  },
+  {
+    "id": "R-j14",
+    "desc": "j14: program acuan (6 kartu, batas 7) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 6/7"
+  },
+  {
+    "id": "N-j07-Mesin tanpa atap",
+    "desc": "j07: program salah “Mesin tanpa atap” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Menara di petak 2 belum beratap."
+  },
+  {
+    "id": "N-j07-Jalankan tanpa Buat Mesin",
+    "desc": "j07: program salah “Jalankan tanpa Buat Mesin” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Mesin belum dibuat. Letakkan kartu Buat Mesin beserta isinya dulu."
+  },
+  {
+    "id": "N-j07-Mesin dijalankan di lahan salah",
+    "desc": "j07: program salah “Mesin dijalankan di lahan salah” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Tidak ada lahan menara di samping Bit. Maju dulu ke lahan yang benar."
+  },
+  {
+    "id": "N-j08-tinggi tetap 3",
+    "desc": "j08: program salah “tinggi tetap 3” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Menara di petak 2 tingginya 3, seharusnya 2."
+  },
+  {
+    "id": "N-j08-masukan tertukar",
+    "desc": "j08: program salah “masukan tertukar” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Menara di petak 2 tingginya 4, seharusnya 2."
+  },
+  {
+    "id": "N-j09-dikali 3",
+    "desc": "j09: program salah “dikali 3” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Bahan A berisi 6. Menara 2 lantai, tiap lantai 4 bata."
+  },
+  {
+    "id": "N-j09-Mesin tanpa Keluarkan",
+    "desc": "j09: program salah “Mesin tanpa Keluarkan” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Mesin selesai tanpa kartu Keluarkan, jadi tidak ada hasil untuk diisik"
+  },
+  {
+    "id": "N-j09-ditambah 4",
+    "desc": "j09: program salah “ditambah 4” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Bahan A berisi 6. Menara 2 lantai, tiap lantai 4 bata."
+  },
+  {
+    "id": "N-j10-tanpa Jika",
+    "desc": "j10: program salah “tanpa Jika” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Lahan di petak 3 tidak bertanda, jadi tidak boleh dibangun. | ✗: Lahan di petak 2 tidak bertanda, jadi tidak boleh dibangun. | ✗: Lahan di petak 4 tidak bertanda, jadi tidak boleh dibangun. | ✗: Lahan di petak 2 tidak bertanda, jadi tidak boleh dibangun."
+  },
+  {
+    "id": "N-j10-Jika hanya Susun",
+    "desc": "j10: program salah “Jika hanya Susun” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Menara di petak 2 tingginya 1, seharusnya 3. | ✗: Menara di petak 3 tingginya 1, seharusnya 3. | ✗: Menara di petak 2 tingginya 1, seharusnya 3. | ✗: Menara di petak 4 tingginya 1, seharusnya 3."
+  },
+  {
+    "id": "N-j11-menghitung dari 1",
+    "desc": "j11: program salah “menghitung dari 1” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Rak ini hanya punya nomor 0 sampai 4. Nomor rak dimulai dari 0, bukan "
+  },
+  {
+    "id": "N-j11-urutan terbalik",
+    "desc": "j11: program salah “urutan terbalik” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Barang ke-1 di keranjang adalah ikan (rak nomor 4), bukan kelapa. Inga"
+  },
+  {
+    "id": "N-j12-buang semua",
+    "desc": "j12: program salah “buang semua” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: pisang masih baik tetapi ikut dibuang. | ✗: garam masih baik tetapi ikut dibuang. | ✗: telur masih baik tetapi ikut dibuang. | ✗: mangga masih baik tetapi ikut dibuang."
+  },
+  {
+    "id": "N-j12-Ulangi, bukan Untuk setiap",
+    "desc": "j12: program salah “Ulangi, bukan Untuk setiap” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu | ✗: Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu | ✗: Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu | ✗: Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu"
+  },
+  {
+    "id": "N-j13-lupa mengisi 0",
+    "desc": "j13: program salah “lupa mengisi 0” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Kotak total berat masih kosong. Isi dulu sebelum diubah. | ✗: Kotak total berat masih kosong. Isi dulu sebelum diubah. | ✗: Kotak total berat masih kosong. Isi dulu sebelum diubah. | ✗: Kotak total berat masih kosong. Isi dulu sebelum diubah."
+  },
+  {
+    "id": "N-j13-menambah 1 tiap barang",
+    "desc": "j13: program salah “menambah 1 tiap barang” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Total berat berisi 3, padahal jumlah semua berat 12. | ✗: Total berat berisi 4, padahal jumlah semua berat 13. | ✗: Total berat berisi 5, padahal jumlah semua berat 16. | ✗: Total berat berisi 2, padahal jumlah semua berat 11."
+  },
+  {
+    "id": "N-j14-lupa tekan",
+    "desc": "j14: program salah “lupa tekan” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗: Bit sudah di mercusuar. Tekan tombol lampunya. | ✗: Bit sudah di mercusuar. Tekan tombol lampunya. | ✗: Bit sudah di mercusuar. Tekan tombol lampunya. | ✗: Bit sudah di mercusuar. Tekan tombol lampunya."
+  },
+  {
+    "id": "N-j14-jalan dihitung tetap",
+    "desc": "j14: program salah “jalan dihitung tetap” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✓ | ✗: Tidak ada tombol di petak ini. Bit harus berdiri di atas tombol. | ✓ | ✗: Tidak ada tombol di petak ini. Bit harus berdiri di atas tombol."
+  },
+  {
+    "id": "F-j07",
+    "desc": "j07: tanpa Mesin / Untuk setiap / Selama tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "atom=12, keadaan dijelajahi=6926, solusi=null"
+  },
+  {
+    "id": "F-j08",
+    "desc": "j08: tanpa Mesin / Untuk setiap / Selama tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "atom=16, keadaan dijelajahi=11031, solusi=null"
+  },
+  {
+    "id": "F-j09",
+    "desc": "j09: tanpa Mesin / Untuk setiap / Selama tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "atom=48, keadaan dijelajahi=9907, solusi=null"
+  },
+  {
+    "id": "F-j10",
+    "desc": "j10: tanpa Mesin / Untuk setiap / Selama tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "atom=21, keadaan dijelajahi=59126, solusi=null"
+  },
+  {
+    "id": "F-j12",
+    "desc": "j12: tanpa Mesin / Untuk setiap / Selama tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "atom=30, keadaan dijelajahi=0, solusi=null"
+  },
+  {
+    "id": "F-j13",
+    "desc": "j13: tanpa Mesin / Untuk setiap / Selama tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "atom=56, keadaan dijelajahi=25, solusi=null"
+  },
+  {
+    "id": "F-j14",
+    "desc": "j14: tanpa Mesin / Untuk setiap / Selama tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "atom=54, keadaan dijelajahi=1258, solusi=null"
+  },
+  {
+    "id": "M1",
+    "desc": "Masukan: Mesin [Ulangi masukan [Susun], Atap] dijalankan dengan 3 → menara 3 balok beratap",
+    "ok": true,
+    "note": "{\"seq\":\"0c 6 7c 1c 2 1c 2 1c 2 4\",\"h\":3,\"roof\":true}"
+  },
+  {
+    "id": "M2",
+    "desc": "Mesin yang menjalankan Mesin di dalam dirinya ditolak dengan pesan (rekursi = materi Middle)",
+    "ok": true,
+    "note": "Mesin tidak boleh menjalankan Mesin di dalam dirinya sendiri. Itu materi tingkat Middle."
+  },
+  {
+    "id": "M3",
+    "desc": "“masukan” di luar Mesin ditolak dengan pesan",
+    "ok": true,
+    "note": "“masukan” hanya punya nilai di dalam Mesin yang dijalankan dengan masukan."
+  },
+  {
+    "id": "M4",
+    "desc": "Keluarkan menghentikan Mesin (kartu sesudahnya tidak dijalankan) dan hasilnya mengisi kotak",
+    "ok": true,
+    "note": "{\"seq\":\"0c 4c 1c 4\",\"val\":{\"t\":\"num\",\"v\":8}}"
+  },
+  {
+    "id": "M5",
+    "desc": "Untuk setiap: “isi rak sekarang” berganti per isi rak dan kosong lagi sesudahnya; yang dibuang tepat yang rusak",
+    "ok": true,
+    "note": "{\"seq\":\"0c 1 0c 1 0c 1 0c 1 0c\",\"cur\":null,\"thrown\":\"beras,jagung\"}"
+  },
+  {
+    "id": "M6",
+    "desc": "Pertanyaan “rusak?” di luar Untuk setiap ditolak dengan pesan",
+    "ok": true,
+    "note": "Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu Untuk setiap."
+  },
+  {
+    "id": "M7",
+    "desc": "Rak nomor 5 pada rak 5 barang ditolak dengan pesan “dimulai dari 0”",
+    "ok": true,
+    "note": "Rak ini hanya punya nomor 0 sampai 4. Nomor rak dimulai dari 0, bukan 1."
+  },
+  {
+    "id": "O1",
+    "desc": "Urutan menu: B01–B13 lalu J01–J14",
+    "ok": true,
+    "note": "B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 J01 J02 J03 J04 J05 J06 J07 J08 J09 J10 J11 J12 J13 J14 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA1 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB1 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE1 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX1"
+  },
+  {
+    "id": "E1",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

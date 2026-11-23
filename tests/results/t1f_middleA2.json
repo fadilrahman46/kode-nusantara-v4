@@ -1,0 +1,164 @@
+[
+  {
+    "id": "R-ma04",
+    "desc": "ma04: program acuan (2 kartu, batas 2) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 2/2"
+  },
+  {
+    "id": "R-ma05",
+    "desc": "ma05: program acuan (4 kartu, batas 4) lulus di semua 5 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 4/4"
+  },
+  {
+    "id": "R-ma06",
+    "desc": "ma06: program acuan (8 kartu, batas 8) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 8/8"
+  },
+  {
+    "id": "R-ma07",
+    "desc": "ma07: program acuan (4 kartu, batas 4) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 4/4"
+  },
+  {
+    "id": "R-ma08",
+    "desc": "ma08: program acuan (5 kartu, batas 5) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 5/5"
+  },
+  {
+    "id": "R-ma09",
+    "desc": "ma09: program acuan (5 kartu, batas 5) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 5/5"
+  },
+  {
+    "id": "R-ma10",
+    "desc": "ma10: program acuan (5 kartu, batas 5) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 5/5"
+  },
+  {
+    "id": "N-ma04-ambil tanpa berhenti",
+    "desc": "ma04: cara salah “ambil tanpa berhenti” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Bukunya ada di rak nomor 3, tetapi Bit terus membuka sampai 6 buku. Setelah ketemu, berhentilah mencari."
+  },
+  {
+    "id": "N-ma04-nomor rak tetap",
+    "desc": "ma04: cara salah “nomor rak tetap” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Buku “Lutung” belum diambil."
+  },
+  {
+    "id": "N-ma05-satu per satu (cari linear)",
+    "desc": "ma05: cara salah “satu per satu (cari linear)” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Pustakawan hanya mengizinkan membuka 3 buku di rak ini. Memeriksa satu per satu terlalu lama."
+  },
+  {
+    "id": "N-ma05-arah buang terbalik",
+    "desc": "ma05: cara salah “arah buang terbalik” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Buku 26 ikut terbuang! Jika buku yang dibuka lebih kecil dari yang dicari, yang dicari ada di sebelah kanan."
+  },
+  {
+    "id": "N-ma05-tanpa memeriksa sama dengan",
+    "desc": "ma05: cara salah “tanpa memeriksa sama dengan” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Buku 26 ikut terbuang! Jika buku yang dibuka lebih kecil dari yang dicari, yang dicari ada di sebelah kanan."
+  },
+  {
+    "id": "N-ma06-buka tengah untuk semua rak",
+    "desc": "ma06: cara salah “buka tengah untuk semua rak” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 1: Buku 30 ikut terbuang! Rak ini acak, jadi membuang separuh rak bisa membuang buku yang dicari."
+  },
+  {
+    "id": "N-ma06-satu per satu untuk semua rak",
+    "desc": "ma06: cara salah “satu per satu untuk semua rak” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Pustakawan hanya mengizinkan membuka 3 buku di rak ini. Memeriksa satu per satu terlalu lama."
+  },
+  {
+    "id": "N-ma07-langsung ambil lagi (tanpa menumpuk dulu)",
+    "desc": "ma07: cara salah “langsung ambil lagi (tanpa menumpuk dulu)” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Surat ke-1 yang dibacakan adalah surat Senin. Seharusnya mulai dari yang paling baru."
+  },
+  {
+    "id": "N-ma07-Ulangi 3 kali",
+    "desc": "ma07: cara salah “Ulangi 3 kali” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 1: Baru 3 dari 4 surat dibacakan."
+  },
+  {
+    "id": "N-ma08-pakai tumpukan",
+    "desc": "ma08: cara salah “pakai tumpukan” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Orang ke-1 yang dilayani adalah Budi, padahal Ani datang lebih dulu."
+  },
+  {
+    "id": "N-ma08-tanpa melayani saat lonceng",
+    "desc": "ma08: cara salah “tanpa melayani saat lonceng” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Lonceng berbunyi 2 kali saat warga masih datang, tetapi loket melayani 0 orang saat itu."
+  },
+  {
+    "id": "N-ma09-kiri dulu, baru kunjungi (inorder)",
+    "desc": "ma09: cara salah “kiri dulu, baru kunjungi (inorder)” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Urutan kunjungan: D, B, E, A, F, C, G. Seharusnya map itu sendiri dulu, lalu seluruh cabang kiri, lalu seluruh cabang kanan."
+  },
+  {
+    "id": "N-ma09-tanpa memeriksa anak",
+    "desc": "ma09: cara salah “tanpa memeriksa anak” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 1: Map B tidak punya anak kanan. Periksa dulu dengan kartu Jika."
+  },
+  {
+    "id": "N-ma09-kanan dulu",
+    "desc": "ma09: cara salah “kanan dulu” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Urutan kunjungan: A, C, G, F, B, E, D. Seharusnya map itu sendiri dulu, lalu seluruh cabang kiri, lalu seluruh cabang kanan."
+  },
+  {
+    "id": "N-ma10-kunjungi semua map (pohon biasa)",
+    "desc": "ma10: cara salah “kunjungi semua map (pohon biasa)” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Penjaga arsip hanya mengizinkan membuka 3 map. Mengunjungi semua map terlalu lama."
+  },
+  {
+    "id": "N-ma10-arah terbalik",
+    "desc": "ma10: cara salah “arah terbalik” gagal di sedikitnya satu keadaan, dengan pesan",
+    "ok": true,
+    "note": "keadaan 0: Map 20 tidak punya anak kiri. Periksa dulu dengan kartu Jika."
+  },
+  {
+    "id": "P1",
+    "desc": "Kode semu buka tengah: selama belum_ketemu() … buang_separuh_kiri()",
+    "ok": true,
+    "note": "\"selama belum_ketemu():\\n    buka_tengah()\\n    jika isi == dicari:\\n        ambil(isi); berhenti\\n    jika isi < dicari:\\n        buang_separuh_kiri()\\n    selain_itu:\\n        buang_separuh_kanan()\""
+  },
+  {
+    "id": "P2",
+    "desc": "Kode semu pohon: fungsi mesin(map) … mesin(map.kiri) … mesin(akar)",
+    "ok": true,
+    "note": "\"fungsi mesin(map):\\n    kunjungi(map)\\n    jika map.kiri ada:\\n        mesin(map.kiri)\\n    jika map.kanan ada:\\n        mesin(map.kanan)\\nmesin(akar)\""
+  },
+  {
+    "id": "O1",
+    "desc": "Urutan menu: … MA03 lalu MA04 … MA10",
+    "ok": true,
+    "note": "EX03 EX04 EX05 EX06 EX07 EX08 EX09 EX10"
+  },
+  {
+    "id": "E1",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

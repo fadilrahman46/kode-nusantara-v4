@@ -1,0 +1,276 @@
+{
+  "ref": {
+    "j01": {
+      "n": 1,
+      "limit": 2,
+      "len": 2,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": ""
+        }
+      ],
+      "pal": true
+    },
+    "j02": {
+      "n": 1,
+      "limit": 5,
+      "len": 5,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": ""
+        }
+      ],
+      "pal": true
+    },
+    "j03": {
+      "n": 1,
+      "limit": 4,
+      "len": 4,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": ""
+        }
+      ],
+      "pal": true
+    },
+    "j04": {
+      "n": 3,
+      "limit": 2,
+      "len": 2,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 3 petak"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 5 petak"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 7 petak"
+        }
+      ],
+      "pal": true
+    },
+    "j05": {
+      "n": 4,
+      "limit": 2,
+      "len": 2,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 3 petak berujung tembok"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 5 petak berujung tembok"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 3 petak berujung lubang"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 5 petak berujung lubang"
+        }
+      ],
+      "pal": true
+    },
+    "j06": {
+      "n": 4,
+      "limit": 5,
+      "len": 4,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 4 petak, koin di petak 2, 4"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 5 petak, koin di petak 3, 6"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 3 petak, koin di petak 1, 2, 4"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 6 petak, koin di petak 5"
+        }
+      ],
+      "pal": true
+    },
+    "j06 (alternatif: jika-selain itu)": {
+      "n": 4,
+      "limit": 5,
+      "len": 3,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 4 petak, koin di petak 2, 4"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 5 petak, koin di petak 3, 6"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 3 petak, koin di petak 1, 2, 4"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 6 petak, koin di petak 5"
+        }
+      ],
+      "pal": true
+    }
+  },
+  "neg": {
+    "j01": {
+      "Ulangi 6": [
+        false
+      ],
+      "Maju di luar Ulangi": [
+        false
+      ]
+    },
+    "j02": {
+      "Ulangi 2": [
+        false
+      ],
+      "urutan belok terbalik": [
+        false
+      ]
+    },
+    "j03": {
+      "tanpa belok": [
+        false
+      ],
+      "hanya 3 sisi": [
+        false
+      ]
+    },
+    "j04": {
+      "Ulangi 5 (hitungan tetap)": [
+        false,
+        true,
+        false
+      ],
+      "Selama ada tembok": [
+        false,
+        false,
+        false
+      ]
+    },
+    "j05": {
+      "hanya TIDAK tembok": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "hanya TIDAK lubang": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "ATAU, bukan DAN": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "j06": {
+      "Ambil tanpa Jika": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "lupa petak terakhir": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "Maju di luar Selama": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  "flat": {
+    "j01": {
+      "found": null,
+      "explored": 8
+    },
+    "j02": {
+      "found": null,
+      "explored": 25
+    },
+    "j03": {
+      "found": null,
+      "explored": 33
+    },
+    "j04": {
+      "found": null,
+      "explored": 5
+    },
+    "j05": {
+      "found": null,
+      "explored": 5
+    },
+    "j06": {
+      "found": null,
+      "explored": 313
+    }
+  },
+  "misc": {
+    "j03flat": {
+      "ok": true,
+      "len": 5,
+      "limit": 4
+    },
+    "loopGuard": {
+      "ok": false,
+      "msg": "Kartu Selama berputar terus tanpa henti. Pastikan kartu di dalamnya mengubah keadaan, misalnya Maju."
+    },
+    "loopGuard2": {
+      "ok": false,
+      "msg": "Kartu Selama berputar terus tanpa henti. Pastikan kartu di dalamnya mengubah keadaan, misalnya Maju."
+    },
+    "seq": "0c 1 2c 3 2c 3 0c 1 2c 3 2c 3",
+    "norm": {
+      "a": "ulangi,maju,akhir",
+      "b": "ulangi,ulangi,maju,akhir,akhir",
+      "c": "maju"
+    }
+  },
+  "order": "B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 J01 J02 J03 J04 J05 J06 J07 J08 J09 J10 J11 J12 J13 J14 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA1 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB1 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE1 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX1"
+}

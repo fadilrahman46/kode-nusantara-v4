@@ -1,0 +1,182 @@
+[
+  {
+    "id": "A1",
+    "desc": "Manifest berisi bidang wajib installability (name, start_url, display standalone, ikon 192 dan 512)",
+    "ok": true,
+    "note": "display=standalone start=./index.html"
+  },
+  {
+    "id": "A2",
+    "desc": "Setiap ikon di manifest ada, berformat PNG, dan ukuran berkas sama dengan yang dinyatakan",
+    "ok": true,
+    "note": "4 ikon cocok"
+  },
+  {
+    "id": "A3",
+    "desc": "Ada ikon \"maskable\" 512 dan \"any\" 512 (bukan satu ikon dengan purpose gabungan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A4",
+    "desc": "Ikon maskable: inti gambar berada di zona aman 80% (piksel sudut berwarna latar navy polos)",
+    "ok": true,
+    "note": "piksel non-latar di luar zona aman=0 (toleransi 200 untuk tepi anti-alias bintang/ombak); latar=38,52,94"
+  },
+  {
+    "id": "A5",
+    "desc": "sw.js lolos pemeriksaan sintaks dan hanya menghapus cache berawalan \"kn-\"",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A6",
+    "desc": "install tidak memanggil skipWaiting otomatis (hanya lewat pesan SKIP_WAITING dari tombol pemain)",
+    "ok": true,
+    "note": "panggilan=1"
+  },
+  {
+    "id": "B1",
+    "desc": "Halaman memuat <link rel=manifest>, theme-color, apple-touch-icon, ikon favicon",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B2",
+    "desc": "Manifest dan ikon bisa diambil dari server (200, tipe konten benar)",
+    "ok": true,
+    "note": "{\"m\":200,\"mt\":\"application/manifest+json\",\"i\":200,\"it\":\"image/png\"}"
+  },
+  {
+    "id": "B3",
+    "desc": "Service worker terdaftar, aktif, dan mengendalikan halaman setelah muat ulang",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B4",
+    "desc": "Cache terpasang berisi halaman, manifest, dan semua ikon inti",
+    "ok": true,
+    "note": "cache=kn-v24-1 isi=9 berkas"
+  },
+  {
+    "id": "B5",
+    "desc": "Menu: blok PWA tersembunyi saat tidak ada prompt pasang (desktop biasa, tidak ada baris kosong)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "C1",
+    "desc": "Server mati: muat ulang tetap menampilkan game dari cache (judul tahap terisi, WebGL hidup)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "C2",
+    "desc": "Server mati: alamat dengan query (?tamu) juga jatuh ke halaman cache",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "C3",
+    "desc": "Server mati: permainan bisa dimainkan (tombol Jalankan bekerja, tidak ada galat)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "C4",
+    "desc": "Tidak ada galat konsol selama pendaftaran SW dan mode luring",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D1",
+    "desc": "Versi baru terdeteksi: tombol \"Versi baru tersedia\" muncul di menu",
+    "ok": true,
+    "note": "tinggi tombol=52px"
+  },
+  {
+    "id": "D2",
+    "desc": "Versi baru TIDAK mengambil alih sendiri: halaman tidak dimuat ulang dan masih versi lama",
+    "ok": true,
+    "note": "cache=kn-v24-1,kn-v23-2"
+  },
+  {
+    "id": "D3",
+    "desc": "Menekan tombol: SW baru aktif, halaman dimuat ulang sekali, penanda versi 2 muncul",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D4",
+    "desc": "Cache versi lama dihapus; tersisa hanya kn-v23-2",
+    "ok": true,
+    "note": "kn-v23-2"
+  },
+  {
+    "id": "D5",
+    "desc": "Setelah pembaruan: luring (server mati) tetap menyajikan versi 2",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D6",
+    "desc": "Tidak ada galat konsol selama alur pembaruan",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E1",
+    "desc": "beforeinstallprompt: tombol \"Pasang aplikasi\" muncul di menu dan event default dicegah",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E2",
+    "desc": "Menekan tombol memanggil prompt() tepat satu kali dan menyembunyikan tombol (tidak bisa dipakai dua kali)",
+    "ok": true,
+    "note": "{\"n\":1,\"hid\":true}"
+  },
+  {
+    "id": "E3",
+    "desc": "Peristiwa appinstalled menyembunyikan blok PWA",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E4",
+    "desc": "Pada UA iPhone (tanpa beforeinstallprompt) menu menampilkan petunjuk Bagikan > Tambah ke Layar Utama",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E5",
+    "desc": "Tidak ada galat konsol pada alur pasang",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "F1",
+    "desc": "navigator.webdriver=true (otomatisasi/uji regresi): service worker TIDAK didaftarkan",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "F2",
+    "desc": "Di dalam Capacitor (APK): service worker TIDAK didaftarkan dan menu PWA tersembunyi",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "F3",
+    "desc": "Di Android WebView (UA \"; wv)\"): service worker TIDAK didaftarkan",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "F4",
+    "desc": "Dibuka sebagai berkas lokal (file://): game tetap jalan dan tanpa galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

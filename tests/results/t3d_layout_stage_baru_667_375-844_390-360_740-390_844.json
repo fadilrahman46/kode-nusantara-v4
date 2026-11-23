@@ -1,0 +1,74 @@
+[
+  {
+    "id": "667x375-mb10-easy",
+    "desc": "667x375 mb10/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 369/375; dunia 325; papan 156; palet 93"
+  },
+  {
+    "id": "667x375-mb10-medium",
+    "desc": "667x375 mb10/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 369/375; dunia 325; papan 156; palet 93"
+  },
+  {
+    "id": "667x375-mb10-hard",
+    "desc": "667x375 mb10/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 369/375; dunia 325; papan 156; palet 93"
+  },
+  {
+    "id": "844x390-mb10-easy",
+    "desc": "844x390 mb10/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 384/390; dunia 340; papan 171; palet 93"
+  },
+  {
+    "id": "844x390-mb10-medium",
+    "desc": "844x390 mb10/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 384/390; dunia 340; papan 171; palet 93"
+  },
+  {
+    "id": "844x390-mb10-hard",
+    "desc": "844x390 mb10/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 384/390; dunia 340; papan 171; palet 93"
+  },
+  {
+    "id": "360x740-mb10-easy",
+    "desc": "360x740 mb10/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
+  },
+  {
+    "id": "360x740-mb10-medium",
+    "desc": "360x740 mb10/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
+  },
+  {
+    "id": "360x740-mb10-hard",
+    "desc": "360x740 mb10/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
+  },
+  {
+    "id": "390x844-mb10-easy",
+    "desc": "390x844 mb10/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 834/844; dunia 297; papan 208; palet 160"
+  },
+  {
+    "id": "390x844-mb10-medium",
+    "desc": "390x844 mb10/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 834/844; dunia 297; papan 208; palet 160"
+  },
+  {
+    "id": "390x844-mb10-hard",
+    "desc": "390x844 mb10/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 834/844; dunia 297; papan 208; palet 160"
+  }
+]

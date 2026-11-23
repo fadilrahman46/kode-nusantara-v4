@@ -1,0 +1,158 @@
+[
+  {
+    "id": "B1",
+    "desc": "Test 2: 10 konsep × 3 varian; Test 3: 8 konsep × 3 varian",
+    "ok": true,
+    "note": "10×3 / 8×3"
+  },
+  {
+    "id": "B2",
+    "desc": "Tiap butir: 4 pilihan berbeda, tepat satu benar, tidak ada yang bertuliskan “Aku belum tahu”",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B3",
+    "desc": "Tiap butir punya soal; butir bertipe program menampilkan isinya (kode) dan tidak ada teks “undefined/NaN”",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B4",
+    "desc": "Tiga varian satu konsep tidak identik (soal berbeda) dan jawaban benar tidak sama di ketiganya, kecuali konsep tetap",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "K1",
+    "desc": "T2-1 rekursi: kunci = nilai hitung(n) yang dihitung dari bawah",
+    "ok": true,
+    "note": "10,15,16 / 10,15,16"
+  },
+  {
+    "id": "K2",
+    "desc": "T2-2 titik berhenti: kunci cocok dengan simulasi penelusuran (aturan berhenti ada/tidak, langkah 1 atau 2)",
+    "ok": true,
+    "note": "Tidak pernah berhenti,Tampil 3, 2, 1,Tampil 6, 4, 2 / Tidak pernah berhenti,Tampil 3, 2, 1,Tampil 6, 4, 2"
+  },
+  {
+    "id": "K3",
+    "desc": "T2-3 buka tengah: kunci = banyak pembagian dua sampai habis (⌊log₂ n⌋+1)",
+    "ok": true,
+    "note": "10,13,17 / 10,13,17"
+  },
+  {
+    "id": "K4",
+    "desc": "T2-4 pohon: kunci = penelusuran diri-kiri-kanan memakai tumpukan eksplisit (bukan rekursi)",
+    "ok": true,
+    "note": "Kakek, Ayah, Aku, Adik, Paman / Nenek, Ibu, Bibi, Dodi, Eni / Bunda, Tika, Uci, Vera, Wina"
+  },
+  {
+    "id": "K5",
+    "desc": "T2-5 tumpukan vs antrean: kunci cocok dengan push/pop dan enqueue/dequeue sungguhan",
+    "ok": true,
+    "note": "Tumpukan: A · Antrean: C / Tumpukan: P dan Q · Antrean: R dan S / Tumpukan: 1 · Antrean: 4"
+  },
+  {
+    "id": "K6",
+    "desc": "T2-6 objek mandiri: kunci = nilai awal cetakan (mengubah satu objek tidak mengubah yang lain)",
+    "ok": true,
+    "note": "Tetap jingga|Tetap kwek|Tetap 0"
+  },
+  {
+    "id": "K7",
+    "desc": "T2-7 brankas: kunci = isi awal + setoran yang tidak negatif",
+    "ok": true,
+    "note": "80,65,35 / 80,65,35"
+  },
+  {
+    "id": "K8",
+    "desc": "T2-8/9/10: kunci tetap menyebut method turunan (versi cetakan paling bawah), urutan jawaban polimorfis, dan rancangan satu cetakan induk",
+    "ok": true,
+    "note": "true true true"
+  },
+  {
+    "id": "K9",
+    "desc": "T3-3 titik simpan: kunci cocok dengan simulasi memakai salinan dan peta kerja",
+    "ok": true,
+    "note": "Perubahan 1 · peta sehat / Perubahan 1 dan 2 · peta masih rusak / Perubahan 1 dan 2 · peta sehat"
+  },
+  {
+    "id": "K10",
+    "desc": "T3-4 gabung: kunci = jumlah petak yang diubah kedua cabang",
+    "ok": true,
+    "note": "2,0,3 / 2,0,3"
+  },
+  {
+    "id": "K11",
+    "desc": "T3-5 mundur: kunci = n − k + 1 (perubahan bug dan semua sesudahnya dilepas)",
+    "ok": true,
+    "note": "4,2,6 / 4,2,6"
+  },
+  {
+    "id": "K12",
+    "desc": "T3-7 jalur rilis: rilis mulai di detak 3 tiba di produksi di detak 6 (empat tahap, satu per detak)",
+    "ok": true,
+    "note": "6"
+  },
+  {
+    "id": "K13",
+    "desc": "T3 butir statis: kunci sesuai aturan stage Senior (alamat /barang, aksi pesan, ≤ 5; stok habis → /cadangan; tidak ditemukan → /barang-baru)",
+    "ok": true,
+    "note": "true true"
+  },
+  {
+    "id": "G1",
+    "desc": "Dua gerbang baru terpasang: g_ex03 setelah EX03, g_ex06 setelah EX06; masing-masing 3 varian",
+    "ok": true,
+    "note": "g_ex03@ex03:3,g_ex06@ex06:3"
+  },
+  {
+    "id": "G2",
+    "desc": "Gerbang Detak: kunci 10, 12, 13 cocok dengan tabel detak yang dihitung terpisah (aksi → peristiwa di detak berikutnya; jeda 2 untuk pemasok)",
+    "ok": true,
+    "note": "10,12,13 / 10,12,13"
+  },
+  {
+    "id": "G3",
+    "desc": "Gerbang Antrean: kunci 12, 28, 31 cocok dengan simulasi antrean yang ditulis ulang di sini",
+    "ok": true,
+    "note": "12,28,31 / 12,28,31"
+  },
+  {
+    "id": "G4",
+    "desc": "Kedua gerbang: jawaban benar tidak ada di antara pengecoh; ≥ 3 pengecoh unik; kunci dua digit (ubin tidak bisa ditebak); petunjuk dan penjelasan terisi; tipe angka",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "G5",
+    "desc": "Penjelasan Gerbang Detak menampilkan baris detak yang beraksi dan kunci; Gerbang Antrean menyebut hasil akhir yang sama dengan kunci",
+    "ok": true,
+    "note": "true true"
+  },
+  {
+    "id": "L1",
+    "desc": "Senior pertama terkunci sampai Middle B selesai atau Ujian Senior lulus; SE02 tetap berurutan; Expert pertama sama dengan Ujian Expert",
+    "ok": true,
+    "note": "{\"a\":true,\"e\":true,\"b\":true,\"c\":true,\"f\":true,\"g\":true,\"h\":true,\"i\":true}"
+  },
+  {
+    "id": "L2",
+    "desc": "Syarat dasar: Ujian Senior butuh Junior selesai dan tertutup bila Middle A+B selesai; Ujian Expert butuh Senior terbuka dan tertutup bila Senior selesai",
+    "ok": true,
+    "note": "{\"a\":\"Ujian Senior terbuka setelah semua tahap Junior selesai.\",\"b\":\"Ujian Expert terbuka setelah Senior terbuka.\",\"c\":null,\"d\":\"Ujian Expert terbuka setelah Senior terbuka.\",\"e\":\"Kamu sudah membuka Senior lewat tahap Middle.\",\"f\":null,\"g\":\"Kamu sudah membuka Expert lewat tahap Senior.\"}"
+  },
+  {
+    "id": "L3",
+    "desc": "Data: kn_tes_v1 lama (hanya t1) tetap terbaca dan t2/t3 kosong; data rusak diabaikan tanpa galat",
+    "ok": true,
+    "note": "{\"a\":{\"t1\":\"junior\",\"t2\":null,\"t3\":null,\"pass\":true},\"c\":{\"t1\":null,\"t2\":null,\"t3\":null}}"
+  },
+  {
+    "id": "L4",
+    "desc": "Galat konsol: tidak ada",
+    "ok": true,
+    "note": ""
+  }
+]

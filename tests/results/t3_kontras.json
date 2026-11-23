@@ -1,0 +1,114 @@
+{
+  "light": [
+    {
+      "n": "Subjudul stage",
+      "s": ".stage-title span",
+      "ratio": 5.72,
+      "size": "13px"
+    },
+    {
+      "n": "Label zona",
+      "s": ".zone-label",
+      "ratio": 5.26,
+      "size": "14px"
+    },
+    {
+      "n": "Nama NPC",
+      "s": "#bubble b",
+      "ratio": 5.72,
+      "size": "14px"
+    },
+    {
+      "n": "Teks dialog",
+      "s": "#bubbleText",
+      "ratio": 12.12,
+      "size": "17px"
+    },
+    {
+      "n": "Teks papan kosong",
+      "s": ".board-empty",
+      "ratio": 5.72,
+      "size": "17px"
+    },
+    {
+      "n": "Teks kartu",
+      "s": ".card",
+      "ratio": 12.12,
+      "size": "17px"
+    },
+    {
+      "n": "Tombol Jalankan",
+      "s": ".ctl.run",
+      "ratio": 8.63,
+      "size": "17px"
+    },
+    {
+      "n": "Tombol kontrol",
+      "s": ".ctl",
+      "ratio": 8.63,
+      "size": "17px"
+    },
+    {
+      "n": "Subjudul brand",
+      "s": ".brand small",
+      "ratio": 5.72,
+      "size": "14px"
+    }
+  ],
+  "dark": [
+    {
+      "n": "Subjudul stage",
+      "s": ".stage-title span",
+      "ratio": 7.1,
+      "size": "13px"
+    },
+    {
+      "n": "Label zona",
+      "s": ".zone-label",
+      "ratio": 7.97,
+      "size": "14px"
+    },
+    {
+      "n": "Nama NPC",
+      "s": "#bubble b",
+      "ratio": 7.1,
+      "size": "14px"
+    },
+    {
+      "n": "Teks dialog",
+      "s": "#bubbleText",
+      "ratio": 11.95,
+      "size": "17px"
+    },
+    {
+      "n": "Teks papan kosong",
+      "s": ".board-empty",
+      "ratio": 7.1,
+      "size": "17px"
+    },
+    {
+      "n": "Teks kartu",
+      "s": ".card",
+      "ratio": 11.95,
+      "size": "17px"
+    },
+    {
+      "n": "Tombol Jalankan",
+      "s": ".ctl.run",
+      "ratio": 8.63,
+      "size": "17px"
+    },
+    {
+      "n": "Tombol kontrol",
+      "s": ".ctl",
+      "ratio": 8.63,
+      "size": "17px"
+    },
+    {
+      "n": "Subjudul brand",
+      "s": ".brand small",
+      "ratio": 7.1,
+      "size": "14px"
+    }
+  ]
+}

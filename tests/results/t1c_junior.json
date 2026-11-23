@@ -1,0 +1,200 @@
+[
+  {
+    "id": "R-j01",
+    "desc": "j01: program acuan (2 kartu, batas 2) lulus di semua 1 keadaan",
+    "ok": true,
+    "note": "kartu 2/2"
+  },
+  {
+    "id": "R-j02",
+    "desc": "j02: program acuan (5 kartu, batas 5) lulus di semua 1 keadaan",
+    "ok": true,
+    "note": "kartu 5/5"
+  },
+  {
+    "id": "R-j03",
+    "desc": "j03: program acuan (4 kartu, batas 4) lulus di semua 1 keadaan",
+    "ok": true,
+    "note": "kartu 4/4"
+  },
+  {
+    "id": "R-j04",
+    "desc": "j04: program acuan (2 kartu, batas 2) lulus di semua 3 keadaan",
+    "ok": true,
+    "note": "kartu 2/2"
+  },
+  {
+    "id": "R-j05",
+    "desc": "j05: program acuan (2 kartu, batas 2) lulus di semua 4 keadaan",
+    "ok": true,
+    "note": "kartu 2/2"
+  },
+  {
+    "id": "R-j06",
+    "desc": "j06: program acuan (4 kartu, batas 5) lulus di semua 4 keadaan",
+    "ok": true,
+    "note": "kartu 4/5"
+  },
+  {
+    "id": "R-j06 (alternatif: jika-selain itu)",
+    "desc": "j06 (alternatif: jika-selain itu): program acuan (3 kartu, batas 5) lulus di semua 4 keadaan",
+    "ok": true,
+    "note": "kartu 3/5"
+  },
+  {
+    "id": "N-j01-Ulangi 6",
+    "desc": "j01: program salah “Ulangi 6” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "N-j01-Maju di luar Ulangi",
+    "desc": "j01: program salah “Maju di luar Ulangi” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "N-j02-Ulangi 2",
+    "desc": "j02: program salah “Ulangi 2” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "N-j02-urutan belok terbalik",
+    "desc": "j02: program salah “urutan belok terbalik” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "N-j03-tanpa belok",
+    "desc": "j03: program salah “tanpa belok” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "N-j03-hanya 3 sisi",
+    "desc": "j03: program salah “hanya 3 sisi” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "N-j04-Ulangi 5 (hitungan tetap)",
+    "desc": "j04: program salah “Ulangi 5 (hitungan tetap)” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗✓✗"
+  },
+  {
+    "id": "N-j04-Selama ada tembok",
+    "desc": "j04: program salah “Selama ada tembok” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗✗✗"
+  },
+  {
+    "id": "N-j05-hanya TIDAK tembok",
+    "desc": "j05: program salah “hanya TIDAK tembok” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✓✓✗✗"
+  },
+  {
+    "id": "N-j05-hanya TIDAK lubang",
+    "desc": "j05: program salah “hanya TIDAK lubang” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗✗✓✓"
+  },
+  {
+    "id": "N-j05-ATAU, bukan DAN",
+    "desc": "j05: program salah “ATAU, bukan DAN” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗✗✗✗"
+  },
+  {
+    "id": "N-j06-Ambil tanpa Jika",
+    "desc": "j06: program salah “Ambil tanpa Jika” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗✗✗✗"
+  },
+  {
+    "id": "N-j06-lupa petak terakhir",
+    "desc": "j06: program salah “lupa petak terakhir” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✓✗✗✓"
+  },
+  {
+    "id": "N-j06-Maju di luar Selama",
+    "desc": "j06: program salah “Maju di luar Selama” gagal di minimal satu keadaan",
+    "ok": true,
+    "note": "✗✗✗✗"
+  },
+  {
+    "id": "F-j01",
+    "desc": "j01: tanpa kartu wadah (Ulangi/Selama) tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "keadaan dijelajahi=8, solusi datar=null"
+  },
+  {
+    "id": "F-j02",
+    "desc": "j02: tanpa kartu wadah (Ulangi/Selama) tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "keadaan dijelajahi=25, solusi datar=null"
+  },
+  {
+    "id": "F-j03",
+    "desc": "j03: tanpa kartu wadah (Ulangi/Selama) tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "keadaan dijelajahi=33, solusi datar=null"
+  },
+  {
+    "id": "F-j04",
+    "desc": "j04: tanpa kartu wadah (Ulangi/Selama) tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "keadaan dijelajahi=5, solusi datar=null"
+  },
+  {
+    "id": "F-j05",
+    "desc": "j05: tanpa kartu wadah (Ulangi/Selama) tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "keadaan dijelajahi=5, solusi datar=null"
+  },
+  {
+    "id": "F-j06",
+    "desc": "j06: tanpa kartu wadah (Ulangi/Selama) tidak ada program ≤ batas kartu yang lulus semua keadaan",
+    "ok": true,
+    "note": "keadaan dijelajahi=313, solusi datar=null"
+  },
+  {
+    "id": "M1",
+    "desc": "J03: Ulangi satu tingkat [Maju×3, Kanan] memang benar tetapi butuh 5 kartu (> batas 4), jadi bersarang diperlukan",
+    "ok": true,
+    "note": "{\"ok\":true,\"len\":5,\"limit\":4}"
+  },
+  {
+    "id": "M2",
+    "desc": "Selama dengan isi kosong / isi yang tidak mengubah keadaan dihentikan dengan pesan, bukan macet",
+    "ok": true,
+    "note": "Kartu Selama berputar terus tanpa henti. Pastikan kartu di dalamnya mengubah keadaan, misalnya Maju."
+  },
+  {
+    "id": "M3",
+    "desc": "Urutan langkah penafsir bersarang: Ulangi 2 [Maju, Ulangi 2 [Kanan]]",
+    "ok": true,
+    "note": "0c 1 2c 3 2c 3 0c 1 2c 3 2c 3"
+  },
+  {
+    "id": "M4",
+    "desc": "Normalisasi: Selesai tanpa pasangan dibuang; Selesai yang kurang ditambahkan di akhir",
+    "ok": true,
+    "note": "{\"a\":\"ulangi,maju,akhir\",\"b\":\"ulangi,ulangi,maju,akhir,akhir\",\"c\":\"maju\"}"
+  },
+  {
+    "id": "O1",
+    "desc": "Urutan menu: B01–B13 lalu J01–J06",
+    "ok": true,
+    "note": "B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 J01 J02 J03 J04 J05 J06 J07 J08 J09 J10 J11 J12 J13 J14 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA1 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB1 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE1 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX1"
+  },
+  {
+    "id": "E1",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

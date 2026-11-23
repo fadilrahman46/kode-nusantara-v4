@@ -1,0 +1,416 @@
+[
+  {
+    "id": "R-se01",
+    "desc": "se01: program acuan (3 kartu, batas 4) lulus di semua 1 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 3/4, palet maks 1"
+  },
+  {
+    "id": "R-se02",
+    "desc": "se02: program acuan (3 kartu, batas 4) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 3/4, palet maks 2"
+  },
+  {
+    "id": "R-se03",
+    "desc": "se03: program acuan (3 kartu, batas 3) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 3/3, palet maks 1"
+  },
+  {
+    "id": "R-se04",
+    "desc": "se04: program acuan (4 kartu, batas 5) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 4/5, palet maks 4"
+  },
+  {
+    "id": "R-se05",
+    "desc": "se05: program acuan (6 kartu, batas 7) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 6/7, palet maks 3"
+  },
+  {
+    "id": "R-se06",
+    "desc": "se06: program acuan (4 kartu, batas 5) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 4/5, palet maks 3"
+  },
+  {
+    "id": "R-se07",
+    "desc": "se07: program acuan (5 kartu, batas 6) lulus di semua 4 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 5/6, palet maks 4"
+  },
+  {
+    "id": "R-se08",
+    "desc": "se08: program acuan (6 kartu, batas 8) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 6/8, palet maks 3"
+  },
+  {
+    "id": "R-se09",
+    "desc": "se09: program acuan (3 kartu, batas 3) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 3/3, palet maks 3"
+  },
+  {
+    "id": "R-se10",
+    "desc": "se10: program acuan (12 kartu, batas 13) lulus di semua 4 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 12/13, palet maks 6"
+  },
+  {
+    "id": "N-se01-alamat salah (/gudang)",
+    "desc": "se01: cara salah “alamat salah (/gudang)” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “tidak ditemukan”."
+  },
+  {
+    "id": "N-se01-aksi salah (lihat)",
+    "desc": "se01: cara salah “aksi salah (lihat)” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “aksi tidak boleh di alamat ini”."
+  },
+  {
+    "id": "N-se01-jumlah 6 ditolak",
+    "desc": "se01: cara salah “jumlah 6 ditolak” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pesanan teh belum sampai (0 dari 3). Permintaan #3 dijawab “isi ditolak (maksimal 5 per permintaan)”."
+  },
+  {
+    "id": "N-se01-kurang satu barang",
+    "desc": "se01: cara salah “kurang satu barang” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pesanan teh belum dikirim."
+  },
+  {
+    "id": "N-se01-barang tidak dipesan",
+    "desc": "se01: cara salah “barang tidak dipesan” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pesanan teh belum dikirim."
+  },
+  {
+    "id": "N-se02-tanpa Jika",
+    "desc": "se02: cara salah “tanpa Jika” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 1: Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “stok habis”. Program belum memilih tindakan untuk jawaban itu."
+  },
+  {
+    "id": "N-se02-hanya stok habis",
+    "desc": "se02: cara salah “hanya stok habis” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 2: Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “tidak ditemukan”. Program belum memilih tindakan untuk jawaban itu."
+  },
+  {
+    "id": "N-se02-hanya tidak ditemukan",
+    "desc": "se02: cara salah “hanya tidak ditemukan” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 1: Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “stok habis”. Program belum memilih tindakan untuk jawaban itu."
+  },
+  {
+    "id": "N-se02-tidak ditemukan ke /cadangan",
+    "desc": "se02: cara salah “tidak ditemukan ke /cadangan” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 2: Pesanan kopi belum sampai (0 dari 2). Permintaan #2 dijawab “tidak ditemukan”. Program belum memilih tindakan untuk jawaban itu."
+  },
+  {
+    "id": "N-se02-selalu kirim ulang (tanpa memeriksa)",
+    "desc": "se02: cara salah “selalu kirim ulang (tanpa memeriksa)” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pesanan kopi kelebihan: diterima 4, seharusnya 2. Pesanan ganda terjadi karena permintaan dikirim ulang padahal jawabannya sudah berhasil."
+  },
+  {
+    "id": "N-se04-tanpa Jika",
+    "desc": "se04: cara salah “tanpa Jika” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Peta masih rusak: ada lubang 🕳️ di peta. Setelah tiap perubahan, periksa petanya dengan kartu Jika dan kembali bila rusak."
+  },
+  {
+    "id": "N-se04-kembali ke versi pertama",
+    "desc": "se04: cara salah “kembali ke versi pertama” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Perubahan ke-1, 2, 3, 4 yang baik hilang dari peta. Kembali hanya sampai versi terakhir yang benar, jangan lebih jauh."
+  },
+  {
+    "id": "N-se04-simpan sesudah terapkan",
+    "desc": "se04: cara salah “simpan sesudah terapkan” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Peta masih rusak: ada lubang 🕳️ di peta. Ada titik simpan yang sudah memuat bug. Simpan versi sebelum menerapkan perubahan, bukan sesudahnya."
+  },
+  {
+    "id": "N-se04-ulangi 5 kali",
+    "desc": "se04: cara salah “ulangi 5 kali” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Baru 5 dari 6 perubahan diterapkan. Ulangi lebih banyak kali."
+  },
+  {
+    "id": "N-se04-ulangi 7 kali",
+    "desc": "se04: cara salah “ulangi 7 kali” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Tidak ada perubahan lagi untuk diterapkan. Hanya ada 6 perubahan."
+  },
+  {
+    "id": "N-se04-kembali sebelum yang terakhir",
+    "desc": "se04: cara salah “kembali sebelum yang terakhir” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Perubahan ke-4 yang baik hilang dari peta. Kembali hanya sampai versi terakhir yang benar, jangan lebih jauh."
+  },
+  {
+    "id": "N-se05-semua di utama",
+    "desc": "se05: cara salah “semua di utama” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Peta utama rusak: perubahan Dodi membawa bug 🕳️ dan masuk ke cabang utama. Taruh tiap perubahan di cabangnya sendiri dulu."
+  },
+  {
+    "id": "N-se05-tanpa cabang Dodi",
+    "desc": "se05: cara salah “tanpa cabang Dodi” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Perubahan Dodi belum punya cabang sendiri."
+  },
+  {
+    "id": "N-se05-terapkan sebelum pindah",
+    "desc": "se05: cara salah “terapkan sebelum pindah” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Peta utama rusak: perubahan Dodi membawa bug 🕳️ dan masuk ke cabang utama. Taruh tiap perubahan di cabangnya sendiri dulu."
+  },
+  {
+    "id": "N-se05-cabang kosong",
+    "desc": "se05: cara salah “cabang kosong” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Cabang Rani belum memuat perubahan Rani."
+  },
+  {
+    "id": "N-se06-selalu pilih ubahan Rani",
+    "desc": "se06: cara salah “selalu pilih ubahan Rani” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Petak 5: ubahan Dodi hilang. Pada konflik, pilih kedua ubahan supaya tidak ada yang hilang."
+  },
+  {
+    "id": "N-se06-selalu pilih ubahan Dodi",
+    "desc": "se06: cara salah “selalu pilih ubahan Dodi” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Petak 5: ubahan Rani hilang. Pada konflik, pilih kedua ubahan supaya tidak ada yang hilang."
+  },
+  {
+    "id": "N-se06-tanpa memilih",
+    "desc": "se06: cara salah “tanpa memilih” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Masih ada 1 konflik yang belum dipilih."
+  },
+  {
+    "id": "N-se06-memilih tepat satu kali",
+    "desc": "se06: cara salah “memilih tepat satu kali” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 1: Masih ada 1 konflik yang belum dipilih."
+  },
+  {
+    "id": "N-se06-hanya satu cabang digabung",
+    "desc": "se06: cara salah “hanya satu cabang digabung” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Cabang Dodi belum digabung ke peta utama."
+  },
+  {
+    "id": "N-se07-mundur saja",
+    "desc": "se07: cara salah “mundur saja” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Perubahan ke-4, 5, 6 yang baik hilang dari peta. Setelah membuang bug, terapkan ulang perubahan baik yang sesudahnya."
+  },
+  {
+    "id": "N-se07-tanpa membuang bug",
+    "desc": "se07: cara salah “tanpa membuang bug” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Peta masih rusak: perubahan yang membawa bug masih ada di peta. Buang perubahan itu, jangan diterapkan ulang."
+  },
+  {
+    "id": "N-se07-membuang tanpa menerapkan ulang",
+    "desc": "se07: cara salah “membuang tanpa menerapkan ulang” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Perubahan ke-4, 5, 6 yang baik hilang dari peta. Setelah membuang bug, terapkan ulang perubahan baik yang sesudahnya."
+  },
+  {
+    "id": "N-se08-hanya Python",
+    "desc": "se08: cara salah “hanya Python” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Di Pulau Barat aplikasi gagal jalan: kurang Pustaka grafik. Peti yang dikirim tidak memuatnya. Aplikasi tidak boleh mengandalkan bahan yang kebetulan ada di pulau."
+  },
+  {
+    "id": "N-se08-tanpa Font",
+    "desc": "se08: cara salah “tanpa Font” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Di Pulau Timur aplikasi gagal jalan: kurang Font. Peti yang dikirim tidak memuatnya. Aplikasi tidak boleh mengandalkan bahan yang kebetulan ada di pulau."
+  },
+  {
+    "id": "N-se08-semua bahan (peti penuh)",
+    "desc": "se08: cara salah “semua bahan (peti penuh)” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Cetak biru hanya memuat 4 bahan: isi peti kemas terbatas. Pilih bahan yang memang dibutuhkan aplikasi."
+  },
+  {
+    "id": "N-se08-peti hanya ke Barat",
+    "desc": "se08: cara salah “peti hanya ke Barat” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Di Pulau Timur aplikasi gagal jalan: kurang Python, Font. Peti belum dikirim ke sana."
+  },
+  {
+    "id": "N-se08-kirim sebelum peti",
+    "desc": "se08: cara salah “kirim sebelum peti” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Belum ada peti. Buat peti dari cetak biru dulu."
+  },
+  {
+    "id": "N-se09-tanpa gerbang",
+    "desc": "se09: cara salah “tanpa gerbang” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Rilis #2 cacat lolos ke produksi: cacat terlihat di uji. Jalur belum punya gerbang."
+  },
+  {
+    "id": "N-se09-gerbang di uji saja",
+    "desc": "se09: cara salah “gerbang di uji saja” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Rilis #4 cacat lolos ke produksi: cacat baru terlihat di staging. Gerbang di tahap uji tidak bisa melihat cacat itu. Gerbang harus ada di tahap tempat cacat mulai terlihat."
+  },
+  {
+    "id": "N-se09-tanpa pemantau (rollback ditolak)",
+    "desc": "se09: cara salah “tanpa pemantau (rollback ditolak)” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Rollback otomatis bertindak setelah cacat terdeteksi, jadi ia butuh pemantau. Pasang pemantau dulu."
+  },
+  {
+    "id": "N-se09-pemantau kesehatan buta cacat senyap",
+    "desc": "se09: cara salah “pemantau kesehatan buta cacat senyap” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 1: Rilis #1: cacat senyap setelah tayang (hasil salah, tidak mogok), tayang sampai akhir. Pemantau kesehatan hanya melihat aplikasi yang mogok. Cacat senyap hanya terlihat lewat keluhan pengguna."
+  },
+  {
+    "id": "N-se09-tanpa rollback",
+    "desc": "se09: cara salah “tanpa rollback” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Rilis #3: cacat terdeteksi tetapi tidak ditarik, jadi tayang sampai akhir. Pasang rollback."
+  },
+  {
+    "id": "N-se09-gerbang di build tidak melihat apa pun",
+    "desc": "se09: cara salah “gerbang di build tidak melihat apa pun” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Rilis #2 cacat lolos ke produksi: cacat terlihat di uji. Gerbang di tahap build tidak bisa melihat cacat itu. Gerbang harus ada di tahap tempat cacat mulai terlihat."
+  },
+  {
+    "id": "N-se09-pemantau beban server buta cacat aplikasi",
+    "desc": "se09: cara salah “pemantau beban server buta cacat aplikasi” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Rilis #3: cacat jelas setelah tayang (aplikasi mogok), tayang sampai akhir. Pemantau beban server hanya melihat server kepenuhan, bukan cacat aplikasi."
+  },
+  {
+    "id": "N-se09-rollback setelah 5 detak",
+    "desc": "se09: cara salah “rollback setelah 5 detak” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Rilis cacat #3 tayang 6 detak: 1 untuk deteksi + 5 untuk rollback. Batasnya 2 detak. Percepat rollback."
+  },
+  {
+    "id": "N-se09-rollback setelah 2 detak",
+    "desc": "se09: cara salah “rollback setelah 2 detak” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Rilis cacat #3 tayang 3 detak: 1 untuk deteksi + 2 untuk rollback. Batasnya 2 detak. Percepat rollback."
+  },
+  {
+    "id": "N-se09-rollback sebelum pemantau",
+    "desc": "se09: cara salah “rollback sebelum pemantau” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Rollback otomatis bertindak setelah cacat terdeteksi, jadi ia butuh pemantau. Pasang pemantau dulu."
+  },
+  {
+    "id": "N-se09-dua gerbang melebihi anggaran",
+    "desc": "se09: cara salah “dua gerbang melebihi anggaran” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Anggaran gerbang habis: jalur hanya boleh punya 1 gerbang, karena tiap gerbang memperlambat semua rilis."
+  },
+  {
+    "id": "N-se10-tanpa cadangan",
+    "desc": "se10: cara salah “tanpa cadangan” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Kayu belum ada di gudang: permintaannya dijawab “stok habis”. Periksa jawaban itu dan kirim ulang ke /cadangan bila stok habis."
+  },
+  {
+    "id": "N-se10-tanpa pulihkan",
+    "desc": "se10: cara salah “tanpa pulihkan” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Uji di Pulau Barat gagal dan rilisnya belum dikembalikan. Gunakan Jika uji gagal → kembali ke versi tersimpan."
+  },
+  {
+    "id": "N-se10-tanpa simpan versi",
+    "desc": "se10: cara salah “tanpa simpan versi” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Belum ada versi tersimpan. Simpan versi sebelum mengirim, supaya ada tempat untuk kembali."
+  },
+  {
+    "id": "N-se10-selalu kembali tanpa memeriksa",
+    "desc": "se10: cara salah “selalu kembali tanpa memeriksa” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Uji di Pulau Barat gagal dan rilisnya belum dikembalikan. Gunakan Jika uji gagal → kembali ke versi tersimpan."
+  },
+  {
+    "id": "N-se10-selalu cadangan",
+    "desc": "se10: cara salah “selalu cadangan” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Kayu belum ada di gudang: permintaannya dijawab “stok habis”. Periksa jawaban itu dan kirim ulang ke /cadangan bila stok habis."
+  },
+  {
+    "id": "N-se03-program teman apa adanya, keadaan 0",
+    "desc": "se03: cara salah “program teman apa adanya, keadaan 0” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “tidak ditemukan”."
+  },
+  {
+    "id": "N-se03-program teman apa adanya, keadaan 1",
+    "desc": "se03: cara salah “program teman apa adanya, keadaan 1” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 1: Pesanan gula belum sampai (0 dari 1). Permintaan #2 dijawab “aksi tidak boleh di alamat ini”."
+  },
+  {
+    "id": "N-se03-program teman apa adanya, keadaan 2",
+    "desc": "se03: cara salah “program teman apa adanya, keadaan 2” gagal dengan pesan (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 2: Pesanan teh belum sampai (0 dari 3). Permintaan #3 dijawab “isi ditolak (maksimal 5 per permintaan)”."
+  },
+  {
+    "id": "F3",
+    "desc": "SE03: program teman berisi 3 kartu = batas; memperbaiki satu bagian lulus di semua keadaan",
+    "ok": true,
+    "note": "[3,3,3]"
+  },
+  {
+    "id": "P1",
+    "desc": "Kode semu SE02: kirim(...) dan jika jawaban.status",
+    "ok": true,
+    "note": "\"jawaban = kirim(\\\"/barang\\\", \\\"pesan\\\", {nama: \\\"kopi\\\", jumlah: 2})\\njika jawaban.status == \\\"stok habis\\\":\\n    kirim_ulang(\\\"/cadangan\\\")\\njika jawaban.status == \\\"tidak ditemukan\\\":\\n    kirim_ulang(\\\"/barang-baru\\\")\""
+  },
+  {
+    "id": "P2",
+    "desc": "Kode semu SE04: ulangi dengan simpan, terapkan, jika peta.rusak()",
+    "ok": true,
+    "note": "\"ulangi 6 kali:\\n    versi = simpan()\\n    terapkan(perubahan_berikutnya)\\n    jika peta.rusak():\\n        kembali(versi_terakhir)\""
+  },
+  {
+    "id": "P3",
+    "desc": "Kode semu SE06: selama gabungan.ada_konflik()",
+    "ok": true,
+    "note": "\"utama.gabung(\\\"Rani\\\")\\nutama.gabung(\\\"Dodi\\\")\\nselama gabungan.ada_konflik():\\n    konflik.selesaikan(\\\"keduanya\\\")\""
+  },
+  {
+    "id": "P4",
+    "desc": "Teks kartu dibaca manusia (SE10)",
+    "ok": true,
+    "note": "Kirim permintaan ke /barang, aksi pesan, isi Kayu × 1 | Jika jawaban “stok habis” maka kirim ulang ke /cadangan | Kirim permintaan ke /barang, aksi pesan, isi Paku × 1 | Jika jawaban “stok habis” maka kirim ulang ke /cadangan | Simpan versi | Masukkan Kayu ke cetak biru | Masukkan Paku ke cetak biru | Buat peti dari cetak biru | Kirim peti ke Pulau Barat | Jika uji di pulau tadi gagal maka kembali ke versi tersimpan | Kirim peti ke Pulau Timur | Jika uji di pulau tadi gagal maka kembali ke versi tersimpan"
+  },
+  {
+    "id": "O1",
+    "desc": "Urutan menu: … MB10 lalu SE01 … SE10",
+    "ok": true,
+    "note": "SE09 SE10 EX01 EX02 EX03 EX04 EX05 EX06 EX07 EX08 EX09 EX10"
+  },
+  {
+    "id": "E1",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

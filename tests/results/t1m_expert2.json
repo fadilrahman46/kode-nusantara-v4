@@ -1,0 +1,218 @@
+[
+  {
+    "id": "R-ex04",
+    "desc": "ex04: acuan (2 kartu, batas 3) lulus di semua 3 keadaan",
+    "ok": true,
+    "note": "ok | ok | ok"
+  },
+  {
+    "id": "R-ex05",
+    "desc": "ex05: acuan (1 kartu, batas 3) lulus di semua 3 keadaan",
+    "ok": true,
+    "note": "ok | ok | ok"
+  },
+  {
+    "id": "R-ex06",
+    "desc": "ex06: acuan (2 kartu, batas 3) lulus di semua 3 keadaan",
+    "ok": true,
+    "note": "ok | ok | ok"
+  },
+  {
+    "id": "R-ex07",
+    "desc": "ex07: acuan (1 kartu, batas 2) lulus di semua 3 keadaan",
+    "ok": true,
+    "note": "ok | ok | ok"
+  },
+  {
+    "id": "R-ex08",
+    "desc": "ex08: acuan (3 kartu, batas 4) lulus di semua 3 keadaan",
+    "ok": true,
+    "note": "ok | ok | ok"
+  },
+  {
+    "id": "R-ex09",
+    "desc": "ex09: acuan (3 kartu, batas 4) lulus di semua 3 keadaan",
+    "ok": true,
+    "note": "ok | ok | ok"
+  },
+  {
+    "id": "R-ex10",
+    "desc": "ex10: acuan (7 kartu, batas 8) lulus di semua 4 keadaan",
+    "ok": true,
+    "note": "ok | ok | ok | ok"
+  },
+  {
+    "id": "N-ex04-pekerja kebanyakan (melebihi anggaran)",
+    "desc": "ex04: cara salah “pekerja kebanyakan (melebihi anggaran)” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Biaya 16 melebihi anggaran 11: tiap pekerja berbiaya 3, penyangga 6 tugas berbiaya 1."
+  },
+  {
+    "id": "N-ex04-penyangga kecil",
+    "desc": "ex04: cara salah “penyangga kecil” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 7: 3 tugas hilang karena penyangga (6) penuh. 2 pekerja hanya menghabiskan 4 tugas per detak."
+  },
+  {
+    "id": "N-ex04-pekerja sedikit",
+    "desc": "ex04: cara salah “pekerja sedikit” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 10: 6 tugas hilang karena penyangga (24) penuh. 1 pekerja hanya menghabiskan 2 tugas per detak."
+  },
+  {
+    "id": "N-ex04-tanpa penyangga",
+    "desc": "ex04: cara salah “tanpa penyangga” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Belum ada kartu Penyangga: tugas yang datang saat pekerja sibuk langsung hilang."
+  },
+  {
+    "id": "N-ex04-dua kartu pekerja",
+    "desc": "ex04: cara salah “dua kartu pekerja” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Kartu Pekerja sudah dipasang. Ubah kartu yang ada, jangan pasang dua."
+  },
+  {
+    "id": "N-ex05-pekerja tetap 2",
+    "desc": "ex05: cara salah “pekerja tetap 2” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 12: antrean penuh (24), 4 tugas hilang. Hanya 2 pekerja aktif. Pekerja tambahan baru bekerja 1 detak setelah diminta."
+  },
+  {
+    "id": "N-ex05-ambang terlalu tinggi",
+    "desc": "ex05: cara salah “ambang terlalu tinggi” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 11: antrean penuh (24), 2 tugas hilang. Hanya 4 pekerja aktif. Pekerja tambahan baru bekerja 1 detak setelah diminta."
+  },
+  {
+    "id": "N-ex05-tanpa kartu",
+    "desc": "ex05: cara salah “tanpa kartu” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 10: antrean penuh (24), 2 tugas hilang. Hanya 1 pekerja aktif. Pekerja tambahan baru bekerja 1 detak setelah diminta."
+  },
+  {
+    "id": "N-ex06-bergilir 3 server",
+    "desc": "ex06: cara salah “bergilir 3 server” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 1: Detak 6: server 2 melimpah, 6 permintaan hilang. Server yang ada tidak cukup untuk lonjakan."
+  },
+  {
+    "id": "N-ex06-satu-ke-satu",
+    "desc": "ex06: cara salah “satu-ke-satu” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 4: server 1 melimpah, 38 permintaan hilang. Server yang ada tidak cukup untuk lonjakan."
+  },
+  {
+    "id": "N-ex06-5 server (anggaran)",
+    "desc": "ex06: cara salah “5 server (anggaran)” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Biaya 5 melebihi anggaran 3. Tiap server berbiaya 1."
+  },
+  {
+    "id": "N-ex07-pertama masuk 3",
+    "desc": "ex07: cara salah “pertama masuk 3” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Kena rak hanya 50% (butuh 55%). Barang a paling sering diusir (3 kali) padahal masih dibutuhkan."
+  },
+  {
+    "id": "N-ex07-paling lama tak dipakai 3",
+    "desc": "ex07: cara salah “paling lama tak dipakai 3” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 2: Kena rak hanya 33% (butuh 55%). Barang a paling sering diusir (4 kali) padahal masih dibutuhkan."
+  },
+  {
+    "id": "N-ex07-ukuran 4 (anggaran)",
+    "desc": "ex07: cara salah “ukuran 4 (anggaran)” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Biaya 4 melebihi anggaran 3. Tiap barang yang muat di rak berbiaya 1."
+  },
+  {
+    "id": "N-ex08-tanpa rak",
+    "desc": "ex08: cara salah “tanpa rak” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 6: server 2 melimpah, 19 permintaan hilang. Rak menyerap 0 dari 124 permintaan (belum ada rak). Server dan rak harus saling menutupi."
+  },
+  {
+    "id": "N-ex08-tanpa server",
+    "desc": "ex08: cara salah “tanpa server” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Belum ada kartu Server: tidak ada yang melayani permintaan."
+  },
+  {
+    "id": "N-ex08-melebihi anggaran",
+    "desc": "ex08: cara salah “melebihi anggaran” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Biaya 6 melebihi anggaran 4: 3 server + rak 3."
+  },
+  {
+    "id": "N-ex09-cadangan dulu",
+    "desc": "ex09: cara salah “cadangan dulu” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Hanya 83% permintaan sukses lewat server utama (butuh 90%). Gangguan ini sementara: 17% malah dialihkan ke cadangan tanpa perlu."
+  },
+  {
+    "id": "N-ex09-tanpa pemutus",
+    "desc": "ex09: cara salah “tanpa pemutus” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 1: Detak 11: server utama menerima 9 percobaan padahal kapasitasnya 6 (badai coba ulang). Percobaan ulang menambah beban server yang sedang bermasalah."
+  },
+  {
+    "id": "N-ex09-tanpa cadangan",
+    "desc": "ex09: cara salah “tanpa cadangan” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 1: Hanya 50% permintaan sukses (butuh 90%). Server yang mati permanen tidak akan pulih; permintaan harus pindah ke jalur lain."
+  },
+  {
+    "id": "N-ex09-hanya cadangan",
+    "desc": "ex09: cara salah “hanya cadangan” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Hanya 83% permintaan sukses lewat server utama (butuh 90%). Gangguan ini sementara: 17% malah dialihkan ke cadangan tanpa perlu."
+  },
+  {
+    "id": "N-ex10-tanpa skala",
+    "desc": "ex10: cara salah “tanpa skala” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Hari promo: di detak 10 antrean penuh (24), 2 pesanan hilang. Hanya 1 pekerja aktif."
+  },
+  {
+    "id": "N-ex10-melebihi anggaran",
+    "desc": "ex10: cara salah “melebihi anggaran” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Biaya 14 melebihi anggaran 13. Pekerja dan penyangga (5) sudah termasuk; sisanya dipakai skala 1, server 1 per buah, rak 1 per barang, cadangan 1, pemutus 1."
+  },
+  {
+    "id": "S-ex04",
+    "desc": "ex04: dari 18 susunan setelan, tepat 1 yang lulus",
+    "ok": true,
+    "note": "lulus 1: pekerja:2 penyangga:24"
+  },
+  {
+    "id": "S-ex05",
+    "desc": "ex05: dari 78 susunan setelan, tepat 3 yang lulus",
+    "ok": true,
+    "note": "lulus 3: pekerja:1 skala:4/2 ; pekerja:1 skala:2/2 ; pekerja:1 skala:0/2"
+  },
+  {
+    "id": "S-ex06",
+    "desc": "ex06: dari 12 susunan setelan, tepat 1 yang lulus",
+    "ok": true,
+    "note": "lulus 1: server:3 strategi:kosong"
+  },
+  {
+    "id": "S-ex07",
+    "desc": "ex07: dari 12 susunan setelan, tepat 1 yang lulus",
+    "ok": true,
+    "note": "lulus 1: rak:lfu/3"
+  },
+  {
+    "id": "S-ex08",
+    "desc": "ex08: dari 156 susunan setelan, tepat 1 yang lulus",
+    "ok": true,
+    "note": "lulus 1: server:2 strategi:kosong rak:lfu/2"
+  },
+  {
+    "id": "S-ex09",
+    "desc": "ex09: dari 79 susunan setelan, tepat 2 yang lulus",
+    "ok": true,
+    "note": "lulus 2: coba:2/2 cadangan: pemutus:3 ; coba:2/2 cadangan: pemutus:4"
+  }
+]

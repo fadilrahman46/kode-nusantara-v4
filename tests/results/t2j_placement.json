@@ -1,0 +1,212 @@
+[
+  {
+    "id": "K1A",
+    "desc": "Kunci butir konsep 1 varian A cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=ok kunci=ok true,false,false,false"
+  },
+  {
+    "id": "K1B",
+    "desc": "Kunci butir konsep 1 varian B cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=ok kunci=ok true,false,false,false"
+  },
+  {
+    "id": "K1C",
+    "desc": "Kunci butir konsep 1 varian C cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=ok kunci=ok true,false,false,false"
+  },
+  {
+    "id": "K2A",
+    "desc": "Kunci butir konsep 2 varian A cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=Belok kanan kunci=Belok kanan "
+  },
+  {
+    "id": "K2B",
+    "desc": "Kunci butir konsep 2 varian B cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=Maju kunci=Maju "
+  },
+  {
+    "id": "K2C",
+    "desc": "Kunci butir konsep 2 varian C cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=Tidak melakukan apa-apa kunci=Tidak melakukan apa-apa "
+  },
+  {
+    "id": "K3A",
+    "desc": "Kunci butir konsep 3 varian A cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=5 kunci=5 "
+  },
+  {
+    "id": "K3B",
+    "desc": "Kunci butir konsep 3 varian B cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=6 kunci=6 "
+  },
+  {
+    "id": "K3C",
+    "desc": "Kunci butir konsep 3 varian C cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=6 kunci=6 "
+  },
+  {
+    "id": "K4A",
+    "desc": "Kunci butir konsep 4 varian A cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=10 kunci=10 "
+  },
+  {
+    "id": "K4B",
+    "desc": "Kunci butir konsep 4 varian B cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=“biru” kunci=“biru” "
+  },
+  {
+    "id": "K4C",
+    "desc": "Kunci butir konsep 4 varian C cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=mati kunci=mati "
+  },
+  {
+    "id": "K5A",
+    "desc": "Kunci butir konsep 5 varian A cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=ok kunci=ok false,true,true,true"
+  },
+  {
+    "id": "K5B",
+    "desc": "Kunci butir konsep 5 varian B cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=ok kunci=ok true,false,false,false"
+  },
+  {
+    "id": "K5C",
+    "desc": "Kunci butir konsep 5 varian C cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=ok kunci=ok true,false,false,false"
+  },
+  {
+    "id": "K6A",
+    "desc": "Kunci butir konsep 6 varian A cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=20 kunci=20 "
+  },
+  {
+    "id": "K6B",
+    "desc": "Kunci butir konsep 6 varian B cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=4 kunci=4 "
+  },
+  {
+    "id": "K6C",
+    "desc": "Kunci butir konsep 6 varian C cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=16 kunci=16 "
+  },
+  {
+    "id": "K7A",
+    "desc": "Kunci butir konsep 7 varian A cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=Gerbang kiri kunci=Gerbang kiri "
+  },
+  {
+    "id": "K7B",
+    "desc": "Kunci butir konsep 7 varian B cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=Gerbang kanan kunci=Gerbang kanan "
+  },
+  {
+    "id": "K7C",
+    "desc": "Kunci butir konsep 7 varian C cocok dengan hasil penafsir game",
+    "ok": true,
+    "note": "hasil=Ya, menyala kunci=Ya, menyala "
+  },
+  {
+    "id": "U1",
+    "desc": "Menang B01 → layar hasil menawarkan “Ujian Si Teka”; Nanti saja menutup tanpa menghabiskan kesempatan",
+    "ok": true,
+    "note": "tawaran=true pembuka=true percobaan=0"
+  },
+  {
+    "id": "U2",
+    "desc": "Satu jawaban salah → Beginner Programmer, J01 tetap terkunci, tes ulang terkunci sampai 3 tahap baru",
+    "ok": true,
+    "note": "Ujian selesai: 6 dari 7 benar. | Ujian Si Teka: Beginner Programmer (1 dari 3 percobaan). Tes ulang terbuka setelah 3 tahap baru lagi."
+  },
+  {
+    "id": "U3",
+    "desc": "“Aku belum tahu” dihitung salah; tidak ada kunci jawaban di layar hasil",
+    "ok": true,
+    "note": "benar=6"
+  },
+  {
+    "id": "U4",
+    "desc": "Syarat tes ulang: 2 tahap baru belum cukup; tahap lama yang diulang tidak dihitung; tahap ke-3 membuka tes ulang",
+    "ok": true,
+    "note": "{\"r1\":\"Tes ulang terbuka setelah 1 tahap baru lagi.\",\"r2\":\"Tes ulang terbuka setelah 1 tahap baru lagi.\",\"r3\":null,\"n\":\"s02,s03,s04\"}"
+  },
+  {
+    "id": "U5",
+    "desc": "Tes ulang lulus 7/7 → Junior Programmer, J01 terbuka (B05 dst. masih terkunci), MA01 tetap terkunci; varian berbeda dari percobaan 1",
+    "ok": true,
+    "note": "Ujian selesai: 7 dari 7 benar. | J01 terkunci=false | varian1=2,1,1,1,1,0,0 varian2=1,2,0,0,2,1,1"
+  },
+  {
+    "id": "U6",
+    "desc": "Setelah lulus, tombol ujian menolak dengan alasan; data tetap setelah muat ulang",
+    "ok": true,
+    "note": "Kamu sudah lulus Ujian Si Teka. | Ujian Si Teka: Junior Programmer (2 dari 3 percobaan)."
+  },
+  {
+    "id": "U7",
+    "desc": "“Hapus progres” juga menghapus hasil ujian; J01 terkunci lagi",
+    "ok": true,
+    "note": "Ujian Si Teka: belum diambil."
+  },
+  {
+    "id": "U8",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "U9",
+    "desc": "Tiga percobaan memakai varian berbeda untuk setiap konsep; percobaan ke-4 ditolak",
+    "ok": true,
+    "note": "1022022 / 2101100 / 0210211 | Kesempatan ujian sudah habis. Lanjutkan lewat tahap Beginner."
+  },
+  {
+    "id": "U10",
+    "desc": "Benih sesi sama → urutan soal dan urutan pilihan sama",
+    "ok": true,
+    "note": "6542031|0231tahu / 6542031|0231tahu"
+  },
+  {
+    "id": "U11",
+    "desc": "Papan ketik: panah memilih pilihan berikutnya (aria-checked), tombol Lanjut aktif setelah memilih",
+    "ok": true,
+    "note": "{\"checked\":\"false,true,false,false,false\",\"dis\":false,\"live\":\"Soal 1 dari 7\"}"
+  },
+  {
+    "id": "U12-360x740",
+    "desc": "HP 360x740: setiap soal bisa dijawab (pilihan ≥ 44 px, tombol Lanjut bisa dicapai) sampai hasil",
+    "ok": true,
+    "note": "pilihan terkecil 48 px, Lanjut tercapai=true, selesai=true"
+  },
+  {
+    "id": "U12-667x375",
+    "desc": "HP 667x375: setiap soal bisa dijawab (pilihan ≥ 44 px, tombol Lanjut bisa dicapai) sampai hasil",
+    "ok": true,
+    "note": "pilihan terkecil 48 px, Lanjut tercapai=true, selesai=true"
+  },
+  {
+    "id": "U13",
+    "desc": "Penyimpanan diblokir: ujian tetap berjalan sampai hasil tanpa galat",
+    "ok": true,
+    "note": "Ujian selesai: 7 dari 7 benar. galat=0"
+  }
+]

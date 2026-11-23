@@ -1,0 +1,332 @@
+[
+  {
+    "id": "R-s02",
+    "desc": "s02: program acuan (6 kartu, batas 8) lulus di semua 1 variasi",
+    "ok": true,
+    "note": "kartu 6/8"
+  },
+  {
+    "id": "P-s02",
+    "desc": "s02: kartu program acuan tersedia di palet Easy, Medium, dan Hard",
+    "ok": true,
+    "note": "{\"easy\":true,\"medium\":true,\"hard\":true}"
+  },
+  {
+    "id": "N-s02-tanpa belok",
+    "desc": "s02: program salah “tanpa belok” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "S-s02",
+    "desc": "s02: struktur varian valid (jalan tidak bertumpuk, tembok tidak di jalan, Bit di daratan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R-s03",
+    "desc": "s03: program acuan (8 kartu, batas 10) lulus di semua 1 variasi",
+    "ok": true,
+    "note": "kartu 8/10"
+  },
+  {
+    "id": "P-s03",
+    "desc": "s03: kartu program acuan tersedia di palet Easy, Medium, dan Hard",
+    "ok": true,
+    "note": "{\"easy\":true,\"medium\":true,\"hard\":true}"
+  },
+  {
+    "id": "N-s03-tanpa tombol",
+    "desc": "s03: program salah “tanpa tombol” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "N-s03-tanpa taruh",
+    "desc": "s03: program salah “tanpa taruh” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "S-s03",
+    "desc": "s03: struktur varian valid (jalan tidak bertumpuk, tembok tidak di jalan, Bit di daratan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R-s04",
+    "desc": "s04: program acuan (13 kartu, batas 16) lulus di semua 1 variasi",
+    "ok": true,
+    "note": "kartu 13/16"
+  },
+  {
+    "id": "P-s04",
+    "desc": "s04: kartu program acuan tersedia di palet Easy, Medium, dan Hard",
+    "ok": true,
+    "note": "{\"easy\":true,\"medium\":true,\"hard\":true}"
+  },
+  {
+    "id": "N-s04-hanya 2 peti",
+    "desc": "s04: program salah “hanya 2 peti” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "S-s04",
+    "desc": "s04: struktur varian valid (jalan tidak bertumpuk, tembok tidak di jalan, Bit di daratan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R-s05",
+    "desc": "s05: program acuan (6 kartu, batas 8) lulus di semua 2 variasi",
+    "ok": true,
+    "note": "kartu 6/8"
+  },
+  {
+    "id": "P-s05",
+    "desc": "s05: kartu program acuan tersedia di palet Easy, Medium, dan Hard",
+    "ok": true,
+    "note": "{\"easy\":true,\"medium\":true,\"hard\":true}"
+  },
+  {
+    "id": "N-s05-tekan tanpa syarat",
+    "desc": "s05: program salah “tekan tanpa syarat” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✓✗"
+  },
+  {
+    "id": "N-s05-tidak menekan",
+    "desc": "s05: program salah “tidak menekan” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗✓"
+  },
+  {
+    "id": "S-s05",
+    "desc": "s05: struktur varian valid (jalan tidak bertumpuk, tembok tidak di jalan, Bit di daratan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R-s06",
+    "desc": "s06: program acuan (5 kartu, batas 8) lulus di semua 2 variasi",
+    "ok": true,
+    "note": "kartu 5/8"
+  },
+  {
+    "id": "P-s06",
+    "desc": "s06: kartu program acuan tersedia di palet Easy, Medium, dan Hard",
+    "ok": true,
+    "note": "{\"easy\":true,\"medium\":true,\"hard\":true}"
+  },
+  {
+    "id": "N-s06-tanpa selain itu",
+    "desc": "s06: program salah “tanpa selain itu” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✓✗"
+  },
+  {
+    "id": "N-s06-selalu belok",
+    "desc": "s06: program salah “selalu belok” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✓✗"
+  },
+  {
+    "id": "S-s06",
+    "desc": "s06: struktur varian valid (jalan tidak bertumpuk, tembok tidak di jalan, Bit di daratan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R-s07",
+    "desc": "s07: program acuan (11 kartu, batas 12) lulus di semua 8 variasi",
+    "ok": true,
+    "note": "kartu 11/12"
+  },
+  {
+    "id": "P-s07",
+    "desc": "s07: kartu program acuan tersedia di palet Easy, Medium, dan Hard",
+    "ok": true,
+    "note": "{\"easy\":true,\"medium\":true,\"hard\":true}"
+  },
+  {
+    "id": "N-s07-tanpa jembatan",
+    "desc": "s07: program salah “tanpa jembatan” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗✓✗✓✗✓✗✓"
+  },
+  {
+    "id": "N-s07-belokan sama arah",
+    "desc": "s07: program salah “belokan sama arah” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗✗✓✓✗✗✓✓"
+  },
+  {
+    "id": "S-s07",
+    "desc": "s07: struktur varian valid (jalan tidak bertumpuk, tembok tidak di jalan, Bit di daratan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R-s11",
+    "desc": "s11: program acuan (9 kartu, batas 10) lulus di semua 1 variasi",
+    "ok": true,
+    "note": "kartu 9/10"
+  },
+  {
+    "id": "P-s11",
+    "desc": "s11: kartu program acuan tersedia di palet Easy, Medium, dan Hard",
+    "ok": true,
+    "note": "{\"easy\":true,\"medium\":true,\"hard\":true}"
+  },
+  {
+    "id": "N-s11-muatan salah",
+    "desc": "s11: program salah “muatan salah” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "N-s11-belum sampai",
+    "desc": "s11: program salah “belum sampai” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗"
+  },
+  {
+    "id": "S-s11",
+    "desc": "s11: struktur varian valid (jalan tidak bertumpuk, tembok tidak di jalan, Bit di daratan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R-s12",
+    "desc": "s12: program acuan (6 kartu, batas 8) lulus di semua 4 variasi",
+    "ok": true,
+    "note": "kartu 6/8"
+  },
+  {
+    "id": "P-s12",
+    "desc": "s12: kartu program acuan tersedia di palet Easy, Medium, dan Hard",
+    "ok": true,
+    "note": "{\"easy\":true,\"medium\":true,\"hard\":true}"
+  },
+  {
+    "id": "N-s12-selalu gerbang A",
+    "desc": "s12: program salah “selalu gerbang A” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✓✓✗✗"
+  },
+  {
+    "id": "N-s12-selalu tekan",
+    "desc": "s12: program salah “selalu tekan” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✓✗✓✗"
+  },
+  {
+    "id": "S-s12",
+    "desc": "s12: struktur varian valid (jalan tidak bertumpuk, tembok tidak di jalan, Bit di daratan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R-s13",
+    "desc": "s13: program acuan (9 kartu, batas 10) lulus di semua 2 variasi",
+    "ok": true,
+    "note": "kartu 9/10"
+  },
+  {
+    "id": "P-s13",
+    "desc": "s13: kartu program acuan tersedia di palet Easy, Medium, dan Hard",
+    "ok": true,
+    "note": "{\"easy\":true,\"medium\":true,\"hard\":true}"
+  },
+  {
+    "id": "N-s13-tanpa hitung lilin",
+    "desc": "s13: program salah “tanpa hitung lilin” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✗✗"
+  },
+  {
+    "id": "N-s13-tanpa selain itu",
+    "desc": "s13: program salah “tanpa selain itu” gagal di minimal satu variasi",
+    "ok": true,
+    "note": "✓✗"
+  },
+  {
+    "id": "S-s13",
+    "desc": "s13: struktur varian valid (jalan tidak bertumpuk, tembok tidak di jalan, Bit di daratan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "J-s05/easy",
+    "desc": "s05/easy: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=8, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "J-s05/hard",
+    "desc": "s05/hard: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=63, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "J-s06/easy",
+    "desc": "s06/easy: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=33, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "J-s06/hard",
+    "desc": "s06/hard: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=44, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "J-s07/easy",
+    "desc": "s07/easy: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=68, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "J-s07/hard",
+    "desc": "s07/hard: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=68, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "J-s12/easy",
+    "desc": "s12/easy: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=85, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "J-s12/hard",
+    "desc": "s12/hard: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=85, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "J-s13/easy",
+    "desc": "s13/easy: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=247192, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "J-s13/hard",
+    "desc": "s13/hard: tidak ada program TANPA kartu Jika (≤ batas kartu) yang lulus semua variasi",
+    "ok": true,
+    "note": "keadaan dijelajahi=298107, panjang solusi tanpa Jika=null"
+  },
+  {
+    "id": "O1",
+    "desc": "Urutan stage di menu: B01…B13 berurutan",
+    "ok": true,
+    "note": "p0 B01 · Pengantar | s02 B02 · Dermaga Gelap | s03 B03 · Dermaga Gelap | s04 B04 · Dermaga Gelap | s05 B05 · Jalan Pasar | s06 B06 · Jalan Pasar | s07 B07 · Jalan Pasar | b6 B08 · Gudang Kotak | b7 B09 · Gudang Kotak | b8 B10 · Gudang Kotak | s11 B11 · Gudang Kotak | s12 B12 · Mercusuar Urutan | s13 B13 · Mercusuar Urutan | j01 J01 · Kincir Rusak | j02 J02 · Kincir Rusak | j03 J03 · Kincir Rusak | j04 J04 · Kincir Rusak | j05 J05 · Kincir Rusak | j06 J06 · Kincir Rusak | j07 J07 · Bengkel Pak Rakit | j08 J08 · Bengkel Pak Rakit | j09 J09 · Bengkel Pak Rakit | j10 J10 · Bengkel Pak Rakit | j11 J11 · Gudang Rak | j12 J12 · Gudang Rak | j13 J13 · Gudang Rak | j14 J14 · Mercusuar Ulang | ma01 MA01 · Cermin dalam Cermin | ma02 MA02 · Cermin dalam Cermin | ma03 MA03 · Cermin dalam Cermin | ma04 MA04 · Perpustakaan | ma05 MA05 · Perpustakaan | ma06 MA06 · Perpustakaan | ma07 MA07 · Arsip Kampung | ma08 MA08 · Arsip Kampung | ma09 MA09 · Arsip Kampung | ma10 MA10 · Arsip Kampung | mb01 MB01 · Pabrik Cetakan | mb02 MB02 · Pabrik Cetakan | mb03 MB03 · Pabrik Cetakan | mb04 MB04 · Kebun Binatang Kode | mb05 MB05 · Kebun Binatang Kode | mb06 MB06 · Kebun Binatang Kode | mb07 MB07 · Kebun Binatang Kode | mb08 MB08 · Kebun Binatang Kode | mb09 MB09 · Kebun Binatang Kode | mb10 MB10 · Kebun Binatang Kode | se01 SE01 · Pelabuhan Sistem | se02 SE02 · Pelabuhan Sistem | se03 SE03 · Pelabuhan Sistem | se04 SE04 · Pelabuhan Sistem | se05 SE05 · Pelabuhan Sistem | se06 SE06 · Pelabuhan Sistem | se07 SE07 · Pelabuhan Sistem | se08 SE08 · Pelabuhan Sistem | se09 SE09 · Pelabuhan Sistem | se10 SE10 · Pelabuhan Sistem | ex01 EX01 · Pabrik Otomasi | ex02 EX02 · Pabrik Otomasi | ex03 EX03 · Pabrik Otomasi | ex04 EX04 · Kota Layanan | ex05 EX05 · Kota Layanan | ex06 EX06 · Kota Layanan | ex07 EX07 · Kota Layanan | ex08 EX08 · Kota Layanan | ex09 EX09 · Kota Layanan | ex10 EX10 · Kota Layanan"
+  },
+  {
+    "id": "E1",
+    "desc": "Tidak ada galat konsol saat memuat",
+    "ok": true,
+    "note": ""
+  }
+]

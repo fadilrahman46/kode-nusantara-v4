@@ -1,0 +1,80 @@
+[
+  {
+    "id": "U1",
+    "desc": "Menu: kepala “Senior” (0 dari 10), SE01 terkunci sampai semua Middle B selesai, SE02 terkunci sampai SE01 selesai",
+    "ok": true,
+    "note": "{\"a\":{\"head\":[\"Beginner0 dari 13 selesai\",\"Junior0 dari 14 selesai\",\"Middle A0 dari 10 selesai\",\"Middle B0 dari 10 selesai\",\"Senior0 dari 10 selesai\",\"Expert0 dari 10 selesai\"],\"se01\":true,\"txt\":\"🔒Loket PesananSelesaikan semua tahap Middle B dulu (kurang 10).SE01 · Pelabuhan Sistem\"},\"c\":{\"se01\":false,\"se02\":true,\"mb10\":false,\"n\":10}}"
+  },
+  {
+    "id": "U2",
+    "desc": "SE02 dimainkan dengan ketukan: Kirim + dua Jika, picker menampilkan hanya pilihan yang berarti, lulus di semua keadaan, layar hasil",
+    "ok": true,
+    "note": "{\"ov\":true,\"rounds\":1,\"g1\":[\"Jika\",\"Maka\"],\"cards\":[\"⠿📮Kirim permintaan ke /barang, aksi pesan, isi kopi × 2\",\"⠿❓Jika jawaban “stok habis” maka kirim ulang ke /cadangan\",\"⠿❓Jika jawaban “tidak ditemukan” maka kirim ulang ke /barang-baru\"],\"title\":\"Loket dijawab dengan tepat!\"}"
+  },
+  {
+    "id": "U3",
+    "desc": "SE03: papan sudah berisi 3 kartu dari temanmu (penuh); Jalankan menunjukkan jawaban loket di dasbor; satu perbaikan menyelesaikannya",
+    "ok": true,
+    "note": "{\"cards\":3,\"lab\":\"Papan Program (3/3 kartu)\",\"dash\":\"🏬 Loket gudangPesanan: kopi 2 · gula 1 · teh 3#1/barang · pesan · kopi×2✅ berhasil#2/barang · lihat · gula×1🚫 aksi tidak boleh di alamat ini#3/barang · pesan \",\"bb\":\"Pesanan gula belum sampai (0 dari 1). Permintaan #2 dijawab “aksi tidak boleh di alamat ini”.\",\"ov\":true,\"rounds\":1}"
+  },
+  {
+    "id": "U4",
+    "desc": "Picker: kartu tanpa pilihan (Simpan) memberi pesan; Jika di SE04 hanya menampilkan grup “Maka”; Kirim di SE01 punya 4 grup",
+    "ok": true,
+    "note": "{\"open0\":false,\"toast\":\"Kartu ini tidak punya pilihan. Seret ke 🗑️ untuk membuang.\",\"g\":[\"Maka\"],\"g2\":[\"Alamat\",\"Aksi\",\"Barang\",\"Jumlah\"]}"
+  },
+  {
+    "id": "U5",
+    "desc": "SE09: kartu Gerbang memperbarui dasbor (gerbang terpasang, tabel rilis menunjukkan ⛔); kartu kedua ditolak karena anggaran; dasbor menampilkan baris Pemantau",
+    "ok": true,
+    "note": "{\"d0\":\"🚦 Jalur rilisGerbang: belum ada · Pemantau: belum ada · Rollback: belum adabuildujistagin\",\"d1\":\"🚦 Jalur rilisGerbang: staging · Pemantau: belum ada · Rollback: belum adabuildujistagingproduksi#1cacat di staging✔✔⛔–#\",\"bb\":\"Anggaran gerbang habis: jalur hanya boleh punya 1 gerbang, karena tiap gerbang memperlambat semua rilis.\"}"
+  },
+  {
+    "id": "U6",
+    "desc": "Selesai SE04 lewat UI: kode semu menampilkan ulangi / simpan / terapkan / jika peta.rusak()",
+    "ok": true,
+    "note": "{\"ov\":true,\"rounds\":1,\"code\":\"ulangi 6 kali:\\n    versi = simpan()\\n    terapkan(perubahan_berikutnya)\\n    jika peta.rusak():\\n        kembali(versi_terakhir)\"}"
+  },
+  {
+    "id": "L-375x667",
+    "desc": "HP potret 375×667: dasbor semua tahap Senior terlihat di dalam dunia, tombol Jalankan terlihat, tanpa gulir horizontal",
+    "ok": true,
+    "note": "10 tahap rapi"
+  },
+  {
+    "id": "L-360x640",
+    "desc": "HP potret 360×640: dasbor semua tahap Senior terlihat di dalam dunia, tombol Jalankan terlihat, tanpa gulir horizontal",
+    "ok": true,
+    "note": "10 tahap rapi"
+  },
+  {
+    "id": "L-667x375",
+    "desc": "HP lanskap 667×375: dasbor semua tahap Senior terlihat di dalam dunia, tombol Jalankan terlihat, tanpa gulir horizontal",
+    "ok": true,
+    "note": "10 tahap rapi"
+  },
+  {
+    "id": "L-1280x720",
+    "desc": "Desktop 1280×720: dasbor semua tahap Senior terlihat di dalam dunia, tombol Jalankan terlihat, tanpa gulir horizontal",
+    "ok": true,
+    "note": "10 tahap rapi"
+  },
+  {
+    "id": "DK",
+    "desc": "Mode gelap: semua teks dasbor Papan Sistem (se04, se06, se09, se10, ex01, ex03, ex04, ex07, ex09) berkontras ≥ 4,5:1 terhadap latarnya sendiri",
+    "ok": true,
+    "note": "se04:6.87(sy-okt:✅ sehat) | se06:6.39(sy-badt:3) | se09:5.52(off:–) | se10:6.39(:📭 stok habis) | ex01:7.1(sy-dim:belum ada aturan) | ex03:7.1(sy-dim:belum ada aturan) | ex04:7.1(sy-dim:belum ada kartu) | ex07:7.1(sy-dim:belum ada kartu) | ex09:7.1(sy-dim:belum ada kartu)"
+  },
+  {
+    "id": "LT",
+    "desc": "Mode terang: semua teks dasbor Papan Sistem (se04, se06, se09, se10, ex01, ex03, ex04, ex07, ex09) berkontras ≥ 4,5:1 terhadap latarnya sendiri",
+    "ok": true,
+    "note": "se04:5.35(sy-okt:✅ sehat) | se06:4.72(sy-row sy-dim:Rani mewarnai petak ) | se09:4.72(off:–) | se10:4.72(sy-dim:kosong) | ex01:4.72(sy-dim:belum ada aturan) | ex03:4.72(sy-dim:belum ada aturan) | ex04:4.72(sy-dim:belum ada kartu) | ex07:4.72(sy-dim:belum ada kartu) | ex09:4.72(sy-dim:belum ada kartu)"
+  },
+  {
+    "id": "LV",
+    "desc": "Pembaca layar: catatan langkah diumumkan lewat daerah aria-live sopan (status), bukan seluruh dasbor",
+    "ok": true,
+    "note": "{\"live\":\"polite\",\"role\":\"status\",\"txt\":\"Loket menjawab: berhasil\",\"viewLive\":null,\"inside\":false}"
+  }
+]

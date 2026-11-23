@@ -1,0 +1,74 @@
+[
+  {
+    "id": "P1",
+    "desc": "Profil baru: hanya B01 terbuka; B02 terkunci dengan alasan; J01 terkunci sampai semua Beginner selesai",
+    "ok": true,
+    "note": "terbuka=p0 | J01: Selesaikan semua tahap Beginner dulu (kurang 13)."
+  },
+  {
+    "id": "P2",
+    "desc": "Mengetuk tahap terkunci tidak membukanya dan menampilkan alasannya",
+    "ok": true,
+    "note": "Dermaga Gelap → Dermaga Gelap | Selesaikan B04 Rute Memutar dulu."
+  },
+  {
+    "id": "P3",
+    "desc": "Menang B01 → bintang tercatat, B02 terbuka, tombol hasil “Tahap berikutnya” membuka B02",
+    "ok": true,
+    "note": "hasil=true tombol=Tahap berikutnya sekarang=Tikungan B01=★★★"
+  },
+  {
+    "id": "P4",
+    "desc": "Muat ulang halaman: progres tetap ada dan permainan lanjut di tahap terakhir (B02)",
+    "ok": true,
+    "note": "mulai di Tikungan; B01=★★★"
+  },
+  {
+    "id": "P5",
+    "desc": "Hapus progres butuh dua ketukan; sesudahnya B02 terkunci lagi",
+    "ok": true,
+    "note": "ketukan 1: “Ketuk lagi untuk menghapus”, terkunci sesudah ketukan 2=true"
+  },
+  {
+    "id": "P6",
+    "desc": "“Buka semua tahap (pengajar)” membuka semua dan tetap aktif setelah muat ulang",
+    "ok": true,
+    "note": "terkunci sesudah centang=0, sesudah muat ulang=0"
+  },
+  {
+    "id": "P7",
+    "desc": "Tidak ada galat konsol selama alur progres",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "P8",
+    "desc": "Penyimpanan diblokir: permainan tetap jalan dan B01 bisa dimenangkan (progres hanya di memori)",
+    "ok": true,
+    "note": "menang=true galat=0"
+  },
+  {
+    "id": "R1",
+    "desc": "Benih sesi sama → urutan keadaan acak B07 (8 kemungkinan) sama persis; benih lain → urutan lain",
+    "ok": true,
+    "note": "424242: 20523617 · ulang: 20523617 · 777001: 44566705"
+  },
+  {
+    "id": "R2",
+    "desc": "Tautan ulang ?tahap=s07&keadaan=5 membuka B07 di keadaan 5 walau tahapnya terkunci",
+    "ok": true,
+    "note": "{\"t\":\"Pasar Ramai\",\"s\":5}"
+  },
+  {
+    "id": "R3",
+    "desc": "Catatan: tiap Jalankan dicatat dengan keadaan + tautan ulang; ekspor memuat versi, kode sesi, progres",
+    "ok": true,
+    "note": "[{\"k\":0,\"ok\":false,\"u\":\"?tahap=s05&keadaan=0&benih=555555\"},{\"k\":1,\"ok\":false,\"u\":\"?tahap=s05&keadaan=1&benih=555555\"}]"
+  },
+  {
+    "id": "R4",
+    "desc": "Tombol Unduh .json membuat berkas bernama kode-nusantara-catatan-…-<sesi>.json berisi JSON yang sah",
+    "ok": true,
+    "note": "kode-nusantara-catatan-20261122-1131-246810.json"
+  }
+]

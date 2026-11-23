@@ -1,0 +1,62 @@
+[
+  {
+    "id": "X1",
+    "desc": "Menu: tiga tahap EX tersedia dan berlabel “Pabrik Otomasi”; palet hanya kartu Aturan",
+    "ok": true,
+    "note": "EX01 · Pabrik Otomasi|aturan ; EX02 · Pabrik Otomasi|aturan ; EX03 · Pabrik Otomasi|aturan"
+  },
+  {
+    "id": "X2",
+    "desc": "EX01: papan kosong → Jalankan → kalah dengan pesan; dasbor menampilkan tabel detak",
+    "ok": true,
+    "note": "{\"rows\":6,\"btns\":[\"1\",\"4\",\"skip\"],\"bb\":\"Detak 1: pesanan #1 dikirim padahal belum selesai dikemas, jadi petinya kosong. Tidak apa-apa, coba lagi!\"}"
+  },
+  {
+    "id": "X3",
+    "desc": "EX01: aturan acuan menang; tabel menampilkan detak, tombol 1×/4×/Lewati ada",
+    "ok": true,
+    "note": "{\"ov\":true,\"btns\":[\"1\",\"4\",\"skip\"],\"rows\":5}"
+  },
+  {
+    "id": "X4",
+    "desc": "EX03: tombol ⏭ (lewati) menampilkan seluruh jejak sekaligus",
+    "ok": true,
+    "note": "{\"before\":5,\"after\":6,\"skip\":\"skip\"}"
+  },
+  {
+    "id": "X5",
+    "desc": "Gerak berkurang: hasil langsung tampil tanpa animasi (jendela 6 baris); aria-live berisi ringkasan",
+    "ok": true,
+    "note": "{\"rows\":6,\"live\":\"Hasil: 10 dari 10 pesanan terkirim dan diberi tahu tanpa campur tangan.\"}"
+  },
+  {
+    "id": "X6",
+    "desc": "Pindah tahap saat animasi berjalan menghentikan detak (tidak ada galat/sisa baris)",
+    "ok": true,
+    "note": "{\"rows\":0,\"txt\":\"⚙️ Papan AturanAturan: belum ada aturanPasang aturan, lalu tekan Jalankan. Mesin\"}"
+  },
+  {
+    "id": "X7",
+    "desc": "HP 360×640: tabel dan tombol tidak melebihi lebar layar",
+    "ok": true,
+    "note": "{\"sw\":360,\"iw\":360,\"btn\":[[44,44],[44,44],[44,44]]}"
+  },
+  {
+    "id": "X8",
+    "desc": "EX04: picker memilih jumlah pekerja lewat ketukan; dasbor menampilkan biaya; menang dengan 2 pekerja + penyangga 24",
+    "ok": true,
+    "note": "{\"ov\":true,\"cost\":\"Biaya 10 dari anggaran 11DetakMasukAntreanHilang195–2910–3915–4920–5218–6216–Baris 6 dari 23 1×4×⏭▶ Hasil: tidak ada tugas hilang dan antrean kosong di akhir, dalam anggaran\",\"btns\":[\"1\",\"4\",\"skip\"]}"
+  },
+  {
+    "id": "X9",
+    "desc": "EX09: urutan kartu Coba dan Cadangan berpengaruh (dibalik → gagal, dasbor menyebut urutan)",
+    "ok": true,
+    "note": "Berhasil untuk satu keadaan, tapi belum untuk keadaan lain (server mati sebentar): Hanya 83% permintaan sukses lewat server utama (butuh 90% | Urutan penanganan: cadangan → coba lagi · pemutus aktif"
+  },
+  {
+    "id": "X10",
+    "desc": "EX07: ketukan pada kartu Rak membuka picker dengan dua grup (kebijakan, ukuran)",
+    "ok": true,
+    "note": "Usir barang yang | Ukuran rak"
+  }
+]

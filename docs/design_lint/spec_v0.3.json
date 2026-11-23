@@ -1,0 +1,1705 @@
+{
+ "version": "v0.3 (desain revisi pasca-review; Beginner 13, Junior 14, Middle A 10, Middle B 10, Senior 10, Expert 10)",
+ "rules": {
+  "max_run_K": 3,
+  "bukti_modes": [
+   "S",
+   "E"
+  ]
+ },
+ "mechanics": {
+  "maju": {
+   "nama": "maju",
+   "mode": "B",
+   "prereq": [],
+   "desc": "Kartu Maju"
+  },
+  "belok": {
+   "nama": "belok",
+   "mode": "B",
+   "prereq": [
+    "maju"
+   ],
+   "desc": "Belok kiri/kanan"
+  },
+  "aksi": {
+   "nama": "aksi",
+   "mode": "B",
+   "prereq": [
+    "maju"
+   ],
+   "desc": "Ambil · Taruh · Tekan tombol"
+  },
+  "jika": {
+   "nama": "jika",
+   "mode": "B",
+   "prereq": [
+    "aksi"
+   ],
+   "desc": "Jika … maka … (+ sensor dunia: Ada tembok?, Warna lantai, Ada benda?)"
+  },
+  "selain_itu": {
+   "nama": "selain_itu",
+   "mode": "B",
+   "prereq": [
+    "jika"
+   ],
+   "desc": "Jika … maka … selain itu …"
+  },
+  "isi_kotak": {
+   "nama": "isi_kotak",
+   "mode": "B",
+   "prereq": [
+    "maju"
+   ],
+   "desc": "Isi kotak … dengan … (variabel)"
+  },
+  "tipe": {
+   "nama": "tipe",
+   "mode": "B",
+   "prereq": [
+    "isi_kotak"
+   ],
+   "desc": "Bentuk kotak = tipe (bulat angka · persegi teks · sakelar nyala/mati)"
+  },
+  "ubah_kotak": {
+   "nama": "ubah_kotak",
+   "mode": "B",
+   "prereq": [
+    "isi_kotak"
+   ],
+   "desc": "Ubah kotak (+ − × ÷)"
+  },
+  "pembanding": {
+   "nama": "pembanding",
+   "mode": "B",
+   "prereq": [
+    "jika",
+    "tipe"
+   ],
+   "desc": "Sensor kotak: Jika kotak (> < = ≠) N · Jika sakelar nyala"
+  },
+  "ulangi_n": {
+   "nama": "ulangi_n",
+   "mode": "J",
+   "prereq": [
+    "maju"
+   ],
+   "desc": "Ulangi … kali (wadah)"
+  },
+  "ulangi_bersarang": {
+   "nama": "ulangi_bersarang",
+   "mode": "J",
+   "prereq": [
+    "ulangi_n"
+   ],
+   "desc": "Ulangi di dalam Ulangi"
+  },
+  "selama": {
+   "nama": "selama",
+   "mode": "J",
+   "prereq": [
+    "ulangi_n",
+    "jika"
+   ],
+   "desc": "Selama … (perulangan bersyarat)"
+  },
+  "syarat_gabungan": {
+   "nama": "syarat_gabungan",
+   "mode": "J",
+   "prereq": [
+    "selama"
+   ],
+   "desc": "TIDAK · DAN · ATAU pada syarat"
+  },
+  "mesin": {
+   "nama": "mesin",
+   "mode": "J",
+   "prereq": [
+    "ulangi_n"
+   ],
+   "desc": "Buat Mesin & Jalankan Mesin (fungsi)"
+  },
+  "parameter": {
+   "nama": "parameter",
+   "mode": "J",
+   "prereq": [
+    "mesin",
+    "isi_kotak"
+   ],
+   "desc": "Masukan Mesin"
+  },
+  "nilai_keluaran": {
+   "nama": "nilai_keluaran",
+   "mode": "J",
+   "prereq": [
+    "parameter",
+    "ubah_kotak"
+   ],
+   "desc": "Keluarkan + slot nilai \"hasil Mesin\""
+  },
+  "rak": {
+   "nama": "rak",
+   "mode": "J",
+   "prereq": [
+    "isi_kotak"
+   ],
+   "desc": "Rak bernomor mulai 0 (list)"
+  },
+  "untuk_setiap": {
+   "nama": "untuk_setiap",
+   "mode": "J",
+   "prereq": [
+    "rak",
+    "ulangi_n"
+   ],
+   "desc": "Untuk setiap isi rak + slot nilai \"isi rak sekarang\""
+  },
+  "rekursi": {
+   "nama": "rekursi",
+   "mode": "MA",
+   "prereq": [
+    "mesin",
+    "parameter",
+    "jika"
+   ],
+   "desc": "Mesin memanggil dirinya + titik berhenti"
+  },
+  "rekursi_nilai": {
+   "nama": "rekursi_nilai",
+   "mode": "MA",
+   "prereq": [
+    "rekursi",
+    "nilai_keluaran"
+   ],
+   "desc": "Rekursi dengan nilai balik"
+  },
+  "cari_linear": {
+   "nama": "cari_linear",
+   "mode": "MA",
+   "prereq": [
+    "untuk_setiap",
+    "jika"
+   ],
+   "desc": "Cari satu per satu"
+  },
+  "cari_biner": {
+   "nama": "cari_biner",
+   "mode": "MA",
+   "prereq": [
+    "rak",
+    "rekursi"
+   ],
+   "desc": "Buka tengah, buang separuh (data harus terurut)"
+  },
+  "tumpukan": {
+   "nama": "tumpukan",
+   "mode": "MA",
+   "prereq": [
+    "rak"
+   ],
+   "desc": "Tumpukan (masuk & ambil dari atas)"
+  },
+  "antrean": {
+   "nama": "antrean",
+   "mode": "MA",
+   "prereq": [
+    "rak"
+   ],
+   "desc": "Antrean (masuk belakang, ambil depan)"
+  },
+  "pohon": {
+   "nama": "pohon",
+   "mode": "MA",
+   "prereq": [
+    "rekursi",
+    "tumpukan"
+   ],
+   "desc": "Pohon: anak kiri/kanan, kunjungi"
+  },
+  "cetakan_objek": {
+   "nama": "cetakan_objek",
+   "mode": "MB",
+   "prereq": [
+    "mesin",
+    "tipe"
+   ],
+   "desc": "Cetakan → objek (class/instance)"
+  },
+  "anggota": {
+   "nama": "anggota",
+   "mode": "MB",
+   "prereq": [
+    "cetakan_objek",
+    "nilai_keluaran"
+   ],
+   "desc": "Atribut & method"
+  },
+  "enkapsulasi": {
+   "nama": "enkapsulasi",
+   "mode": "MB",
+   "prereq": [
+    "anggota",
+    "jika"
+   ],
+   "desc": "Data tersembunyi, diubah lewat method penjaga"
+  },
+  "pewarisan": {
+   "nama": "pewarisan",
+   "mode": "MB",
+   "prereq": [
+    "anggota"
+   ],
+   "desc": "Cetakan mewarisi cetakan"
+  },
+  "override": {
+   "nama": "override",
+   "mode": "MB",
+   "prereq": [
+    "pewarisan"
+   ],
+   "desc": "Mengganti perilaku warisan"
+  },
+  "polimorfisme": {
+   "nama": "polimorfisme",
+   "mode": "MB",
+   "prereq": [
+    "override",
+    "untuk_setiap"
+   ],
+   "desc": "Satu perintah, respons berbeda"
+  },
+  "komposisi": {
+   "nama": "komposisi",
+   "mode": "MB",
+   "prereq": [
+    "anggota",
+    "rak"
+   ],
+   "desc": "Objek memiliki objek lain"
+  },
+  "api_permintaan": {
+   "nama": "api_permintaan",
+   "mode": "S",
+   "prereq": [
+    "anggota"
+   ],
+   "desc": "Menyusun permintaan: alamat · aksi · data"
+  },
+  "api_jawaban": {
+   "nama": "api_jawaban",
+   "mode": "S",
+   "prereq": [
+    "api_permintaan",
+    "jika"
+   ],
+   "desc": "Membaca jawaban + kode status"
+  },
+  "commit": {
+   "nama": "commit",
+   "mode": "S",
+   "prereq": [
+    "isi_kotak"
+   ],
+   "desc": "Simpan versi, riwayat, kembali ke versi (rollback)"
+  },
+  "branch": {
+   "nama": "branch",
+   "mode": "S",
+   "prereq": [
+    "commit"
+   ],
+   "desc": "Cabang jalur waktu"
+  },
+  "merge": {
+   "nama": "merge",
+   "mode": "S",
+   "prereq": [
+    "branch"
+   ],
+   "desc": "Menggabung cabang, termasuk konflik"
+  },
+  "container": {
+   "nama": "container",
+   "mode": "S",
+   "prereq": [
+    "api_jawaban"
+   ],
+   "desc": "Image vs container; semua bahan di dalam peti"
+  },
+  "deploy": {
+   "nama": "deploy",
+   "mode": "S",
+   "prereq": [
+    "container",
+    "commit"
+   ],
+   "desc": "Jalur build→uji→staging→produksi + rollback rilis"
+  },
+  "trigger": {
+   "nama": "trigger",
+   "mode": "E",
+   "prereq": [
+    "api_jawaban",
+    "jika"
+   ],
+   "desc": "Pemicu → aksi otomatis"
+  },
+  "pipeline": {
+   "nama": "pipeline",
+   "mode": "E",
+   "prereq": [
+    "deploy",
+    "trigger"
+   ],
+   "desc": "CI/CD: uji otomatis memblokir rilis buruk"
+  },
+  "antrean_pekerja": {
+   "nama": "antrean_pekerja",
+   "mode": "E",
+   "prereq": [
+    "antrean",
+    "trigger"
+   ],
+   "desc": "Antrean + pekerja (queue/worker)"
+  },
+  "skala": {
+   "nama": "skala",
+   "mode": "E",
+   "prereq": [
+    "antrean_pekerja"
+   ],
+   "desc": "Pembagian beban ke beberapa server"
+  },
+  "cache": {
+   "nama": "cache",
+   "mode": "E",
+   "prereq": [
+    "rak",
+    "skala"
+   ],
+   "desc": "Rak cepat di depan gudang"
+  },
+  "monitoring": {
+   "nama": "monitoring",
+   "mode": "E",
+   "prereq": [
+    "skala",
+    "trigger"
+   ],
+   "desc": "Dasbor + retry/cadangan"
+  }
+ },
+ "required_concepts": {
+  "urutan": [
+   "maju"
+  ],
+  "arah": [
+   "belok"
+  ],
+  "aksi": [
+   "aksi"
+  ],
+  "kondisional": [
+   "jika"
+  ],
+  "kondisional_lengkap": [
+   "selain_itu"
+  ],
+  "variabel": [
+   "isi_kotak"
+  ],
+  "tipe_data": [
+   "tipe"
+  ],
+  "aritmetika": [
+   "ubah_kotak"
+  ],
+  "perbandingan": [
+   "pembanding"
+  ],
+  "perulangan": [
+   "ulangi_n"
+  ],
+  "perulangan_bersyarat": [
+   "selama"
+  ],
+  "logika_boolean": [
+   "syarat_gabungan"
+  ],
+  "fungsi": [
+   "mesin"
+  ],
+  "parameter": [
+   "parameter"
+  ],
+  "nilai_keluaran": [
+   "nilai_keluaran"
+  ],
+  "list": [
+   "rak"
+  ],
+  "iterasi_list": [
+   "untuk_setiap"
+  ],
+  "rekursi": [
+   "rekursi"
+  ],
+  "pencarian": [
+   "cari_linear",
+   "cari_biner"
+  ],
+  "struktur_data": [
+   "tumpukan"
+  ],
+  "antrean": [
+   "antrean"
+  ],
+  "pohon": [
+   "pohon"
+  ],
+  "oop_kelas": [
+   "cetakan_objek"
+  ],
+  "oop_enkapsulasi": [
+   "enkapsulasi"
+  ],
+  "oop_pewarisan": [
+   "pewarisan"
+  ],
+  "oop_polimorfisme": [
+   "polimorfisme"
+  ],
+  "api": [
+   "api_permintaan"
+  ],
+  "versioning": [
+   "commit"
+  ],
+  "container": [
+   "container"
+  ],
+  "deploy": [
+   "deploy"
+  ],
+  "otomasi": [
+   "trigger"
+  ]
+ },
+ "tests": [
+  {
+   "id": "Test1",
+   "gates": [
+    "B"
+   ],
+   "questions": [
+    {
+     "no": 1,
+     "topik": [
+      "maju",
+      "belok"
+     ]
+    },
+    {
+     "no": 2,
+     "topik": [
+      "jika",
+      "selain_itu"
+     ]
+    },
+    {
+     "no": 3,
+     "topik": [
+      "isi_kotak",
+      "ubah_kotak"
+     ]
+    },
+    {
+     "no": 4,
+     "topik": [
+      "isi_kotak"
+     ]
+    },
+    {
+     "no": 5,
+     "topik": [
+      "tipe"
+     ]
+    },
+    {
+     "no": 6,
+     "topik": [
+      "ubah_kotak"
+     ]
+    },
+    {
+     "no": 7,
+     "topik": [
+      "isi_kotak",
+      "jika",
+      "pembanding",
+      "ubah_kotak"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Test2",
+   "gates": [
+    "MA",
+    "MB"
+   ],
+   "questions": [
+    {
+     "no": 1,
+     "topik": [
+      "rekursi",
+      "rekursi_nilai"
+     ]
+    },
+    {
+     "no": 2,
+     "topik": [
+      "rekursi"
+     ]
+    },
+    {
+     "no": 3,
+     "topik": [
+      "cari_biner"
+     ]
+    },
+    {
+     "no": 4,
+     "topik": [
+      "pohon"
+     ]
+    },
+    {
+     "no": 5,
+     "topik": [
+      "tumpukan",
+      "antrean"
+     ]
+    },
+    {
+     "no": 6,
+     "topik": [
+      "cetakan_objek"
+     ]
+    },
+    {
+     "no": 7,
+     "topik": [
+      "enkapsulasi",
+      "anggota"
+     ]
+    },
+    {
+     "no": 8,
+     "topik": [
+      "pewarisan",
+      "override"
+     ]
+    },
+    {
+     "no": 9,
+     "topik": [
+      "polimorfisme"
+     ]
+    },
+    {
+     "no": 10,
+     "topik": [
+      "pewarisan",
+      "polimorfisme"
+     ]
+    }
+   ]
+  }
+ ],
+ "modes": [
+  {
+   "id": "B",
+   "name": "Beginner",
+   "missions": [
+    {
+     "id": "B-M1",
+     "name": "Dermaga Gelap",
+     "stages": [
+      {
+       "id": "B01",
+       "nama": "Dermaga Gelap",
+       "tujuan": "Bawa Bit ke tiang lampu (Stage Pengantar + tutorial Papan Program)",
+       "introduces": [
+        "maju"
+       ],
+       "uses": []
+      },
+      {
+       "id": "B02",
+       "nama": "Tikungan",
+       "tujuan": "Lewati tikungan ke gudang",
+       "introduces": [
+        "belok"
+       ],
+       "uses": [
+        "maju"
+       ]
+      },
+      {
+       "id": "B03",
+       "nama": "Peti & Tombol",
+       "tujuan": "Ambil peti, taruh di perahu, tekan tombol lampu",
+       "introduces": [
+        "aksi"
+       ],
+       "uses": [
+        "maju",
+        "belok"
+       ]
+      },
+      {
+       "id": "B04",
+       "nama": "Rute Memutar",
+       "tujuan": "Susun rute panjang berkelok untuk mengantar tiga peti",
+       "introduces": [],
+       "uses": [
+        "maju",
+        "belok",
+        "aksi"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Lampu menyala Merah, Biru, Biru, Merah, Biru, Biru, … Warna lampu ke-10?",
+      "konsep": []
+     }
+    },
+    {
+     "id": "B-M2",
+     "name": "Jalan Pasar",
+     "stages": [
+      {
+       "id": "B05",
+       "nama": "Jembatan Angkat",
+       "tujuan": "SATU jembatan; lantai berwarna acak; Jika merah → Tekan tombol",
+       "introduces": [
+        "jika"
+       ],
+       "uses": [
+        "maju",
+        "aksi"
+       ]
+      },
+      {
+       "id": "B06",
+       "nama": "Dua Jalan",
+       "tujuan": "SATU persimpangan acak: Jika ada tembok → samping, selain itu → lurus",
+       "introduces": [
+        "selain_itu"
+       ],
+       "uses": [
+        "jika",
+        "maju",
+        "belok"
+       ]
+      },
+      {
+       "id": "B07",
+       "nama": "Pasar Ramai",
+       "tujuan": "Dua persimpangan + satu jembatan berurutan, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "jika",
+        "selain_itu",
+        "aksi",
+        "maju",
+        "belok"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Kunci ada di salah satu dari 3 peti. Peti merah kosong; kunci tidak di peti biru. Di mana kuncinya?",
+      "konsep": []
+     }
+    },
+    {
+     "id": "B-M3",
+     "name": "Gudang Kotak",
+     "stages": [
+      {
+       "id": "B08",
+       "nama": "Jembatan Panjang",
+       "tujuan": "Isi kotak \"langkah\" agar jembatan muncul sepanjang isinya, lalu seberangi",
+       "introduces": [
+        "isi_kotak"
+       ],
+       "uses": [
+        "maju"
+       ]
+      },
+      {
+       "id": "B09",
+       "nama": "Kotak Berbentuk",
+       "tujuan": "Isi tiga kotak (bulat/persegi/sakelar) sesuai yang terlihat di dermaga [PROTOTIPE]",
+       "introduces": [
+        "tipe"
+       ],
+       "uses": [
+        "isi_kotak"
+       ]
+      },
+      {
+       "id": "B10",
+       "nama": "Timbangan Pasar",
+       "tujuan": "Capai berat 14 dengan angka 2, 3, 4 dan maksimal 3 kartu [PROTOTIPE]",
+       "introduces": [
+        "ubah_kotak"
+       ],
+       "uses": [
+        "isi_kotak"
+       ]
+      },
+      {
+       "id": "B11",
+       "nama": "Gudang Campur",
+       "tujuan": "Isi tiga kotak, hitung berat, lalu jalan ke dermaga, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "isi_kotak",
+        "tipe",
+        "ubah_kotak",
+        "maju"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Balok × menempel lebih dulu: 2 + 3 × 4 = ?",
+      "konsep": [
+       "ubah_kotak"
+      ]
+     }
+    },
+    {
+     "id": "B-M4",
+     "name": "Mercusuar Urutan",
+     "stages": [
+      {
+       "id": "B12",
+       "nama": "Pintu Kembar",
+       "tujuan": "Jika kotak > 5 buka gerbang A, selain itu B; Jika sakelar nyala → lampu",
+       "introduces": [
+        "pembanding"
+       ],
+       "uses": [
+        "jika",
+        "selain_itu",
+        "isi_kotak",
+        "ubah_kotak",
+        "tipe"
+       ]
+      },
+      {
+       "id": "B13",
+       "nama": "Mercusuar Urutan",
+       "tujuan": "Nyalakan mercusuar: urutan + aksi + kondisional + variabel + operasi + pembanding",
+       "introduces": [],
+       "uses": [
+        "maju",
+        "belok",
+        "aksi",
+        "jika",
+        "selain_itu",
+        "isi_kotak",
+        "ubah_kotak",
+        "pembanding",
+        "tipe"
+       ],
+       "label": "Puzzle penutup"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "J",
+   "name": "Junior",
+   "missions": [
+    {
+     "id": "J-M1",
+     "name": "Kincir Rusak",
+     "stages": [
+      {
+       "id": "J01",
+       "nama": "Kincir 8 Petak",
+       "tujuan": "Jalan lurus 8 petak; batas kartu 2",
+       "introduces": [
+        "ulangi_n"
+       ],
+       "uses": [
+        "maju"
+       ]
+      },
+      {
+       "id": "J02",
+       "nama": "Tangga Zigzag",
+       "tujuan": "Ulangi berisi beberapa kartu",
+       "introduces": [],
+       "uses": [
+        "ulangi_n",
+        "maju",
+        "belok"
+       ]
+      },
+      {
+       "id": "J03",
+       "nama": "Kebun Berpetak",
+       "tujuan": "Kelilingi kebun 3×4 dengan Ulangi di dalam Ulangi",
+       "introduces": [
+        "ulangi_bersarang"
+       ],
+       "uses": [
+        "ulangi_n",
+        "maju",
+        "belok"
+       ]
+      },
+      {
+       "id": "J04",
+       "nama": "Sampai Tembok",
+       "tujuan": "Maju sampai ada tembok (panjang jalan diacak)",
+       "introduces": [
+        "selama"
+       ],
+       "uses": [
+        "ulangi_n",
+        "jika",
+        "maju"
+       ]
+      },
+      {
+       "id": "J05",
+       "nama": "Syarat Ganda",
+       "tujuan": "Selama TIDAK ada tembok DAN ada koin …",
+       "introduces": [
+        "syarat_gabungan"
+       ],
+       "uses": [
+        "selama",
+        "jika",
+        "maju"
+       ]
+      },
+      {
+       "id": "J06",
+       "nama": "Panen Koin",
+       "tujuan": "Ambil koin hanya di petak yang ada koinnya, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "ulangi_n",
+        "ulangi_bersarang",
+        "selama",
+        "syarat_gabungan",
+        "jika",
+        "aksi"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Berapa tepukan: Ulangi 3 kali [Ulangi 4 kali [Tepuk]]?",
+      "konsep": [
+       "ulangi_bersarang"
+      ]
+     }
+    },
+    {
+     "id": "J-M2",
+     "name": "Bengkel Pak Rakit",
+     "stages": [
+      {
+       "id": "J07",
+       "nama": "Tiga Menara",
+       "tujuan": "Bangun 3 menara identik dengan satu Mesin",
+       "introduces": [
+        "mesin"
+       ],
+       "uses": [
+        "ulangi_n",
+        "maju",
+        "aksi"
+       ]
+      },
+      {
+       "id": "J08",
+       "nama": "Menara Beda Tinggi",
+       "tujuan": "Mesin(tinggi)",
+       "introduces": [
+        "parameter"
+       ],
+       "uses": [
+        "mesin",
+        "ulangi_n"
+       ]
+      },
+      {
+       "id": "J09",
+       "nama": "Mesin Hitung",
+       "tujuan": "Mesin menghitung bahan → hasilnya mengisi kotak (slot nilai \"hasil Mesin\")",
+       "introduces": [
+        "nilai_keluaran"
+       ],
+       "uses": [
+        "mesin",
+        "parameter",
+        "isi_kotak",
+        "ubah_kotak"
+       ]
+      },
+      {
+       "id": "J10",
+       "nama": "Bengkel Penuh",
+       "tujuan": "Rangkai Mesin dan Ulangi, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "mesin",
+        "parameter",
+        "nilai_keluaran",
+        "ulangi_n",
+        "jika"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Mengapa Mesin lebih baik daripada menyalin kartu?",
+      "konsep": [
+       "mesin"
+      ]
+     }
+    },
+    {
+     "id": "J-M3",
+     "name": "Gudang Rak",
+     "stages": [
+      {
+       "id": "J11",
+       "nama": "Rak Bernomor",
+       "tujuan": "Ambil barang dari rak nomor tertentu (mulai 0)",
+       "introduces": [
+        "rak"
+       ],
+       "uses": [
+        "isi_kotak",
+        "aksi"
+       ]
+      },
+      {
+       "id": "J12",
+       "nama": "Periksa Semua",
+       "tujuan": "Periksa semua barang; buang yang rusak (slot \"isi rak sekarang\")",
+       "introduces": [
+        "untuk_setiap"
+       ],
+       "uses": [
+        "rak",
+        "jika",
+        "aksi",
+        "ulangi_n"
+       ]
+      },
+      {
+       "id": "J13",
+       "nama": "Timbang Semua",
+       "tujuan": "Jumlahkan berat semua barang ke satu kotak, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "rak",
+        "untuk_setiap",
+        "ubah_kotak",
+        "isi_kotak"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Rak berisi [apel, jeruk, mangga]: isi rak nomor 2?",
+      "konsep": [
+       "rak"
+      ]
+     }
+    },
+    {
+     "id": "J-M4",
+     "name": "Mercusuar Ulang",
+     "stages": [
+      {
+       "id": "J14",
+       "nama": "Mercusuar Ulang",
+       "tujuan": "Nyalakan mercusuar dengan perulangan, Mesin, dan Rak",
+       "introduces": [],
+       "uses": [
+        "ulangi_n",
+        "ulangi_bersarang",
+        "selama",
+        "syarat_gabungan",
+        "mesin",
+        "parameter",
+        "nilai_keluaran",
+        "rak",
+        "untuk_setiap"
+       ],
+       "label": "Puzzle penutup"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "MA",
+   "name": "Middle A",
+   "missions": [
+    {
+     "id": "MA-M1",
+     "name": "Cermin dalam Cermin",
+     "stages": [
+      {
+       "id": "MA01",
+       "nama": "Hitung Mundur",
+       "tujuan": "Mesin memanggil dirinya dengan titik berhenti",
+       "introduces": [
+        "rekursi"
+       ],
+       "uses": [
+        "mesin",
+        "parameter",
+        "jika"
+       ]
+      },
+      {
+       "id": "MA02",
+       "nama": "Jumlah Berantai",
+       "tujuan": "hitung(n) = n + hitung(n−1); hasil Mesin sebagai argumen Mesin (komposisi fungsi)",
+       "introduces": [
+        "rekursi_nilai"
+       ],
+       "uses": [
+        "rekursi",
+        "nilai_keluaran",
+        "ubah_kotak"
+       ]
+      },
+      {
+       "id": "MA03",
+       "nama": "Cermin Bertingkat",
+       "tujuan": "Pola bertingkat dengan rekursi, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "rekursi",
+        "rekursi_nilai",
+        "ulangi_n"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "hitung(n): jika n = 0 → 0, selain itu n + hitung(n−1). Berapa hitung(4)?",
+      "konsep": [
+       "rekursi_nilai"
+      ]
+     }
+    },
+    {
+     "id": "MA-M2",
+     "name": "Perpustakaan",
+     "stages": [
+      {
+       "id": "MA04",
+       "nama": "Cari Satu per Satu",
+       "tujuan": "Temukan buku dengan memeriksa rak berurutan",
+       "introduces": [
+        "cari_linear"
+       ],
+       "uses": [
+        "rak",
+        "untuk_setiap",
+        "jika"
+       ]
+      },
+      {
+       "id": "MA05",
+       "nama": "Buka Tengah",
+       "tujuan": "Rak terurut: buka tengah, buang separuh",
+       "introduces": [
+        "cari_biner"
+       ],
+       "uses": [
+        "cari_linear",
+        "rak",
+        "rekursi",
+        "jika"
+       ]
+      },
+      {
+       "id": "MA06",
+       "nama": "Pilih Cara Cari",
+       "tujuan": "Pilih cara tercepat untuk rak terurut vs acak, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "cari_linear",
+        "cari_biner",
+        "rak"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Buku 1.000 nama terurut: paling banyak berapa kali membuka dengan \"buka tengah\"?",
+      "konsep": [
+       "cari_biner"
+      ]
+     }
+    },
+    {
+     "id": "MA-M3",
+     "name": "Arsip Kampung",
+     "stages": [
+      {
+       "id": "MA07",
+       "nama": "Tumpukan Piring",
+       "tujuan": "Masuk dan ambil dari atas",
+       "introduces": [
+        "tumpukan"
+       ],
+       "uses": [
+        "rak",
+        "isi_kotak"
+       ]
+      },
+      {
+       "id": "MA08",
+       "nama": "Loket Antrean",
+       "tujuan": "Masuk belakang, ambil depan; bandingkan dengan tumpukan",
+       "introduces": [
+        "antrean"
+       ],
+       "uses": [
+        "rak",
+        "tumpukan"
+       ]
+      },
+      {
+       "id": "MA09",
+       "nama": "Pohon Keluarga",
+       "tujuan": "Kunjungi pohon: diri sendiri, lalu anak kiri ke kanan",
+       "introduces": [
+        "pohon"
+       ],
+       "uses": [
+        "rekursi",
+        "tumpukan",
+        "antrean"
+       ]
+      },
+      {
+       "id": "MA10",
+       "nama": "Arsip Kampung",
+       "tujuan": "Telusuri arsip dengan rekursi, pohon, antrean, dan pencarian",
+       "introduces": [],
+       "uses": [
+        "rekursi",
+        "cari_biner",
+        "tumpukan",
+        "antrean",
+        "pohon"
+       ],
+       "label": "Puzzle penutup"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "MB",
+   "name": "Middle B",
+   "missions": [
+    {
+     "id": "MB-M1",
+     "name": "Pabrik Cetakan",
+     "stages": [
+      {
+       "id": "MB01",
+       "nama": "Cetak Kucing",
+       "tujuan": "Buat objek dari cetakan",
+       "introduces": [
+        "cetakan_objek"
+       ],
+       "uses": [
+        "mesin",
+        "tipe",
+        "isi_kotak"
+       ]
+      },
+      {
+       "id": "MB02",
+       "nama": "Data dan Kemampuan",
+       "tujuan": "Atribut (nama, warna) dan method (mengeong)",
+       "introduces": [
+        "anggota"
+       ],
+       "uses": [
+        "cetakan_objek",
+        "nilai_keluaran"
+       ]
+      },
+      {
+       "id": "MB03",
+       "nama": "Toko Banyak Kucing",
+       "tujuan": "Banyak objek dari satu cetakan, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "cetakan_objek",
+        "anggota",
+        "untuk_setiap"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Warna kucing pertama diubah menjadi hitam. Warna kucing kedua?",
+      "konsep": [
+       "cetakan_objek"
+      ]
+     }
+    },
+    {
+     "id": "MB-M2",
+     "name": "Brankas & Silsilah",
+     "stages": [
+      {
+       "id": "MB04",
+       "nama": "Brankas Celengan",
+       "tujuan": "Saldo hanya diubah lewat setor()/ambil() yang menjaga aturan",
+       "introduces": [
+        "enkapsulasi"
+       ],
+       "uses": [
+        "anggota",
+        "jika"
+       ]
+      },
+      {
+       "id": "MB05",
+       "nama": "Silsilah Cetakan",
+       "tujuan": "Cetakan Burung mewarisi Hewan",
+       "introduces": [
+        "pewarisan"
+       ],
+       "uses": [
+        "anggota",
+        "cetakan_objek",
+        "enkapsulasi"
+       ]
+      },
+      {
+       "id": "MB06",
+       "nama": "Kebun Hewan",
+       "tujuan": "Pewarisan + method + brankas, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "pewarisan",
+        "anggota",
+        "enkapsulasi",
+        "untuk_setiap"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Burung mewarisi Hewan.makan() dan menambah terbang(). Objek burung bisa apa?",
+      "konsep": [
+       "pewarisan"
+      ]
+     }
+    },
+    {
+     "id": "MB-M3",
+     "name": "Teater Hewan",
+     "stages": [
+      {
+       "id": "MB07",
+       "nama": "Pinguin Tak Bisa Terbang",
+       "tujuan": "Mengganti terbang() pada Pinguin",
+       "introduces": [
+        "override"
+       ],
+       "uses": [
+        "pewarisan",
+        "anggota"
+       ]
+      },
+      {
+       "id": "MB08",
+       "nama": "Satu Perintah Banyak Suara",
+       "tujuan": "Rak berisi hewan berbeda: bersuara() untuk semua",
+       "introduces": [
+        "polimorfisme"
+       ],
+       "uses": [
+        "override",
+        "untuk_setiap",
+        "rak"
+       ]
+      },
+      {
+       "id": "MB09",
+       "nama": "Rumah dan Kamarnya",
+       "tujuan": "Objek Rumah memiliki objek Kamar",
+       "introduces": [
+        "komposisi"
+       ],
+       "uses": [
+        "anggota",
+        "cetakan_objek",
+        "polimorfisme"
+       ]
+      },
+      {
+       "id": "MB10",
+       "nama": "Seribu Musuh",
+       "tujuan": "Rancang 50 jenis musuh: pewarisan atau komposisi?",
+       "introduces": [],
+       "uses": [
+        "pewarisan",
+        "override",
+        "polimorfisme",
+        "komposisi",
+        "enkapsulasi"
+       ],
+       "label": "Puzzle penutup"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S",
+   "name": "Senior",
+   "missions": [
+    {
+     "id": "S-M1",
+     "name": "Loket Pesanan",
+     "stages": [
+      {
+       "id": "SE01",
+       "nama": "Kirim Permintaan",
+       "tujuan": "Susun permintaan: alamat, aksi, data",
+       "introduces": [
+        "api_permintaan"
+       ],
+       "uses": [
+        "anggota",
+        "isi_kotak"
+       ],
+       "bukti": "Permintaan ditolak bila alamat, aksi, atau data salah; pemain harus menyusun ketiganya sendiri (tidak ada tombol otomatis)"
+      },
+      {
+       "id": "SE02",
+       "nama": "Baca Jawaban",
+       "tujuan": "Tentukan tindakan dari kode jawaban",
+       "introduces": [
+        "api_jawaban"
+       ],
+       "uses": [
+        "api_permintaan",
+        "jika"
+       ],
+       "bukti": "Pemain memilih tindakan lanjutan berdasarkan kode (berhasil/tidak ditemukan/ditolak), bukan menyebut artinya"
+      },
+      {
+       "id": "SE03",
+       "nama": "Permintaan Ditolak",
+       "tujuan": "Perbaiki permintaan yang ditolak, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "api_permintaan",
+        "api_jawaban",
+        "jika"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Kode \"tidak ditemukan\" muncul. Bagian permintaan mana yang paling mungkin salah?",
+      "konsep": [
+       "api_jawaban"
+      ]
+     }
+    },
+    {
+     "id": "S-M2",
+     "name": "Mesin Waktu",
+     "stages": [
+      {
+       "id": "SE04",
+       "nama": "Simpan Versi",
+       "tujuan": "Simpan titik waktu dan kembali ke versi tertentu",
+       "introduces": [
+        "commit"
+       ],
+       "uses": [
+        "isi_kotak"
+       ],
+       "bukti": "Pemain memulihkan peta ke riwayat tertentu dengan memilih titik simpan yang tepat"
+      },
+      {
+       "id": "SE05",
+       "nama": "Cabang Waktu",
+       "tujuan": "Dua NPC mengerjakan hal berbeda di cabang terpisah",
+       "introduces": [
+        "branch"
+       ],
+       "uses": [
+        "commit"
+       ],
+       "bukti": "Perubahan harus ditaruh di cabang yang benar agar yang lain tidak rusak"
+      },
+      {
+       "id": "SE06",
+       "nama": "Gabung dan Konflik",
+       "tujuan": "Gabungkan cabang yang mengubah baris yang sama",
+       "introduces": [
+        "merge"
+       ],
+       "uses": [
+        "branch",
+        "commit"
+       ],
+       "bukti": "Pemain memilih baris yang dipertahankan sehingga peta akhir memuat KEDUA perubahan"
+      },
+      {
+       "id": "SE07",
+       "nama": "Kembali ke Kemarin",
+       "tujuan": "Kembali ke versi sebelum bug muncul, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "commit",
+        "branch",
+        "merge"
+       ]
+      }
+     ],
+     "riddle": {
+      "teks": "Dua cabang mengubah baris yang sama lalu digabung. Apa yang terjadi?",
+      "konsep": [
+       "merge"
+      ]
+     }
+    },
+    {
+     "id": "S-M3",
+     "name": "Pelabuhan Peti Kemas",
+     "stages": [
+      {
+       "id": "SE08",
+       "nama": "Peti Kemas",
+       "tujuan": "Aplikasi \"jalan di rumahku, rusak di pulau lain\": kemas semua bahan",
+       "introduces": [
+        "container"
+       ],
+       "uses": [
+        "api_jawaban",
+        "isi_kotak"
+       ],
+       "bukti": "Aplikasi hanya jalan di semua pulau bila pemain memasukkan setiap bahan yang kurang ke dalam peti"
+      },
+      {
+       "id": "SE09",
+       "nama": "Jalur Kapal",
+       "tujuan": "Urutkan build → uji → staging → produksi; putuskan kapan rollback",
+       "introduces": [
+        "deploy"
+       ],
+       "uses": [
+        "container",
+        "commit"
+       ],
+       "bukti": "Rilis buruk hanya selamat bila tahap uji ditempatkan sebelum produksi dan pemain memilih saat rollback"
+      },
+      {
+       "id": "SE10",
+       "nama": "Kapal Terakhir",
+       "tujuan": "Kirim aplikasi dari versi → peti → kapal, dengan rollback bila gagal",
+       "introduces": [],
+       "uses": [
+        "api_permintaan",
+        "commit",
+        "merge",
+        "container",
+        "deploy"
+       ],
+       "label": "Puzzle penutup"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Expert",
+   "missions": [
+    {
+     "id": "E-M1",
+     "name": "Pabrik Otomatis",
+     "stages": [
+      {
+       "id": "EX01",
+       "nama": "Sensor dan Sakelar",
+       "tujuan": "Jika pesanan masuk → kemas → kirim, tanpa campur tangan",
+       "introduces": [
+        "trigger"
+       ],
+       "uses": [
+        "api_jawaban",
+        "jika"
+       ],
+       "bukti": "Pemain merangkai pemicu→aksi lalu menyaksikan 10 pesanan diproses tanpa campur tangan"
+      },
+      {
+       "id": "EX02",
+       "nama": "Lini Perakitan",
+       "tujuan": "Rangkai alur otomatis berantai, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "trigger",
+        "jika"
+       ]
+      },
+      {
+       "id": "EX03",
+       "nama": "Ban Berjalan",
+       "tujuan": "Rancang jalur otomatis: simpan versi → uji → kemas → kirim",
+       "introduces": [
+        "pipeline"
+       ],
+       "uses": [
+        "trigger",
+        "deploy",
+        "commit"
+       ],
+       "bukti": "Pipeline harus menghentikan rilis yang gagal uji; pemain menempatkan gerbang uji di tahap yang benar"
+      }
+     ],
+     "riddle": {
+      "teks": "Satu rilis cacat lolos ke produksi. Tahap pipeline mana yang paling mungkin kurang?",
+      "konsep": [
+       "pipeline"
+      ]
+     }
+    },
+    {
+     "id": "E-M2",
+     "name": "Loket Ramai",
+     "stages": [
+      {
+       "id": "EX04",
+       "nama": "Loket dan Petugas",
+       "tujuan": "Atur jumlah pekerja agar antrean tidak meluap",
+       "introduces": [
+        "antrean_pekerja"
+       ],
+       "uses": [
+        "antrean",
+        "trigger"
+       ],
+       "bukti": "Antrean hanya tidak meluap bila jumlah pekerja disetel sesuai laju masuk"
+      },
+      {
+       "id": "EX05",
+       "nama": "Antrean Meluap",
+       "tujuan": "Atasi lonjakan dengan pekerja, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "antrean_pekerja",
+        "antrean"
+       ]
+      },
+      {
+       "id": "EX06",
+       "nama": "Pintu Tol",
+       "tujuan": "Bagi lalu lintas ke beberapa server",
+       "introduces": [
+        "skala"
+       ],
+       "uses": [
+        "antrean_pekerja",
+        "api_jawaban"
+       ],
+       "bukti": "Lonjakan trafik hanya tertangani bila beban dibagi ke beberapa server"
+      }
+     ],
+     "riddle": {
+      "teks": "Antrean 100 tugas, 5 petugas mampu 10 tugas/menit masing-masing. Berapa menit sampai habis?",
+      "konsep": [
+       "antrean_pekerja"
+      ]
+     }
+    },
+    {
+     "id": "E-M3",
+     "name": "Menara Pengawas",
+     "stages": [
+      {
+       "id": "EX07",
+       "nama": "Rak Cepat",
+       "tujuan": "Pilih isi rak cepat agar perjalanan ke gudang berkurang",
+       "introduces": [
+        "cache"
+       ],
+       "uses": [
+        "rak",
+        "api_jawaban",
+        "skala"
+       ],
+       "bukti": "Perjalanan ke gudang berkurang hanya bila pemain memilih barang yang paling sering diminta"
+      },
+      {
+       "id": "EX08",
+       "nama": "Tol dan Rak",
+       "tujuan": "Gabungkan pembagian beban dan rak cepat, tanpa kartu baru",
+       "introduces": [],
+       "uses": [
+        "skala",
+        "cache",
+        "antrean_pekerja"
+       ]
+      },
+      {
+       "id": "EX09",
+       "nama": "Rencana Darurat",
+       "tujuan": "Baca dasbor, temukan server bermasalah, aktifkan retry atau cadangan",
+       "introduces": [
+        "monitoring"
+       ],
+       "uses": [
+        "cache",
+        "skala",
+        "trigger",
+        "api_jawaban"
+       ],
+       "bukti": "Server rusak ditangani dengan memilih retry atau cadangan berdasarkan dasbor, bukan menebak"
+      },
+      {
+       "id": "EX10",
+       "nama": "Toko Online Otomatis",
+       "tujuan": "Bangun sistem toko: pemicu → antrean → pekerja → rak cepat → pengawas",
+       "introduces": [],
+       "uses": [
+        "trigger",
+        "antrean_pekerja",
+        "skala",
+        "cache",
+        "monitoring",
+        "pipeline"
+       ],
+       "label": "Puzzle penutup"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

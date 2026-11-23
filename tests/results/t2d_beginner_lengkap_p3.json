@@ -1,0 +1,68 @@
+[
+  {
+    "id": "W-s12-v0",
+    "desc": "B12 Pintu Kembar (sensor kotak + sakelar) (variasi 0): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Gerbang yang tepat!”"
+  },
+  {
+    "id": "W-s12-v1",
+    "desc": "B12 Pintu Kembar (sensor kotak + sakelar) (variasi 1): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Gerbang yang tepat!”"
+  },
+  {
+    "id": "W-s12-v2",
+    "desc": "B12 Pintu Kembar (sensor kotak + sakelar) (variasi 2): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Gerbang yang tepat!”"
+  },
+  {
+    "id": "W-s12-v3",
+    "desc": "B12 Pintu Kembar (sensor kotak + sakelar) (variasi 3): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Gerbang yang tepat!”"
+  },
+  {
+    "id": "W-s13-v0",
+    "desc": "B13 Mercusuar Urutan (gabungan) (variasi 0): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Mercusuar menyala!”"
+  },
+  {
+    "id": "W-s13-v1",
+    "desc": "B13 Mercusuar Urutan (gabungan) (variasi 1): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Mercusuar menyala!”"
+  },
+  {
+    "id": "X1",
+    "desc": "B05: “Tekan” tanpa syarat berhasil di lantai merah tetapi DITOLAK karena variasi biru gagal; keadaan berikutnya berpindah ke variasi gagal",
+    "ok": true,
+    "note": "pesan1=“Berhasil untuk satu keadaan, tapi belum untuk keadaan lain (lantai biru): Byur! Di depan ada air.…” tertunda=1; run2: variasi=1, pesan=“Byur! Di depan ada air. Jembatannya belum terpasang. Cari tombol di la”"
+  },
+  {
+    "id": "X2",
+    "desc": "B06: tanpa “selain itu” — gagal bermakna di variasi lurus (pesan menyebut sisa petak)",
+    "ok": true,
+    "note": "Masih kurang 1 petak lagi menuju lampu. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "X3",
+    "desc": "Kode semu setelah menang memuat jika/selain_itu dengan sintaks yang benar",
+    "ok": true,
+    "note": "\"maju()\\nmaju()\\njika ada_tembok_di_depan():\\n    belok_kanan()\\nselain_itu:\\n    maju()\\nmaju()\\nmaju()\""
+  },
+  {
+    "id": "X4",
+    "desc": "Picker Jika: ganti sensor membangun ulang pilihan (warna → kotak → sakelar) dan menyetel nilai bawaan",
+    "ok": true,
+    "note": "kotak: Jika/Kotak/Pembanding/Angka/Maka/Selain itu | sakelar: Jika/Sakelar/Maka/Selain itu"
+  },
+  {
+    "id": "X5",
+    "desc": "Kartu Jika di papan terbaca penuh (teks kartu tidak terpotong) di HP 360 px",
+    "ok": true,
+    "note": "{\"txt\":\"⠿❓Jika lilin > 4? maka Belok kiri selain itu Belok kanan\",\"clipped\":false,\"w\":292,\"h\":81,\"ctl\":true}"
+  }
+]

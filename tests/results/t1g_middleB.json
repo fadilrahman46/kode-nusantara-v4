@@ -1,0 +1,122 @@
+[
+  {
+    "id": "R-mb01",
+    "desc": "mb01: program acuan (5 kartu, batas 5) lulus di semua 1 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 5/5"
+  },
+  {
+    "id": "R-mb02",
+    "desc": "mb02: program acuan (6 kartu, batas 6) lulus di semua 1 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 6/6"
+  },
+  {
+    "id": "R-mb03",
+    "desc": "mb03: program acuan (6 kartu, batas 6) lulus di semua 4 keadaan; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 6/6"
+  },
+  {
+    "id": "N-mb01-ubah sebelum dibuat",
+    "desc": "mb01: cara salah “ubah sebelum dibuat” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Objek Mochi belum dibuat. Buat objeknya dulu dengan kartu Buat objek."
+  },
+  {
+    "id": "N-mb01-lupa mengubah Kopi",
+    "desc": "mb01: cara salah “lupa mengubah Kopi” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Kopi berwarna oranye, pesanannya hitam. Mengubah satu kucing tidak mengubah kucing lain."
+  },
+  {
+    "id": "N-mb01-nama objek dipakai dua kali",
+    "desc": "mb01: cara salah “nama objek dipakai dua kali” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Objek Belang sudah ada. Satu nama hanya untuk satu objek."
+  },
+  {
+    "id": "N-mb02-Bit bersuara sendiri",
+    "desc": "mb02: cara salah “Bit bersuara sendiri” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Yang mengeong Bit, bukan Belang. Taruh Bersuara di dalam method, lalu suruh Belang."
+  },
+  {
+    "id": "N-mb02-tanpa atribut warna",
+    "desc": "mb02: cara salah “tanpa atribut warna” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Belang belum punya atribut warna. Atribut ditulis di dalam Buat Cetakan."
+  },
+  {
+    "id": "N-mb02-warna awal bawaan (putih)",
+    "desc": "mb02: cara salah “warna awal bawaan (putih)” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Belang berwarna putih. Kucing dari cetakan ini seharusnya oranye."
+  },
+  {
+    "id": "N-mb02-suruh sebelum objek dibuat",
+    "desc": "mb02: cara salah “suruh sebelum objek dibuat” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Objek Belang belum dibuat. Buat objeknya dulu dengan kartu Buat objek."
+  },
+  {
+    "id": "N-mb02-Bersuara langsung di dalam cetakan",
+    "desc": "mb02: cara salah “Bersuara langsung di dalam cetakan” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Di dalam Buat Cetakan hanya boleh ada kartu Atribut dan Method. Pindahkan Bersuara keluar."
+  },
+  {
+    "id": "N-mb02-Method di luar cetakan",
+    "desc": "mb02: cara salah “Method di luar cetakan” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Kartu Method hanya boleh berada langsung di dalam Buat Cetakan."
+  },
+  {
+    "id": "N-mb02-tanpa cetakan",
+    "desc": "mb02: cara salah “tanpa cetakan” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Cetakan Kucing belum dibuat. Letakkan kartu Buat Cetakan Kucing dulu."
+  },
+  {
+    "id": "N-mb03-objek tetap untuk 3 nama",
+    "desc": "mb03: cara salah “objek tetap untuk 3 nama” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 1: Kucing Oyen belum dibuat."
+  },
+  {
+    "id": "N-mb03-mengeong dua kali",
+    "desc": "mb03: cara salah “mengeong dua kali” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Belang mengeong 2 kali, seharusnya sekali."
+  },
+  {
+    "id": "N-mb03-isi rak sekarang di luar Untuk setiap",
+    "desc": "mb03: cara salah “isi rak sekarang di luar Untuk setiap” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: “isi rak sekarang” hanya punya nilai di dalam kartu Untuk setiap."
+  },
+  {
+    "id": "C1",
+    "desc": "Objek punya salinan atribut sendiri: mengubah Mochi tidak mengubah Belang dan Kopi",
+    "ok": true,
+    "note": "Belang:oranye,Mochi:putih,Kopi:oranye"
+  },
+  {
+    "id": "P1",
+    "desc": "Kode semu kelas: kelas Kucing / warna = \"oranye\" / fungsi mengeong(diri) / belang = Kucing() / belang.mengeong()",
+    "ok": true,
+    "note": "\"kelas Kucing:\\n    warna = \\\"oranye\\\"\\n    fungsi mengeong(diri):\\n        bersuara(\\\"meong\\\")\\nbelang = Kucing()\\nbelang.mengeong()\""
+  },
+  {
+    "id": "O1",
+    "desc": "Urutan menu: … MA10 lalu MB01 MB02 MB03",
+    "ok": true,
+    "note": "EX07 EX08 EX09 EX10"
+  },
+  {
+    "id": "E1",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

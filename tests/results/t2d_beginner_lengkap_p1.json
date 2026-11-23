@@ -1,0 +1,26 @@
+[
+  {
+    "id": "W-s02",
+    "desc": "B02 Tikungan: susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Tikungan terlewati!”"
+  },
+  {
+    "id": "W-s03",
+    "desc": "B03 Peti & Tombol: susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Peti di perahu, lampu menyala!”"
+  },
+  {
+    "id": "W-s04",
+    "desc": "B04 Rute Memutar (13 kartu): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Ketiga peti sampai!”"
+  },
+  {
+    "id": "W-s11",
+    "desc": "B11 Gudang Campur: susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Pesanan kapal lengkap!”"
+  }
+]

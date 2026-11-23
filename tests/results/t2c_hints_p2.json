@@ -1,0 +1,20 @@
+[
+  {
+    "id": "H-B09-a",
+    "desc": "Petunjuk 3 di B09 hanya memberi kartu pertama (tidak memuat solusi lengkap)",
+    "ok": true,
+    "note": "Kartu pertamamu: Isi kotak “jumlah ikan” dengan jumlah ikan di peti. Dua kotak lainnya kamu isi sendiri."
+  },
+  {
+    "id": "H-B09-b",
+    "desc": "Petunjuk 3 di B09 muat satu halaman dialog (tanpa tombol \"Lanjut\")",
+    "ok": true,
+    "note": "tombol di dialog=0"
+  },
+  {
+    "id": "H-B09-c",
+    "desc": "Urutan biaya hint Easy tetap: 1 gratis, 2 gratis, 3 −10%",
+    "ok": true,
+    "note": "Petunjuk 1 (gratis) → Petunjuk 2 (gratis) → Petunjuk 3 (−10% skor)"
+  }
+]

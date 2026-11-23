@@ -1,0 +1,110 @@
+[
+  {
+    "id": "U1",
+    "desc": "Menu: baris “Gerbang Si Teka” muncul setelah MA03, MA06, MB03, MB06, EX03, EX06 dan terkunci sampai tahap itu selesai; tahap lain tidak terkunci olehnya",
+    "ok": true,
+    "note": "{\"before\":[\"g_ma03:true\",\"g_ma06:true\",\"g_mb03:true\",\"g_mb06:true\",\"g_ex03:true\",\"g_ex06:true\"],\"after\":{\"g\":[{\"id\":\"g_ma03\",\"locked\":false},{\"id\":\"g_ma06\",\"locked\":true},{\"id\":\"g_mb03\",\"locked\":true},{\"id\":\"g_mb06\",\"locked\":true},{\"id\":\"g_ex03\",\"locked\":true},{\"id\":\"g_ex06\",\"locked\":true}],\"ma04\":false,\"prev\":\"ma03\"}}"
+  },
+  {
+    "id": "U2",
+    "desc": "Menang MA03 → tombol “Gerbang Si Teka” di layar hasil → gerbang terbuka dengan teka-teki hitung(n)",
+    "ok": true,
+    "note": "{\"ov\":true,\"vis\":true,\"stem\":\"🦉 Berapa hasil hitung(4)?\",\"opts\":[\"2\",\"16\",\"32\",\"1\"]}"
+  },
+  {
+    "id": "U3",
+    "desc": "Jawab benar dengan ketukan → “Benar!”, penjelasan, bonus; Lanjut → memuat MA04 (tahap berikutnya)",
+    "ok": true,
+    "note": "{\"dis\":true,\"en\":true,\"live\":\"Benar!\",\"t\":\"Cari Satu per SatuMA04 · Perpustakaan · Mudah\"}"
+  },
+  {
+    "id": "U4",
+    "desc": "Salah dua kali lewat ketukan: pilihan tercoret, petunjuk Si Teka muncul, wilayah live memberi tahu; jawab benar → gerbang terbuka tanpa bonus (salah 2)",
+    "ok": true,
+    "note": "{\"g1\":[false,1],\"g2\":[true,2,\"Belum tepat. Si Teka memberi petunjuk.\"]}"
+  },
+  {
+    "id": "U5",
+    "desc": "Salah tiga kali: gerbang terbuka tanpa bonus, jawaban + penjelasan tampil; menu menandai “Terbuka tanpa bonus”; Lanjut tetap ada",
+    "ok": true,
+    "note": "🦉Gerbang Si TekaTerbuka tanpa bonus. Ketuk untuk mencoba lagi.Gerbang Silsilah · pewarisan✓"
+  },
+  {
+    "id": "U6",
+    "desc": "Klaviatur: panah memilih opsi (opsi tercoret dilewati), Escape menutup tanpa mencatat",
+    "ok": true,
+    "note": "t-opt|radio checked=1 closed=true rec=false"
+  },
+  {
+    "id": "U7",
+    "desc": "Tingkat Sulit: gerbang berbentuk ubin; ketuk ubin menyusun jawaban, ketuk lagi melepas, Hapus; benar → bonus",
+    "ok": true,
+    "note": "{\"st\":{\"tiles\":[\"0\",\"4\",\"1\",\"5\",\"6\",\"2\"],\"opts\":0,\"ans\":\"10\"},\"s1\":1,\"s2\":0,\"live\":\"Benar!\"}"
+  },
+  {
+    "id": "U8",
+    "desc": "Progres gerbang tersimpan di perangkat: muat ulang halaman → status, bonus, dan ✓ di menu bertahan; “Hapus progres” menghapusnya",
+    "ok": true,
+    "note": "{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":1,\"at\":\"2026-11-20\"} | 🦉Gerbang Si TekaTerjawab, bonus misi 🌟Gerbang Cermin · rekursi🌟"
+  },
+  {
+    "id": "U9",
+    "desc": "Buka lewat tautan: ?gerbang=g_mb06&varian=1 membuka soal “kambing” (untuk memutar ulang laporan)",
+    "ok": true,
+    "note": "🦉 Objek kambing dibuat dari cetakan Hewan, bukan Burung. Bisakah kambing.terbang() dipanggil?"
+  },
+  {
+    "id": "L-hp-tegak 360×740-easy",
+    "desc": "Tata letak hp-tegak 360×740, pilihan: lembar muat di layar, tanpa gulir mendatar, tombol ≥ 44 px, tombol Jawab terjangkau",
+    "ok": true,
+    "note": "12 soal diperiksa"
+  },
+  {
+    "id": "L-hp-tegak 360×740-hard",
+    "desc": "Tata letak hp-tegak 360×740, ubin: lembar muat di layar, tanpa gulir mendatar, tombol ≥ 44 px, tombol Jawab terjangkau",
+    "ok": true,
+    "note": "12 soal diperiksa"
+  },
+  {
+    "id": "L-hp-tegak 390×844-easy",
+    "desc": "Tata letak hp-tegak 390×844, pilihan: lembar muat di layar, tanpa gulir mendatar, tombol ≥ 44 px, tombol Jawab terjangkau",
+    "ok": true,
+    "note": "12 soal diperiksa"
+  },
+  {
+    "id": "L-hp-tegak 390×844-hard",
+    "desc": "Tata letak hp-tegak 390×844, ubin: lembar muat di layar, tanpa gulir mendatar, tombol ≥ 44 px, tombol Jawab terjangkau",
+    "ok": true,
+    "note": "12 soal diperiksa"
+  },
+  {
+    "id": "L-hp-mendatar 667×375-easy",
+    "desc": "Tata letak hp-mendatar 667×375, pilihan: lembar muat di layar, tanpa gulir mendatar, tombol ≥ 44 px, tombol Jawab terjangkau",
+    "ok": true,
+    "note": "12 soal diperiksa"
+  },
+  {
+    "id": "L-hp-mendatar 667×375-hard",
+    "desc": "Tata letak hp-mendatar 667×375, ubin: lembar muat di layar, tanpa gulir mendatar, tombol ≥ 44 px, tombol Jawab terjangkau",
+    "ok": true,
+    "note": "12 soal diperiksa"
+  },
+  {
+    "id": "L-tablet 820×1180-easy",
+    "desc": "Tata letak tablet 820×1180, pilihan: lembar muat di layar, tanpa gulir mendatar, tombol ≥ 44 px, tombol Jawab terjangkau",
+    "ok": true,
+    "note": "12 soal diperiksa"
+  },
+  {
+    "id": "L-tablet 820×1180-hard",
+    "desc": "Tata letak tablet 820×1180, ubin: lembar muat di layar, tanpa gulir mendatar, tombol ≥ 44 px, tombol Jawab terjangkau",
+    "ok": true,
+    "note": "12 soal diperiksa"
+  },
+  {
+    "id": "DK",
+    "desc": "Mode gelap: teks soal, kotak kode, dan opsi terbaca (kontras ≥ 4,5:1)",
+    "ok": true,
+    "note": "{\"stem\":11.95,\"code\":13.4,\"opt\":13.4,\"meta\":7.1}"
+  }
+]

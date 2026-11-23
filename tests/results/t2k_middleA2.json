@@ -1,0 +1,80 @@
+[
+  {
+    "id": "MA04",
+    "desc": "MA04: Untuk setiap [Jika isi rak sekarang = yang dicari → Ambil lalu berhenti] → menang",
+    "ok": true,
+    "note": "untuk,jika,akhir | Berhasil!"
+  },
+  {
+    "id": "MA04x",
+    "desc": "MA04: pilihan bawaan “Ambil (terus mencari)” → pesan “berhentilah mencari”",
+    "ok": true,
+    "note": "Berhasil untuk satu keadaan, tapi belum untuk keadaan lain (6 buku, mencari “Lutung”): Bukunya ada di rak nomor 3, tetapi Bit terus membuka sampai 6 buku."
+  },
+  {
+    "id": "MA05",
+    "desc": "MA05: Selama belum ketemu [Buka tengah, Jika = → Ambil berhenti, Jika < → buang kiri selain itu kanan] → menang",
+    "ok": true,
+    "note": "selama,buka,jika,jika,akhir | Berhasil!"
+  },
+  {
+    "id": "MA05x",
+    "desc": "MA05: Untuk setiap satu per satu → ditolak karena melebihi 3 buku",
+    "ok": true,
+    "note": "Pustakawan hanya mengizinkan membuka 3 buku di rak ini. Memeriksa satu per satu terlalu lama."
+  },
+  {
+    "id": "MA06",
+    "desc": "MA06: Mesin [satu per satu] · Jika rak acak → Jalankan Mesin · Selama belum ketemu [buka tengah …] → menang",
+    "ok": true,
+    "note": "mesin,untuk,jika,akhir✓,akhir✓,jika,selama,buka,jika,jika,akhir | Berhasil!"
+  },
+  {
+    "id": "MA07",
+    "desc": "MA07: Untuk setiap [Taruh di atas tumpukan] · Selama tumpukan berisi [Ambil dari atas] → menang",
+    "ok": true,
+    "note": "untuk,tumpukMasuk,akhir✓,selama,tumpukAmbil,akhir | Berhasil!"
+  },
+  {
+    "id": "MA08",
+    "desc": "MA08: Untuk setiap [Masuk antrean, Jika lonceng → Layani depan] · Selama antrean berisi [Layani depan] → menang",
+    "ok": true,
+    "note": "untuk,antreMasuk,jika,akhir✓,selama,antreAmbil,akhir | Berhasil!"
+  },
+  {
+    "id": "MA08x",
+    "desc": "MA08: pakai tumpukan → pesan urutan dilayani salah",
+    "ok": true,
+    "note": "Baru 1 dari 4 warga dilayani. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "MA09",
+    "desc": "MA09: Mesin [Kunjungi, Jika anak kiri → Mesin kiri, Jika anak kanan → Mesin kanan] · Jalankan di akar → menang; panel pohon tampil dengan nomor urut kunjungan",
+    "ok": true,
+    "note": "panel=true mesin,kunjungi,jika,jika,akhir✓,pakai | Berhasil!"
+  },
+  {
+    "id": "MA09v",
+    "desc": "MA09: setelah dijalankan, setiap map di panel bertanda sudah dikunjungi",
+    "ok": true,
+    "note": "{\"n\":7,\"seen\":7}"
+  },
+  {
+    "id": "MA10",
+    "desc": "MA10: Mesin [Kunjungi, Jika map = dicari → Ambil berhenti, Jika map < dicari → Mesin kanan selain itu kiri] · Jalankan di akar → menang",
+    "ok": true,
+    "note": "mesin,kunjungi,jika,jika,akhir✓,pakai | Berhasil!"
+  },
+  {
+    "id": "TV0",
+    "desc": "Panel pohon tersembunyi di tahap bukan pohon (MA08)",
+    "ok": true,
+    "note": "none"
+  },
+  {
+    "id": "LOCK",
+    "desc": "Profil baru: MA04 terkunci sampai MA03 selesai",
+    "ok": true,
+    "note": "Selesaikan MA03 Tangga Turun dulu."
+  }
+]

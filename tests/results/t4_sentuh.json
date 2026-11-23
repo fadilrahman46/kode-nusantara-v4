@@ -1,0 +1,74 @@
+[
+  {
+    "id": "S01",
+    "desc": "Seret-sentuh kartu dari palet ke papan → kartu bertambah",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "S02",
+    "desc": "Ketuk kartu palet menambah kartu (4 kartu)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "S03",
+    "desc": "Setelah 4 kartu, tombol ▶ Jalankan berada di dalam layar (dapat disentuh)",
+    "ok": true,
+    "note": "tombol y=678–730 dari tinggi layar 740"
+  },
+  {
+    "id": "S04",
+    "desc": "Tombol ⏹ Ulang, 💡 Hint (dan tong sampah bila ditampilkan) berada di dalam layar",
+    "ok": true,
+    "note": "730/730 dari 740 (tong sampah disembunyikan di layar sempit; membuang = seret ke deretan kartu)"
+  },
+  {
+    "id": "S10",
+    "desc": "Sentuh: seret kartu papan lewat gagang ⠿ ke deretan kartu → kartu terbuang",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "S11",
+    "desc": "Sentuh: susun ulang lewat gagang ⠿",
+    "ok": true,
+    "note": "ak 🔢 jumlah ikan deng / ak 🔤 nama perahu deng"
+  },
+  {
+    "id": "S12",
+    "desc": "Sentuh: mengetuk badan kartu papan (bukan gagang) membuka pemilih",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "S05",
+    "desc": "Papan penuh (8 kartu) bisa di-scroll dengan menggeser jari DI ATAS kartu",
+    "ok": true,
+    "note": "papan 442px isi / 132px tampak; scrollTop setelah geser di atas kartu = 101 (kartu menangkap gestur sebagai seret karena touch-action:none)"
+  },
+  {
+    "id": "S06",
+    "desc": "Papan bisa di-scroll dengan menggeser di kolom nomor (di luar kartu)",
+    "ok": true,
+    "note": "scrollTop=101 — satu-satunya cara scroll, tidak intuitif bagi anak"
+  },
+  {
+    "id": "S07",
+    "desc": "Palet b8 Hard (4 kartu) muat seluruhnya di layar 360 px tanpa perlu scroll",
+    "ok": true,
+    "note": "isi 340px / tampak 340px; kartu terpotong: -"
+  },
+  {
+    "id": "S08",
+    "desc": "Palet bisa di-scroll dengan menggeser jari di atas kartu",
+    "ok": true,
+    "note": "scrollLeft=0 (touch-action:none pada kartu)"
+  },
+  {
+    "id": "S09",
+    "desc": "Pemilih nilai: tombol ≥ 44 px dan tombol \"Selesai\" terlihat tanpa scroll di 360×740",
+    "ok": true,
+    "note": "{\"sheetH\":548,\"vh\":740,\"minBtn\":52,\"done\":true}"
+  }
+]

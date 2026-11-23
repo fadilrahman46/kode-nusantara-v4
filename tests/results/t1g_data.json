@@ -1,0 +1,119 @@
+{
+  "ref": {
+    "mb01": {
+      "ok": true,
+      "msg": "",
+      "len": 5,
+      "limit": 5,
+      "n": 1,
+      "pal": true
+    },
+    "mb02": {
+      "ok": true,
+      "msg": "",
+      "len": 6,
+      "limit": 6,
+      "n": 1,
+      "pal": true
+    },
+    "mb03": {
+      "ok": true,
+      "msg": "",
+      "len": 6,
+      "limit": 6,
+      "n": 4,
+      "pal": true
+    }
+  },
+  "neg": {
+    "mb01": {
+      "ubah sebelum dibuat": {
+        "v": 0,
+        "msg": "Objek Mochi belum dibuat. Buat objeknya dulu dengan kartu Buat objek.",
+        "len": 5,
+        "limit": 5
+      },
+      "lupa mengubah Kopi": {
+        "v": 0,
+        "msg": "Kopi berwarna oranye, pesanannya hitam. Mengubah satu kucing tidak mengubah kucing lain.",
+        "len": 4,
+        "limit": 5
+      },
+      "nama objek dipakai dua kali": {
+        "v": 0,
+        "msg": "Objek Belang sudah ada. Satu nama hanya untuk satu objek.",
+        "len": 2,
+        "limit": 5
+      }
+    },
+    "mb02": {
+      "Bit bersuara sendiri": {
+        "v": 0,
+        "msg": "Yang mengeong Bit, bukan Belang. Taruh Bersuara di dalam method, lalu suruh Belang.",
+        "len": 4,
+        "limit": 6
+      },
+      "tanpa atribut warna": {
+        "v": 0,
+        "msg": "Belang belum punya atribut warna. Atribut ditulis di dalam Buat Cetakan.",
+        "len": 5,
+        "limit": 6
+      },
+      "warna awal bawaan (putih)": {
+        "v": 0,
+        "msg": "Belang berwarna putih. Kucing dari cetakan ini seharusnya oranye.",
+        "len": 6,
+        "limit": 6
+      },
+      "suruh sebelum objek dibuat": {
+        "v": 0,
+        "msg": "Objek Belang belum dibuat. Buat objeknya dulu dengan kartu Buat objek.",
+        "len": 6,
+        "limit": 6
+      },
+      "Bersuara langsung di dalam cetakan": {
+        "v": 0,
+        "msg": "Di dalam Buat Cetakan hanya boleh ada kartu Atribut dan Method. Pindahkan Bersuara keluar.",
+        "len": 4,
+        "limit": 6
+      },
+      "Method di luar cetakan": {
+        "v": 0,
+        "msg": "Kartu Method hanya boleh berada langsung di dalam Buat Cetakan.",
+        "len": 5,
+        "limit": 6
+      },
+      "tanpa cetakan": {
+        "v": 0,
+        "msg": "Cetakan Kucing belum dibuat. Letakkan kartu Buat Cetakan Kucing dulu.",
+        "len": 2,
+        "limit": 6
+      }
+    },
+    "mb03": {
+      "objek tetap untuk 3 nama": {
+        "v": 1,
+        "msg": "Kucing Oyen belum dibuat.",
+        "len": 9,
+        "limit": 6
+      },
+      "mengeong dua kali": {
+        "v": 0,
+        "msg": "Belang mengeong 2 kali, seharusnya sekali.",
+        "len": 7,
+        "limit": 6
+      },
+      "isi rak sekarang di luar Untuk setiap": {
+        "v": 0,
+        "msg": "“isi rak sekarang” hanya punya nilai di dalam kartu Untuk setiap.",
+        "len": 4,
+        "limit": 6
+      }
+    }
+  },
+  "misc": {
+    "pseudo": "kelas Kucing:\n    warna = \"oranye\"\n    fungsi mengeong(diri):\n        bersuara(\"meong\")\nbelang = Kucing()\nbelang.mengeong()",
+    "copies": "Belang:oranye,Mochi:putih,Kopi:oranye"
+  },
+  "order": "B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 J01 J02 J03 J04 J05 J06 J07 J08 J09 J10 J11 J12 J13 J14 MA01 MA02 MA03 MA04 MA05 MA06 MA07 MA08 MA09 MA10 MB01 MB02 MB03 MB04 MB05 MB06 MB07 MB08 MB09 MB10 SE01 SE02 SE03 SE04 SE05 SE06 SE07 SE08 SE09 SE10 EX01 EX02 EX03 EX04 EX05 EX06 EX07 EX08 EX09 EX10"
+}

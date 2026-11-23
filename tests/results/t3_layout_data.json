@@ -1,0 +1,1904 @@
+{
+  "desktop-1280x720": {
+    "m": {
+      "p0_awal": {
+        "vw": 1280,
+        "vh": 720,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 768,
+          "h": 658
+        },
+        "editor": {
+          "x": 768,
+          "y": 62,
+          "w": 512,
+          "h": 658
+        },
+        "palette": {
+          "x": 780,
+          "y": 99,
+          "w": 490,
+          "h": 48
+        },
+        "board": {
+          "x": 780,
+          "y": 182,
+          "w": 490,
+          "h": 408
+        },
+        "controls": {
+          "x": 780,
+          "y": 598,
+          "w": 490,
+          "h": 112
+        },
+        "controlRows": 2,
+        "bubble": {
+          "x": 12,
+          "y": 590,
+          "w": 640,
+          "h": 118
+        },
+        "bubbleCover": 18,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 7,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_bubble": {
+        "vw": 1280,
+        "vh": 720,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 768,
+          "h": 658
+        },
+        "editor": {
+          "x": 768,
+          "y": 62,
+          "w": 512,
+          "h": 658
+        },
+        "palette": {
+          "x": 780,
+          "y": 99,
+          "w": 490,
+          "h": 48
+        },
+        "board": {
+          "x": 780,
+          "y": 182,
+          "w": 490,
+          "h": 408
+        },
+        "controls": {
+          "x": 780,
+          "y": 598,
+          "w": 490,
+          "h": 112
+        },
+        "controlRows": 2,
+        "bubble": {
+          "x": 12,
+          "y": 567,
+          "w": 640,
+          "h": 141
+        },
+        "bubbleCover": 21,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 7,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_occl": [
+        {
+          "name": "label perahu:",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label jumlah",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 12
+        },
+        {
+          "name": "label nama",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 12
+        },
+        {
+          "name": "label lampu",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 12
+        },
+        {
+          "name": "box_jumlahIkan",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_namaPerahu",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_lampuMercusuar",
+          "tertutup": null,
+          "terpotong": false
+        }
+      ],
+      "b7_overlap": [],
+      "b7_labelText": [
+        {
+          "k": "label perahu:",
+          "px": 13
+        },
+        {
+          "k": "label jumlah",
+          "px": 12
+        },
+        {
+          "k": "label nama",
+          "px": 12
+        },
+        {
+          "k": "label lampu",
+          "px": 12
+        }
+      ],
+      "b7_isi": {
+        "vw": 1280,
+        "vh": 720,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 768,
+          "h": 658
+        },
+        "editor": {
+          "x": 768,
+          "y": 62,
+          "w": 512,
+          "h": 658
+        },
+        "palette": {
+          "x": 780,
+          "y": 99,
+          "w": 490,
+          "h": 48
+        },
+        "board": {
+          "x": 780,
+          "y": 182,
+          "w": 490,
+          "h": 408
+        },
+        "controls": {
+          "x": 780,
+          "y": 598,
+          "w": 490,
+          "h": 112
+        },
+        "controlRows": 2,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      },
+      "b8_hard": {
+        "vw": 1280,
+        "vh": 720,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 768,
+          "h": 658
+        },
+        "editor": {
+          "x": 768,
+          "y": 62,
+          "w": 512,
+          "h": 658
+        },
+        "palette": {
+          "x": 780,
+          "y": 99,
+          "w": 490,
+          "h": 104
+        },
+        "board": {
+          "x": 780,
+          "y": 238,
+          "w": 490,
+          "h": 352
+        },
+        "controls": {
+          "x": 780,
+          "y": 598,
+          "w": 490,
+          "h": 112
+        },
+        "controlRows": 2,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      }
+    },
+    "errors": []
+  },
+  "chromebook-1366x768": {
+    "m": {
+      "p0_awal": {
+        "vw": 1366,
+        "vh": 768,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 820,
+          "h": 706
+        },
+        "editor": {
+          "x": 820,
+          "y": 62,
+          "w": 546,
+          "h": 706
+        },
+        "palette": {
+          "x": 832,
+          "y": 99,
+          "w": 524,
+          "h": 48
+        },
+        "board": {
+          "x": 832,
+          "y": 182,
+          "w": 524,
+          "h": 456
+        },
+        "controls": {
+          "x": 832,
+          "y": 646,
+          "w": 524,
+          "h": 112
+        },
+        "controlRows": 2,
+        "bubble": {
+          "x": 12,
+          "y": 638,
+          "w": 640,
+          "h": 118
+        },
+        "bubbleCover": 17,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 8,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_bubble": {
+        "vw": 1366,
+        "vh": 768,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 820,
+          "h": 706
+        },
+        "editor": {
+          "x": 820,
+          "y": 62,
+          "w": 546,
+          "h": 706
+        },
+        "palette": {
+          "x": 832,
+          "y": 99,
+          "w": 524,
+          "h": 48
+        },
+        "board": {
+          "x": 832,
+          "y": 182,
+          "w": 524,
+          "h": 456
+        },
+        "controls": {
+          "x": 832,
+          "y": 646,
+          "w": 524,
+          "h": 112
+        },
+        "controlRows": 2,
+        "bubble": {
+          "x": 12,
+          "y": 615,
+          "w": 640,
+          "h": 141
+        },
+        "bubbleCover": 20,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 8,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_occl": [
+        {
+          "name": "label perahu:",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label jumlah",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 12
+        },
+        {
+          "name": "label nama",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 12
+        },
+        {
+          "name": "label lampu",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 12
+        },
+        {
+          "name": "box_jumlahIkan",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_namaPerahu",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_lampuMercusuar",
+          "tertutup": null,
+          "terpotong": false
+        }
+      ],
+      "b7_overlap": [],
+      "b7_labelText": [
+        {
+          "k": "label perahu:",
+          "px": 13
+        },
+        {
+          "k": "label jumlah",
+          "px": 12
+        },
+        {
+          "k": "label nama",
+          "px": 12
+        },
+        {
+          "k": "label lampu",
+          "px": 12
+        }
+      ],
+      "b7_isi": {
+        "vw": 1366,
+        "vh": 768,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 820,
+          "h": 706
+        },
+        "editor": {
+          "x": 820,
+          "y": 62,
+          "w": 546,
+          "h": 706
+        },
+        "palette": {
+          "x": 832,
+          "y": 99,
+          "w": 524,
+          "h": 48
+        },
+        "board": {
+          "x": 832,
+          "y": 182,
+          "w": 524,
+          "h": 456
+        },
+        "controls": {
+          "x": 832,
+          "y": 646,
+          "w": 524,
+          "h": 112
+        },
+        "controlRows": 2,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      },
+      "b8_hard": {
+        "vw": 1366,
+        "vh": 768,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 820,
+          "h": 706
+        },
+        "editor": {
+          "x": 820,
+          "y": 62,
+          "w": 546,
+          "h": 706
+        },
+        "palette": {
+          "x": 832,
+          "y": 99,
+          "w": 524,
+          "h": 104
+        },
+        "board": {
+          "x": 832,
+          "y": 238,
+          "w": 524,
+          "h": 400
+        },
+        "controls": {
+          "x": 832,
+          "y": 646,
+          "w": 524,
+          "h": 112
+        },
+        "controlRows": 2,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      }
+    },
+    "errors": []
+  },
+  "hp-portrait-360x740": {
+    "m": {
+      "p0_awal": {
+        "vw": 360,
+        "vh": 740,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 360,
+          "h": 258
+        },
+        "editor": {
+          "x": 0,
+          "y": 320,
+          "w": 360,
+          "h": 420
+        },
+        "palette": {
+          "x": 10,
+          "y": 495,
+          "w": 340,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 578,
+          "w": 340,
+          "h": 92
+        },
+        "controls": {
+          "x": 10,
+          "y": 678,
+          "w": 340,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 10,
+          "y": 332,
+          "w": 340,
+          "h": 156
+        },
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 1,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_bubble": {
+        "vw": 360,
+        "vh": 740,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 360,
+          "h": 258
+        },
+        "editor": {
+          "x": 0,
+          "y": 320,
+          "w": 360,
+          "h": 420
+        },
+        "palette": {
+          "x": 10,
+          "y": 495,
+          "w": 340,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 578,
+          "w": 340,
+          "h": 92
+        },
+        "controls": {
+          "x": 10,
+          "y": 678,
+          "w": 340,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 10,
+          "y": 332,
+          "w": 340,
+          "h": 156
+        },
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 1,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_occl": [
+        {
+          "name": "label perahu:",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label jumlah",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label nama",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label lampu",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "box_jumlahIkan",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_namaPerahu",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_lampuMercusuar",
+          "tertutup": null,
+          "terpotong": false
+        }
+      ],
+      "b7_overlap": [],
+      "b7_labelText": [
+        {
+          "k": "label perahu:",
+          "px": 13
+        },
+        {
+          "k": "label jumlah",
+          "px": 13
+        },
+        {
+          "k": "label nama",
+          "px": 13
+        },
+        {
+          "k": "label lampu",
+          "px": 13
+        }
+      ],
+      "b7_isi": {
+        "vw": 360,
+        "vh": 740,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 360,
+          "h": 258
+        },
+        "editor": {
+          "x": 0,
+          "y": 320,
+          "w": 360,
+          "h": 420
+        },
+        "palette": {
+          "x": 10,
+          "y": 332,
+          "w": 340,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 415,
+          "w": 340,
+          "h": 255
+        },
+        "controls": {
+          "x": 10,
+          "y": 678,
+          "w": 340,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      },
+      "picker": {
+        "sheetH": 548,
+        "vh": 740,
+        "btnMin": 52
+      },
+      "b8_hard": {
+        "vw": 360,
+        "vh": 740,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 360,
+          "h": 258
+        },
+        "editor": {
+          "x": 0,
+          "y": 320,
+          "w": 360,
+          "h": 420
+        },
+        "palette": {
+          "x": 10,
+          "y": 332,
+          "w": 340,
+          "h": 104
+        },
+        "board": {
+          "x": 10,
+          "y": 471,
+          "w": 340,
+          "h": 199
+        },
+        "controls": {
+          "x": 10,
+          "y": 678,
+          "w": 340,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      }
+    },
+    "errors": []
+  },
+  "hp-portrait-390x844": {
+    "m": {
+      "p0_awal": {
+        "vw": 390,
+        "vh": 844,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 390,
+          "h": 297
+        },
+        "editor": {
+          "x": 0,
+          "y": 359,
+          "w": 390,
+          "h": 485
+        },
+        "palette": {
+          "x": 10,
+          "y": 513,
+          "w": 370,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 596,
+          "w": 370,
+          "h": 178
+        },
+        "controls": {
+          "x": 10,
+          "y": 782,
+          "w": 370,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 10,
+          "y": 371,
+          "w": 370,
+          "h": 134
+        },
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 2,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_bubble": {
+        "vw": 390,
+        "vh": 844,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 390,
+          "h": 297
+        },
+        "editor": {
+          "x": 0,
+          "y": 359,
+          "w": 390,
+          "h": 485
+        },
+        "palette": {
+          "x": 10,
+          "y": 535,
+          "w": 370,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 618,
+          "w": 370,
+          "h": 156
+        },
+        "controls": {
+          "x": 10,
+          "y": 782,
+          "w": 370,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 10,
+          "y": 371,
+          "w": 370,
+          "h": 156
+        },
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 2,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_occl": [
+        {
+          "name": "label perahu:",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label jumlah",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label nama",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label lampu",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "box_jumlahIkan",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_namaPerahu",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_lampuMercusuar",
+          "tertutup": null,
+          "terpotong": false
+        }
+      ],
+      "b7_overlap": [],
+      "b7_labelText": [
+        {
+          "k": "label perahu:",
+          "px": 13
+        },
+        {
+          "k": "label jumlah",
+          "px": 13
+        },
+        {
+          "k": "label nama",
+          "px": 13
+        },
+        {
+          "k": "label lampu",
+          "px": 13
+        }
+      ],
+      "b7_isi": {
+        "vw": 390,
+        "vh": 844,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 390,
+          "h": 297
+        },
+        "editor": {
+          "x": 0,
+          "y": 359,
+          "w": 390,
+          "h": 485
+        },
+        "palette": {
+          "x": 10,
+          "y": 371,
+          "w": 370,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 454,
+          "w": 370,
+          "h": 320
+        },
+        "controls": {
+          "x": 10,
+          "y": 782,
+          "w": 370,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      },
+      "b8_hard": {
+        "vw": 390,
+        "vh": 844,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 390,
+          "h": 297
+        },
+        "editor": {
+          "x": 0,
+          "y": 359,
+          "w": 390,
+          "h": 485
+        },
+        "palette": {
+          "x": 10,
+          "y": 371,
+          "w": 370,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 454,
+          "w": 370,
+          "h": 320
+        },
+        "controls": {
+          "x": 10,
+          "y": 782,
+          "w": 370,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      }
+    },
+    "errors": []
+  },
+  "hp-landscape-667x375": {
+    "m": {
+      "p0_awal": {
+        "vw": 667,
+        "vh": 375,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 667,
+          "h": 50
+        },
+        "world": {
+          "x": 0,
+          "y": 50,
+          "w": 320,
+          "h": 325
+        },
+        "editor": {
+          "x": 320,
+          "y": 50,
+          "w": 347,
+          "h": 325
+        },
+        "palette": {
+          "x": 328,
+          "y": 56,
+          "w": 333,
+          "h": 44
+        },
+        "board": {
+          "x": 328,
+          "y": 106,
+          "w": 333,
+          "h": 205
+        },
+        "controls": {
+          "x": 328,
+          "y": 317,
+          "w": 333,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 8,
+          "y": 246,
+          "w": 304,
+          "h": 121
+        },
+        "bubbleCover": 37,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_bubble": {
+        "vw": 667,
+        "vh": 375,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 667,
+          "h": 50
+        },
+        "world": {
+          "x": 0,
+          "y": 50,
+          "w": 320,
+          "h": 325
+        },
+        "editor": {
+          "x": 320,
+          "y": 50,
+          "w": 347,
+          "h": 325
+        },
+        "palette": {
+          "x": 328,
+          "y": 56,
+          "w": 333,
+          "h": 44
+        },
+        "board": {
+          "x": 328,
+          "y": 106,
+          "w": 333,
+          "h": 205
+        },
+        "controls": {
+          "x": 328,
+          "y": 317,
+          "w": 333,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 8,
+          "y": 227,
+          "w": 304,
+          "h": 140
+        },
+        "bubbleCover": 43,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_occl": [
+        {
+          "name": "label perahu:",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label jumlah",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label nama",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label lampu",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "box_jumlahIkan",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_namaPerahu",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_lampuMercusuar",
+          "tertutup": null,
+          "terpotong": false
+        }
+      ],
+      "b7_overlap": [],
+      "b7_labelText": [
+        {
+          "k": "label perahu:",
+          "px": 13
+        },
+        {
+          "k": "label jumlah",
+          "px": 13
+        },
+        {
+          "k": "label nama",
+          "px": 13
+        },
+        {
+          "k": "label lampu",
+          "px": 13
+        }
+      ],
+      "b7_isi": {
+        "vw": 667,
+        "vh": 375,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 667,
+          "h": 50
+        },
+        "world": {
+          "x": 0,
+          "y": 50,
+          "w": 320,
+          "h": 325
+        },
+        "editor": {
+          "x": 320,
+          "y": 50,
+          "w": 347,
+          "h": 325
+        },
+        "palette": {
+          "x": 328,
+          "y": 56,
+          "w": 333,
+          "h": 44
+        },
+        "board": {
+          "x": 328,
+          "y": 106,
+          "w": 333,
+          "h": 205
+        },
+        "controls": {
+          "x": 328,
+          "y": 317,
+          "w": 333,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      },
+      "b8_hard": {
+        "vw": 667,
+        "vh": 375,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 667,
+          "h": 50
+        },
+        "world": {
+          "x": 0,
+          "y": 50,
+          "w": 320,
+          "h": 325
+        },
+        "editor": {
+          "x": 320,
+          "y": 50,
+          "w": 347,
+          "h": 325
+        },
+        "palette": {
+          "x": 328,
+          "y": 56,
+          "w": 333,
+          "h": 44
+        },
+        "board": {
+          "x": 328,
+          "y": 106,
+          "w": 333,
+          "h": 205
+        },
+        "controls": {
+          "x": 328,
+          "y": 317,
+          "w": 333,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      }
+    },
+    "errors": []
+  },
+  "hp-landscape-844x390": {
+    "m": {
+      "p0_awal": {
+        "vw": 844,
+        "vh": 390,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 50
+        },
+        "world": {
+          "x": 0,
+          "y": 50,
+          "w": 405,
+          "h": 340
+        },
+        "editor": {
+          "x": 405,
+          "y": 50,
+          "w": 439,
+          "h": 340
+        },
+        "palette": {
+          "x": 413,
+          "y": 56,
+          "w": 425,
+          "h": 44
+        },
+        "board": {
+          "x": 413,
+          "y": 106,
+          "w": 425,
+          "h": 220
+        },
+        "controls": {
+          "x": 413,
+          "y": 332,
+          "w": 425,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 8,
+          "y": 261,
+          "w": 389,
+          "h": 121
+        },
+        "bubbleCover": 36,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_bubble": {
+        "vw": 844,
+        "vh": 390,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 50
+        },
+        "world": {
+          "x": 0,
+          "y": 50,
+          "w": 405,
+          "h": 340
+        },
+        "editor": {
+          "x": 405,
+          "y": 50,
+          "w": 439,
+          "h": 340
+        },
+        "palette": {
+          "x": 413,
+          "y": 56,
+          "w": 425,
+          "h": 44
+        },
+        "board": {
+          "x": 413,
+          "y": 106,
+          "w": 425,
+          "h": 220
+        },
+        "controls": {
+          "x": 413,
+          "y": 332,
+          "w": 425,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 8,
+          "y": 261,
+          "w": 389,
+          "h": 121
+        },
+        "bubbleCover": 36,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_occl": [
+        {
+          "name": "label perahu:",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label jumlah",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label nama",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label lampu",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "box_jumlahIkan",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_namaPerahu",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_lampuMercusuar",
+          "tertutup": null,
+          "terpotong": false
+        }
+      ],
+      "b7_overlap": [],
+      "b7_labelText": [
+        {
+          "k": "label perahu:",
+          "px": 13
+        },
+        {
+          "k": "label jumlah",
+          "px": 13
+        },
+        {
+          "k": "label nama",
+          "px": 13
+        },
+        {
+          "k": "label lampu",
+          "px": 13
+        }
+      ],
+      "b7_isi": {
+        "vw": 844,
+        "vh": 390,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 50
+        },
+        "world": {
+          "x": 0,
+          "y": 50,
+          "w": 405,
+          "h": 340
+        },
+        "editor": {
+          "x": 405,
+          "y": 50,
+          "w": 439,
+          "h": 340
+        },
+        "palette": {
+          "x": 413,
+          "y": 56,
+          "w": 425,
+          "h": 44
+        },
+        "board": {
+          "x": 413,
+          "y": 106,
+          "w": 425,
+          "h": 220
+        },
+        "controls": {
+          "x": 413,
+          "y": 332,
+          "w": 425,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      },
+      "b8_hard": {
+        "vw": 844,
+        "vh": 390,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 50
+        },
+        "world": {
+          "x": 0,
+          "y": 50,
+          "w": 405,
+          "h": 340
+        },
+        "editor": {
+          "x": 405,
+          "y": 50,
+          "w": 439,
+          "h": 340
+        },
+        "palette": {
+          "x": 413,
+          "y": 56,
+          "w": 425,
+          "h": 44
+        },
+        "board": {
+          "x": 413,
+          "y": 106,
+          "w": 425,
+          "h": 220
+        },
+        "controls": {
+          "x": 413,
+          "y": 332,
+          "w": 425,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      }
+    },
+    "errors": []
+  },
+  "tablet-portrait-768x1024": {
+    "m": {
+      "p0_awal": {
+        "vw": 768,
+        "vh": 1024,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 768,
+          "h": 366
+        },
+        "editor": {
+          "x": 0,
+          "y": 428,
+          "w": 768,
+          "h": 596
+        },
+        "palette": {
+          "x": 10,
+          "y": 587,
+          "w": 748,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 670,
+          "w": 748,
+          "h": 284
+        },
+        "controls": {
+          "x": 10,
+          "y": 962,
+          "w": 748,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 10,
+          "y": 440,
+          "w": 748,
+          "h": 112
+        },
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 4,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_bubble": {
+        "vw": 768,
+        "vh": 1024,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 768,
+          "h": 366
+        },
+        "editor": {
+          "x": 0,
+          "y": 428,
+          "w": 768,
+          "h": 596
+        },
+        "palette": {
+          "x": 10,
+          "y": 587,
+          "w": 748,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 670,
+          "w": 748,
+          "h": 284
+        },
+        "controls": {
+          "x": 10,
+          "y": 962,
+          "w": 748,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": {
+          "x": 10,
+          "y": 440,
+          "w": 748,
+          "h": 112
+        },
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 4,
+        "boardCards": 0,
+        "controlsBottomVisible": true
+      },
+      "b7_occl": [
+        {
+          "name": "label perahu:",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 13
+        },
+        {
+          "name": "label jumlah",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 12
+        },
+        {
+          "name": "label nama",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 12
+        },
+        {
+          "name": "label lampu",
+          "tertutup": null,
+          "terpotong": false,
+          "font": 12
+        },
+        {
+          "name": "box_jumlahIkan",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_namaPerahu",
+          "tertutup": null,
+          "terpotong": false
+        },
+        {
+          "name": "box_lampuMercusuar",
+          "tertutup": null,
+          "terpotong": false
+        }
+      ],
+      "b7_overlap": [],
+      "b7_labelText": [
+        {
+          "k": "label perahu:",
+          "px": 13
+        },
+        {
+          "k": "label jumlah",
+          "px": 12
+        },
+        {
+          "k": "label nama",
+          "px": 12
+        },
+        {
+          "k": "label lampu",
+          "px": 12
+        }
+      ],
+      "b7_isi": {
+        "vw": 768,
+        "vh": 1024,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 768,
+          "h": 366
+        },
+        "editor": {
+          "x": 0,
+          "y": 428,
+          "w": 768,
+          "h": 596
+        },
+        "palette": {
+          "x": 10,
+          "y": 466,
+          "w": 748,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 549,
+          "w": 748,
+          "h": 405
+        },
+        "controls": {
+          "x": 10,
+          "y": 962,
+          "w": 748,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      },
+      "b8_hard": {
+        "vw": 768,
+        "vh": 1024,
+        "topbar": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 62
+        },
+        "world": {
+          "x": 0,
+          "y": 62,
+          "w": 768,
+          "h": 366
+        },
+        "editor": {
+          "x": 0,
+          "y": 428,
+          "w": 768,
+          "h": 596
+        },
+        "palette": {
+          "x": 10,
+          "y": 466,
+          "w": 748,
+          "h": 48
+        },
+        "board": {
+          "x": 10,
+          "y": 549,
+          "w": 748,
+          "h": 405
+        },
+        "controls": {
+          "x": 10,
+          "y": 962,
+          "w": 748,
+          "h": 52
+        },
+        "controlRows": 1,
+        "bubble": null,
+        "bubbleCover": 0,
+        "smallTargets": [],
+        "docOverflowX": false,
+        "paletteOverflowX": false,
+        "boardVisibleRows": 3,
+        "boardCards": 3,
+        "controlsBottomVisible": true
+      }
+    },
+    "errors": []
+  }
+}

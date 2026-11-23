@@ -1,0 +1,8 @@
+[
+  {
+    "id": "B09",
+    "desc": "Jembatan yang sudah dibangun tetap ada walau kotak kemudian diisi angka lebih kecil (Bit tak pernah berdiri di air)",
+    "ok": true,
+    "note": "program: Isi 3, Maju×2, Isi 1, Maju×3"
+  }
+]

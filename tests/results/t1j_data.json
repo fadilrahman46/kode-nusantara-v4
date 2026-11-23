@@ -1,0 +1,474 @@
+{
+  "ref": {
+    "se01": {
+      "ok": true,
+      "msg": "",
+      "len": 3,
+      "limit": 4,
+      "n": 1,
+      "pal": true,
+      "palMax": 1
+    },
+    "se02": {
+      "ok": true,
+      "msg": "",
+      "len": 3,
+      "limit": 4,
+      "n": 3,
+      "pal": true,
+      "palMax": 2
+    },
+    "se03": {
+      "ok": true,
+      "msg": "",
+      "len": 3,
+      "limit": 3,
+      "n": 3,
+      "pal": true,
+      "palMax": 1
+    },
+    "se04": {
+      "ok": true,
+      "msg": "",
+      "len": 4,
+      "limit": 5,
+      "n": 3,
+      "pal": true,
+      "palMax": 4
+    },
+    "se05": {
+      "ok": true,
+      "msg": "",
+      "len": 6,
+      "limit": 7,
+      "n": 3,
+      "pal": true,
+      "palMax": 3
+    },
+    "se06": {
+      "ok": true,
+      "msg": "",
+      "len": 4,
+      "limit": 5,
+      "n": 3,
+      "pal": true,
+      "palMax": 3
+    },
+    "se07": {
+      "ok": true,
+      "msg": "",
+      "len": 5,
+      "limit": 6,
+      "n": 4,
+      "pal": true,
+      "palMax": 4
+    },
+    "se08": {
+      "ok": true,
+      "msg": "",
+      "len": 6,
+      "limit": 8,
+      "n": 3,
+      "pal": true,
+      "palMax": 3
+    },
+    "se09": {
+      "ok": true,
+      "msg": "",
+      "len": 3,
+      "limit": 3,
+      "n": 3,
+      "pal": true,
+      "palMax": 3
+    },
+    "se10": {
+      "ok": true,
+      "msg": "",
+      "len": 12,
+      "limit": 13,
+      "n": 4,
+      "pal": true,
+      "palMax": 6
+    }
+  },
+  "neg": {
+    "se01": {
+      "alamat salah (/gudang)": {
+        "v": 0,
+        "msg": "Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “tidak ditemukan”.",
+        "len": 3,
+        "limit": 4
+      },
+      "aksi salah (lihat)": {
+        "v": 0,
+        "msg": "Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “aksi tidak boleh di alamat ini”.",
+        "len": 3,
+        "limit": 4
+      },
+      "jumlah 6 ditolak": {
+        "v": 0,
+        "msg": "Pesanan teh belum sampai (0 dari 3). Permintaan #3 dijawab “isi ditolak (maksimal 5 per permintaan)”.",
+        "len": 3,
+        "limit": 4
+      },
+      "kurang satu barang": {
+        "v": 0,
+        "msg": "Pesanan teh belum dikirim.",
+        "len": 2,
+        "limit": 4
+      },
+      "barang tidak dipesan": {
+        "v": 0,
+        "msg": "Pesanan teh belum dikirim.",
+        "len": 3,
+        "limit": 4
+      }
+    },
+    "se02": {
+      "tanpa Jika": {
+        "v": 1,
+        "msg": "Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “stok habis”. Program belum memilih tindakan untuk jawaban itu.",
+        "len": 1,
+        "limit": 4
+      },
+      "hanya stok habis": {
+        "v": 2,
+        "msg": "Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “tidak ditemukan”. Program belum memilih tindakan untuk jawaban itu.",
+        "len": 2,
+        "limit": 4
+      },
+      "hanya tidak ditemukan": {
+        "v": 1,
+        "msg": "Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “stok habis”. Program belum memilih tindakan untuk jawaban itu.",
+        "len": 2,
+        "limit": 4
+      },
+      "tidak ditemukan ke /cadangan": {
+        "v": 2,
+        "msg": "Pesanan kopi belum sampai (0 dari 2). Permintaan #2 dijawab “tidak ditemukan”. Program belum memilih tindakan untuk jawaban itu.",
+        "len": 3,
+        "limit": 4
+      },
+      "selalu kirim ulang (tanpa memeriksa)": {
+        "v": 0,
+        "msg": "Pesanan kopi kelebihan: diterima 4, seharusnya 2. Pesanan ganda terjadi karena permintaan dikirim ulang padahal jawabannya sudah berhasil.",
+        "len": 2,
+        "limit": 4
+      }
+    },
+    "se04": {
+      "tanpa Jika": {
+        "v": 0,
+        "msg": "Peta masih rusak: ada lubang 🕳️ di peta. Setelah tiap perubahan, periksa petanya dengan kartu Jika dan kembali bila rusak.",
+        "len": 3,
+        "limit": 5
+      },
+      "kembali ke versi pertama": {
+        "v": 0,
+        "msg": "Perubahan ke-1, 2, 3, 4 yang baik hilang dari peta. Kembali hanya sampai versi terakhir yang benar, jangan lebih jauh.",
+        "len": 4,
+        "limit": 5
+      },
+      "simpan sesudah terapkan": {
+        "v": 0,
+        "msg": "Peta masih rusak: ada lubang 🕳️ di peta. Ada titik simpan yang sudah memuat bug. Simpan versi sebelum menerapkan perubahan, bukan sesudahnya.",
+        "len": 4,
+        "limit": 5
+      },
+      "ulangi 5 kali": {
+        "v": 0,
+        "msg": "Baru 5 dari 6 perubahan diterapkan. Ulangi lebih banyak kali.",
+        "len": 4,
+        "limit": 5
+      },
+      "ulangi 7 kali": {
+        "v": 0,
+        "msg": "Tidak ada perubahan lagi untuk diterapkan. Hanya ada 6 perubahan.",
+        "len": 4,
+        "limit": 5
+      },
+      "kembali sebelum yang terakhir": {
+        "v": 0,
+        "msg": "Perubahan ke-4 yang baik hilang dari peta. Kembali hanya sampai versi terakhir yang benar, jangan lebih jauh.",
+        "len": 4,
+        "limit": 5
+      }
+    },
+    "se05": {
+      "semua di utama": {
+        "v": 0,
+        "msg": "Peta utama rusak: perubahan Dodi membawa bug 🕳️ dan masuk ke cabang utama. Taruh tiap perubahan di cabangnya sendiri dulu.",
+        "len": 2,
+        "limit": 7
+      },
+      "tanpa cabang Dodi": {
+        "v": 0,
+        "msg": "Perubahan Dodi belum punya cabang sendiri.",
+        "len": 3,
+        "limit": 7
+      },
+      "terapkan sebelum pindah": {
+        "v": 0,
+        "msg": "Peta utama rusak: perubahan Dodi membawa bug 🕳️ dan masuk ke cabang utama. Taruh tiap perubahan di cabangnya sendiri dulu.",
+        "len": 4,
+        "limit": 7
+      },
+      "cabang kosong": {
+        "v": 0,
+        "msg": "Cabang Rani belum memuat perubahan Rani.",
+        "len": 2,
+        "limit": 7
+      }
+    },
+    "se06": {
+      "selalu pilih ubahan Rani": {
+        "v": 0,
+        "msg": "Petak 5: ubahan Dodi hilang. Pada konflik, pilih kedua ubahan supaya tidak ada yang hilang.",
+        "len": 4,
+        "limit": 5
+      },
+      "selalu pilih ubahan Dodi": {
+        "v": 0,
+        "msg": "Petak 5: ubahan Rani hilang. Pada konflik, pilih kedua ubahan supaya tidak ada yang hilang.",
+        "len": 4,
+        "limit": 5
+      },
+      "tanpa memilih": {
+        "v": 0,
+        "msg": "Masih ada 1 konflik yang belum dipilih.",
+        "len": 2,
+        "limit": 5
+      },
+      "memilih tepat satu kali": {
+        "v": 1,
+        "msg": "Masih ada 1 konflik yang belum dipilih.",
+        "len": 3,
+        "limit": 5
+      },
+      "hanya satu cabang digabung": {
+        "v": 0,
+        "msg": "Cabang Dodi belum digabung ke peta utama.",
+        "len": 3,
+        "limit": 5
+      }
+    },
+    "se07": {
+      "mundur saja": {
+        "v": 0,
+        "msg": "Perubahan ke-4, 5, 6 yang baik hilang dari peta. Setelah membuang bug, terapkan ulang perubahan baik yang sesudahnya.",
+        "len": 2,
+        "limit": 6
+      },
+      "tanpa membuang bug": {
+        "v": 0,
+        "msg": "Peta masih rusak: perubahan yang membawa bug masih ada di peta. Buang perubahan itu, jangan diterapkan ulang.",
+        "len": 4,
+        "limit": 6
+      },
+      "membuang tanpa menerapkan ulang": {
+        "v": 0,
+        "msg": "Perubahan ke-4, 5, 6 yang baik hilang dari peta. Setelah membuang bug, terapkan ulang perubahan baik yang sesudahnya.",
+        "len": 3,
+        "limit": 6
+      }
+    },
+    "se08": {
+      "hanya Python": {
+        "v": 0,
+        "msg": "Di Pulau Barat aplikasi gagal jalan: kurang Pustaka grafik. Peti yang dikirim tidak memuatnya. Aplikasi tidak boleh mengandalkan bahan yang kebetulan ada di pulau.",
+        "len": 4,
+        "limit": 8
+      },
+      "tanpa Font": {
+        "v": 0,
+        "msg": "Di Pulau Timur aplikasi gagal jalan: kurang Font. Peti yang dikirim tidak memuatnya. Aplikasi tidak boleh mengandalkan bahan yang kebetulan ada di pulau.",
+        "len": 5,
+        "limit": 8
+      },
+      "semua bahan (peti penuh)": {
+        "v": 0,
+        "msg": "Cetak biru hanya memuat 4 bahan: isi peti kemas terbatas. Pilih bahan yang memang dibutuhkan aplikasi.",
+        "len": 8,
+        "limit": 8
+      },
+      "peti hanya ke Barat": {
+        "v": 0,
+        "msg": "Di Pulau Timur aplikasi gagal jalan: kurang Python, Font. Peti belum dikirim ke sana.",
+        "len": 5,
+        "limit": 8
+      },
+      "kirim sebelum peti": {
+        "v": 0,
+        "msg": "Belum ada peti. Buat peti dari cetak biru dulu.",
+        "len": 2,
+        "limit": 8
+      }
+    },
+    "se09": {
+      "tanpa gerbang": {
+        "v": 0,
+        "msg": "Rilis #2 cacat lolos ke produksi: cacat terlihat di uji. Jalur belum punya gerbang.",
+        "len": 2,
+        "limit": 3
+      },
+      "gerbang di uji saja": {
+        "v": 0,
+        "msg": "Rilis #4 cacat lolos ke produksi: cacat baru terlihat di staging. Gerbang di tahap uji tidak bisa melihat cacat itu. Gerbang harus ada di tahap tempat cacat mulai terlihat.",
+        "len": 3,
+        "limit": 3
+      },
+      "tanpa pemantau (rollback ditolak)": {
+        "v": 0,
+        "msg": "Rollback otomatis bertindak setelah cacat terdeteksi, jadi ia butuh pemantau. Pasang pemantau dulu.",
+        "len": 2,
+        "limit": 3
+      },
+      "pemantau kesehatan buta cacat senyap": {
+        "v": 1,
+        "msg": "Rilis #1: cacat senyap setelah tayang (hasil salah, tidak mogok), tayang sampai akhir. Pemantau kesehatan hanya melihat aplikasi yang mogok. Cacat senyap hanya terlihat lewat keluhan pengguna.",
+        "len": 3,
+        "limit": 3
+      },
+      "tanpa rollback": {
+        "v": 0,
+        "msg": "Rilis #3: cacat terdeteksi tetapi tidak ditarik, jadi tayang sampai akhir. Pasang rollback.",
+        "len": 2,
+        "limit": 3
+      },
+      "gerbang di build tidak melihat apa pun": {
+        "v": 0,
+        "msg": "Rilis #2 cacat lolos ke produksi: cacat terlihat di uji. Gerbang di tahap build tidak bisa melihat cacat itu. Gerbang harus ada di tahap tempat cacat mulai terlihat.",
+        "len": 3,
+        "limit": 3
+      },
+      "pemantau beban server buta cacat aplikasi": {
+        "v": 0,
+        "msg": "Rilis #3: cacat jelas setelah tayang (aplikasi mogok), tayang sampai akhir. Pemantau beban server hanya melihat server kepenuhan, bukan cacat aplikasi.",
+        "len": 3,
+        "limit": 3
+      },
+      "rollback setelah 5 detak": {
+        "v": 0,
+        "msg": "Rilis cacat #3 tayang 6 detak: 1 untuk deteksi + 5 untuk rollback. Batasnya 2 detak. Percepat rollback.",
+        "len": 3,
+        "limit": 3
+      },
+      "rollback setelah 2 detak": {
+        "v": 0,
+        "msg": "Rilis cacat #3 tayang 3 detak: 1 untuk deteksi + 2 untuk rollback. Batasnya 2 detak. Percepat rollback.",
+        "len": 3,
+        "limit": 3
+      },
+      "rollback sebelum pemantau": {
+        "v": 0,
+        "msg": "Rollback otomatis bertindak setelah cacat terdeteksi, jadi ia butuh pemantau. Pasang pemantau dulu.",
+        "len": 3,
+        "limit": 3
+      },
+      "dua gerbang melebihi anggaran": {
+        "v": 0,
+        "msg": "Anggaran gerbang habis: jalur hanya boleh punya 1 gerbang, karena tiap gerbang memperlambat semua rilis.",
+        "len": 3,
+        "limit": 3
+      }
+    },
+    "se10": {
+      "tanpa cadangan": {
+        "v": 0,
+        "msg": "Kayu belum ada di gudang: permintaannya dijawab “stok habis”. Periksa jawaban itu dan kirim ulang ke /cadangan bila stok habis.",
+        "len": 10,
+        "limit": 13
+      },
+      "tanpa pulihkan": {
+        "v": 0,
+        "msg": "Uji di Pulau Barat gagal dan rilisnya belum dikembalikan. Gunakan Jika uji gagal → kembali ke versi tersimpan.",
+        "len": 10,
+        "limit": 13
+      },
+      "tanpa simpan versi": {
+        "v": 0,
+        "msg": "Belum ada versi tersimpan. Simpan versi sebelum mengirim, supaya ada tempat untuk kembali.",
+        "len": 11,
+        "limit": 13
+      },
+      "selalu kembali tanpa memeriksa": {
+        "v": 0,
+        "msg": "Uji di Pulau Barat gagal dan rilisnya belum dikembalikan. Gunakan Jika uji gagal → kembali ke versi tersimpan.",
+        "len": 12,
+        "limit": 13
+      },
+      "selalu cadangan": {
+        "v": 0,
+        "msg": "Kayu belum ada di gudang: permintaannya dijawab “stok habis”. Periksa jawaban itu dan kirim ulang ke /cadangan bila stok habis.",
+        "len": 10,
+        "limit": 13
+      }
+    },
+    "se03": {
+      "program teman apa adanya, keadaan 0": {
+        "v": 0,
+        "msg": "Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “tidak ditemukan”.",
+        "len": 3,
+        "limit": 3
+      },
+      "program teman apa adanya, keadaan 1": {
+        "v": 1,
+        "msg": "Pesanan gula belum sampai (0 dari 1). Permintaan #2 dijawab “aksi tidak boleh di alamat ini”.",
+        "len": 3,
+        "limit": 3
+      },
+      "program teman apa adanya, keadaan 2": {
+        "v": 2,
+        "msg": "Pesanan teh belum sampai (0 dari 3). Permintaan #3 dijawab “isi ditolak (maksimal 5 per permintaan)”.",
+        "len": 3,
+        "limit": 3
+      }
+    }
+  },
+  "misc": {
+    "prefill": [
+      3,
+      3,
+      3
+    ],
+    "fix0": true,
+    "fix1": true,
+    "fix2": true,
+    "ps_se02": "jawaban = kirim(\"/barang\", \"pesan\", {nama: \"kopi\", jumlah: 2})\njika jawaban.status == \"stok habis\":\n    kirim_ulang(\"/cadangan\")\njika jawaban.status == \"tidak ditemukan\":\n    kirim_ulang(\"/barang-baru\")",
+    "tx_se02": [
+      "Kirim permintaan ke /barang, aksi pesan, isi kopi × 2",
+      "Jika jawaban “stok habis” maka kirim ulang ke /cadangan",
+      "Jika jawaban “tidak ditemukan” maka kirim ulang ke /barang-baru"
+    ],
+    "ps_se04": "ulangi 6 kali:\n    versi = simpan()\n    terapkan(perubahan_berikutnya)\n    jika peta.rusak():\n        kembali(versi_terakhir)",
+    "tx_se04": [
+      "Ulangi 6 kali",
+      "Simpan versi",
+      "Terapkan perubahan berikutnya",
+      "Jika peta rusak maka kembali ke versi yang terakhir disimpan"
+    ],
+    "ps_se06": "utama.gabung(\"Rani\")\nutama.gabung(\"Dodi\")\nselama gabungan.ada_konflik():\n    konflik.selesaikan(\"keduanya\")",
+    "tx_se06": [
+      "Gabungkan cabang Rani ke utama",
+      "Gabungkan cabang Dodi ke utama",
+      "Selama masih ada konflik",
+      "Untuk konflik berikutnya, pilih kedua ubahan"
+    ],
+    "ps_se10": "jawaban = kirim(\"/barang\", \"pesan\", {nama: \"Kayu\", jumlah: 1})\njika jawaban.status == \"stok habis\":\n    kirim_ulang(\"/cadangan\")\njawaban = kirim(\"/barang\", \"pesan\", {nama: \"Paku\", jumlah: 1})\njika jawaban.status == \"stok habis\":\n    kirim_ulang(\"/cadangan\")\nversi = simpan()\ncetak_biru.tambah(\"Kayu\")\ncetak_biru.tambah(\"Paku\")\npeti = buat_peti(cetak_biru)\nkirim_peti(peti, \"Pulau Barat\")\njika uji_pulau.gagal():\n    kembali(versi_tersimpan)\nkirim_peti(peti, \"Pulau Timur\")\njika uji_pulau.gagal():\n    kembali(versi_tersimpan)",
+    "tx_se10": [
+      "Kirim permintaan ke /barang, aksi pesan, isi Kayu × 1",
+      "Jika jawaban “stok habis” maka kirim ulang ke /cadangan",
+      "Kirim permintaan ke /barang, aksi pesan, isi Paku × 1",
+      "Jika jawaban “stok habis” maka kirim ulang ke /cadangan",
+      "Simpan versi",
+      "Masukkan Kayu ke cetak biru",
+      "Masukkan Paku ke cetak biru",
+      "Buat peti dari cetak biru",
+      "Kirim peti ke Pulau Barat",
+      "Jika uji di pulau tadi gagal maka kembali ke versi tersimpan",
+      "Kirim peti ke Pulau Timur",
+      "Jika uji di pulau tadi gagal maka kembali ke versi tersimpan"
+    ]
+  },
+  "order": "B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 J01 J02 J03 J04 J05 J06 J07 J08 J09 J10 J11 J12 J13 J14 MA01 MA02 MA03 MA04 MA05 MA06 MA07 MA08 MA09 MA10 MB01 MB02 MB03 MB04 MB05 MB06 MB07 MB08 MB09 MB10 SE01 SE02 SE03 SE04 SE05 SE06 SE07 SE08 SE09 SE10 EX01 EX02 EX03 EX04 EX05 EX06 EX07 EX08 EX09 EX10"
+}

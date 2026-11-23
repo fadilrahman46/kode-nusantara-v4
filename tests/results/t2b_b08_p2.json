@@ -1,0 +1,26 @@
+[
+  {
+    "id": "B05",
+    "desc": "Kartu Isi kotak bawaan berisi 1 (sengaja salah) sehingga pemain harus mengubahnya",
+    "ok": true,
+    "note": "⠿📦Isi kotak 🔢 langkah dengan 1"
+  },
+  {
+    "id": "B06",
+    "desc": "Isi 1 + 5 Maju → jembatan terlalu pendek: pesan jelas, hanya papan pertama muncul",
+    "ok": true,
+    "note": "Byur! Jembatannya kurang panjang. Ubah angka di kartu Isi kotak. Tidak apa-apa, coba lagi! | papan=true,false,false"
+  },
+  {
+    "id": "B07",
+    "desc": "Ubah angka menjadi 3 → sampai lampu; 3 bintang; 3 papan muncul",
+    "ok": true,
+    "note": "3 dari 3 bintang | papan=true,true,true"
+  },
+  {
+    "id": "B08",
+    "desc": "\"Lihat versi kode\" = langkah = 3 + 5 × maju()",
+    "ok": true,
+    "note": "\"langkah = 3\\nmaju()\\nmaju()\\nmaju()\\nmaju()\\nmaju()\""
+  }
+]

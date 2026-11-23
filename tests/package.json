@@ -1,0 +1,2 @@
+{ "name":"kode-nusantara-tests","private":true,"version":"0.1.0",
+  "dependencies":{"puppeteer-core":"^23.0.0","@sparticuz/chromium":"^131.0.0","three":"0.128.0","path-to-regexp":"6.2.2"} }

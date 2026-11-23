@@ -1,0 +1,308 @@
+[
+  {
+    "id": "E1",
+    "desc": "Pertama dibuka: halaman pembuka tampil, game di belakangnya terkunci (inert, aria-hidden)",
+    "ok": true,
+    "note": "{\"ov\":true,\"inert\":true,\"ah\":\"true\",\"h1\":\"Selamat datang!\",\"role\":\"dialog\",\"modal\":\"true\",\"foc\":\"H1\"}"
+  },
+  {
+    "id": "E2",
+    "desc": "Tanpa pemain: ada “Pemain baru”, “Main sebagai tamu”, “Lihat cerita”; tidak ada daftar pemain",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E3",
+    "desc": "Game di belakang menulis ke ruang tunda, bukan ke kunci tamu atau pemain",
+    "ok": true,
+    "note": "kn_progres_v1@~tunda"
+  },
+  {
+    "id": "V1",
+    "desc": "Nama < 3 karakter ditolak",
+    "ok": true,
+    "note": "Nama minimal 3 karakter."
+  },
+  {
+    "id": "V2",
+    "desc": "Karakter berbahaya ditolak (<, >, \", titik, emoji)",
+    "ok": true,
+    "note": "Pakai huruf, angka, spasi, atau _ saja. | Pakai huruf, angka, spasi, atau _ saja. | Pakai huruf, angka, spasi, atau _ saja. | Pakai huruf, angka, spasi, atau _ saja."
+  },
+  {
+    "id": "V3",
+    "desc": "Nama hanya spasi ditolak; “Tamu” (nama cadangan) ditolak",
+    "ok": true,
+    "note": "Nama minimal 3 karakter. | Nama itu sudah dipakai di perangkat ini. Coba nama lain."
+  },
+  {
+    "id": "V4",
+    "desc": "PIN selain 4 angka ditolak (12, 12ab, 12345 dipotong ke 4)",
+    "ok": true,
+    "note": "PIN harus 4 angka, atau kosongkan saja. | PIN harus 4 angka, atau kosongkan saja."
+  },
+  {
+    "id": "V5",
+    "desc": "Tidak ada pemain yang tersimpan selama validasi gagal",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R1",
+    "desc": "Daftar dengan nama berspasi ganda: dinormalkan; PIN dan tokoh tersimpan; cerita dimulai di adegan 1",
+    "ok": true,
+    "note": "{\"h\":\"Cerita, adegan 1 dari 5\",\"dots\":5,\"prev\":true,\"next\":\"Lanjut ▶\",\"svg\":true} s665124a"
+  },
+  {
+    "id": "R2",
+    "desc": "Cerita: 5 adegan, teks tiap adegan berbeda, mundur/maju bekerja, tokoh Si Teka, Nek Urut, Bit muncul, tombol terakhir “Mulai bermain”",
+    "ok": true,
+    "note": "Cerita|Cerita|🦉 Si Teka|👵 Nek Urut|🤖 Bit"
+  },
+  {
+    "id": "R3",
+    "desc": "Cerita tidak maju sendiri (tanpa batas waktu): adegan sama setelah 3 detik",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R4",
+    "desc": "Selesai cerita → game termuat sebagai pemain itu; pembuka tersembunyi; game tidak inert",
+    "ok": true,
+    "note": "{\"inert\":false,\"ah\":null,\"pm\":{\"id\":\"dina_cerdas\",\"nama\":\"Dina Cerdas\",\"avatar\":\"🐼\"},\"ns\":\"dina_cerdas\",\"menu\":\"🐼 Dina Cerdas\"}"
+  },
+  {
+    "id": "R5",
+    "desc": "Sesi hanya di sessionStorage (tanpa “tetap masuk”); intro ditandai sudah dilihat; ruang tunda dibersihkan",
+    "ok": true,
+    "note": "dina_cerdas/null/"
+  },
+  {
+    "id": "P1",
+    "desc": "Progres pemain disimpan di kunci ber-ruang nama, bukan di kunci tamu",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "P2",
+    "desc": "Daftar pemain kedua (“Budi”, tanpa PIN): progresnya kosong, progres Dina tidak terlihat",
+    "ok": true,
+    "note": "🐼Dina Cerdas🔒 {\"done\":0,\"ns\":\"budi\"}"
+  },
+  {
+    "id": "P3",
+    "desc": "Nama sama beda huruf besar (“BUDI”, “Dina  cerdas”) ditolak sebagai duplikat",
+    "ok": true,
+    "note": "Nama itu sudah dipakai di perangkat ini. Coba nama lain.|Nama itu sudah dipakai di perangkat ini. Coba nama lain."
+  },
+  {
+    "id": "M1",
+    "desc": "Daftar pemain tampil (2); Dina berkunci; memilih Dina membuka layar PIN dan fokus di kolom PIN",
+    "ok": true,
+    "note": "2/mPin"
+  },
+  {
+    "id": "M2",
+    "desc": "PIN salah / kosong / bukan angka tidak masuk dan memberi pesan",
+    "ok": true,
+    "note": "PIN belum cocok. Coba lagi.|PIN terdiri dari 4 angka.|PIN terdiri dari 4 angka."
+  },
+  {
+    "id": "M3",
+    "desc": "PIN benar → masuk, progres Dina utuh (B01, B02 selesai)",
+    "ok": true,
+    "note": "{\"ns\":\"dina_cerdas\",\"d\":[\"p0\",\"s02\"]}"
+  },
+  {
+    "id": "M4",
+    "desc": "“Hapus progres” di dalam game hanya menghapus progres pemain aktif",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "M5",
+    "desc": "“Lupa PIN?” → konfirmasi; Batal kembali ke PIN tanpa menghapus; Hapus menghilangkan pemain dan kunci progresnya, pemain lain aman",
+    "ok": true,
+    "note": "budi"
+  },
+  {
+    "id": "M6",
+    "desc": "Tanpa crypto.subtle: PIN tetap bisa dibuat dan dipakai (hash cadangan berawalan f), PIN salah ditolak",
+    "ok": true,
+    "note": "f4ec01185"
+  },
+  {
+    "id": "T1",
+    "desc": "“Tetap masuk” menyimpan kn_aktif; tab baru langsung masuk tanpa halaman pembuka",
+    "ok": true,
+    "note": "budi/budi"
+  },
+  {
+    "id": "T2",
+    "desc": "“Ganti pemain” di menu menghapus sesi dan kn_aktif, lalu menampilkan halaman pembuka",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "G1",
+    "desc": "Tamu pertama kali: cerita tampil dulu; “Lewati” → game dimuat sebagai Tamu dengan kunci lama (tanpa akhiran)",
+    "ok": true,
+    "note": "{\"n\":\"Tamu\",\"ns\":\"\",\"menu\":\"👤 Tamu\",\"k\":true,\"f\":\"1\"}"
+  },
+  {
+    "id": "G2",
+    "desc": "Tamu kedua kali: tanpa cerita (langsung game)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "G3",
+    "desc": "Progres tamu lama bisa dipindahkan ke pemain baru (kotak centang hanya muncul bila ada progres tamu); kunci lama dikosongkan",
+    "ok": true,
+    "note": "checkbox true"
+  },
+  {
+    "id": "G4",
+    "desc": "Setelah dipindahkan: kunci tamu kosong, kunci “siti” berisi B01",
+    "ok": true,
+    "note": "{\"g\":null,\"s\":{\"done\":{\"p0\":{\"stars\":3,\"at\":\"2026-11-22\"}},\"last\":\"p0\",\"gerbang\":{}}}"
+  },
+  {
+    "id": "G5",
+    "desc": "Tanpa progres tamu: kotak “pindahkan” tidak muncul",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "G6",
+    "desc": "Cerita bisa dilihat ulang dari halaman pembuka dan kembali ke daftar pemain (tanpa mengubah sesi)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "J1",
+    "desc": "Tautan ulang laporan (?tahap=...) melewati halaman pembuka dan memuat tahap itu",
+    "ok": true,
+    "note": "{\"h\":true,\"t\":\"Peti & TombolB03 · Dermaga Gelap · Mudah\"}"
+  },
+  {
+    "id": "D1",
+    "desc": "Penyimpanan diblokir: peringatan tampil, “Pemain baru” disembunyikan, tanpa galat",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D2",
+    "desc": "Penyimpanan diblokir: “Main sebagai tamu” tetap memuat game",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X1",
+    "desc": "Profil rusak: entri tidak sah dibuang (HTML, duplikat, bentuk salah); avatar tak dikenal diganti; tidak ada XSS atau galat",
+    "ok": true,
+    "note": "🦊Budi|🐙Dina🔒"
+  },
+  {
+    "id": "X2",
+    "desc": "JSON profil tidak valid: dianggap kosong, halaman pembuka tetap jalan",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X3",
+    "desc": "Batas 30 pemain: pendaftaran ke-31 ditolak dengan pesan",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A1",
+    "desc": "Kurangi gerak: lampu padam/menyala dan tokoh tidak beranimasi; keadaan akhir tetap benar (padam di adegan 2, menyala di adegan 5)",
+    "ok": true,
+    "note": "[{\"an\":\"none\",\"fill\":\"rgb(89, 99, 111)\"},{\"an\":\"none\",\"fill\":\"rgb(255, 194, 60)\",\"ch\":\"none\"}]"
+  },
+  {
+    "id": "K1",
+    "desc": "Papan ketik: Enter di kolom nama mengirim formulir; panah mengganti tokoh; Tab mencapai semua kontrol",
+    "ok": true,
+    "note": "🐼"
+  },
+  {
+    "id": "L360a",
+    "desc": "360×740: daftar pemain — tidak ada geser horizontal; kontrol di dalam layar dan ≥44 px",
+    "ok": true,
+    "note": "{\"hs\":false,\"bad\":[]}"
+  },
+  {
+    "id": "L360b",
+    "desc": "360×740: formulir daftar — sama",
+    "ok": true,
+    "note": "{\"hs\":false,\"bad\":[]}true"
+  },
+  {
+    "id": "L360c",
+    "desc": "360×740: layar PIN dan cerita (5 adegan) — sama; tombol Lanjut dapat dijangkau",
+    "ok": true,
+    "note": "{\"hs\":false,\"bads\":[]}"
+  },
+  {
+    "id": "L667a",
+    "desc": "667×375: daftar pemain — tidak ada geser horizontal; kontrol di dalam layar dan ≥44 px",
+    "ok": true,
+    "note": "{\"hs\":false,\"bad\":[]}"
+  },
+  {
+    "id": "L667b",
+    "desc": "667×375: formulir daftar — sama",
+    "ok": true,
+    "note": "{\"hs\":false,\"bad\":[]}true"
+  },
+  {
+    "id": "L667c",
+    "desc": "667×375: layar PIN dan cerita (5 adegan) — sama; tombol Lanjut dapat dijangkau",
+    "ok": true,
+    "note": "{\"hs\":false,\"bads\":[]}"
+  },
+  {
+    "id": "L1280a",
+    "desc": "1280×720: daftar pemain — tidak ada geser horizontal; kontrol di dalam layar dan ≥44 px",
+    "ok": true,
+    "note": "{\"hs\":false,\"bad\":[]}"
+  },
+  {
+    "id": "L1280b",
+    "desc": "1280×720: formulir daftar — sama",
+    "ok": true,
+    "note": "{\"hs\":false,\"bad\":[]}true"
+  },
+  {
+    "id": "L1280c",
+    "desc": "1280×720: layar PIN dan cerita (5 adegan) — sama; tombol Lanjut dapat dijangkau",
+    "ok": true,
+    "note": "{\"hs\":false,\"bads\":[]}"
+  },
+  {
+    "id": "L768a",
+    "desc": "768×1024: daftar pemain — tidak ada geser horizontal; kontrol di dalam layar dan ≥44 px",
+    "ok": true,
+    "note": "{\"hs\":false,\"bad\":[]}"
+  },
+  {
+    "id": "L768b",
+    "desc": "768×1024: formulir daftar — sama",
+    "ok": true,
+    "note": "{\"hs\":false,\"bad\":[]}true"
+  },
+  {
+    "id": "L768c",
+    "desc": "768×1024: layar PIN dan cerita (5 adegan) — sama; tombol Lanjut dapat dijangkau",
+    "ok": true,
+    "note": "{\"hs\":false,\"bads\":[]}"
+  },
+  {
+    "id": "U1",
+    "desc": "Tidak ada galat atau peringatan konsol sepanjang uji",
+    "ok": true,
+    "note": ""
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "R-ex01",
+    "desc": "ex01: aturan acuan (3 kartu, batas 4) lulus di semua 3 keadaan; palet hanya kartu Aturan",
+    "ok": true,
+    "note": "ok|ok|ok"
+  },
+  {
+    "id": "R-ex02",
+    "desc": "ex02: aturan acuan (6 kartu, batas 7) lulus di semua 3 keadaan; palet hanya kartu Aturan",
+    "ok": true,
+    "note": "ok|ok|ok"
+  },
+  {
+    "id": "R-ex03",
+    "desc": "ex03: aturan acuan (4 kartu, batas 6) lulus di semua 3 keadaan; palet hanya kartu Aturan",
+    "ok": true,
+    "note": "ok|ok|ok"
+  },
+  {
+    "id": "N-ex01-masuk langsung dikirim",
+    "desc": "ex01: cara salah “masuk langsung dikirim” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 1: pesanan #1 dikirim padahal belum selesai dikemas, jadi petinya kosong."
+  },
+  {
+    "id": "N-ex01-tanpa memberi tahu",
+    "desc": "ex01: cara salah “tanpa memberi tahu” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Pesanan #1 terkirim, tetapi pelanggannya tidak pernah diberi tahu."
+  },
+  {
+    "id": "N-ex01-tanpa mengirim",
+    "desc": "ex01: cara salah “tanpa mengirim” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Pesanan #1 sudah dikemas tetapi petinya tidak pernah dikirim."
+  },
+  {
+    "id": "N-ex01-menghapus pesanan",
+    "desc": "ex01: cara salah “menghapus pesanan” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Pesanan #1 dihapus oleh sebuah aturan."
+  },
+  {
+    "id": "N-ex01-memberi tahu sebelum terkirim",
+    "desc": "ex01: cara salah “memberi tahu sebelum terkirim” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 2: pelanggan pesanan #1 diberi tahu sebelum petinya terkirim."
+  },
+  {
+    "id": "N-ex01-hanya pengecoh",
+    "desc": "ex01: cara salah “hanya pengecoh” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Pesanan #1 masuk di detak 1 tetapi tidak pernah dikemas."
+  },
+  {
+    "id": "N-ex02-tanpa cabang stok kurang",
+    "desc": "ex02: cara salah “tanpa cabang stok kurang” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 1: Pesanan #1 masuk di detak 1 tetapi tidak pernah dikemas."
+  },
+  {
+    "id": "N-ex02-besar langsung dikemas",
+    "desc": "ex02: cara salah “besar langsung dikemas” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 1: Detak 1: pesanan besar #1 dikemas padahal stoknya kurang, jadi peti kurang isi."
+  },
+  {
+    "id": "N-ex02-tanpa kemas setelah stok cukup",
+    "desc": "ex02: cara salah “tanpa kemas setelah stok cukup” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Pesanan #2 masuk di detak 2 tetapi tidak pernah dikemas."
+  },
+  {
+    "id": "N-ex03-tanpa uji (langsung kemas)",
+    "desc": "ex03: cara salah “tanpa uji (langsung kemas)” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 4: komit #3 yang cacat sampai ke produksi. Komit itu belum selesai diuji."
+  },
+  {
+    "id": "N-ex03-tanpa memberi tahu pengembang",
+    "desc": "ex03: cara salah “tanpa memberi tahu pengembang” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Komit #3 cacat tertahan, tetapi pengembangnya tidak diberi tahu."
+  },
+  {
+    "id": "N-ex03-tanpa mengirim",
+    "desc": "ex03: cara salah “tanpa mengirim” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Komit baik #1 sudah dikemas tetapi tidak pernah dikirim ke produksi."
+  },
+  {
+    "id": "N-ex03-menghapus komit gagal",
+    "desc": "ex03: cara salah “menghapus komit gagal” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Komit #3 cacat tertahan, tetapi pengembangnya tidak diberi tahu."
+  },
+  {
+    "id": "N-ex03-kirim saat uji lulus (tanpa kemas)",
+    "desc": "ex03: cara salah “kirim saat uji lulus (tanpa kemas)” gagal dengan pesan bermakna",
+    "ok": true,
+    "note": "keadaan 0: Detak 2: komit #1 dikirim ke produksi padahal belum selesai dikemas, jadi petinya kosong."
+  },
+  {
+    "id": "A-ex01",
+    "desc": "ex01: dari 15275 himpunan aturan ≤ 4 kartu, tidak ada yang lulus tanpa seluruh 3 aturan inti",
+    "ok": true,
+    "note": "{\"tried\":15275,\"pass\":17,\"lacking\":0,\"sample\":null,\"lim\":4,\"req\":3}"
+  },
+  {
+    "id": "A-ex03",
+    "desc": "ex03: dari 245505 himpunan aturan ≤ 6 kartu, tidak ada yang lulus tanpa seluruh 4 aturan inti",
+    "ok": true,
+    "note": "{\"tried\":245505,\"pass\":140,\"lacking\":0,\"sample\":null,\"lim\":6,\"req\":4}"
+  },
+  {
+    "id": "A-ex02",
+    "desc": "ex02: dari 2804011 himpunan aturan ≤ 7 kartu, tidak ada yang lulus tanpa seluruh 6 aturan inti",
+    "ok": true,
+    "note": "{\"tried\":2804011,\"pass\":9,\"lacking\":0,\"sample\":null,\"lim\":7,\"req\":6}"
+  },
+  {
+    "id": "E1",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

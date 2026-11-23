@@ -1,0 +1,38 @@
+[
+  {
+    "id": "MB01",
+    "desc": "MB01: Buat objek Belang, Mochi, Kopi; Ubah Mochi.warna putih, Kopi.warna hitam → menang; label objek menampilkan warnanya",
+    "ok": true,
+    "note": "⠿✨Buat objek Belang dari Cetakan Kucing | ⠿✨Buat objek Mochi dari Cetakan Kucing | ⠿✨Buat  | Berhasil! | Belang · oranye / Mochi · putih / Kopi · hitam"
+  },
+  {
+    "id": "MB02",
+    "desc": "MB02: Cetakan Kucing [Atribut warna oranye, Method mengeong [Bersuara meong]] · Buat objek Belang · Suruh Belang mengeong → menang; label “🔊 meong”",
+    "ok": true,
+    "note": "cetakan,atribut,method,bersuara,akhir✓,akhir✓,buatObjek,suruh | Berhasil! | Belang · oranye🔊 meong"
+  },
+  {
+    "id": "MB02x",
+    "desc": "MB02: Bersuara di luar method → pesan “Yang mengeong Bit, bukan Belang”",
+    "ok": true,
+    "note": "Yang mengeong Bit, bukan Belang. Taruh Bersuara di dalam method, lalu suruh Belang. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "MB03",
+    "desc": "MB03: Cetakan [Method [Bersuara]] · Untuk setiap [Buat objek isi rak sekarang, Suruh isi rak sekarang] → menang di semua keadaan",
+    "ok": true,
+    "note": "cetakan,method,bersuara,akhir✓,akhir✓,untuk,buatObjek,suruh,akhir | Berhasil!"
+  },
+  {
+    "id": "PK",
+    "desc": "Picker Ubah atribut di HP 360 px: tiga grup pilihan dan tombol Selesai terlihat tanpa keluar layar",
+    "ok": true,
+    "note": "{\"groups\":3,\"done\":true}"
+  },
+  {
+    "id": "LOCK",
+    "desc": "Profil baru: MB01 terkunci sampai semua Middle A selesai",
+    "ok": true,
+    "note": "Selesaikan semua tahap Middle A dulu (kurang 10)."
+  }
+]

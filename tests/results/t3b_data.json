@@ -1,0 +1,130 @@
+{
+  "360x740": {
+    "asli": {
+      "vh": 740,
+      "controlsBottom": 841,
+      "controlsVisible": false,
+      "controlRows": 2,
+      "worldH": 262,
+      "worldW": 360,
+      "boardH": 218,
+      "boardRows": 3
+    },
+    "A: #editor{min-height:0}": {
+      "vh": 740,
+      "controlsBottom": 730,
+      "controlsVisible": true,
+      "controlRows": 2,
+      "worldH": 262,
+      "worldW": 360,
+      "boardH": 120,
+      "boardRows": 1
+    },
+    "B: A + landscape + layar pendek": {
+      "vh": 740,
+      "controlsBottom": 730,
+      "controlsVisible": true,
+      "controlRows": 2,
+      "worldH": 262,
+      "worldW": 360,
+      "boardH": 120,
+      "boardRows": 1
+    }
+  },
+  "390x844": {
+    "asli": {
+      "vh": 844,
+      "controlsBottom": 885,
+      "controlsVisible": false,
+      "controlRows": 2,
+      "worldH": 306,
+      "worldW": 390,
+      "boardH": 218,
+      "boardRows": 3
+    },
+    "A: #editor{min-height:0}": {
+      "vh": 844,
+      "controlsBottom": 834,
+      "controlsVisible": true,
+      "controlRows": 2,
+      "worldH": 306,
+      "worldW": 390,
+      "boardH": 166,
+      "boardRows": 2
+    },
+    "B: A + landscape + layar pendek": {
+      "vh": 844,
+      "controlsBottom": 834,
+      "controlsVisible": true,
+      "controlRows": 2,
+      "worldH": 306,
+      "worldW": 390,
+      "boardH": 166,
+      "boardRows": 2
+    }
+  },
+  "667x375": {
+    "asli": {
+      "vh": 375,
+      "controlsBottom": 555,
+      "controlsVisible": false,
+      "controlRows": 1,
+      "worldH": 131,
+      "worldW": 667,
+      "boardH": 176,
+      "boardRows": 2
+    },
+    "A: #editor{min-height:0}": {
+      "vh": 375,
+      "controlsBottom": 451,
+      "controlsVisible": false,
+      "controlRows": 1,
+      "worldH": 131,
+      "worldW": 667,
+      "boardH": 120,
+      "boardRows": 1
+    },
+    "B: A + landscape + layar pendek": {
+      "vh": 375,
+      "controlsBottom": 365,
+      "controlsVisible": true,
+      "controlRows": 2,
+      "worldH": 325,
+      "worldW": 347,
+      "boardH": 143,
+      "boardRows": 2
+    }
+  },
+  "844x390": {
+    "asli": {
+      "vh": 390,
+      "controlsBottom": 466,
+      "controlsVisible": false,
+      "controlRows": 3,
+      "worldH": 328,
+      "worldW": 506,
+      "boardH": 120,
+      "boardRows": 1
+    },
+    "A: #editor{min-height:0}": {
+      "vh": 390,
+      "controlsBottom": 466,
+      "controlsVisible": false,
+      "controlRows": 3,
+      "worldH": 328,
+      "worldW": 506,
+      "boardH": 120,
+      "boardRows": 1
+    },
+    "B: A + landscape + layar pendek": {
+      "vh": 390,
+      "controlsBottom": 380,
+      "controlsVisible": true,
+      "controlRows": 2,
+      "worldH": 340,
+      "worldW": 506,
+      "boardH": 162,
+      "boardRows": 2
+    }
+  }
+}

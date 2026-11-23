@@ -1,0 +1,290 @@
+[
+  {
+    "id": "G0",
+    "desc": "6 gerbang × 3 varian; dipasang tepat setelah MA03, MA06, MB03, MB06, EX03, EX06",
+    "ok": true,
+    "note": "[{\"g\":\"g_ma03\",\"i\":29,\"cur\":\"MA03\",\"nx\":\"MA04\"},{\"g\":\"g_ma06\",\"i\":32,\"cur\":\"MA06\",\"nx\":\"MA07\"},{\"g\":\"g_mb03\",\"i\":39,\"cur\":\"MB03\",\"nx\":\"MB04\"},{\"g\":\"g_mb06\",\"i\":42,\"cur\":\"MB06\",\"nx\":\"MB07\"},{\"g\":\"g_ex03\",\"i\":59,\"cur\":\"EX03\",\"nx\":\"EX04\"},{\"g\":\"g_ex06\",\"i\":62,\"cur\":\"EX06\",\"nx\":\"EX07\"}]"
+  },
+  {
+    "id": "G1-g_ma03-0",
+    "desc": "g_ma03 varian 0: jawaban “10” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=10 independen=10"
+  },
+  {
+    "id": "G1-g_ma03-1",
+    "desc": "g_ma03 varian 1: jawaban “15” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=15 independen=15"
+  },
+  {
+    "id": "G1-g_ma03-2",
+    "desc": "g_ma03 varian 2: jawaban “16” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=16 independen=16"
+  },
+  {
+    "id": "G1-g_ma06-0",
+    "desc": "g_ma06 varian 0: jawaban “10” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=10 independen=10"
+  },
+  {
+    "id": "G1-g_ma06-1",
+    "desc": "g_ma06 varian 1: jawaban “13” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=13 independen=13"
+  },
+  {
+    "id": "G1-g_ma06-2",
+    "desc": "g_ma06 varian 2: jawaban “17” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=17 independen=17"
+  },
+  {
+    "id": "G1-g_mb03-0",
+    "desc": "g_mb03 varian 0: jawaban “Tetap jingga” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=Tetap jingga independen=Tetap jingga"
+  },
+  {
+    "id": "G1-g_mb03-1",
+    "desc": "g_mb03 varian 1: jawaban “12” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=12 independen=12"
+  },
+  {
+    "id": "G1-g_mb03-2",
+    "desc": "g_mb03 varian 2: jawaban “Warna jingga” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=Warna jingga independen=Warna jingga"
+  },
+  {
+    "id": "G1-g_mb06-0",
+    "desc": "g_mb06 varian 0: jawaban “makan() dan terbang()” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=makan() dan terbang() independen=makan() dan terbang()"
+  },
+  {
+    "id": "G1-g_mb06-1",
+    "desc": "g_mb06 varian 1: jawaban “Tidak bisa, kambing bukan Burung” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=Tidak bisa, kambing bukan Burung independen=Tidak bisa, kambing bukan Burung"
+  },
+  {
+    "id": "G1-g_mb06-2",
+    "desc": "g_mb06 varian 2: jawaban “12” sama dengan perhitungan independen",
+    "ok": true,
+    "note": "game=12 independen=12"
+  },
+  {
+    "id": "G1k",
+    "desc": "Model benar: objek dari cetakan Hewan tidak punya terbang()",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "G2-g_ma03-0",
+    "desc": "g_ma03 varian 0: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "6 | 15 | 24 | 4"
+  },
+  {
+    "id": "G2-g_ma03-1",
+    "desc": "g_ma03 varian 1: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "10 | 21 | 120 | 5"
+  },
+  {
+    "id": "G2-g_ma03-2",
+    "desc": "g_ma03 varian 2: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "8 | 32 | 2 | 1"
+  },
+  {
+    "id": "G2-g_ma06-0",
+    "desc": "g_ma06 varian 0: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "11 | 9 | 500 | 1000"
+  },
+  {
+    "id": "G2-g_ma06-1",
+    "desc": "g_ma06 varian 1: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "14 | 12 | 2500 | 5000"
+  },
+  {
+    "id": "G2-g_ma06-2",
+    "desc": "g_ma06 varian 2: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "18 | 16 | 50000 | 100000"
+  },
+  {
+    "id": "G2-g_mb03-0",
+    "desc": "g_mb03 varian 0: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "Berubah jadi hitam | Belum punya warna | Berubah jadi putih | Berubah jadi ungu"
+  },
+  {
+    "id": "G2-g_mb03-1",
+    "desc": "g_mb03 varian 1: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "14 | 13 | 10 | 0"
+  },
+  {
+    "id": "G2-g_mb03-2",
+    "desc": "g_mb03 varian 2: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "Warna hitam | Belum punya warna | Warna putih | Warna ungu"
+  },
+  {
+    "id": "G2-g_mb06-0",
+    "desc": "g_mb06 varian 0: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "Hanya terbang() | Hanya makan() | Tidak bisa apa-apa | Hanya bersuara()"
+  },
+  {
+    "id": "G2-g_mb06-1",
+    "desc": "g_mb06 varian 1: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "Bisa, karena Burung mewarisi Hewan | Tidak bisa, karena Hewan tidak punya method apa pun | Bisa, tetapi setelah makan() | Bisa, kalau kambing diberi sayap"
+  },
+  {
+    "id": "G2-g_mb06-2",
+    "desc": "g_mb06 varian 2: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "11 | 13 | 10 | 14"
+  },
+  {
+    "id": "G2-g_ex03-0",
+    "desc": "g_ex03 varian 0: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "11 | 9 | 12 | 8 | 20"
+  },
+  {
+    "id": "G2-g_ex03-1",
+    "desc": "g_ex03 varian 1: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "13 | 11 | 14 | 10 | 24"
+  },
+  {
+    "id": "G2-g_ex03-2",
+    "desc": "g_ex03 varian 2: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "14 | 12 | 15 | 11 | 26"
+  },
+  {
+    "id": "G2-g_ex06-0",
+    "desc": "g_ex06 varian 0: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "13 | 11 | 14 | 10 | 24"
+  },
+  {
+    "id": "G2-g_ex06-1",
+    "desc": "g_ex06 varian 1: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "29 | 27 | 30 | 26 | 56"
+  },
+  {
+    "id": "G2-g_ex06-2",
+    "desc": "g_ex06 varian 2: ≥4 pengecoh, unik, tidak ada yang sama dengan jawaban, petunjuk dan penjelasan terisi",
+    "ok": true,
+    "note": "32 | 30 | 33 | 29 | 62"
+  },
+  {
+    "id": "G3",
+    "desc": "Mudah dan Sedang: 4 pilihan, tepat satu benar, semua unik; Sedang memakai 3 pengecoh termirip, Mudah 3 terjauh",
+    "ok": true,
+    "note": "[]"
+  },
+  {
+    "id": "G4",
+    "desc": "Sulit: ubin memuat semua kepingan jawaban, ≤ 8 ubin, jawaban susunan benar diterima, kosong/salah ditolak",
+    "ok": true,
+    "note": "[]"
+  },
+  {
+    "id": "G4b",
+    "desc": "Sulit: urutan terbalik ditolak kecuali soal himpunan (bebasUrut)",
+    "ok": true,
+    "note": "[]"
+  },
+  {
+    "id": "G4c",
+    "desc": "Jawaban angka punya ≥ 2 ubin (jawaban 1 digit bisa ditebak dari 5 ubin)",
+    "ok": true,
+    "note": "[]"
+  },
+  {
+    "id": "R-A",
+    "desc": "Benar di percobaan pertama: status benar, bonus, 0 salah",
+    "ok": true,
+    "note": "{\"ok\":true,\"salah\":0,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":1,\"at\":\"2026-11-20\"},\"done\":true}"
+  },
+  {
+    "id": "R-B",
+    "desc": "Salah sekali: pilihan salah ditandai, petunjuk belum muncul, lalu benar → bonus",
+    "ok": true,
+    "note": "{\"salah\":1,\"ok\":true,\"hint1\":false,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":1,\"buka\":1,\"at\":\"2026-11-20\"}}"
+  },
+  {
+    "id": "R-C",
+    "desc": "Salah 2 kali: petunjuk Si Teka muncul, gerbang belum selesai, 2 pilihan tercoret; benar sesudahnya membuka gerbang TANPA bonus (bonus hanya bila salah ≤ 1)",
+    "ok": true,
+    "note": "{\"hint2\":true,\"unfinished\":true,\"mati\":2,\"ok\":true,\"salah\":2,\"rec\":{\"status\":\"benar\",\"bonus\":false,\"salah\":2,\"buka\":1,\"at\":\"2026-11-20\"}}"
+  },
+  {
+    "id": "R-C2",
+    "desc": "Terjawab tanpa bonus lalu mencoba lagi dari menu dan benar di percobaan pertama → bonus didapat",
+    "ok": true,
+    "note": "{\"vNext\":0,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":2,\"at\":\"2026-11-20\"}}"
+  },
+  {
+    "id": "R-D",
+    "desc": "Salah 3 kali: gerbang terbuka, jawaban ditampilkan, TANPA bonus, ada tombol Lanjut",
+    "ok": true,
+    "note": "{\"selesai\":true,\"ok\":false,\"salah\":3,\"rec\":{\"status\":\"terbuka\",\"bonus\":false,\"salah\":3,\"buka\":1,\"at\":\"2026-11-20\"},\"fb\":\"Jawabannya: makan() dan terbang()\",\"msg\":true,\"btn\":true}"
+  },
+  {
+    "id": "R-E",
+    "desc": "Kembali untuk bonus: soal berbeda dari yang pertama; menang → status benar dan bonus",
+    "ok": true,
+    "note": "{\"v0\":0,\"v1\":1,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":2,\"at\":\"2026-11-20\"}}"
+  },
+  {
+    "id": "R-E2",
+    "desc": "Percobaan ulang yang gagal tidak menurunkan status maupun bonus yang sudah diperoleh",
+    "ok": true,
+    "note": "{\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":3,\"buka\":3,\"at\":\"2026-11-20\"}}"
+  },
+  {
+    "id": "R-F",
+    "desc": "Gerbang tidak mengunci: MA04 terbuka walau Gerbang MA03 belum dijawab; MA06 gerbang masih terkunci",
+    "ok": true,
+    "note": "{\"lock\":null,\"gate\":false,\"ready\":true,\"readyMA06\":false}"
+  },
+  {
+    "id": "R-G",
+    "desc": "Setiap hasil gerbang tercatat di catatan uji (gerbang, hasil, jumlah salah, bentuk)",
+    "ok": true,
+    "note": "[{\"g\":\"g_ma03\",\"h\":\"benar\",\"s\":0,\"b\":\"pilihan\"},{\"g\":\"g_ma06\",\"h\":\"benar\",\"s\":1,\"b\":\"pilihan\"},{\"g\":\"g_mb03\",\"h\":\"benar\",\"s\":2,\"b\":\"pilihan\"}]"
+  },
+  {
+    "id": "R-H",
+    "desc": "Sulit: bentuk ubin; susunan salah dikosongkan dan dihitung salah; susunan benar → bonus",
+    "ok": true,
+    "note": "{\"bentuk\":\"ubin\",\"afterWrong\":{\"salah\":1,\"sel\":0},\"ok\":true,\"salah\":1,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":1,\"buka\":1,\"at\":\"2026-11-20\"}}"
+  },
+  {
+    "id": "R-I",
+    "desc": "Sulit: 3 susunan salah → terbuka tanpa bonus (sama dengan pilihan ganda)",
+    "ok": true,
+    "note": "{\"selesai\":true,\"ok\":false,\"salah\":3,\"rec\":{\"status\":\"terbuka\",\"bonus\":false,\"salah\":3,\"buka\":1,\"at\":\"2026-11-20\"}}"
+  },
+  {
+    "id": "ERR",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

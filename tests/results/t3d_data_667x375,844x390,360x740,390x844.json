@@ -1,0 +1,134 @@
+[
+ {
+  "vp": "667x375",
+  "id": "mb10",
+  "d": "easy",
+  "vh": 375,
+  "controlsFull": true,
+  "boardH": 156,
+  "worldH": 325,
+  "palH": 93,
+  "runBottom": 369
+ },
+ {
+  "vp": "667x375",
+  "id": "mb10",
+  "d": "medium",
+  "vh": 375,
+  "controlsFull": true,
+  "boardH": 156,
+  "worldH": 325,
+  "palH": 93,
+  "runBottom": 369
+ },
+ {
+  "vp": "667x375",
+  "id": "mb10",
+  "d": "hard",
+  "vh": 375,
+  "controlsFull": true,
+  "boardH": 156,
+  "worldH": 325,
+  "palH": 93,
+  "runBottom": 369
+ },
+ {
+  "vp": "844x390",
+  "id": "mb10",
+  "d": "easy",
+  "vh": 390,
+  "controlsFull": true,
+  "boardH": 171,
+  "worldH": 340,
+  "palH": 93,
+  "runBottom": 384
+ },
+ {
+  "vp": "844x390",
+  "id": "mb10",
+  "d": "medium",
+  "vh": 390,
+  "controlsFull": true,
+  "boardH": 171,
+  "worldH": 340,
+  "palH": 93,
+  "runBottom": 384
+ },
+ {
+  "vp": "844x390",
+  "id": "mb10",
+  "d": "hard",
+  "vh": 390,
+  "controlsFull": true,
+  "boardH": 171,
+  "worldH": 340,
+  "palH": 93,
+  "runBottom": 384
+ },
+ {
+  "vp": "360x740",
+  "id": "mb10",
+  "d": "easy",
+  "vh": 740,
+  "controlsFull": true,
+  "boardH": 143,
+  "worldH": 258,
+  "palH": 160,
+  "runBottom": 730
+ },
+ {
+  "vp": "360x740",
+  "id": "mb10",
+  "d": "medium",
+  "vh": 740,
+  "controlsFull": true,
+  "boardH": 143,
+  "worldH": 258,
+  "palH": 160,
+  "runBottom": 730
+ },
+ {
+  "vp": "360x740",
+  "id": "mb10",
+  "d": "hard",
+  "vh": 740,
+  "controlsFull": true,
+  "boardH": 143,
+  "worldH": 258,
+  "palH": 160,
+  "runBottom": 730
+ },
+ {
+  "vp": "390x844",
+  "id": "mb10",
+  "d": "easy",
+  "vh": 844,
+  "controlsFull": true,
+  "boardH": 208,
+  "worldH": 297,
+  "palH": 160,
+  "runBottom": 834
+ },
+ {
+  "vp": "390x844",
+  "id": "mb10",
+  "d": "medium",
+  "vh": 844,
+  "controlsFull": true,
+  "boardH": 208,
+  "worldH": 297,
+  "palH": 160,
+  "runBottom": 834
+ },
+ {
+  "vp": "390x844",
+  "id": "mb10",
+  "d": "hard",
+  "vh": 844,
+  "controlsFull": true,
+  "boardH": 208,
+  "worldH": 297,
+  "palH": 160,
+  "runBottom": 834
+ }
+]

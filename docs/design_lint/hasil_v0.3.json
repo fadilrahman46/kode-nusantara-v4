@@ -1,0 +1,57 @@
+{
+ "errors": [],
+ "warnings": [
+  {
+   "rule": "L15",
+   "msg": "Test1: mekanik yang dilewati pemain tetapi tidak diuji: aksi"
+  },
+  {
+   "rule": "L15",
+   "msg": "Test2: mekanik yang dilewati pemain tetapi tidak diuji: cari_linear, komposisi"
+  }
+ ],
+ "stats": {
+  "B": {
+   "stage": 13,
+   "K": 9,
+   "LP": 4,
+   "max_run_K": 3,
+   "run": "B01–B03"
+  },
+  "J": {
+   "stage": 14,
+   "K": 9,
+   "LP": 5,
+   "max_run_K": 3,
+   "run": "J03–J05"
+  },
+  "MA": {
+   "stage": 10,
+   "K": 7,
+   "LP": 3,
+   "max_run_K": 3,
+   "run": "MA07–MA09"
+  },
+  "MB": {
+   "stage": 10,
+   "K": 7,
+   "LP": 3,
+   "max_run_K": 3,
+   "run": "MB07–MB09"
+  },
+  "S": {
+   "stage": 10,
+   "K": 7,
+   "LP": 3,
+   "max_run_K": 3,
+   "run": "SE04–SE06"
+  },
+  "E": {
+   "stage": 10,
+   "K": 6,
+   "LP": 4,
+   "max_run_K": 2,
+   "run": "EX03–EX04"
+  }
+ }
+}

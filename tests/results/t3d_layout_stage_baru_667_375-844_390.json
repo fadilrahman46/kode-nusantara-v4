@@ -1,0 +1,38 @@
+[
+  {
+    "id": "667x375-ma08-easy",
+    "desc": "667x375 ma08/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 369/375; dunia 325; papan 156; palet 93"
+  },
+  {
+    "id": "667x375-ma08-medium",
+    "desc": "667x375 ma08/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 369/375; dunia 325; papan 156; palet 93"
+  },
+  {
+    "id": "667x375-ma08-hard",
+    "desc": "667x375 ma08/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 369/375; dunia 325; papan 156; palet 93"
+  },
+  {
+    "id": "844x390-ma08-easy",
+    "desc": "844x390 ma08/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 384/390; dunia 340; papan 171; palet 93"
+  },
+  {
+    "id": "844x390-ma08-medium",
+    "desc": "844x390 ma08/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 384/390; dunia 340; papan 171; palet 93"
+  },
+  {
+    "id": "844x390-ma08-hard",
+    "desc": "844x390 ma08/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
+    "ok": true,
+    "note": "kontrol 384/390; dunia 340; papan 171; palet 93"
+  }
+]

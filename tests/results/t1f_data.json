@@ -1,0 +1,145 @@
+{
+  "ref": {
+    "ma04": {
+      "ok": true,
+      "msg": "",
+      "len": 2,
+      "limit": 2,
+      "n": 4,
+      "pal": true
+    },
+    "ma05": {
+      "ok": true,
+      "msg": "",
+      "len": 4,
+      "limit": 4,
+      "n": 5,
+      "pal": true
+    },
+    "ma06": {
+      "ok": true,
+      "msg": "",
+      "len": 8,
+      "limit": 8,
+      "n": 4,
+      "pal": true
+    },
+    "ma07": {
+      "ok": true,
+      "msg": "",
+      "len": 4,
+      "limit": 4,
+      "n": 4,
+      "pal": true
+    },
+    "ma08": {
+      "ok": true,
+      "msg": "",
+      "len": 5,
+      "limit": 5,
+      "n": 4,
+      "pal": true
+    },
+    "ma09": {
+      "ok": true,
+      "msg": "",
+      "len": 5,
+      "limit": 5,
+      "n": 4,
+      "pal": true
+    },
+    "ma10": {
+      "ok": true,
+      "msg": "",
+      "len": 5,
+      "limit": 5,
+      "n": 4,
+      "pal": true
+    }
+  },
+  "neg": {
+    "ma04": {
+      "ambil tanpa berhenti": {
+        "v": 0,
+        "msg": "Bukunya ada di rak nomor 3, tetapi Bit terus membuka sampai 6 buku. Setelah ketemu, berhentilah mencari."
+      },
+      "nomor rak tetap": {
+        "v": 0,
+        "msg": "Buku “Lutung” belum diambil."
+      }
+    },
+    "ma05": {
+      "satu per satu (cari linear)": {
+        "v": 0,
+        "msg": "Pustakawan hanya mengizinkan membuka 3 buku di rak ini. Memeriksa satu per satu terlalu lama."
+      },
+      "arah buang terbalik": {
+        "v": 0,
+        "msg": "Buku 26 ikut terbuang! Jika buku yang dibuka lebih kecil dari yang dicari, yang dicari ada di sebelah kanan."
+      },
+      "tanpa memeriksa sama dengan": {
+        "v": 0,
+        "msg": "Buku 26 ikut terbuang! Jika buku yang dibuka lebih kecil dari yang dicari, yang dicari ada di sebelah kanan."
+      }
+    },
+    "ma06": {
+      "buka tengah untuk semua rak": {
+        "v": 1,
+        "msg": "Buku 30 ikut terbuang! Rak ini acak, jadi membuang separuh rak bisa membuang buku yang dicari."
+      },
+      "satu per satu untuk semua rak": {
+        "v": 0,
+        "msg": "Pustakawan hanya mengizinkan membuka 3 buku di rak ini. Memeriksa satu per satu terlalu lama."
+      }
+    },
+    "ma07": {
+      "langsung ambil lagi (tanpa menumpuk dulu)": {
+        "v": 0,
+        "msg": "Surat ke-1 yang dibacakan adalah surat Senin. Seharusnya mulai dari yang paling baru."
+      },
+      "Ulangi 3 kali": {
+        "v": 1,
+        "msg": "Baru 3 dari 4 surat dibacakan."
+      }
+    },
+    "ma08": {
+      "pakai tumpukan": {
+        "v": 0,
+        "msg": "Orang ke-1 yang dilayani adalah Budi, padahal Ani datang lebih dulu."
+      },
+      "tanpa melayani saat lonceng": {
+        "v": 0,
+        "msg": "Lonceng berbunyi 2 kali saat warga masih datang, tetapi loket melayani 0 orang saat itu."
+      }
+    },
+    "ma09": {
+      "kiri dulu, baru kunjungi (inorder)": {
+        "v": 0,
+        "msg": "Urutan kunjungan: D, B, E, A, F, C, G. Seharusnya map itu sendiri dulu, lalu seluruh cabang kiri, lalu seluruh cabang kanan."
+      },
+      "tanpa memeriksa anak": {
+        "v": 1,
+        "msg": "Map B tidak punya anak kanan. Periksa dulu dengan kartu Jika."
+      },
+      "kanan dulu": {
+        "v": 0,
+        "msg": "Urutan kunjungan: A, C, G, F, B, E, D. Seharusnya map itu sendiri dulu, lalu seluruh cabang kiri, lalu seluruh cabang kanan."
+      }
+    },
+    "ma10": {
+      "kunjungi semua map (pohon biasa)": {
+        "v": 0,
+        "msg": "Penjaga arsip hanya mengizinkan membuka 3 map. Mengunjungi semua map terlalu lama."
+      },
+      "arah terbalik": {
+        "v": 0,
+        "msg": "Map 20 tidak punya anak kiri. Periksa dulu dengan kartu Jika."
+      }
+    }
+  },
+  "misc": {
+    "pseudo5": "selama belum_ketemu():\n    buka_tengah()\n    jika isi == dicari:\n        ambil(isi); berhenti\n    jika isi < dicari:\n        buang_separuh_kiri()\n    selain_itu:\n        buang_separuh_kanan()",
+    "pseudo9": "fungsi mesin(map):\n    kunjungi(map)\n    jika map.kiri ada:\n        mesin(map.kiri)\n    jika map.kanan ada:\n        mesin(map.kanan)\nmesin(akar)"
+  },
+  "order": "B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 J01 J02 J03 J04 J05 J06 J07 J08 J09 J10 J11 J12 J13 J14 MA01 MA02 MA03 MA04 MA05 MA06 MA07 MA08 MA09 MA10 MB01 MB02 MB03 MB04 MB05 MB06 MB07 MB08 MB09 MB10 SE01 SE02 SE03 SE04 SE05 SE06 SE07 SE08 SE09 SE10 EX01 EX02 EX03 EX04 EX05 EX06 EX07 EX08 EX09 EX10"
+}

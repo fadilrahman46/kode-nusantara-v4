@@ -1,0 +1,266 @@
+[
+  {
+    "id": "A1",
+    "desc": "Di otomatisasi (webdriver) pembuka TIDAK diputar: suite regresi lama tidak tertahan layar baru",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A2",
+    "desc": "Blok pembuka ada di halaman tetapi kosong saat tidak diputar (SVG tanpa isi)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A3",
+    "desc": "Tidak ada galat konsol pada pemuatan normal",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B1",
+    "desc": "?pembuka: overlay tampil, adegan 1, teks sinopsis pertama, tombol \"Lewati\" terfokus",
+    "ok": true,
+    "note": "{\"vis\":true,\"beat\":\"1\",\"cap\":\"Di ujung Nusantara, pulau-pulau kecil bercahaya oleh lampu ajaib.\",\"foc\":\"bkSkip\",\"inert\":true}"
+  },
+  {
+    "id": "B2",
+    "desc": "Adegan 1: semua lampu menyala dan langit senja terlihat (lapisan senja opacity 1, bintang 0)",
+    "ok": true,
+    "note": "{\"d\":\"1\",\"s\":\"0\"}"
+  },
+  {
+    "id": "B3",
+    "desc": "Adegan 2 (malam): senja memudar, bintang muncul, lampu padam satu per satu (abu-abu)",
+    "ok": true,
+    "note": "{\"f\":[\"rgb(89, 99, 111)\",\"rgb(89, 99, 111)\",\"rgb(89, 99, 111)\"],\"o\":{\"d\":\"0\",\"s\":\"1\",\"c\":\"Suatu malam, perintahnya jadi kacau. Satu per satu, lampu padam.\"}}"
+  },
+  {
+    "id": "B4",
+    "desc": "Adegan 3: Si Teka muncul (opacity 1) dengan dialognya; lampu masih padam",
+    "ok": true,
+    "note": "{\"o\":\"1\",\"c\":\"Hu-hu! Aku Si Teka. Lampu hanya menurut pada kode yang disusun rapi.\"}"
+  },
+  {
+    "id": "B5",
+    "desc": "Adegan 4: judul \"Kode Nusantara\" tampil, Si Teka hilang, lampu menyala kembali, tombol berubah \"Mulai\"",
+    "ok": true,
+    "note": "{\"o\":{\"t\":\"1\",\"o\":\"0\",\"btn\":\"Mulai ▶\"},\"f\":[\"rgb(255, 194, 60)\",\"rgb(255, 194, 60)\",\"rgb(255, 194, 60)\"]}"
+  },
+  {
+    "id": "B6",
+    "desc": "Selesai sendiri: total sekitar 12,6 dtk (±2) tanpa interaksi, lalu overlay tertutup dan #app aktif kembali",
+    "ok": true,
+    "note": "12.4 dtk, inert=false"
+  },
+  {
+    "id": "B7",
+    "desc": "Setelah selesai, SVG dikosongkan (tidak ada animasi tersisa yang memakai CPU)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B8",
+    "desc": "Tidak ada galat konsol selama pemutaran penuh",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "C1",
+    "desc": "Tombol Lewati menutup pembuka di adegan 1 (≤ 0,8 dtk) dan mengembalikan #app",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "C2",
+    "desc": "Menu → \"Putar pembuka sekarang\" memutar ulang; Escape menutupnya dan TIDAK membuka/menutup menu game",
+    "ok": true,
+    "note": "tampil=true menuTertutup=true"
+  },
+  {
+    "id": "C3",
+    "desc": "Putar ulang dua kali berturut-turut tidak menumpuk pewaktu (tidak lompat adegan)",
+    "ok": true,
+    "note": "adegan setelah 3,9 dtk = 2 (harus 2)"
+  },
+  {
+    "id": "C4",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D1",
+    "desc": "Peluncuran pertama (sesi baru, tanpa webdriver): pembuka diputar sebelum halaman masuk",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D2",
+    "desc": "Sesudah dilewati: halaman masuk terlihat, #app tetap inert (belum login), fokus di judul halaman masuk",
+    "ok": true,
+    "note": "{\"ob\":true,\"om\":true,\"inert\":true,\"foc\":\"H1\"}"
+  },
+  {
+    "id": "D3",
+    "desc": "Muat ulang dalam sesi yang sama (mis. sesudah masuk/ganti pemain): pembuka TIDAK diputar lagi",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D4",
+    "desc": "Tautan ?tamu (tautan guru/uji) melewati pembuka",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D5",
+    "desc": "Sesi baru (peluncuran berikutnya): pembuka diputar lagi",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D6",
+    "desc": "Kotak centang menu \"Putar cutscene pembuka\" tercentang secara bawaan",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D7",
+    "desc": "Dimatikan di menu → tersimpan (kn_buka_off=1)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D8",
+    "desc": "Sesi baru dengan pembuka dimatikan: tidak diputar; dan ?pembuka tetap memaksa putar",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D9",
+    "desc": "Gerak dikurangi (prefers-reduced-motion): pembuka tetap berjalan, tanpa transisi, dan menutup seketika",
+    "ok": true,
+    "note": "transisi 0s=true"
+  },
+  {
+    "id": "D10",
+    "desc": "Penyimpanan ditolak: halaman tidak rusak (tanpa galat tak tertangani); pembuka boleh diputar dan bisa dilewati",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E-390x844",
+    "desc": "HP 390×844: judul, teks, dan tombol berada di dalam layar; tidak ada gulir mendatar; tombol ≥ 44 px",
+    "ok": true,
+    "note": "judul 51px, teks 21px, tombol 103×48"
+  },
+  {
+    "id": "E2-390x844",
+    "desc": "HP 390×844: tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E-360x640",
+    "desc": "HP kecil 360×640: judul, teks, dan tombol berada di dalam layar; tidak ada gulir mendatar; tombol ≥ 44 px",
+    "ok": true,
+    "note": "judul 47px, teks 19px, tombol 103×48"
+  },
+  {
+    "id": "E2-360x640",
+    "desc": "HP kecil 360×640: tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E-320x568",
+    "desc": "HP sangat kecil 320×568: judul, teks, dan tombol berada di dalam layar; tidak ada gulir mendatar; tombol ≥ 44 px",
+    "ok": true,
+    "note": "judul 42px, teks 18px, tombol 103×48"
+  },
+  {
+    "id": "E2-320x568",
+    "desc": "HP sangat kecil 320×568: tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E-768x1024",
+    "desc": "tablet potret 768×1024: judul, teks, dan tombol berada di dalam layar; tidak ada gulir mendatar; tombol ≥ 44 px",
+    "ok": true,
+    "note": "judul 64px, teks 26px, tombol 103×48"
+  },
+  {
+    "id": "E2-768x1024",
+    "desc": "tablet potret 768×1024: tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "E-1280x720",
+    "desc": "desktop 1280×720: judul, teks, dan tombol berada di dalam layar; tidak ada gulir mendatar; tombol ≥ 44 px",
+    "ok": true,
+    "note": "judul 53px, teks 22px, tombol 103×48"
+  },
+  {
+    "id": "E2-1280x720",
+    "desc": "desktop 1280×720: tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "F1",
+    "desc": "Manifest PWA: orientation = \"portrait\"",
+    "ok": true,
+    "note": "portrait"
+  },
+  {
+    "id": "F2",
+    "desc": "AndroidManifest MainActivity: android:screenOrientation=\"portrait\"",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "F3",
+    "desc": "HP tegak: layar \"Putar ponselmu tegak\" tersembunyi; screen.orientation.lock(\"portrait\") dipanggil",
+    "ok": true,
+    "note": "[\"portrait\"]"
+  },
+  {
+    "id": "F4",
+    "desc": "HP diputar mendatar (844×390, tanpa muat ulang): layar \"Putar ponselmu tegak\" menutupi game",
+    "ok": true,
+    "note": "{\"vis\":true,\"cover\":true,\"z\":\"80\",\"top\":true}"
+  },
+  {
+    "id": "F5",
+    "desc": "Diputar kembali tegak: layar tertutup otomatis dan game bisa dipakai (tombol Jalankan dapat diklik)",
+    "ok": true,
+    "note": "tersembunyi=true tombolTerjangkau=true"
+  },
+  {
+    "id": "F6",
+    "desc": "Tidak ada galat konsol pada alur putar",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "F7",
+    "desc": "Desktop 1280×720 (mendatar, penunjuk halus): TIDAK dikunci dan layar putar tidak tampil; lock() tidak dipanggil",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "F8",
+    "desc": "Tablet mendatar 1024×768 (sisi pendek ≥ 600): tidak diblokir layar putar (game tetap bisa dimainkan mendatar)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "F9",
+    "desc": "Otomatisasi tanpa ?putar: penjaga tidak aktif walau HP mendatar (suite tata letak 667×375 dan 844×390 tetap valid)",
+    "ok": true,
+    "note": ""
+  }
+]

@@ -1,0 +1,5 @@
+# dipakai bila folder ini dikirim dengan `vercel deploy` (CLI); tidak perlu mengunggah sumber ikon
+tools
+.github
+README_PWA.md
+_headers

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "A1",
+    "desc": "SE10: pencarian ruang keadaan penuh selesai (tanpa batas) dan menemukan program lulus terpendek 12 kartu",
+    "ok": true,
+    "note": "{\"n\":252207,\"capped\":false,\"passN\":24,\"min\":12,\"sample\":[\"kK\",\"jH\",\"kP\",\"jH\",\"sv\",\"mK\",\"mP\",\"bp\",\"pB\",\"jU\",\"pT\",\"jU\"]}"
+  },
+  {
+    "id": "A2",
+    "desc": "SE10: tanpa “Jika jawaban stok habis” tidak ada program yang lulus",
+    "ok": true,
+    "note": "{\"n\":1495,\"capped\":false,\"passN\":0,\"min\":null,\"sample\":null}"
+  },
+  {
+    "id": "A3",
+    "desc": "SE10: tanpa “Jika uji gagal → kembali ke versi tersimpan” tidak ada program yang lulus",
+    "ok": true,
+    "note": "{\"n\":222027,\"capped\":false,\"passN\":0,\"min\":null,\"sample\":null}"
+  },
+  {
+    "id": "A4",
+    "desc": "SE10: tanpa Simpan versi tidak ada program yang lulus",
+    "ok": true,
+    "note": "{\"n\":85272,\"capped\":false,\"passN\":0,\"min\":null,\"sample\":null}"
+  },
+  {
+    "id": "A5",
+    "desc": "SE10: tanpa Buat peti, atau tanpa memasukkan bahan, tidak ada program yang lulus",
+    "ok": true,
+    "note": "{\"bp\":{\"n\":39839,\"capped\":false,\"passN\":0,\"min\":null,\"sample\":null},\"peti\":{\"n\":17839,\"capped\":false,\"passN\":0,\"min\":null,\"sample\":null}}"
+  },
+  {
+    "id": "A6",
+    "desc": "SE09: seluruh ruang program ≤ batas+2 kartu hanya memuat 3 jawaban (gerbang staging, pemantau keluhan pengguna, rollback segera; pemantau sebelum rollback)",
+    "ok": true,
+    "note": "{\"tried\":111110,\"pass\":[\"gerbangstaging pantaupengguna rollback1\",\"pantaupengguna gerbangstaging rollback1\",\"pantaupengguna rollback1 gerbangstaging\"]}"
+  },
+  {
+    "id": "P1",
+    "desc": "Intro Senior dan Expert: paling banyak 4 halaman dan tiap halaman ≤ 100 karakter (ukuran layar HP, batas halaman 80)",
+    "ok": true,
+    "note": "13 intro ringkas"
+  }
+]

@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+.vercel/
+# Android
+android/node_modules/
+android/android/.gradle/
+android/android/build/
+android/android/app/build/
+android/android/local.properties
+*.apk
+*.aab
+# hasil uji besar (bukti gambar) tidak dilacak
+tests/evidence/

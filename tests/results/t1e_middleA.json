@@ -1,0 +1,122 @@
+[
+  {
+    "id": "R-ma01",
+    "desc": "ma01: program acuan (6 kartu, batas 6) lulus; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 6/6"
+  },
+  {
+    "id": "R-ma02",
+    "desc": "ma02: program acuan (4 kartu, batas 4) lulus; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 4/4"
+  },
+  {
+    "id": "R-ma03",
+    "desc": "ma03: program acuan (7 kartu, batas 7) lulus; kartunya ada di palet ketiga tingkat",
+    "ok": true,
+    "note": "kartu 7/7"
+  },
+  {
+    "id": "N-ma01-titik berhenti salah (> 0)",
+    "desc": "ma01: program salah “titik berhenti salah (> 0)” gagal dengan pesan",
+    "ok": true,
+    "note": "Menara di petak 2 tingginya 8, seharusnya 7."
+  },
+  {
+    "id": "N-ma01-tanpa titik berhenti",
+    "desc": "ma01: program salah “tanpa titik berhenti” gagal dengan pesan",
+    "ok": true,
+    "note": "Menara terlalu tinggi dan bisa roboh."
+  },
+  {
+    "id": "N-ma02-tanpa titik berhenti",
+    "desc": "ma02: program salah “tanpa titik berhenti” gagal dengan pesan",
+    "ok": true,
+    "note": "Mesin memanggil dirinya terus tanpa berhenti. Tambahkan titik berhenti: kartu Jika yang me"
+  },
+  {
+    "id": "N-ma02-titik berhenti > 0",
+    "desc": "ma02: program salah “titik berhenti > 0” gagal dengan pesan",
+    "ok": true,
+    "note": "Total batu berisi 0. Piramida 6 tingkat butuh 6 + 5 + 4 + 3 + 2 + 1 batu."
+  },
+  {
+    "id": "N-ma02-hasil Mesin(5)",
+    "desc": "ma02: program salah “hasil Mesin(5)” gagal dengan pesan",
+    "ok": true,
+    "note": "Total batu berisi 15. Piramida 6 tingkat butuh 6 + 5 + 4 + 3 + 2 + 1 batu."
+  },
+  {
+    "id": "N-ma03-berhenti di masukan > 0",
+    "desc": "ma03: program salah “berhenti di masukan > 0” gagal dengan pesan",
+    "ok": true,
+    "note": "Tidak ada lahan menara di samping Bit. Maju dulu ke lahan yang benar."
+  },
+  {
+    "id": "N-ma03-masukan awal 3",
+    "desc": "ma03: program salah “masukan awal 3” gagal dengan pesan",
+    "ok": true,
+    "note": "Menara di petak 2 tingginya 3, seharusnya 4."
+  },
+  {
+    "id": "A-ma01-tanpa Mesin",
+    "desc": "ma01: cara tanpa rekursi “tanpa Mesin” benar tetapi melebihi batas kartu (9 > 6)",
+    "ok": true,
+    "note": "9 kartu"
+  },
+  {
+    "id": "A-ma01-Mesin 2 balok dipanggil 3 kali",
+    "desc": "ma01: cara tanpa rekursi “Mesin 2 balok dipanggil 3 kali” benar tetapi melebihi batas kartu (9 > 6)",
+    "ok": true,
+    "note": "9 kartu"
+  },
+  {
+    "id": "A-ma02-Isi lalu Ubah",
+    "desc": "ma02: cara tanpa rekursi “Isi lalu Ubah” benar tetapi melebihi batas kartu (6 > 4)",
+    "ok": true,
+    "note": "6 kartu"
+  },
+  {
+    "id": "A-ma03-Mesin bermasukan dipanggil 4 kali",
+    "desc": "ma03: cara tanpa rekursi “Mesin bermasukan dipanggil 4 kali” benar tetapi melebihi batas kartu (9 > 7)",
+    "ok": true,
+    "note": "9 kartu"
+  },
+  {
+    "id": "M0",
+    "desc": "MA01: kartu Ulangi tidak ada di palet mana pun (Ulangi 2 [Ulangi 3 [Susun]] + Susun akan muat 6 kartu tanpa rekursi)",
+    "ok": true,
+    "note": "[false,false,false]"
+  },
+  {
+    "id": "M1",
+    "desc": "Rekursi tanpa titik berhenti dihentikan dengan pesan “tanpa berhenti”",
+    "ok": true,
+    "note": "Mesin memanggil dirinya terus tanpa berhenti. Tambahkan titik berhenti: kartu Jika yang me"
+  },
+  {
+    "id": "M2",
+    "desc": "Di Junior (J08) Mesin memanggil dirinya tetap ditolak",
+    "ok": true,
+    "note": "Mesin tidak boleh menjalankan Mesin di dalam dirinya sendiri. Itu materi tingkat Middle."
+  },
+  {
+    "id": "M3",
+    "desc": "Kode semu rekursi: fungsi mesin(masukan) dengan jika masukan > 1: mesin(masukan - 1)",
+    "ok": true,
+    "note": "\"fungsi mesin(masukan):\\n    susun_balok()\\n    jika masukan > 1:\\n        mesin(masukan - 1)\\nmaju()\\nmesin(7)\\npasang_atap()\""
+  },
+  {
+    "id": "O1",
+    "desc": "Urutan menu: … J14 lalu MA01 MA02 MA03",
+    "ok": true,
+    "note": "EX06 EX07 EX08 EX09 EX10"
+  },
+  {
+    "id": "E1",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

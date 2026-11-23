@@ -1,0 +1,7 @@
+{
+  "appId": "id.kodenusantara.app",
+  "appName": "Kode Nusantara",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false }
+}

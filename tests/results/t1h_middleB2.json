@@ -1,0 +1,212 @@
+[
+  {
+    "id": "R-mb04",
+    "desc": "mb04: program acuan (7 kartu, batas 7) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 7/7, palet maks 6"
+  },
+  {
+    "id": "R-mb05",
+    "desc": "mb05: program acuan (7 kartu, batas 7) lulus di semua 2 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 7/7, palet maks 5"
+  },
+  {
+    "id": "R-mb06",
+    "desc": "mb06: program acuan (9 kartu, batas 9) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 9/9, palet maks 6"
+  },
+  {
+    "id": "R-mb07",
+    "desc": "mb07: program acuan (11 kartu, batas 11) lulus di semua 2 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 11/11, palet maks 5"
+  },
+  {
+    "id": "R-mb08",
+    "desc": "mb08: program acuan (8 kartu, batas 8) lulus di semua 4 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 8/8, palet maks 5"
+  },
+  {
+    "id": "R-mb09",
+    "desc": "mb09: program acuan (8 kartu, batas 8) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 8/8, palet maks 6"
+  },
+  {
+    "id": "R-mb10",
+    "desc": "mb10: program acuan (14 kartu, batas 14) lulus di semua 3 keadaan; kartunya ada di palet; palet ≤ 7",
+    "ok": true,
+    "note": "kartu 14/14, palet maks 7"
+  },
+  {
+    "id": "N-mb04-saldo tidak dikunci",
+    "desc": "mb04: cara salah “saldo tidak dikunci” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Tabungan.saldo berhasil diubah dari luar. Kunci atributnya 🔒 di dalam cetakan supaya hanya method yang boleh mengubahnya."
+  },
+  {
+    "id": "N-mb04-ambil tanpa penjaga",
+    "desc": "mb04: cara salah “ambil tanpa penjaga” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Saldo sempat minus (-6). Method ambil harus menolak bila saldo kurang dari masukan."
+  },
+  {
+    "id": "N-mb04-setor dan ambil tertukar",
+    "desc": "mb04: cara salah “setor dan ambil tertukar” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Saldo akhir 11, seharusnya 2."
+  },
+  {
+    "id": "N-mb04-penjaga salah (>)",
+    "desc": "mb04: cara salah “penjaga salah (>)” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 2: Saldo akhir 3, seharusnya 0."
+  },
+  {
+    "id": "N-mb05-Burung tidak mewarisi",
+    "desc": "mb05: cara salah “Burung tidak mewarisi” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Penjaga: Cetakan Burung tidak punya method makan. Tambahkan kartu Method makan di dalam Buat Cetakan Burung."
+  },
+  {
+    "id": "N-mb05-makan disalin ke Burung",
+    "desc": "mb05: cara salah “makan disalin ke Burung” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "benar tetapi 10 > 7 kartu"
+  },
+  {
+    "id": "N-mb05-terbang di Hewan",
+    "desc": "mb05: cara salah “terbang di Hewan” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Kambing bersuara “wus”, seharusnya diam."
+  },
+  {
+    "id": "N-mb06-energi tidak dikunci",
+    "desc": "mb06: cara salah “energi tidak dikunci” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pipit.energi berhasil diubah dari luar. Kunci atributnya 🔒 di dalam cetakan supaya hanya method yang boleh mengubahnya."
+  },
+  {
+    "id": "N-mb06-terbang tanpa penjaga",
+    "desc": "mb06: cara salah “terbang tanpa penjaga” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Energi Pipit sempat minus (-4). Terbang hanya boleh bila energinya cukup."
+  },
+  {
+    "id": "N-mb06-penjaga ≥ 1",
+    "desc": "mb06: cara salah “penjaga ≥ 1” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Energi Pipit sempat minus (-1). Terbang hanya boleh bila energinya cukup."
+  },
+  {
+    "id": "N-mb07-terbang Burung diubah jadi plung",
+    "desc": "mb07: cara salah “terbang Burung diubah jadi plung” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pipit bersuara “plung”, seharusnya “wus”."
+  },
+  {
+    "id": "N-mb07-Pinguin tidak mewarisi",
+    "desc": "mb07: cara salah “Pinguin tidak mewarisi” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Penjaga: Cetakan Pinguin tidak punya method makan. Tambahkan kartu Method makan di dalam Buat Cetakan Pinguin."
+  },
+  {
+    "id": "N-mb07-Pinguin mewarisi Hewan langsung",
+    "desc": "mb07: cara salah “Pinguin mewarisi Hewan langsung” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pingu tidak punya sayap. Semua burung punya 2 sayap, termasuk pinguin."
+  },
+  {
+    "id": "N-mb07-sayap ditaruh di Hewan",
+    "desc": "mb07: cara salah “sayap ditaruh di Hewan” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Kambing punya sayap! Sayap hanya milik burung, jadi atributnya di Cetakan Burung."
+  },
+  {
+    "id": "N-mb08-Bit yang bersuara",
+    "desc": "mb08: cara salah “Bit yang bersuara” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pelatih: membuat Oyen dari Cetakan Kucing, tetapi Cetakan Kucing belum dibuat."
+  },
+  {
+    "id": "N-mb08-hanya cetakan Kucing",
+    "desc": "mb08: cara salah “hanya cetakan Kucing” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Pelatih: membuat Donal dari Cetakan Bebek, tetapi Cetakan Bebek belum dibuat."
+  },
+  {
+    "id": "N-mb08-Bebek mengeong",
+    "desc": "mb08: cara salah “Bebek mengeong” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Donal bersuara “meong”, seharusnya “kwek”."
+  },
+  {
+    "id": "N-mb09-lampu milik Rumah (tanpa kamar)",
+    "desc": "mb09: cara salah “lampu milik Rumah (tanpa kamar)” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: RumahA tidak punya kamar. Beri Rumah atribut kamar yang berisi objek Kamar baru."
+  },
+  {
+    "id": "N-mb09-lampu kamar awalnya mati",
+    "desc": "mb09: cara salah “lampu kamar awalnya mati” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Lampu kamar RumahB mati, seharusnya nyala."
+  },
+  {
+    "id": "N-mb09-Rumah tidur tanpa menyuruh kamar",
+    "desc": "mb09: cara salah “Rumah tidur tanpa menyuruh kamar” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Lampu kamar RumahA nyala, seharusnya mati."
+  },
+  {
+    "id": "N-mb10-energi tidak dikunci",
+    "desc": "mb10: cara salah “energi tidak dikunci” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Donal.energi berhasil diubah dari luar. Kunci atributnya 🔒 di dalam cetakan supaya hanya method yang boleh mengubahnya."
+  },
+  {
+    "id": "N-mb10-tampil tanpa penjaga",
+    "desc": "mb10: cara salah “tampil tanpa penjaga” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "keadaan 0: Energi sempat minus (-2). Hewan hanya tampil bila energinya ada."
+  },
+  {
+    "id": "N-mb10-tampil ditulis di tiap cetakan (tanpa mewarisi)",
+    "desc": "mb10: cara salah “tampil ditulis di tiap cetakan (tanpa mewarisi)” gagal (atau melebihi batas kartu)",
+    "ok": true,
+    "note": "benar tetapi 16 > 14 kartu"
+  },
+  {
+    "id": "P1",
+    "desc": "Kode semu MB04: atribut terkunci, fungsi dengan masukan, += / -=",
+    "ok": true,
+    "note": "\"kelas Celengan:\\n    saldo = 0  # terkunci\\n    fungsi setor(diri, masukan):\\n        diri.saldo += masukan\\n    fungsi ambil(diri, masukan):\\n        jika diri.saldo >= masukan:\\n            diri.saldo -= masukan\""
+  },
+  {
+    "id": "P2",
+    "desc": "Kode semu MB09: komposisi kamar = Kamar(), diri.kamar.matikan()",
+    "ok": true,
+    "note": "\"kelas Kamar:\\n    lampu = \\\"nyala\\\"\\n    fungsi matikan(diri):\\n        diri.lampu = \\\"mati\\\"\\nkelas Rumah:\\n    kamar = Kamar()\\n    fungsi tidur(diri):\\n        diri.kamar.matikan()\""
+  },
+  {
+    "id": "P3",
+    "desc": "Kode semu MB10: kelas Kucing(Hewan), diri.bernyanyi()",
+    "ok": true,
+    "note": "\"kelas Hewan:\\n    energi = 0  # terkunci\\n    fungsi makan(diri):\\n        diri.energi += 1\\n    fungsi tampil(diri):\\n        jika diri.energi >= 1:\\n            diri.energi -= 1\\n            diri.b"
+  },
+  {
+    "id": "O1",
+    "desc": "Urutan menu: … MB03 lalu MB04 … MB10",
+    "ok": true,
+    "note": "EX03 EX04 EX05 EX06 EX07 EX08 EX09 EX10"
+  },
+  {
+    "id": "E1",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

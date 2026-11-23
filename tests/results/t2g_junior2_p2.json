@@ -1,0 +1,68 @@
+[
+  {
+    "id": "J11a",
+    "desc": "J11: Ambil dari rak nomor 2 lalu 4 → menang",
+    "ok": true,
+    "note": "Pesanan diambil dari rak yang benar!"
+  },
+  {
+    "id": "J11b",
+    "desc": "J11: menghitung dari 1 (nomor 3 lalu 5) → gagal dengan pesan “dimulai dari 0”",
+    "ok": true,
+    "note": "Rak ini hanya punya nomor 0 sampai 4. Nomor rak dimulai dari 0, bukan 1. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "J12-v0",
+    "desc": "J12 (keadaan 0): Untuk setiap [Jika rusak → Buang] → menang",
+    "ok": true,
+    "note": "Barang rusak tersingkir!"
+  },
+  {
+    "id": "J12-v1",
+    "desc": "J12 (keadaan 1): Untuk setiap [Jika rusak → Buang] → menang",
+    "ok": true,
+    "note": "Barang rusak tersingkir!"
+  },
+  {
+    "id": "J12-v2",
+    "desc": "J12 (keadaan 2): Untuk setiap [Jika rusak → Buang] → menang",
+    "ok": true,
+    "note": "Barang rusak tersingkir!"
+  },
+  {
+    "id": "J12-v3",
+    "desc": "J12 (keadaan 3): Untuk setiap [Jika rusak → Buang] → menang",
+    "ok": true,
+    "note": "Barang rusak tersingkir!"
+  },
+  {
+    "id": "J13-v0",
+    "desc": "J13 (keadaan 0): Isi total 0 · Untuk setiap [Ubah total + isi rak sekarang] → menang",
+    "ok": true,
+    "note": "⠿🧮Ubah kotak total berat + isi rak sekarang | Semua berat terjumlah!"
+  },
+  {
+    "id": "J13-v2",
+    "desc": "J13 (keadaan 2): Isi total 0 · Untuk setiap [Ubah total + isi rak sekarang] → menang",
+    "ok": true,
+    "note": "⠿🧮Ubah kotak total berat + isi rak sekarang | Semua berat terjumlah!"
+  },
+  {
+    "id": "J14-v0",
+    "desc": "J14 (keadaan 0): minyak dengan Untuk setiap, jalan dengan Selama, Tekan tombol → menang",
+    "ok": true,
+    "note": "isi,untuk,ubah,akhir✓,selama,maju,akhir✓,tekan | Mercusuar menyala lagi!"
+  },
+  {
+    "id": "J14-v3",
+    "desc": "J14 (keadaan 3): minyak dengan Untuk setiap, jalan dengan Selama, Tekan tombol → menang",
+    "ok": true,
+    "note": "isi,untuk,ubah,akhir✓,selama,maju,akhir✓,tekan | Mercusuar menyala lagi!"
+  },
+  {
+    "id": "J14x",
+    "desc": "J14: lupa Isi 0 → gagal di kartu Ubah dengan pesan kotak kosong",
+    "ok": true,
+    "note": "Kotak minyak masih kosong. Isi dulu sebelum diubah. Tidak apa-apa, coba lagi!"
+  }
+]

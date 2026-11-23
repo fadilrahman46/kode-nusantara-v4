@@ -1,0 +1,56 @@
+[
+  {
+    "id": "R01",
+    "desc": "Draw call per stage < 100 (anggaran GDD §8.5) dan segitiga < 20.000",
+    "ok": true,
+    "note": "p0: 23 call, 1158 segitiga | b6: 23 call, 1154 segitiga | b7: 48 call, 2106 segitiga | b8: 39 call, 1330 segitiga"
+  },
+  {
+    "id": "R02",
+    "desc": "Memori GPU stabil setelah 31× ganti stage (geometri & tekstur tidak menumpuk)",
+    "ok": true,
+    "note": "geometri 19→19, tekstur 0→0; heap JS 8→13 MB"
+  },
+  {
+    "id": "R03",
+    "desc": "12× eksekusi berturut-turut: jumlah tekstur label stabil (tidak bocor per langkah)",
+    "ok": true,
+    "note": "tekstur 0→0"
+  },
+  {
+    "id": "R04",
+    "desc": "localStorage ditolak (mode privat/iframe): halaman tetap dapat dimainkan sampai menang",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R05a",
+    "desc": "Tanpa internet: adegan 3D tetap tampil (Three.js disematkan)",
+    "ok": true,
+    "note": "draw calls=23; permintaan luar diblokir=1"
+  },
+  {
+    "id": "R05b",
+    "desc": "Tanpa internet: Stage Pengantar bisa dimenangkan tanpa error",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "R06",
+    "desc": "[iframe tersandbox TANPA allow-modals] tombol \"Hapus catatan\" (dua ketukan) berfungsi",
+    "ok": true,
+    "note": "entri tersisa=0 (kondisi sandbox artifact sebenarnya belum diverifikasi)"
+  },
+  {
+    "id": "R07",
+    "desc": "Rotasi/resize saat berjalan: kanvas 3D mengikuti ukuran area dunia",
+    "ok": true,
+    "note": "{\"cw\":360,\"ww\":360,\"bufW\":720,\"ch\":258,\"wh\":258}"
+  },
+  {
+    "id": "R08",
+    "desc": "Bobot unduhan awal (HTML + Three.js r128) < 8 MB",
+    "ok": true,
+    "note": "satu berkas HTML (termasuk Three.js) = 0.96 MB; font web opsional"
+  }
+]

@@ -1,0 +1,332 @@
+{
+  "ref": {
+    "j07": {
+      "n": 1,
+      "limit": 13,
+      "len": 13,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": ""
+        }
+      ],
+      "pal": true
+    },
+    "j08": {
+      "n": 1,
+      "limit": 13,
+      "len": 13,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": ""
+        }
+      ],
+      "pal": true
+    },
+    "j09": {
+      "n": 1,
+      "limit": 5,
+      "len": 5,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": ""
+        }
+      ],
+      "pal": true
+    },
+    "j10": {
+      "n": 4,
+      "limit": 8,
+      "len": 7,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": "tanda di petak 2, 4, 6"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "tanda di petak 3, 6"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "tanda di petak 2, 3, 5"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "tanda di petak 4, 5, 6"
+        }
+      ],
+      "pal": true
+    },
+    "j11": {
+      "n": 1,
+      "limit": 2,
+      "len": 2,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": ""
+        }
+      ],
+      "pal": true
+    },
+    "j12": {
+      "n": 4,
+      "limit": 2,
+      "len": 2,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": "4 barang, 2 rusak"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "5 barang, 2 rusak"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "6 barang, 2 rusak"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "3 barang, 2 rusak"
+        }
+      ],
+      "pal": true
+    },
+    "j13": {
+      "n": 4,
+      "limit": 3,
+      "len": 3,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": "3 barang"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "4 barang"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "5 barang"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "2 barang"
+        }
+      ],
+      "pal": true
+    },
+    "j14": {
+      "n": 4,
+      "limit": 7,
+      "len": 6,
+      "res": [
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 3 petak, 2 kaleng minyak"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 5 petak, 2 kaleng minyak"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 3 petak, 3 kaleng minyak"
+        },
+        {
+          "ok": true,
+          "msg": "",
+          "label": "jalan 5 petak, 3 kaleng minyak"
+        }
+      ],
+      "pal": true
+    }
+  },
+  "neg": {
+    "j07": {
+      "Mesin tanpa atap": [
+        "✗: Menara di petak 2 belum beratap."
+      ],
+      "Jalankan tanpa Buat Mesin": [
+        "✗: Mesin belum dibuat. Letakkan kartu Buat Mesin beserta isinya dulu."
+      ],
+      "Mesin dijalankan di lahan salah": [
+        "✗: Tidak ada lahan menara di samping Bit. Maju dulu ke lahan yang benar."
+      ]
+    },
+    "j08": {
+      "tinggi tetap 3": [
+        "✗: Menara di petak 2 tingginya 3, seharusnya 2."
+      ],
+      "masukan tertukar": [
+        "✗: Menara di petak 2 tingginya 4, seharusnya 2."
+      ]
+    },
+    "j09": {
+      "dikali 3": [
+        "✗: Bahan A berisi 6. Menara 2 lantai, tiap lantai 4 bata."
+      ],
+      "Mesin tanpa Keluarkan": [
+        "✗: Mesin selesai tanpa kartu Keluarkan, jadi tidak ada hasil untuk diisik"
+      ],
+      "ditambah 4": [
+        "✗: Bahan A berisi 6. Menara 2 lantai, tiap lantai 4 bata."
+      ]
+    },
+    "j10": {
+      "tanpa Jika": [
+        "✗: Lahan di petak 3 tidak bertanda, jadi tidak boleh dibangun.",
+        "✗: Lahan di petak 2 tidak bertanda, jadi tidak boleh dibangun.",
+        "✗: Lahan di petak 4 tidak bertanda, jadi tidak boleh dibangun.",
+        "✗: Lahan di petak 2 tidak bertanda, jadi tidak boleh dibangun."
+      ],
+      "Jika hanya Susun": [
+        "✗: Menara di petak 2 tingginya 1, seharusnya 3.",
+        "✗: Menara di petak 3 tingginya 1, seharusnya 3.",
+        "✗: Menara di petak 2 tingginya 1, seharusnya 3.",
+        "✗: Menara di petak 4 tingginya 1, seharusnya 3."
+      ]
+    },
+    "j11": {
+      "menghitung dari 1": [
+        "✗: Rak ini hanya punya nomor 0 sampai 4. Nomor rak dimulai dari 0, bukan "
+      ],
+      "urutan terbalik": [
+        "✗: Barang ke-1 di keranjang adalah ikan (rak nomor 4), bukan kelapa. Inga"
+      ]
+    },
+    "j12": {
+      "buang semua": [
+        "✗: pisang masih baik tetapi ikut dibuang.",
+        "✗: garam masih baik tetapi ikut dibuang.",
+        "✗: telur masih baik tetapi ikut dibuang.",
+        "✗: mangga masih baik tetapi ikut dibuang."
+      ],
+      "Ulangi, bukan Untuk setiap": [
+        "✗: Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu",
+        "✗: Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu",
+        "✗: Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu",
+        "✗: Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu"
+      ]
+    },
+    "j13": {
+      "lupa mengisi 0": [
+        "✗: Kotak total berat masih kosong. Isi dulu sebelum diubah.",
+        "✗: Kotak total berat masih kosong. Isi dulu sebelum diubah.",
+        "✗: Kotak total berat masih kosong. Isi dulu sebelum diubah.",
+        "✗: Kotak total berat masih kosong. Isi dulu sebelum diubah."
+      ],
+      "menambah 1 tiap barang": [
+        "✗: Total berat berisi 3, padahal jumlah semua berat 12.",
+        "✗: Total berat berisi 4, padahal jumlah semua berat 13.",
+        "✗: Total berat berisi 5, padahal jumlah semua berat 16.",
+        "✗: Total berat berisi 2, padahal jumlah semua berat 11."
+      ]
+    },
+    "j14": {
+      "lupa tekan": [
+        "✗: Bit sudah di mercusuar. Tekan tombol lampunya.",
+        "✗: Bit sudah di mercusuar. Tekan tombol lampunya.",
+        "✗: Bit sudah di mercusuar. Tekan tombol lampunya.",
+        "✗: Bit sudah di mercusuar. Tekan tombol lampunya."
+      ],
+      "jalan dihitung tetap": [
+        "✓",
+        "✗: Tidak ada tombol di petak ini. Bit harus berdiri di atas tombol.",
+        "✓",
+        "✗: Tidak ada tombol di petak ini. Bit harus berdiri di atas tombol."
+      ]
+    }
+  },
+  "flat": {
+    "j07": {
+      "found": null,
+      "explored": 6926,
+      "atoms": 12,
+      "capped": false
+    },
+    "j08": {
+      "found": null,
+      "explored": 11031,
+      "atoms": 16,
+      "capped": false
+    },
+    "j09": {
+      "found": null,
+      "explored": 9907,
+      "atoms": 48,
+      "capped": false
+    },
+    "j10": {
+      "found": null,
+      "explored": 59126,
+      "atoms": 21,
+      "capped": false
+    },
+    "j12": {
+      "found": null,
+      "explored": 0,
+      "atoms": 30,
+      "capped": false
+    },
+    "j13": {
+      "found": null,
+      "explored": 25,
+      "atoms": 56,
+      "capped": false
+    },
+    "j14": {
+      "found": null,
+      "explored": 1258,
+      "atoms": 54,
+      "capped": false
+    }
+  },
+  "misc": {
+    "masukan": {
+      "seq": "0c 6 7c 1c 2 1c 2 1c 2 4",
+      "h": 3,
+      "roof": true
+    },
+    "recursion": "Mesin tidak boleh menjalankan Mesin di dalam dirinya sendiri. Itu materi tingkat Middle.",
+    "masukanOutside": "“masukan” hanya punya nilai di dalam Mesin yang dijalankan dengan masukan.",
+    "keluarStops": {
+      "seq": "0c 4c 1c 4",
+      "val": {
+        "t": "num",
+        "v": 8
+      }
+    },
+    "cur": {
+      "seq": "0c 1 0c 1 0c 1 0c 1 0c",
+      "cur": null,
+      "thrown": "beras,jagung"
+    },
+    "rusakOutside": "Pertanyaan “isi rak sekarang rusak?” hanya bisa dipakai di dalam kartu Untuk setiap.",
+    "offByOne": "Rak ini hanya punya nomor 0 sampai 4. Nomor rak dimulai dari 0, bukan 1."
+  },
+  "order": "B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 J01 J02 J03 J04 J05 J06 J07 J08 J09 J10 J11 J12 J13 J14 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA0 MA1 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB0 MB1 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE0 SE1 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX0 EX1"
+}

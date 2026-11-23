@@ -1,0 +1,32 @@
+[
+  {
+    "id": "MA01",
+    "desc": "MA01: Mesin [Susun, Jika masukan > 1 → Jalankan Mesin(masukan − 1)] · Maju · Jalankan Mesin(7) · Atap → menang",
+    "ok": true,
+    "note": "mesin,susun,jika,akhir✓,maju,pakai,atap | Menara cermin berdiri!"
+  },
+  {
+    "id": "MA01x",
+    "desc": "MA01: titik berhenti bawaan (masukan > 0) → menara 8 balok, pesan menyebut tinggi yang salah",
+    "ok": true,
+    "note": "Menara di petak 2 tingginya 8, seharusnya 7. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "MA02",
+    "desc": "MA02: Mesin [Jika masukan = 0 → Keluarkan 0, Keluarkan masukan + hasil Mesin(masukan − 1)] · Isi total hasil Mesin(6) → menang",
+    "ok": true,
+    "note": "⠿📤Keluarkan masukan + hasil Mesin(masukan − 1) | Batu piramida terhitung!"
+  },
+  {
+    "id": "MA03",
+    "desc": "MA03: Mesin [Maju, Ulangi masukan [Susun], Atap, Jika masukan > 1 → Mesin(masukan − 1)] · Jalankan Mesin(4) → menang",
+    "ok": true,
+    "note": "mesin,maju,ulangi,susun,akhir✓,atap,jika,akhir✓,pakai | Tangga turun selesai!"
+  },
+  {
+    "id": "LOCK",
+    "desc": "Profil baru: MA01 terkunci sampai semua Junior selesai",
+    "ok": true,
+    "note": "Selesaikan semua tahap Junior dulu (kurang 14)."
+  }
+]

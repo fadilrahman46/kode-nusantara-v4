@@ -1,0 +1,228 @@
+{
+  "ref": {
+    "mb04": {
+      "ok": true,
+      "msg": "",
+      "len": 7,
+      "limit": 7,
+      "n": 3,
+      "pal": true,
+      "palMax": 6
+    },
+    "mb05": {
+      "ok": true,
+      "msg": "",
+      "len": 7,
+      "limit": 7,
+      "n": 2,
+      "pal": true,
+      "palMax": 5
+    },
+    "mb06": {
+      "ok": true,
+      "msg": "",
+      "len": 9,
+      "limit": 9,
+      "n": 3,
+      "pal": true,
+      "palMax": 6
+    },
+    "mb07": {
+      "ok": true,
+      "msg": "",
+      "len": 11,
+      "limit": 11,
+      "n": 2,
+      "pal": true,
+      "palMax": 5
+    },
+    "mb08": {
+      "ok": true,
+      "msg": "",
+      "len": 8,
+      "limit": 8,
+      "n": 4,
+      "pal": true,
+      "palMax": 5
+    },
+    "mb09": {
+      "ok": true,
+      "msg": "",
+      "len": 8,
+      "limit": 8,
+      "n": 3,
+      "pal": true,
+      "palMax": 6
+    },
+    "mb10": {
+      "ok": true,
+      "msg": "",
+      "len": 14,
+      "limit": 14,
+      "n": 3,
+      "pal": true,
+      "palMax": 7
+    }
+  },
+  "neg": {
+    "mb04": {
+      "saldo tidak dikunci": {
+        "v": 0,
+        "msg": "Tabungan.saldo berhasil diubah dari luar. Kunci atributnya 🔒 di dalam cetakan supaya hanya method yang boleh mengubahnya.",
+        "len": 7,
+        "limit": 7
+      },
+      "ambil tanpa penjaga": {
+        "v": 0,
+        "msg": "Saldo sempat minus (-6). Method ambil harus menolak bila saldo kurang dari masukan.",
+        "len": 6,
+        "limit": 7
+      },
+      "setor dan ambil tertukar": {
+        "v": 0,
+        "msg": "Saldo akhir 11, seharusnya 2.",
+        "len": 7,
+        "limit": 7
+      },
+      "penjaga salah (>)": {
+        "v": 2,
+        "msg": "Saldo akhir 3, seharusnya 0.",
+        "len": 7,
+        "limit": 7
+      }
+    },
+    "mb05": {
+      "Burung tidak mewarisi": {
+        "v": 0,
+        "msg": "Penjaga: Cetakan Burung tidak punya method makan. Tambahkan kartu Method makan di dalam Buat Cetakan Burung.",
+        "len": 7,
+        "limit": 7
+      },
+      "makan disalin ke Burung": {
+        "v": -1,
+        "msg": "",
+        "len": 10,
+        "limit": 7
+      },
+      "terbang di Hewan": {
+        "v": 0,
+        "msg": "Kambing bersuara “wus”, seharusnya diam.",
+        "len": 7,
+        "limit": 7
+      }
+    },
+    "mb06": {
+      "energi tidak dikunci": {
+        "v": 0,
+        "msg": "Pipit.energi berhasil diubah dari luar. Kunci atributnya 🔒 di dalam cetakan supaya hanya method yang boleh mengubahnya.",
+        "len": 9,
+        "limit": 9
+      },
+      "terbang tanpa penjaga": {
+        "v": 0,
+        "msg": "Energi Pipit sempat minus (-4). Terbang hanya boleh bila energinya cukup.",
+        "len": 8,
+        "limit": 9
+      },
+      "penjaga ≥ 1": {
+        "v": 0,
+        "msg": "Energi Pipit sempat minus (-1). Terbang hanya boleh bila energinya cukup.",
+        "len": 9,
+        "limit": 9
+      }
+    },
+    "mb07": {
+      "terbang Burung diubah jadi plung": {
+        "v": 0,
+        "msg": "Pipit bersuara “plung”, seharusnya “wus”.",
+        "len": 9,
+        "limit": 11
+      },
+      "Pinguin tidak mewarisi": {
+        "v": 0,
+        "msg": "Penjaga: Cetakan Pinguin tidak punya method makan. Tambahkan kartu Method makan di dalam Buat Cetakan Pinguin.",
+        "len": 11,
+        "limit": 11
+      },
+      "Pinguin mewarisi Hewan langsung": {
+        "v": 0,
+        "msg": "Pingu tidak punya sayap. Semua burung punya 2 sayap, termasuk pinguin.",
+        "len": 11,
+        "limit": 11
+      },
+      "sayap ditaruh di Hewan": {
+        "v": 0,
+        "msg": "Kambing punya sayap! Sayap hanya milik burung, jadi atributnya di Cetakan Burung.",
+        "len": 11,
+        "limit": 11
+      }
+    },
+    "mb08": {
+      "Bit yang bersuara": {
+        "v": 0,
+        "msg": "Pelatih: membuat Oyen dari Cetakan Kucing, tetapi Cetakan Kucing belum dibuat.",
+        "len": 2,
+        "limit": 8
+      },
+      "hanya cetakan Kucing": {
+        "v": 0,
+        "msg": "Pelatih: membuat Donal dari Cetakan Bebek, tetapi Cetakan Bebek belum dibuat.",
+        "len": 5,
+        "limit": 8
+      },
+      "Bebek mengeong": {
+        "v": 0,
+        "msg": "Donal bersuara “meong”, seharusnya “kwek”.",
+        "len": 8,
+        "limit": 8
+      }
+    },
+    "mb09": {
+      "lampu milik Rumah (tanpa kamar)": {
+        "v": 0,
+        "msg": "RumahA tidak punya kamar. Beri Rumah atribut kamar yang berisi objek Kamar baru.",
+        "len": 4,
+        "limit": 8
+      },
+      "lampu kamar awalnya mati": {
+        "v": 0,
+        "msg": "Lampu kamar RumahB mati, seharusnya nyala.",
+        "len": 8,
+        "limit": 8
+      },
+      "Rumah tidur tanpa menyuruh kamar": {
+        "v": 0,
+        "msg": "Lampu kamar RumahA nyala, seharusnya mati.",
+        "len": 7,
+        "limit": 8
+      }
+    },
+    "mb10": {
+      "energi tidak dikunci": {
+        "v": 0,
+        "msg": "Donal.energi berhasil diubah dari luar. Kunci atributnya 🔒 di dalam cetakan supaya hanya method yang boleh mengubahnya.",
+        "len": 14,
+        "limit": 14
+      },
+      "tampil tanpa penjaga": {
+        "v": 0,
+        "msg": "Energi sempat minus (-2). Hewan hanya tampil bila energinya ada.",
+        "len": 13,
+        "limit": 14
+      },
+      "tampil ditulis di tiap cetakan (tanpa mewarisi)": {
+        "v": -1,
+        "msg": "",
+        "len": 16,
+        "limit": 14
+      }
+    }
+  },
+  "misc": {
+    "ps_mb04": "kelas Celengan:\n    saldo = 0  # terkunci\n    fungsi setor(diri, masukan):\n        diri.saldo += masukan\n    fungsi ambil(diri, masukan):\n        jika diri.saldo >= masukan:\n            diri.saldo -= masukan",
+    "ps_mb09": "kelas Kamar:\n    lampu = \"nyala\"\n    fungsi matikan(diri):\n        diri.lampu = \"mati\"\nkelas Rumah:\n    kamar = Kamar()\n    fungsi tidur(diri):\n        diri.kamar.matikan()",
+    "ps_mb10": "kelas Hewan:\n    energi = 0  # terkunci\n    fungsi makan(diri):\n        diri.energi += 1\n    fungsi tampil(diri):\n        jika diri.energi >= 1:\n            diri.energi -= 1\n            diri.bernyanyi()\nkelas Kucing(Hewan):\n    fungsi bernyanyi(diri):\n        bersuara(\"meong\")\nkelas Bebek(Hewan):\n    fungsi bernyanyi(diri):\n        bersuara(\"kwek\")",
+    "locked": "energi|0"
+  },
+  "order": "B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 J01 J02 J03 J04 J05 J06 J07 J08 J09 J10 J11 J12 J13 J14 MA01 MA02 MA03 MA04 MA05 MA06 MA07 MA08 MA09 MA10 MB01 MB02 MB03 MB04 MB05 MB06 MB07 MB08 MB09 MB10 SE01 SE02 SE03 SE04 SE05 SE06 SE07 SE08 SE09 SE10 EX01 EX02 EX03 EX04 EX05 EX06 EX07 EX08 EX09 EX10"
+}

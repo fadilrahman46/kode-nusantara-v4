@@ -1,0 +1,44 @@
+[
+  {
+    "id": "J01a",
+    "desc": "J01: ketuk Ulangi → Selesai muncul otomatis; ketuk Maju → masuk ke DALAM Ulangi; hitungan kartu 2/2 (Selesai tidak dihitung); kartu ke-3 ditolak",
+    "ok": true,
+    "note": "ulangi,akhir → ulangi,maju,akhir (2/2) → ulangi,maju,akhir"
+  },
+  {
+    "id": "J01b",
+    "desc": "J01: Ulangi 8 [Maju] lewat UI → menang",
+    "ok": true,
+    "note": "Delapan langkah, dua kartu!"
+  },
+  {
+    "id": "J01c",
+    "desc": "J01: Ulangi 6 → gagal dengan pesan sisa petak (bukan menang)",
+    "ok": true,
+    "note": "Masih kurang 2 petak lagi menuju lampu. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "J02",
+    "desc": "J02: Ulangi 3 [Maju, Kanan, Maju, Kiri] → menang",
+    "ok": true,
+    "note": "Tangga terlewati!"
+  },
+  {
+    "id": "J03a",
+    "desc": "J03: Ulangi di dalam Ulangi lewat ketukan + menutup wadah dalam dengan mengetuk Selesai; indentasi dua tingkat",
+    "ok": true,
+    "note": "ulangi,ulangi,maju,akhir✓,kanan,akhir | indentasi: - in1 in2 in1 in1 - | Kebun terkelilingi!"
+  },
+  {
+    "id": "J03b",
+    "desc": "Kode semu bersarang berindentasi benar",
+    "ok": true,
+    "note": "\"ulangi 4 kali:\\n    ulangi 3 kali:\\n        maju()\\n    belok_kanan()\""
+  },
+  {
+    "id": "J03c",
+    "desc": "Menghapus kartu Ulangi (tombol Delete) ikut membuang Selesai pasangannya",
+    "ok": true,
+    "note": "maju"
+  }
+]

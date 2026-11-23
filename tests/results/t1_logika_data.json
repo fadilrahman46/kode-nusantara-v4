@@ -1,0 +1,570 @@
+{
+  "p0": {
+    "easy": {
+      "atoms": 1,
+      "limit": 8,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0
+      },
+      "reach": {
+        "1": {
+          "programs": 1,
+          "notCrashing": 1
+        },
+        "2": {
+          "programs": 1,
+          "notCrashing": 1
+        },
+        "3": {
+          "programs": 1,
+          "notCrashing": 1
+        },
+        "4": {
+          "programs": 1,
+          "notCrashing": 1
+        },
+        "5": {
+          "programs": 1,
+          "notCrashing": 0
+        },
+        "6": {
+          "programs": 0,
+          "notCrashing": 0
+        },
+        "7": {
+          "programs": 0,
+          "notCrashing": 0
+        },
+        "8": {
+          "programs": 0,
+          "notCrashing": 0
+        }
+      }
+    },
+    "medium": {
+      "atoms": 2,
+      "limit": 8,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 5
+      },
+      "reach": {
+        "1": {
+          "programs": 2,
+          "notCrashing": 2
+        },
+        "2": {
+          "programs": 4,
+          "notCrashing": 3
+        },
+        "3": {
+          "programs": 6,
+          "notCrashing": 4
+        },
+        "4": {
+          "programs": 8,
+          "notCrashing": 6
+        },
+        "5": {
+          "programs": 12,
+          "notCrashing": 8
+        },
+        "6": {
+          "programs": 16,
+          "notCrashing": 12
+        },
+        "7": {
+          "programs": 24,
+          "notCrashing": 18
+        },
+        "8": {
+          "programs": 36,
+          "notCrashing": 28
+        }
+      }
+    },
+    "hard": {
+      "atoms": 3,
+      "limit": 8,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 2,
+        "6": 12,
+        "7": 24,
+        "8": 104
+      },
+      "reach": {
+        "1": {
+          "programs": 3,
+          "notCrashing": 3
+        },
+        "2": {
+          "programs": 9,
+          "notCrashing": 7
+        },
+        "3": {
+          "programs": 21,
+          "notCrashing": 17
+        },
+        "4": {
+          "programs": 51,
+          "notCrashing": 41
+        },
+        "5": {
+          "programs": 123,
+          "notCrashing": 98
+        },
+        "6": {
+          "programs": 294,
+          "notCrashing": 240
+        },
+        "7": {
+          "programs": 720,
+          "notCrashing": 572
+        },
+        "8": {
+          "programs": 1716,
+          "notCrashing": 1412
+        }
+      }
+    }
+  },
+  "b6": {
+    "easy": {
+      "atoms": 6,
+      "limit": 7,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 105
+      },
+      "reach": {
+        "1": {
+          "programs": 6,
+          "notCrashing": 5
+        },
+        "2": {
+          "programs": 30,
+          "notCrashing": 30
+        },
+        "3": {
+          "programs": 180,
+          "notCrashing": 179
+        },
+        "4": {
+          "programs": 1074,
+          "notCrashing": 1071
+        },
+        "5": {
+          "programs": 6426,
+          "notCrashing": 6415
+        },
+        "6": {
+          "programs": 38490,
+          "notCrashing": 38449
+        },
+        "7": {
+          "programs": 230694,
+          "notCrashing": 230552
+        }
+      }
+    },
+    "medium": {
+      "atoms": 7,
+      "limit": 7,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 108
+      },
+      "reach": {
+        "1": {
+          "programs": 7,
+          "notCrashing": 6
+        },
+        "2": {
+          "programs": 42,
+          "notCrashing": 41
+        },
+        "3": {
+          "programs": 287,
+          "notCrashing": 275
+        },
+        "4": {
+          "programs": 1925,
+          "notCrashing": 1826
+        },
+        "5": {
+          "programs": 12782,
+          "notCrashing": 12021
+        },
+        "6": {
+          "programs": 84147,
+          "notCrashing": 78629
+        },
+        "7": {
+          "programs": 550403,
+          "notCrashing": 511845
+        }
+      }
+    },
+    "hard": {
+      "atoms": 8,
+      "limit": 7,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 111
+      },
+      "reach": {
+        "1": {
+          "programs": 8,
+          "notCrashing": 7
+        },
+        "2": {
+          "programs": 56,
+          "notCrashing": 54
+        },
+        "3": {
+          "programs": 432,
+          "notCrashing": 407
+        },
+        "4": {
+          "programs": 3256,
+          "notCrashing": 3055
+        },
+        "5": {
+          "programs": 24440,
+          "notCrashing": 22787
+        },
+        "6": {
+          "programs": 182296,
+          "notCrashing": 169445
+        },
+        "7": {
+          "programs": 1355560,
+          "notCrashing": 1257352
+        }
+      }
+    }
+  },
+  "b7": {
+    "easy": {
+      "atoms": 24,
+      "limit": 5,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 6,
+        "4": 96,
+        "5": 1070
+      },
+      "reach": {
+        "1": {
+          "programs": 24,
+          "notCrashing": 8
+        },
+        "2": {
+          "programs": 192,
+          "notCrashing": 64
+        },
+        "3": {
+          "programs": 1536,
+          "notCrashing": 512
+        },
+        "4": {
+          "programs": 12288,
+          "notCrashing": 4096
+        },
+        "5": {
+          "programs": 98304,
+          "notCrashing": 32768
+        }
+      }
+    },
+    "medium": {
+      "atoms": 60,
+      "limit": 5,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 6,
+        "4": 132,
+        "5": 2840
+      },
+      "reach": {
+        "1": {
+          "programs": 60,
+          "notCrashing": 8
+        },
+        "2": {
+          "programs": 480,
+          "notCrashing": 97
+        },
+        "3": {
+          "programs": 5820,
+          "notCrashing": 1569
+        },
+        "4": {
+          "programs": 94140,
+          "notCrashing": 28451
+        },
+        "5": {
+          "programs": 1707060,
+          "notCrashing": 533802
+        }
+      }
+    },
+    "hard": {
+      "atoms": 61,
+      "limit": 5,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 6,
+        "4": 156,
+        "5": 3500
+      },
+      "reach": {
+        "1": {
+          "programs": 61,
+          "notCrashing": 9
+        },
+        "2": {
+          "programs": 549,
+          "notCrashing": 113
+        },
+        "3": {
+          "programs": 6893,
+          "notCrashing": 1860
+        },
+        "4": {
+          "programs": 113460,
+          "notCrashing": 34727
+        },
+        "5": {
+          "programs": 2118347,
+          "notCrashing": 676057
+        }
+      }
+    }
+  },
+  "b8": {
+    "easy": {
+      "atoms": 15,
+      "limit": 3,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 5
+      },
+      "reach": {
+        "1": {
+          "programs": 15,
+          "notCrashing": 3
+        },
+        "2": {
+          "programs": 45,
+          "notCrashing": 40
+        },
+        "3": {
+          "programs": 600,
+          "notCrashing": 533
+        }
+      }
+    },
+    "medium": {
+      "atoms": 16,
+      "limit": 3,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 5
+      },
+      "reach": {
+        "1": {
+          "programs": 16,
+          "notCrashing": 4
+        },
+        "2": {
+          "programs": 64,
+          "notCrashing": 47
+        },
+        "3": {
+          "programs": 752,
+          "notCrashing": 663
+        }
+      }
+    },
+    "hard": {
+      "atoms": 17,
+      "limit": 3,
+      "solutionsByLength": {
+        "1": 0,
+        "2": 0,
+        "3": 5
+      },
+      "reach": {
+        "1": {
+          "programs": 17,
+          "notCrashing": 5
+        },
+        "2": {
+          "programs": 85,
+          "notCrashing": 56
+        },
+        "3": {
+          "programs": 952,
+          "notCrashing": 815
+        }
+      }
+    }
+  },
+  "b8NoMul": {
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "b8NoMulNoDiv": {
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "fuzz": {
+    "runs": 111319,
+    "exceptions": [],
+    "invariantBreaks": []
+  },
+  "meta": [
+    {
+      "id": "p0",
+      "limit": 8,
+      "tiles": {
+        "w": 6,
+        "h": 1
+      },
+      "hints": 3,
+      "palette": {
+        "easy": [
+          "maju"
+        ],
+        "medium": [
+          "maju",
+          "kanan"
+        ],
+        "hard": [
+          "maju",
+          "kiri",
+          "kanan"
+        ]
+      },
+      "hint3": "Susun 4 kartu Maju, lalu tekan Jalankan."
+    },
+    {
+      "id": "b6",
+      "limit": 7,
+      "tiles": {
+        "w": 6,
+        "h": 2
+      },
+      "hints": 3,
+      "palette": {
+        "easy": [
+          "isi",
+          "maju"
+        ],
+        "medium": [
+          "isi",
+          "maju",
+          "kanan"
+        ],
+        "hard": [
+          "isi",
+          "maju",
+          "kanan",
+          "kiri"
+        ]
+      },
+      "hint3": "Kartu pertamamu: Isi kotak “langkah” dengan angka yang cukup. Sisanya kamu yang lanjutkan."
+    },
+    {
+      "id": "b7",
+      "limit": 5,
+      "tiles": {
+        "w": 5,
+        "h": 3
+      },
+      "hints": 3,
+      "palette": {
+        "easy": [
+          "isi"
+        ],
+        "medium": [
+          "isi",
+          "ubah"
+        ],
+        "hard": [
+          "isi",
+          "ubah",
+          "maju"
+        ]
+      },
+      "hint3": "Kartu pertamamu: Isi kotak “jumlah ikan” dengan jumlah ikan di peti. Dua kotak lainnya kamu isi sendiri."
+    },
+    {
+      "id": "b8",
+      "limit": 3,
+      "tiles": {
+        "w": 5,
+        "h": 3
+      },
+      "hints": 3,
+      "palette": {
+        "easy": [
+          "isi",
+          "ubah"
+        ],
+        "medium": [
+          "isi",
+          "ubah",
+          "maju"
+        ],
+        "hard": [
+          "isi",
+          "ubah",
+          "maju",
+          "kanan"
+        ]
+      },
+      "hint3": "Kartu pertamamu: Isi kotak “berat” dengan 3 atau 4. Dua kartu sisanya kamu pikirkan sendiri."
+    }
+  ]
+}

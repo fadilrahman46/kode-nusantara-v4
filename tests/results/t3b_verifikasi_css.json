@@ -1,0 +1,50 @@
+[
+  {
+    "id": "V-360x740-A",
+    "desc": "Usulan A (#editor{min-height:0}) membuat tombol kontrol terlihat",
+    "ok": true,
+    "note": "dasar kontrol 730/740"
+  },
+  {
+    "id": "V-360x740-B",
+    "desc": "Usulan B (A + landscape + layar pendek) membuat tombol kontrol terlihat DAN dunia ≥ 200 px tinggi",
+    "ok": true,
+    "note": "kontrol 730/740; dunia 360×262; papan 120px"
+  },
+  {
+    "id": "V-390x844-A",
+    "desc": "Usulan A (#editor{min-height:0}) membuat tombol kontrol terlihat",
+    "ok": true,
+    "note": "dasar kontrol 834/844"
+  },
+  {
+    "id": "V-390x844-B",
+    "desc": "Usulan B (A + landscape + layar pendek) membuat tombol kontrol terlihat DAN dunia ≥ 200 px tinggi",
+    "ok": true,
+    "note": "kontrol 834/844; dunia 390×306; papan 166px"
+  },
+  {
+    "id": "V-667x375-A",
+    "desc": "Usulan A (#editor{min-height:0}) membuat tombol kontrol terlihat",
+    "ok": false,
+    "note": "dasar kontrol 451/375"
+  },
+  {
+    "id": "V-667x375-B",
+    "desc": "Usulan B (A + landscape + layar pendek) membuat tombol kontrol terlihat DAN dunia ≥ 200 px tinggi",
+    "ok": true,
+    "note": "kontrol 365/375; dunia 347×325; papan 143px"
+  },
+  {
+    "id": "V-844x390-A",
+    "desc": "Usulan A (#editor{min-height:0}) membuat tombol kontrol terlihat",
+    "ok": false,
+    "note": "dasar kontrol 466/390"
+  },
+  {
+    "id": "V-844x390-B",
+    "desc": "Usulan B (A + landscape + layar pendek) membuat tombol kontrol terlihat DAN dunia ≥ 200 px tinggi",
+    "ok": true,
+    "note": "kontrol 380/390; dunia 506×340; papan 162px"
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "ref": {
+    "ma01": {
+      "ok": true,
+      "msg": "",
+      "len": 6,
+      "limit": 6,
+      "pal": true
+    },
+    "ma02": {
+      "ok": true,
+      "msg": "",
+      "len": 4,
+      "limit": 4,
+      "pal": true
+    },
+    "ma03": {
+      "ok": true,
+      "msg": "",
+      "len": 7,
+      "limit": 7,
+      "pal": true
+    }
+  },
+  "neg": {
+    "ma01": {
+      "titik berhenti salah (> 0)": {
+        "ok": false,
+        "msg": "Menara di petak 2 tingginya 8, seharusnya 7."
+      },
+      "tanpa titik berhenti": {
+        "ok": false,
+        "msg": "Menara terlalu tinggi dan bisa roboh."
+      }
+    },
+    "ma02": {
+      "tanpa titik berhenti": {
+        "ok": false,
+        "msg": "Mesin memanggil dirinya terus tanpa berhenti. Tambahkan titik berhenti: kartu Jika yang me"
+      },
+      "titik berhenti > 0": {
+        "ok": false,
+        "msg": "Total batu berisi 0. Piramida 6 tingkat butuh 6 + 5 + 4 + 3 + 2 + 1 batu."
+      },
+      "hasil Mesin(5)": {
+        "ok": false,
+        "msg": "Total batu berisi 15. Piramida 6 tingkat butuh 6 + 5 + 4 + 3 + 2 + 1 batu."
+      }
+    },
+    "ma03": {
+      "berhenti di masukan > 0": {
+        "ok": false,
+        "msg": "Tidak ada lahan menara di samping Bit. Maju dulu ke lahan yang benar."
+      },
+      "masukan awal 3": {
+        "ok": false,
+        "msg": "Menara di petak 2 tingginya 3, seharusnya 4."
+      }
+    }
+  },
+  "alt": {
+    "ma01": {
+      "tanpa Mesin": {
+        "ok": true,
+        "len": 9,
+        "limit": 6,
+        "msg": ""
+      },
+      "Mesin 2 balok dipanggil 3 kali": {
+        "ok": true,
+        "len": 9,
+        "limit": 6,
+        "msg": ""
+      }
+    },
+    "ma02": {
+      "Isi lalu Ubah": {
+        "ok": true,
+        "len": 6,
+        "limit": 4,
+        "msg": ""
+      }
+    },
+    "ma03": {
+      "Mesin bermasukan dipanggil 4 kali": {
+        "ok": true,
+        "len": 9,
+        "limit": 7,
+        "msg": ""
+      }
+    }
+  },
+  "misc": {
+    "juniorGuard": "Mesin tidak boleh menjalankan Mesin di dalam dirinya sendiri. Itu materi tingkat Middle.",
+    "pseudo": "fungsi mesin(masukan):\n    susun_balok()\n    jika masukan > 1:\n        mesin(masukan - 1)\nmaju()\nmesin(7)\npasang_atap()"
+  },
+  "order": "B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 J01 J02 J03 J04 J05 J06 J07 J08 J09 J10 J11 J12 J13 J14 MA01 MA02 MA03 MA04 MA05 MA06 MA07 MA08 MA09 MA10 MB01 MB02 MB03 MB04 MB05 MB06 MB07 MB08 MB09 MB10 SE01 SE02 SE03 SE04 SE05 SE06 SE07 SE08 SE09 SE10 EX01 EX02 EX03 EX04 EX05 EX06 EX07 EX08 EX09 EX10"
+}

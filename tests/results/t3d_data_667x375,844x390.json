@@ -1,0 +1,68 @@
+[
+ {
+  "vp": "667x375",
+  "id": "ma08",
+  "d": "easy",
+  "vh": 375,
+  "controlsFull": true,
+  "boardH": 156,
+  "worldH": 325,
+  "palH": 93,
+  "runBottom": 369
+ },
+ {
+  "vp": "667x375",
+  "id": "ma08",
+  "d": "medium",
+  "vh": 375,
+  "controlsFull": true,
+  "boardH": 156,
+  "worldH": 325,
+  "palH": 93,
+  "runBottom": 369
+ },
+ {
+  "vp": "667x375",
+  "id": "ma08",
+  "d": "hard",
+  "vh": 375,
+  "controlsFull": true,
+  "boardH": 156,
+  "worldH": 325,
+  "palH": 93,
+  "runBottom": 369
+ },
+ {
+  "vp": "844x390",
+  "id": "ma08",
+  "d": "easy",
+  "vh": 390,
+  "controlsFull": true,
+  "boardH": 171,
+  "worldH": 340,
+  "palH": 93,
+  "runBottom": 384
+ },
+ {
+  "vp": "844x390",
+  "id": "ma08",
+  "d": "medium",
+  "vh": 390,
+  "controlsFull": true,
+  "boardH": 171,
+  "worldH": 340,
+  "palH": 93,
+  "runBottom": 384
+ },
+ {
+  "vp": "844x390",
+  "id": "ma08",
+  "d": "hard",
+  "vh": 390,
+  "controlsFull": true,
+  "boardH": 171,
+  "worldH": 340,
+  "palH": 93,
+  "runBottom": 384
+ }
+]

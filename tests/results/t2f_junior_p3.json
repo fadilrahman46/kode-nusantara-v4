@@ -1,0 +1,50 @@
+[
+  {
+    "id": "J06-v0",
+    "desc": "J06 (keadaan 0): Selama jalan [Jika koin→Ambil, Maju] · tutup · Jika koin→Ambil → menang",
+    "ok": true,
+    "note": "selama,jika,maju,akhir✓,jika | Semua koin terkumpul!"
+  },
+  {
+    "id": "J06-v1",
+    "desc": "J06 (keadaan 1): Selama jalan [Jika koin→Ambil, Maju] · tutup · Jika koin→Ambil → menang",
+    "ok": true,
+    "note": "selama,jika,maju,akhir✓,jika | Semua koin terkumpul!"
+  },
+  {
+    "id": "J06-v2",
+    "desc": "J06 (keadaan 2): Selama jalan [Jika koin→Ambil, Maju] · tutup · Jika koin→Ambil → menang",
+    "ok": true,
+    "note": "selama,jika,maju,akhir✓,jika | Semua koin terkumpul!"
+  },
+  {
+    "id": "J06-v3",
+    "desc": "J06 (keadaan 3): Selama jalan [Jika koin→Ambil, Maju] · tutup · Jika koin→Ambil → menang",
+    "ok": true,
+    "note": "selama,jika,maju,akhir✓,jika | Semua koin terkumpul!"
+  },
+  {
+    "id": "J06x",
+    "desc": "J06: putaran tak berujung (Selama ada jalan tanpa Maju) dihentikan dengan pesan, tombol kembali aktif",
+    "ok": true,
+    "note": "berhenti setelah 0.9 dtk (mode cepat) | Kartu Selama berputar terus tanpa henti. Pastikan kartu di dalamnya mengubah keadaan, misalnya Maju."
+  },
+  {
+    "id": "J06s",
+    "desc": "Tombol Langkah menelusuri putaran: kartu Selama disorot lagi di awal tiap putaran",
+    "ok": true,
+    "note": "0,1,0,1"
+  },
+  {
+    "id": "J06m-360x740",
+    "desc": "HP 360x740: solusi J06 (5 baris + indentasi) — tombol kontrol terlihat, kartu tidak terpotong mendatar",
+    "ok": true,
+    "note": "{\"ctl\":true,\"clipped\":0,\"n\":4,\"boardScrollX\":false}"
+  },
+  {
+    "id": "J06m-667x375",
+    "desc": "HP 667x375: solusi J06 (5 baris + indentasi) — tombol kontrol terlihat, kartu tidak terpotong mendatar",
+    "ok": true,
+    "note": "{\"ctl\":true,\"clipped\":0,\"n\":4,\"boardScrollX\":false}"
+  }
+]

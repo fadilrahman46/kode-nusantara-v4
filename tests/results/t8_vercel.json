@@ -1,0 +1,104 @@
+[
+  {
+    "id": "A1",
+    "desc": "pwa/vercel.json: JSON valid, hanya kunci tingkat atas yang dikenal, tidak ada build/instal (situs statis)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A2",
+    "desc": "Tidak memakai cleanUrls/rewrites/redirects: pengalihan membuat respons SW \"redirected\" dan ditolak browser untuk navigasi",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A3",
+    "desc": "Setiap aturan header bersumber path valid (dikompilasi path-to-regexp) dan berformat {key,value}",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A4",
+    "desc": "Berkas yang dirujuk game ada di folder terbit: index.html, sw.js, manifest.webmanifest, ikon manifest",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A5",
+    "desc": "vercel.json akar repo: outputDirectory=\"pwa\" menunjuk folder yang berisi index.html; header identik dengan pwa/vercel.json",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A6",
+    "desc": ".vercelignore akar mengecualikan android, tests, docs (unggahan CLI tidak membawa ratusan MB)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "A7",
+    "desc": "Akar repo tidak punya package.json (Vercel tidak menjalankan instal/pembuatan yang tidak perlu)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B1",
+    "desc": "/sw.js: no-cache (max-age=0, must-revalidate), tipe JavaScript, Service-Worker-Allowed \"/\"",
+    "ok": true,
+    "note": "{\"cache-control\":\"public, max-age=0, must-revalidate\",\"connection\":\"keep-alive\",\"content-length\":\"2760\",\"content-type\":\"text/javascript; charset=utf-8\",\"date\":\"Mon, 23 Nov 2026 05:41:19 GMT\",\"keep-alive\":\"timeout=5\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"service-worker-allowed\":\"/\",\"x-content-type-options\":\"nosniff\"}"
+  },
+  {
+    "id": "B2",
+    "desc": "/manifest.webmanifest: application/manifest+json dan no-cache (menimpa tipe bawaan server)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B3",
+    "desc": "/ dan /index.html: 200 langsung (tanpa pengalihan), no-cache",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B4",
+    "desc": "/icons/*: cache 1 hari; semua respons membawa nosniff dan Referrer-Policy",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "B5",
+    "desc": "Jalur yang tidak ada → 404 (bukan jatuh ke index.html): tidak menutupi salah ketik",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "C1",
+    "desc": "Dengan header Vercel: service worker terdaftar, aktif, dan mengendalikan halaman",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "C2",
+    "desc": "Cache SW memuat halaman dan ikon; tidak ada respons \"redirected\" tersimpan (jebakan SW + pengalihan)",
+    "ok": true,
+    "note": "{\"n\":9,\"red\":0,\"k\":[\"kn-v24-1\"]}"
+  },
+  {
+    "id": "C3",
+    "desc": "Server mati (simulasi luring): game tetap tampil dari cache dan WebGL hidup",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "C4",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "D1",
+    "desc": "Konfigurasi akar repo (outputDirectory=pwa): /sw.js dan manifest mendapat header yang sama",
+    "ok": true,
+    "note": ""
+  }
+]

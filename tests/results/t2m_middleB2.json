@@ -1,0 +1,38 @@
+[
+  {
+    "id": "MB04",
+    "desc": "MB04: Celengan [saldo 0 🔒; setor [+ masukan]; ambil [Jika diri.saldo ≥ masukan [− masukan]]] → menang di semua keadaan",
+    "ok": true,
+    "note": "cetakan,atribut,method,ubahAtr,akhir✓,method,jikaW,ubahAtr,akhir,akhir,akhir | Berhasil!"
+  },
+  {
+    "id": "MB04x",
+    "desc": "MB04: saldo tidak dikunci → pesan “berhasil diubah dari luar … Kunci”",
+    "ok": true,
+    "note": "Tabungan.saldo berhasil diubah dari luar."
+  },
+  {
+    "id": "MB07",
+    "desc": "MB07: Hewan · Burung mewarisi Hewan [sayap 2; terbang wus] · Pinguin mewarisi Burung [terbang plung] lewat picker Mewarisi → menang",
+    "ok": true,
+    "note": "⠿🧩Buat Cetakan Hewan | ⠿🏷️Atribut energi awalnya 0 | ⠿🔧Me | Berhasil!"
+  },
+  {
+    "id": "MB09",
+    "desc": "MB09: Kamar [lampu nyala; matikan] · Rumah [kamar = objek Kamar baru; tidur [Suruh diri.kamar matikan]] → menang; label kamar tampil",
+    "ok": true,
+    "note": " | Berhasil! | kamar RumahAlampu: nyala / RumahAkamar: objek Kamar / kamar RumahBlampu: mati / RumahBkamar: objek Kamar"
+  },
+  {
+    "id": "PK2",
+    "desc": "Picker Atribut MB04 di HP 360 px: grup Atribut, Nilai awal, Terkunci terlihat dan tombol Selesai terjangkau",
+    "ok": true,
+    "note": "{\"groups\":3,\"done\":true}"
+  },
+  {
+    "id": "LOCK",
+    "desc": "Profil baru: MB04 terkunci sampai MB03 selesai",
+    "ok": true,
+    "note": "Selesaikan MB03 Paduan Suara dulu."
+  }
+]

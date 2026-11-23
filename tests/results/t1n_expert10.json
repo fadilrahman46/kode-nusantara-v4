@@ -1,0 +1,68 @@
+[
+  {
+    "id": "M1",
+    "desc": "Model Node (tests/expert_model/expert_sim.js) identik dengan model yang tertanam di halaman",
+    "ok": true,
+    "note": "identik"
+  },
+  {
+    "id": "E1",
+    "desc": "EX10: dari 133293 susunan dalam anggaran 13, tepat 12 yang lulus",
+    "ok": true,
+    "note": "lulus 12"
+  },
+  {
+    "id": "A-skala",
+    "desc": "EX10: tidak ada susunan lulus tanpa skala",
+    "ok": true,
+    "note": "jumlah: 0"
+  },
+  {
+    "id": "A-rak",
+    "desc": "EX10: tidak ada susunan lulus tanpa rak",
+    "ok": true,
+    "note": "jumlah: 0"
+  },
+  {
+    "id": "A-cadangan",
+    "desc": "EX10: tidak ada susunan lulus tanpa cadangan",
+    "ok": true,
+    "note": "jumlah: 0"
+  },
+  {
+    "id": "A-pemutus",
+    "desc": "EX10: tidak ada susunan lulus tanpa pemutus",
+    "ok": true,
+    "note": "jumlah: 0"
+  },
+  {
+    "id": "A-coba lagi",
+    "desc": "EX10: tidak ada susunan lulus tanpa coba lagi",
+    "ok": true,
+    "note": "jumlah: 0"
+  },
+  {
+    "id": "A-urutan coba sebelum cadangan",
+    "desc": "EX10: tidak ada susunan lulus tanpa urutan coba sebelum cadangan",
+    "ok": true,
+    "note": "jumlah: 0"
+  },
+  {
+    "id": "A-strategi",
+    "desc": "EX10: “paling kosong” tidak wajib (separuh jawaban memakai bergilir) — dicatat, bukan cacat",
+    "ok": true,
+    "note": "kosong 6, bergilir 6"
+  },
+  {
+    "id": "P1",
+    "desc": "EX10: halaman dan Node memberi hasil sama pada 150 susunan (12 jawaban benar + 138 acak)",
+    "ok": true,
+    "note": "beda 0; lulus 12"
+  },
+  {
+    "id": "E2",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  }
+]

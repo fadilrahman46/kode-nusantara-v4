@@ -1,0 +1,80 @@
+[
+  {
+    "id": "L01",
+    "desc": "p0: tepat 1 solusi terpendek (4 × Maju) di semua tingkat",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "L02",
+    "desc": "b7: ada solusi 3 kartu di semua tingkat",
+    "ok": true,
+    "note": "easy=6, medium=6, hard=6"
+  },
+  {
+    "id": "L03",
+    "desc": "b7: tidak ada solusi < 3 kartu",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "L04",
+    "desc": "b8: ada solusi di semua tingkat dan tidak ada yang < 3 kartu",
+    "ok": true,
+    "note": "easy: 3 kartu=5, 4 kartu=undefined | medium: 3 kartu=5, 4 kartu=undefined | hard: 3 kartu=5, 4 kartu=undefined"
+  },
+  {
+    "id": "L05",
+    "desc": "Kartu pengecoh tidak mengubah himpunan solusi TERPENDEK (b7: 6, b8: 5) — tingkat kesulitan = pengecoh saja",
+    "ok": true,
+    "note": "solusi 3 kartu identik di ketiga tingkat; hanya solusi alternatif yang lebih panjang bertambah"
+  },
+  {
+    "id": "L10",
+    "desc": "b8: batas kartu MEMAKSA perkalian (niat desain hint 1)",
+    "ok": true,
+    "note": "tanpa kartu ×: solusi 3 kartu=0, solusi 4 kartu=0; tanpa × dan ÷: 4 kartu=0"
+  },
+  {
+    "id": "L11",
+    "desc": "b6 (B08): solusi terpendek = 6 kartu (Isi 3/4/5 + 5 × Maju) di semua tingkat; tidak ada solusi < 6",
+    "ok": true,
+    "note": "easy=3, medium=3, hard=3"
+  },
+  {
+    "id": "L12",
+    "desc": "b6 (B08): batas 7 kartu cukup untuk solusi, tetapi angka 1 atau 2 tidak pernah menang (jembatan harus ≥ 3)",
+    "ok": true,
+    "note": "solusi 6 kartu=3, 7 kartu=105"
+  },
+  {
+    "id": "L13",
+    "desc": "Hint 3 B08/B09/B10 hanya memberi KARTU PERTAMA (parsial), tidak memuat solusi lengkap (keputusan F15); B01 dikecualikan (tutorial)",
+    "ok": true,
+    "note": "tiga hint 3 parsial, masing-masing ≤ 110 karakter (satu halaman dialog)"
+  },
+  {
+    "id": "L06",
+    "desc": "Interpreter: 0 exception dalam fuzzing",
+    "ok": true,
+    "note": "111319 eksekusi kartu; "
+  },
+  {
+    "id": "L07",
+    "desc": "Invarian: Bit tidak keluar peta / masuk petak terhalang; tipe kotak selalu cocok bentuk; angka selalu bulat",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "L08",
+    "desc": "Setiap stage punya 3 hint, dan batas kartu ≥ panjang solusi terpendek",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "L09",
+    "desc": "Tidak ada pelanggaran konsol (error/warning) saat memuat",
+    "ok": true,
+    "note": ""
+  }
+]

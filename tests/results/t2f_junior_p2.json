@@ -1,0 +1,56 @@
+[
+  {
+    "id": "J04-v0",
+    "desc": "J04 (keadaan 0): Selama ada jalan di depan [Maju] → menang",
+    "ok": true,
+    "note": "Berhenti tepat di tembok!"
+  },
+  {
+    "id": "J04-v1",
+    "desc": "J04 (keadaan 1): Selama ada jalan di depan [Maju] → menang",
+    "ok": true,
+    "note": "Berhenti tepat di tembok!"
+  },
+  {
+    "id": "J04-v2",
+    "desc": "J04 (keadaan 2): Selama ada jalan di depan [Maju] → menang",
+    "ok": true,
+    "note": "Berhenti tepat di tembok!"
+  },
+  {
+    "id": "J04x",
+    "desc": "J04 Sedang: Ulangi 5 [Maju] menang di jalan 5 petak tetapi DITOLAK karena keadaan lain gagal",
+    "ok": true,
+    "note": "Berhasil untuk satu keadaan, tapi belum untuk keadaan lain (jalan 3 petak): Duk! Ada tembok di depan Bit."
+  },
+  {
+    "id": "J05-v0",
+    "desc": "J05 (keadaan 0): Selama TIDAK tembok DAN TIDAK lubang [Maju] lewat picker → menang",
+    "ok": true,
+    "note": "⠿🔄Selama TIDAK ada tembok di depan DAN TIDAK ada lubang di depan | Tidak menabrak, tidak tercebur!"
+  },
+  {
+    "id": "J05-v1",
+    "desc": "J05 (keadaan 1): Selama TIDAK tembok DAN TIDAK lubang [Maju] lewat picker → menang",
+    "ok": true,
+    "note": "⠿🔄Selama TIDAK ada tembok di depan DAN TIDAK ada lubang di depan | Tidak menabrak, tidak tercebur!"
+  },
+  {
+    "id": "J05-v2",
+    "desc": "J05 (keadaan 2): Selama TIDAK tembok DAN TIDAK lubang [Maju] lewat picker → menang",
+    "ok": true,
+    "note": "⠿🔄Selama TIDAK ada tembok di depan DAN TIDAK ada lubang di depan | Tidak menabrak, tidak tercebur!"
+  },
+  {
+    "id": "J05-v3",
+    "desc": "J05 (keadaan 3): Selama TIDAK tembok DAN TIDAK lubang [Maju] lewat picker → menang",
+    "ok": true,
+    "note": "⠿🔄Selama TIDAK ada tembok di depan DAN TIDAK ada lubang di depan | Tidak menabrak, tidak tercebur!"
+  },
+  {
+    "id": "J05x",
+    "desc": "J05: hanya “TIDAK ada tembok” → tercebur di keadaan berujung lubang (pesan gagal bermakna)",
+    "ok": true,
+    "note": "Awas! Di depan Bit ada air. Tidak apa-apa, coba lagi!"
+  }
+]

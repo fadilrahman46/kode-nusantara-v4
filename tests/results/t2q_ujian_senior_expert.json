@@ -1,0 +1,128 @@
+[
+  {
+    "id": "Q1",
+    "desc": "Pemain baru: tombol Ujian Senior dan Ujian Expert tersembunyi; Ujian Si Teka tampil",
+    "ok": true,
+    "note": "[false,true,true]"
+  },
+  {
+    "id": "Q2",
+    "desc": "Setelah Beginner + Junior selesai: Ujian Senior tampil (“belum diambil”); Ujian Expert tetap tersembunyi",
+    "ok": true,
+    "note": "Ujian Senior: belum diambil. | t3 hidden=true | se01 terkunci=true"
+  },
+  {
+    "id": "Q3",
+    "desc": "Layar hasil J14 menawarkan Ujian Senior; pembuka menyebut 10 teka-teki dan melewati Middle A dan B; “Nanti saja” tidak memakai kesempatan",
+    "ok": true,
+    "note": "tawaran=true judul=Ujian Senior percobaan=0 sembunyi di tahap lain=true | 🦉 Aku punya 10 teka-teki. Kalau semuanya benar, kamu boleh langsung ke Pulau Senior dan m"
+  },
+  {
+    "id": "Q4",
+    "desc": "Satu “Aku belum tahu” → Middle Programmer, SE01 tetap terkunci, konsep yang perlu dilatih disebut, tanpa kunci jawaban; log tercatat",
+    "ok": true,
+    "note": "Soal 1 dari 10 | Ujian selesai: 9 dari 10 benar. | Ujian Senior: Middle Programmer (1 dari 3 percobaan). Tes ulang terbuka setelah 3 tahap baru lagi. | log=9"
+  },
+  {
+    "id": "Q5",
+    "desc": "Tes ulang Senior: tahap Senior dan tahap lama tidak dihitung; hanya 3 tahap Middle baru yang berbeda membukanya",
+    "ok": true,
+    "note": "{\"r0\":\"Tes ulang terbuka setelah 3 tahap baru lagi.\",\"r1\":\"Tes ulang terbuka setelah 2 tahap baru lagi.\",\"r2\":\"Tes ulang terbuka setelah 1 tahap baru lagi.\",\"r3\":null,\"n\":\"ma01,ma02,mb01\"}"
+  },
+  {
+    "id": "Q6",
+    "desc": "Tes ulang lulus 10/10 → Senior Programmer, SE01 terbuka (SE02 masih terkunci), varian berbeda per konsep, Ujian Expert muncul",
+    "ok": true,
+    "note": "Ujian selesai: 10 dari 10 benar. | Ke SE01 Loket Pesanan | se01 terkunci=false se02=true | 2,0,0,2,2,2,1,1,0,2 vs 0,1,1,0,0,1,2,2,1,1 | t3=Ujian Expert: belum diambil."
+  },
+  {
+    "id": "Q7",
+    "desc": "Setelah lulus: tombol Ujian Senior menolak dengan alasan; data tetap setelah muat ulang; hasil terbaik berlaku",
+    "ok": true,
+    "note": "Kamu sudah lulus Ujian Senior. | {\"pass\":true,\"n\":2,\"hasil\":\"middle,senior\"}"
+  },
+  {
+    "id": "Q8",
+    "desc": "Ujian Expert: judul, “Soal 1 dari 8”, satu salah → tetap Senior Programmer (7 dari 8), EX01 terkunci; tes ulang butuh 3 tahap Senior baru",
+    "ok": true,
+    "note": "Ujian Expert | Soal 1 dari 8 | Ujian selesai: 7 dari 8 benar. | {\"r0\":\"Tes ulang terbuka setelah 3 tahap baru lagi.\",\"r1\":\"Tes ulang terbuka setelah 1 tahap baru lagi.\",\"r2\":null}"
+  },
+  {
+    "id": "Q9",
+    "desc": "Ujian Expert ulang 8/8 → Expert Programmer, EX01 terbuka (EX02 terkunci), tombol “Ke EX01”",
+    "ok": true,
+    "note": "Ujian selesai: 8 dari 8 benar. | Ke EX01 Pabrik Otomatis | ex01 terkunci=false ex02=true"
+  },
+  {
+    "id": "Q10",
+    "desc": "“Hapus progres” menghapus hasil Ujian Senior dan Ujian Expert; SE01 dan EX01 terkunci lagi",
+    "ok": true,
+    "note": "{\"raw\":\"{\\\"t1\\\":null}\"} | se01=true ex01=true sembunyi=true,true"
+  },
+  {
+    "id": "Q11",
+    "desc": "Tidak ada galat konsol",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "Q12",
+    "desc": "Tiga percobaan Ujian Senior memakai tiga varian berbeda per konsep; percobaan ke-4 ditolak (“habis”)",
+    "ok": true,
+    "note": "2002120222 / 1210002110 / 0121211001 | Kesempatan ujian sudah habis. Lanjutkan lewat tahap Middle."
+  },
+  {
+    "id": "Q13",
+    "desc": "Benih sesi sama → urutan soal dan urutan pilihan Ujian Senior sama",
+    "ok": true,
+    "note": "0,8,2,3,1,5,6,4,7,9|2301tahu / 0,8,2,3,1,5,6,4,7,9|2301tahu"
+  },
+  {
+    "id": "Q14",
+    "desc": "Papan ketik di Ujian Senior: panah memilih pilihan berikutnya, Lanjut aktif setelah memilih; kode soal (jika ada) tampil sebagai blok berlabel",
+    "ok": true,
+    "note": "{\"checked\":\"false,true,false,false,false\",\"dis\":false,\"live\":\"Soal 1 dari 10\",\"radios\":5} blok kode=5"
+  },
+  {
+    "id": "E1",
+    "desc": "Menu menampilkan Gerbang Si Teka setelah EX03 dan EX06, terkunci sampai tahapnya selesai; selesai → terbuka tanpa mengunci tahap lain",
+    "ok": true,
+    "note": "[{\"a\":true,\"b\":true,\"after3\":\"ex03\",\"after6\":\"ex06\"},{\"a\":false,\"b\":true,\"ex04\":null}]"
+  },
+  {
+    "id": "E2",
+    "desc": "Layar hasil EX03 menawarkan Gerbang Detak; EX06 menawarkan Gerbang Antrean; tahap lain tidak",
+    "ok": true,
+    "note": "{\"ex03\":\"🦉 Gerbang Si Teka\",\"ex06\":\"🦉 Gerbang Si Teka\",\"ex02\":\"\"}"
+  },
+  {
+    "id": "E3",
+    "desc": "Semua 6 varian × 3 bentuk (Mudah, Sedang, Sulit) bisa dijawab benar lewat UI: bonus tercatat, gerbang terbuka",
+    "ok": true,
+    "note": "g_ex03/0/easy:true g_ex03/0/medium:true g_ex03/0/hard:true g_ex03/1/easy:true g_ex03/1/medium:true g_ex03/1/hard:true g_ex03/2/easy:true g_ex03/2/medium:true g_ex03/2/hard:true g_ex06/0/easy:true g_ex06/0/medium:true g_ex06/0/hard:true g_ex06/1/easy:true g_ex06/1/medium:true g_ex06/1/hard:true g_ex06/2/easy:true g_ex06/2/medium:true g_ex06/2/hard:true"
+  },
+  {
+    "id": "E4",
+    "desc": "Gerbang Detak/Antrean: salah 3× → gerbang terbuka tanpa bonus, petunjuk muncul di kesalahan ke-2, penjelasan tampil, tahap berikut tidak terkunci",
+    "ok": true,
+    "note": "{\"h1\":false,\"h2\":true,\"sel\":true,\"ok\":false,\"bonus\":false,\"status\":\"terbuka\",\"pen\":true,\"ex04\":null}"
+  },
+  {
+    "id": "E5",
+    "desc": "Galat konsol: tidak ada",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "V360",
+    "desc": "Tata letak 360×740: tiap soal Ujian Senior dan Ujian Expert (semua varian): tanpa gulir mendatar, kode terbungkus, pilihan ≥ 44 px, tombol Lanjut dapat dijangkau",
+    "ok": true,
+    "note": "54 soal dicek; "
+  },
+  {
+    "id": "V667",
+    "desc": "Tata letak 667×375: tiap soal Ujian Senior dan Ujian Expert (semua varian): tanpa gulir mendatar, kode terbungkus, pilihan ≥ 44 px, tombol Lanjut dapat dijangkau",
+    "ok": true,
+    "note": "54 soal dicek; "
+  }
+]

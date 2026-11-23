@@ -1,0 +1,38 @@
+[
+  {
+    "id": "W-s05-v0",
+    "desc": "B05 Jembatan Angkat (Jika) (variasi 0): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Jembatan terpasang, sampai di pasar!”"
+  },
+  {
+    "id": "W-s05-v1",
+    "desc": "B05 Jembatan Angkat (Jika) (variasi 1): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Jembatan terpasang, sampai di pasar!”"
+  },
+  {
+    "id": "W-s06-v0",
+    "desc": "B06 Dua Jalan (Jika + selain itu) (variasi 0): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Dua jalan, satu jawaban!”"
+  },
+  {
+    "id": "W-s06-v1",
+    "desc": "B06 Dua Jalan (Jika + selain itu) (variasi 1): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Dua jalan, satu jawaban!”"
+  },
+  {
+    "id": "W-s07-v0",
+    "desc": "B07 Pasar Ramai (3 kartu Jika) (variasi 0): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Pasar Ramai terlewati!”"
+  },
+  {
+    "id": "W-s07-v5",
+    "desc": "B07 Pasar Ramai (3 kartu Jika) (variasi 5): susun lewat UI → Jalankan → layar hasil terbuka",
+    "ok": true,
+    "note": "judul “Pasar Ramai terlewati!”"
+  }
+]

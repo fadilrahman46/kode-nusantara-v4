@@ -1,0 +1,146 @@
+[
+  {
+    "id": "mb05-menang",
+    "desc": "MB05: program acuan dijalankan lewat tombol ▶ → layar hasil muncul dan progres tersimpan",
+    "ok": true,
+    "note": "{\"win\":true,\"saved\":true}"
+  },
+  {
+    "id": "mb05-salah-Burung tidak mewar",
+    "desc": "MB05: cara salah “Burung tidak mewarisi” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Penjaga: Cetakan Burung tidak punya method makan. Tambahkan kartu Method makan di dalam Buat Cetakan Burung."
+  },
+  {
+    "id": "mb05-salah-makan disalin ke B",
+    "desc": "MB05: cara salah “makan disalin ke Burung” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "melebihi batas 7 kartu: tidak dapat disusun lewat antarmuka (kasus ini dilewati, dibuktikan di t1h/t1m)"
+  },
+  {
+    "id": "mb06-menang",
+    "desc": "MB06: program acuan dijalankan lewat tombol ▶ → layar hasil muncul dan progres tersimpan",
+    "ok": true,
+    "note": "{\"win\":true,\"saved\":true}"
+  },
+  {
+    "id": "mb06-salah-energi tidak dikun",
+    "desc": "MB06: cara salah “energi tidak dikunci” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Berhasil untuk satu keadaan, tapi belum untuk keadaan lain (6 perintah): Pipit."
+  },
+  {
+    "id": "mb06-salah-terbang tanpa penj",
+    "desc": "MB06: cara salah “terbang tanpa penjaga” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Energi Pipit sempat minus (-1). Terbang hanya boleh bila energinya cukup. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "mb08-menang",
+    "desc": "MB08: program acuan dijalankan lewat tombol ▶ → layar hasil muncul dan progres tersimpan",
+    "ok": true,
+    "note": "{\"win\":true,\"saved\":true}"
+  },
+  {
+    "id": "mb08-salah-Bit yang bersuara",
+    "desc": "MB08: cara salah “Bit yang bersuara” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Pelatih: membuat Tom dari Cetakan Kucing, tetapi Cetakan Kucing belum dibuat. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "mb08-salah-hanya cetakan Kuci",
+    "desc": "MB08: cara salah “hanya cetakan Kucing” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Pelatih: membuat Kwak dari Cetakan Bebek, tetapi Cetakan Bebek belum dibuat. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "mb10-menang",
+    "desc": "MB10: program acuan dijalankan lewat tombol ▶ → layar hasil muncul dan progres tersimpan",
+    "ok": true,
+    "note": "{\"win\":true,\"saved\":true}"
+  },
+  {
+    "id": "mb10-salah-energi tidak dikun",
+    "desc": "MB10: cara salah “energi tidak dikunci” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Mochi.energi berhasil diubah dari luar."
+  },
+  {
+    "id": "mb10-salah-tampil tanpa penja",
+    "desc": "MB10: cara salah “tampil tanpa penjaga” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Energi sempat minus (-1). Hewan hanya tampil bila energinya ada. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "ex05-menang",
+    "desc": "EX05: program acuan dijalankan lewat tombol ▶ → layar hasil muncul dan progres tersimpan",
+    "ok": true,
+    "note": "{\"win\":true,\"saved\":true}"
+  },
+  {
+    "id": "ex05-salah-pekerja tetap 2",
+    "desc": "EX05: cara salah “pekerja tetap 2” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Detak 12: antrean penuh (24), 4 tugas hilang. Hanya 2 pekerja aktif."
+  },
+  {
+    "id": "ex05-salah-ambang terlalu tin",
+    "desc": "EX05: cara salah “ambang terlalu tinggi” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Detak 11: antrean penuh (24), 2 tugas hilang. Hanya 4 pekerja aktif."
+  },
+  {
+    "id": "ex06-menang",
+    "desc": "EX06: program acuan dijalankan lewat tombol ▶ → layar hasil muncul dan progres tersimpan",
+    "ok": true,
+    "note": "{\"win\":true,\"saved\":true}"
+  },
+  {
+    "id": "ex06-salah-bergilir 3 server",
+    "desc": "EX06: cara salah “bergilir 3 server” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Detak 6: server 2 melimpah, 6 permintaan hilang. Server yang ada tidak cukup untuk lonjakan."
+  },
+  {
+    "id": "ex06-salah-satu-ke-satu",
+    "desc": "EX06: cara salah “satu-ke-satu” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Detak 4: server 1 melimpah, 38 permintaan hilang. Server yang ada tidak cukup untuk lonjakan."
+  },
+  {
+    "id": "ex08-menang",
+    "desc": "EX08: program acuan dijalankan lewat tombol ▶ → layar hasil muncul dan progres tersimpan",
+    "ok": true,
+    "note": "{\"win\":true,\"saved\":true}"
+  },
+  {
+    "id": "ex08-salah-tanpa rak",
+    "desc": "EX08: cara salah “tanpa rak” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Detak 5: server 1 melimpah, 33 permintaan hilang. Rak menyerap 0 dari 124 permintaan (belum ada rak)."
+  },
+  {
+    "id": "ex08-salah-tanpa server",
+    "desc": "EX08: cara salah “tanpa server” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Belum ada kartu Server: tidak ada yang melayani permintaan. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "ex10-menang",
+    "desc": "EX10: program acuan dijalankan lewat tombol ▶ → layar hasil muncul dan progres tersimpan",
+    "ok": true,
+    "note": "{\"win\":true,\"saved\":true}"
+  },
+  {
+    "id": "ex10-salah-tanpa skala",
+    "desc": "EX10: cara salah “tanpa skala” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Berhasil untuk satu keadaan, tapi belum untuk keadaan lain (hari promo): Hari promo: di detak 10 antrean penuh"
+  },
+  {
+    "id": "ex10-salah-melebihi anggaran",
+    "desc": "EX10: cara salah “melebihi anggaran” tidak menang lewat tombol ▶ dan memberi pesan",
+    "ok": true,
+    "note": "Biaya 14 melebihi anggaran 13."
+  }
+]

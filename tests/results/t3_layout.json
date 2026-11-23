@@ -1,0 +1,416 @@
+[
+  {
+    "id": "X-infra",
+    "desc": "Percobaan ulang karena GPU perangkat lunak macet (infrastruktur uji, bukan halaman)",
+    "ok": null,
+    "note": "{}"
+  },
+  {
+    "id": "X-desktop-1280x720-a",
+    "desc": "Tidak ada scroll horizontal pada dokumen (semua keadaan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-desktop-1280x720-b",
+    "desc": "Papan Program menampilkan seluruh kartu (3) tanpa scroll (b7/b8)",
+    "ok": true,
+    "note": "b7: 3/3 kartu terlihat utuh (papan 408px); b8: 3/3 (352px)"
+  },
+  {
+    "id": "X-desktop-1280x720-c",
+    "desc": "[proksi lama, diganti X-h] Bubble dialog menutupi tinggi area dunia saat stage dibuka (b7)",
+    "ok": null,
+    "note": "21% dari tinggi dunia (bubble 141px; dunia 658px)"
+  },
+  {
+    "id": "X-desktop-1280x720-d",
+    "desc": "Semua tombol/kartu ≥ 44×44 px (target sentuh)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-desktop-1280x720-e",
+    "desc": "Baris tombol kontrol muat ≤ 2 baris dan seluruhnya terlihat di layar",
+    "ok": true,
+    "note": "2 baris; dasar kontrol di y=710 dari 720"
+  },
+  {
+    "id": "X-desktop-1280x720-f",
+    "desc": "Area dunia 3D ≥ 200 px tinggi dan ≥ 280 px lebar (cukup untuk membaca adegan)",
+    "ok": true,
+    "note": "768×658"
+  },
+  {
+    "id": "X-desktop-1280x720-j",
+    "desc": "Label kunci Stage 7 tidak saling tumpuk (>10% luas)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-desktop-1280x720-i",
+    "desc": "Teks label 3D kunci Stage 7 (kotak, papan nama perahu) ≥ 12 px CSS",
+    "ok": true,
+    "note": "perahu: 13px, jumlah 12px, nama 12px, lampu 12px"
+  },
+  {
+    "id": "X-desktop-1280x720-h",
+    "desc": "Stage 7 saat dialog terbuka: kotak & label kunci (3 kotak + papan nama perahu) tidak tertutup dialog/judul dan tidak terpotong tepi",
+    "ok": true,
+    "note": "7 titik diperiksa"
+  },
+  {
+    "id": "X-chromebook-1366x768-a",
+    "desc": "Tidak ada scroll horizontal pada dokumen (semua keadaan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-chromebook-1366x768-b",
+    "desc": "Papan Program menampilkan seluruh kartu (3) tanpa scroll (b7/b8)",
+    "ok": true,
+    "note": "b7: 3/3 kartu terlihat utuh (papan 456px); b8: 3/3 (400px)"
+  },
+  {
+    "id": "X-chromebook-1366x768-c",
+    "desc": "[proksi lama, diganti X-h] Bubble dialog menutupi tinggi area dunia saat stage dibuka (b7)",
+    "ok": null,
+    "note": "20% dari tinggi dunia (bubble 141px; dunia 706px)"
+  },
+  {
+    "id": "X-chromebook-1366x768-d",
+    "desc": "Semua tombol/kartu ≥ 44×44 px (target sentuh)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-chromebook-1366x768-e",
+    "desc": "Baris tombol kontrol muat ≤ 2 baris dan seluruhnya terlihat di layar",
+    "ok": true,
+    "note": "2 baris; dasar kontrol di y=758 dari 768"
+  },
+  {
+    "id": "X-chromebook-1366x768-f",
+    "desc": "Area dunia 3D ≥ 200 px tinggi dan ≥ 280 px lebar (cukup untuk membaca adegan)",
+    "ok": true,
+    "note": "820×706"
+  },
+  {
+    "id": "X-chromebook-1366x768-j",
+    "desc": "Label kunci Stage 7 tidak saling tumpuk (>10% luas)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-chromebook-1366x768-i",
+    "desc": "Teks label 3D kunci Stage 7 (kotak, papan nama perahu) ≥ 12 px CSS",
+    "ok": true,
+    "note": "perahu: 13px, jumlah 12px, nama 12px, lampu 12px"
+  },
+  {
+    "id": "X-chromebook-1366x768-h",
+    "desc": "Stage 7 saat dialog terbuka: kotak & label kunci (3 kotak + papan nama perahu) tidak tertutup dialog/judul dan tidak terpotong tepi",
+    "ok": true,
+    "note": "7 titik diperiksa"
+  },
+  {
+    "id": "X-hp-portrait-360x740-a",
+    "desc": "Tidak ada scroll horizontal pada dokumen (semua keadaan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-portrait-360x740-b",
+    "desc": "Papan Program menampilkan seluruh kartu (3) tanpa scroll (b7/b8)",
+    "ok": true,
+    "note": "b7: 3/3 kartu terlihat utuh (papan 255px); b8: 3/3 (199px)"
+  },
+  {
+    "id": "X-hp-portrait-360x740-c",
+    "desc": "[proksi lama, diganti X-h] Bubble dialog menutupi tinggi area dunia saat stage dibuka (b7)",
+    "ok": null,
+    "note": "0% dari tinggi dunia (bubble 156px; dunia 258px)"
+  },
+  {
+    "id": "X-hp-portrait-360x740-d",
+    "desc": "Semua tombol/kartu ≥ 44×44 px (target sentuh)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-portrait-360x740-e",
+    "desc": "Baris tombol kontrol muat ≤ 2 baris dan seluruhnya terlihat di layar",
+    "ok": true,
+    "note": "1 baris; dasar kontrol di y=730 dari 740"
+  },
+  {
+    "id": "X-hp-portrait-360x740-f",
+    "desc": "Area dunia 3D ≥ 200 px tinggi dan ≥ 280 px lebar (cukup untuk membaca adegan)",
+    "ok": true,
+    "note": "360×258"
+  },
+  {
+    "id": "X-hp-portrait-360x740-j",
+    "desc": "Label kunci Stage 7 tidak saling tumpuk (>10% luas)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-portrait-360x740-i",
+    "desc": "Teks label 3D kunci Stage 7 (kotak, papan nama perahu) ≥ 12 px CSS",
+    "ok": true,
+    "note": "perahu: 13px, jumlah 13px, nama 13px, lampu 13px"
+  },
+  {
+    "id": "X-hp-portrait-360x740-h",
+    "desc": "Stage 7 saat dialog terbuka: kotak & label kunci (3 kotak + papan nama perahu) tidak tertutup dialog/judul dan tidak terpotong tepi",
+    "ok": true,
+    "note": "7 titik diperiksa"
+  },
+  {
+    "id": "X-hp-portrait-360x740-g",
+    "desc": "Palet kartu b8 Hard tidak meluap horizontal (agar tidak butuh scroll)",
+    "ok": true,
+    "note": "palette 340px"
+  },
+  {
+    "id": "X-hp-portrait-390x844-a",
+    "desc": "Tidak ada scroll horizontal pada dokumen (semua keadaan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-portrait-390x844-b",
+    "desc": "Papan Program menampilkan seluruh kartu (3) tanpa scroll (b7/b8)",
+    "ok": true,
+    "note": "b7: 3/3 kartu terlihat utuh (papan 320px); b8: 3/3 (320px)"
+  },
+  {
+    "id": "X-hp-portrait-390x844-c",
+    "desc": "[proksi lama, diganti X-h] Bubble dialog menutupi tinggi area dunia saat stage dibuka (b7)",
+    "ok": null,
+    "note": "0% dari tinggi dunia (bubble 156px; dunia 297px)"
+  },
+  {
+    "id": "X-hp-portrait-390x844-d",
+    "desc": "Semua tombol/kartu ≥ 44×44 px (target sentuh)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-portrait-390x844-e",
+    "desc": "Baris tombol kontrol muat ≤ 2 baris dan seluruhnya terlihat di layar",
+    "ok": true,
+    "note": "1 baris; dasar kontrol di y=834 dari 844"
+  },
+  {
+    "id": "X-hp-portrait-390x844-f",
+    "desc": "Area dunia 3D ≥ 200 px tinggi dan ≥ 280 px lebar (cukup untuk membaca adegan)",
+    "ok": true,
+    "note": "390×297"
+  },
+  {
+    "id": "X-hp-portrait-390x844-j",
+    "desc": "Label kunci Stage 7 tidak saling tumpuk (>10% luas)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-portrait-390x844-i",
+    "desc": "Teks label 3D kunci Stage 7 (kotak, papan nama perahu) ≥ 12 px CSS",
+    "ok": true,
+    "note": "perahu: 13px, jumlah 13px, nama 13px, lampu 13px"
+  },
+  {
+    "id": "X-hp-portrait-390x844-h",
+    "desc": "Stage 7 saat dialog terbuka: kotak & label kunci (3 kotak + papan nama perahu) tidak tertutup dialog/judul dan tidak terpotong tepi",
+    "ok": true,
+    "note": "7 titik diperiksa"
+  },
+  {
+    "id": "X-hp-portrait-390x844-g",
+    "desc": "Palet kartu b8 Hard tidak meluap horizontal (agar tidak butuh scroll)",
+    "ok": true,
+    "note": "palette 370px"
+  },
+  {
+    "id": "X-hp-landscape-667x375-a",
+    "desc": "Tidak ada scroll horizontal pada dokumen (semua keadaan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-landscape-667x375-b",
+    "desc": "Papan Program menampilkan seluruh kartu (3) tanpa scroll (b7/b8)",
+    "ok": true,
+    "note": "b7: 3/3 kartu terlihat utuh (papan 205px); b8: 3/3 (205px)"
+  },
+  {
+    "id": "X-hp-landscape-667x375-c",
+    "desc": "[proksi lama, diganti X-h] Bubble dialog menutupi tinggi area dunia saat stage dibuka (b7)",
+    "ok": null,
+    "note": "43% dari tinggi dunia (bubble 140px; dunia 325px)"
+  },
+  {
+    "id": "X-hp-landscape-667x375-d",
+    "desc": "Semua tombol/kartu ≥ 44×44 px (target sentuh)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-landscape-667x375-e",
+    "desc": "Baris tombol kontrol muat ≤ 2 baris dan seluruhnya terlihat di layar",
+    "ok": true,
+    "note": "1 baris; dasar kontrol di y=369 dari 375"
+  },
+  {
+    "id": "X-hp-landscape-667x375-f",
+    "desc": "Area dunia 3D ≥ 200 px tinggi dan ≥ 280 px lebar (cukup untuk membaca adegan)",
+    "ok": true,
+    "note": "320×325"
+  },
+  {
+    "id": "X-hp-landscape-667x375-j",
+    "desc": "Label kunci Stage 7 tidak saling tumpuk (>10% luas)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-landscape-667x375-i",
+    "desc": "Teks label 3D kunci Stage 7 (kotak, papan nama perahu) ≥ 12 px CSS",
+    "ok": true,
+    "note": "perahu: 13px, jumlah 13px, nama 13px, lampu 13px"
+  },
+  {
+    "id": "X-hp-landscape-667x375-h",
+    "desc": "Stage 7 saat dialog terbuka: kotak & label kunci (3 kotak + papan nama perahu) tidak tertutup dialog/judul dan tidak terpotong tepi",
+    "ok": true,
+    "note": "7 titik diperiksa"
+  },
+  {
+    "id": "X-hp-landscape-844x390-a",
+    "desc": "Tidak ada scroll horizontal pada dokumen (semua keadaan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-landscape-844x390-b",
+    "desc": "Papan Program menampilkan seluruh kartu (3) tanpa scroll (b7/b8)",
+    "ok": true,
+    "note": "b7: 3/3 kartu terlihat utuh (papan 220px); b8: 3/3 (220px)"
+  },
+  {
+    "id": "X-hp-landscape-844x390-c",
+    "desc": "[proksi lama, diganti X-h] Bubble dialog menutupi tinggi area dunia saat stage dibuka (b7)",
+    "ok": null,
+    "note": "36% dari tinggi dunia (bubble 121px; dunia 340px)"
+  },
+  {
+    "id": "X-hp-landscape-844x390-d",
+    "desc": "Semua tombol/kartu ≥ 44×44 px (target sentuh)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-landscape-844x390-e",
+    "desc": "Baris tombol kontrol muat ≤ 2 baris dan seluruhnya terlihat di layar",
+    "ok": true,
+    "note": "1 baris; dasar kontrol di y=384 dari 390"
+  },
+  {
+    "id": "X-hp-landscape-844x390-f",
+    "desc": "Area dunia 3D ≥ 200 px tinggi dan ≥ 280 px lebar (cukup untuk membaca adegan)",
+    "ok": true,
+    "note": "405×340"
+  },
+  {
+    "id": "X-hp-landscape-844x390-j",
+    "desc": "Label kunci Stage 7 tidak saling tumpuk (>10% luas)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-hp-landscape-844x390-i",
+    "desc": "Teks label 3D kunci Stage 7 (kotak, papan nama perahu) ≥ 12 px CSS",
+    "ok": true,
+    "note": "perahu: 13px, jumlah 13px, nama 13px, lampu 13px"
+  },
+  {
+    "id": "X-hp-landscape-844x390-h",
+    "desc": "Stage 7 saat dialog terbuka: kotak & label kunci (3 kotak + papan nama perahu) tidak tertutup dialog/judul dan tidak terpotong tepi",
+    "ok": true,
+    "note": "7 titik diperiksa"
+  },
+  {
+    "id": "X-tablet-portrait-768x1024-a",
+    "desc": "Tidak ada scroll horizontal pada dokumen (semua keadaan)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-tablet-portrait-768x1024-b",
+    "desc": "Papan Program menampilkan seluruh kartu (3) tanpa scroll (b7/b8)",
+    "ok": true,
+    "note": "b7: 3/3 kartu terlihat utuh (papan 405px); b8: 3/3 (405px)"
+  },
+  {
+    "id": "X-tablet-portrait-768x1024-c",
+    "desc": "[proksi lama, diganti X-h] Bubble dialog menutupi tinggi area dunia saat stage dibuka (b7)",
+    "ok": null,
+    "note": "0% dari tinggi dunia (bubble 112px; dunia 366px)"
+  },
+  {
+    "id": "X-tablet-portrait-768x1024-d",
+    "desc": "Semua tombol/kartu ≥ 44×44 px (target sentuh)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-tablet-portrait-768x1024-e",
+    "desc": "Baris tombol kontrol muat ≤ 2 baris dan seluruhnya terlihat di layar",
+    "ok": true,
+    "note": "1 baris; dasar kontrol di y=1014 dari 1024"
+  },
+  {
+    "id": "X-tablet-portrait-768x1024-f",
+    "desc": "Area dunia 3D ≥ 200 px tinggi dan ≥ 280 px lebar (cukup untuk membaca adegan)",
+    "ok": true,
+    "note": "768×366"
+  },
+  {
+    "id": "X-tablet-portrait-768x1024-j",
+    "desc": "Label kunci Stage 7 tidak saling tumpuk (>10% luas)",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "X-tablet-portrait-768x1024-i",
+    "desc": "Teks label 3D kunci Stage 7 (kotak, papan nama perahu) ≥ 12 px CSS",
+    "ok": true,
+    "note": "perahu: 13px, jumlah 12px, nama 12px, lampu 12px"
+  },
+  {
+    "id": "X-tablet-portrait-768x1024-h",
+    "desc": "Stage 7 saat dialog terbuka: kotak & label kunci (3 kotak + papan nama perahu) tidak tertutup dialog/judul dan tidak terpotong tepi",
+    "ok": true,
+    "note": "7 titik diperiksa"
+  },
+  {
+    "id": "X-err",
+    "desc": "Tidak ada error/warning konsol di semua ukuran layar",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "id": "K-terang",
+    "desc": "Kontras teks ≥ 4,5:1 (mode terang)",
+    "ok": true,
+    "note": "terendah 5.26:1"
+  },
+  {
+    "id": "K-gelap",
+    "desc": "Kontras teks ≥ 4,5:1 (mode gelap)",
+    "ok": true,
+    "note": "terendah 7.1:1"
+  }
+]

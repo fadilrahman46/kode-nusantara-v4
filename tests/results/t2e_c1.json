@@ -1,0 +1,56 @@
+[
+  {
+    "id": "G1a",
+    "desc": "Pemilih tingkat berlabel Mudah / Sedang / Sulit (nilai internal easy/medium/hard tetap)",
+    "ok": true,
+    "note": "easy=Mudah,medium=Sedang,hard=Sulit"
+  },
+  {
+    "id": "G1b",
+    "desc": "Tombol bantuan berlabel “Petunjuk”, menu berlabel “Pilih tahap”; tidak ada kata Hint/Stage/Easy/Medium/Hard di antarmuka terlihat",
+    "ok": true,
+    "note": "{\"hint\":\"💡 Petunjuk\",\"menu\":\"🗺️ Pilih tahap\",\"eng\":[]}"
+  },
+  {
+    "id": "G3",
+    "desc": "Pesan gagal diakhiri “Tidak apa-apa, coba lagi!” (B02 tanpa belok → menabrak)",
+    "ok": true,
+    "note": "Awas! Di depan Bit ada air. Tidak apa-apa, coba lagi!"
+  },
+  {
+    "id": "F16a",
+    "desc": "Modal hasil belum terbuka 0,7 dtk setelah menang, dan sudah terbuka setelah ±2,2 dtk",
+    "ok": true,
+    "note": "awal=false akhir=true"
+  },
+  {
+    "id": "F16b",
+    "desc": "Modal hasil tidak menggelapkan layar (latar transparan) dan menutupi < 45% panel dunia",
+    "ok": true,
+    "note": "{\"bg\":\"rgba(0, 0, 0, 0)\",\"pe\":\"none\",\"cover\":0.33}"
+  },
+  {
+    "id": "F16c",
+    "desc": "Tombol di lembar hasil tetap bisa diklik (Stage berikutnya → B03 terbuka)",
+    "ok": true,
+    "note": "Peti & TombolB03 · Dermaga Gelap · Mudah"
+  },
+  {
+    "id": "F16d-360x740",
+    "desc": "HP 360x740: lembar hasil terbuka, menutupi < 45% panel dunia, tombol hasil terlihat penuh",
+    "ok": true,
+    "note": "{\"cover\":0.05,\"btnsVisible\":true,\"sheetH\":422,\"vh\":740}"
+  },
+  {
+    "id": "F16d-667x375",
+    "desc": "HP 667x375: lembar hasil terbuka, menutupi < 45% panel dunia, tombol hasil terlihat penuh",
+    "ok": true,
+    "note": "{\"cover\":0,\"btnsVisible\":true,\"sheetH\":211,\"vh\":375}"
+  },
+  {
+    "id": "F16d-844x390",
+    "desc": "HP 844x390: lembar hasil terbuka, menutupi < 45% panel dunia, tombol hasil terlihat penuh",
+    "ok": true,
+    "note": "{\"cover\":0,\"btnsVisible\":true,\"sheetH\":219,\"vh\":390}"
+  }
+]
