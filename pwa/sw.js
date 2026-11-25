@@ -2,7 +2,7 @@
    Ubah CACHE_VERSION setiap kali index.html atau aset berubah, supaya pemain menerima versi baru.
    Versi baru TIDAK mengambil alih otomatis: halaman menampilkan tombol "Muat ulang" di menu
    dan baru mengirim pesan SKIP_WAITING saat pemain menekannya (progres di tengah tahap tidak hilang). */
-const CACHE_VERSION = "kn-v25-1";
+const CACHE_VERSION = "kn-v26-2";
 const CORE = ["./", "index.html", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-192.png", "icons/maskable-512.png",
   "icons/apple-touch-icon.png", "icons/favicon-32.png"];

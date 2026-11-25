@@ -464,6 +464,14 @@ textarea{width:100%;min-height:200px;font:13px/1.4 ui-monospace,Menlo,Consolas,m
 .pt-card h2{margin:10px 0 6px;font-size:24px;line-height:1.2}.pt-card p{margin:6px 0;font-size:16px;line-height:1.45;opacity:.92}
 .pt-ico{font-size:68px;line-height:1;display:inline-block;animation:ptTurn 2.4s ease-in-out infinite}
 @keyframes ptTurn{0%,20%{transform:rotate(0deg)}65%,100%{transform:rotate(-90deg)}}
+#ovFs{position:fixed;inset:0;z-index:75;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 35%,rgba(26,51,89,.94) 0%,rgba(8,18,38,.96) 100%);color:#fff;text-align:center;padding:12px;cursor:pointer}
+#ovFs[hidden]{display:none}
+.fs-card{max-width:420px;width:100%;background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.2);border-radius:clamp(16px,4dvh,24px);padding:clamp(14px,4dvh,24px) clamp(16px,3vw,24px);box-shadow:0 16px 40px rgba(0,0,0,.45);display:flex;flex-direction:column;align-items:center;gap:clamp(6px,1.8dvh,12px)}
+.fs-ico{font-size:clamp(34px,11dvh,56px);line-height:1}
+.fs-card h2{margin:0;font-size:clamp(18px,5.5dvh,24px);line-height:1.15}
+.fs-card p{margin:0;font-size:clamp(13px,3.6dvh,15.5px);line-height:1.35;opacity:.9;max-width:340px}
+.fs-btn{border:0;border-radius:14px;background:#FFC23C;color:#3A2A00;font-weight:800;font-size:clamp(15px,4.2dvh,18px);min-height:clamp(42px,12dvh,52px);padding:6px 22px;box-shadow:0 4px 16px rgba(0,0,0,.35)}
+.fs-skip{border:0;background:transparent;color:rgba(255,255,255,.72);font-size:clamp(12px,3.2dvh,14px);font-weight:600;text-decoration:underline;padding:4px 10px;min-height:32px}
 @media (prefers-reduced-motion: reduce){
   #ovBuka,#ovBuka *{transition:none!important;animation:none!important}
   .pt-ico{animation:none}
@@ -497,6 +505,7 @@ textarea{width:100%;min-height:200px;font:13px/1.4 ui-monospace,Menlo,Consolas,m
     <div class="bk-dots" id="bkDots" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
   </div>
 </div><button class="big bk-skip" id="bkSkip" type="button">Lewati ⏭</button></div>
+<div id="ovFs" hidden role="dialog" aria-modal="true" aria-label="Mode layar penuh"><div class="fs-card"><div class="fs-ico" aria-hidden="true">⛶</div><h2>Mode Layar Penuh</h2><p>Ketuk untuk menyembunyikan bilah browser dan bermain layar penuh.</p><button class="fs-btn" id="btnEnterFs" type="button">▶ Masuk Layar Penuh</button><button class="fs-skip" id="btnSkipFs" type="button">Lanjut di browser</button></div></div>
 <div id="ovPutar" hidden role="alert"><div class="pt-card"><div class="pt-ico" aria-hidden="true">📱</div><h2>Putar ponselmu mendatar</h2><p>Kode Nusantara dimainkan dengan ponsel dalam posisi mendatar (landscape).</p></div></div>
 <div id="app">
   <header class="topbar">
@@ -905,33 +914,39 @@ K.putarPembuka=play;
 
 /* ---- kunci layar penuh & landscape pada tampilan mobile (v26) ---- */
 (function(){
-  const pt=$("#ovPutar"), btnFs=$("#btnFs"), docEl=document.documentElement;
+  const pt=$("#ovPutar"), ovFs=$("#ovFs"), btnFs=$("#btnFs"), btnEnterFs=$("#btnEnterFs"), btnSkipFs=$("#btnSkipFs"), docEl=document.documentElement;
   const reqFs=docEl.requestFullscreen||docEl.webkitRequestFullscreen;
   const exitFs=document.exitFullscreen||document.webkitExitFullscreen;
   const isFs=()=>!!(document.fullscreenElement||document.webkitFullscreenElement);
   const isStandalone=()=>matchMedia("(display-mode: fullscreen)").matches||matchMedia("(display-mode: standalone)").matches||!!navigator.standalone||!!window.Capacitor;
   const coarse=matchMedia("(pointer: coarse)"), port=matchMedia("(orientation: portrait)");
-  const phone=()=>Math.min(screen.width,screen.height)<600;
+  const isMobile=()=>coarse.matches&&(Math.min(screen.width,screen.height)<640||Math.min(innerWidth,innerHeight)<540);
+  const forcedFs=/(^|&)fs(=|&|$)/.test(q);
   let userExitedFs=false;
 
-  const lockLand=()=>{ try{ if(coarse.matches&&phone()&&screen.orientation&&screen.orientation.lock) screen.orientation.lock("landscape").catch(()=>{}); }catch(e){} };
+  const lockLand=()=>{ try{ if(isMobile()&&screen.orientation&&screen.orientation.lock) screen.orientation.lock("landscape").catch(()=>{}); }catch(e){} };
   const enterFs=()=>{
-    if(!reqFs||isFs()||isStandalone()) { lockLand(); return Promise.resolve(); }
+    if(!reqFs||isFs()||isStandalone()){ lockLand(); syncFs(); return Promise.resolve(); }
     try{
       const p=reqFs.call(docEl,{navigationUI:"hide"});
-      return (p&&p.then?p:Promise.resolve()).then(lockLand,()=>{
-        try{ const p2=reqFs.call(docEl); return (p2&&p2.then?p2:Promise.resolve()).then(lockLand,()=>{}); }catch(e){}
+      return (p&&p.then?p:Promise.resolve()).then(()=>{ lockLand(); syncFs(); },()=>{
+        try{ const p2=reqFs.call(docEl); return (p2&&p2.then?p2:Promise.resolve()).then(()=>{ lockLand(); syncFs(); },()=>{}); }catch(e){}
       });
-    }catch(e){ try{ reqFs.call(docEl); }catch(_){} lockLand(); return Promise.resolve(); }
+    }catch(e){ try{ reqFs.call(docEl); }catch(_){} lockLand(); syncFs(); return Promise.resolve(); }
   };
   const syncFs=()=>{
-    if(!btnFs) return;
     const on=isFs();
-    btnFs.hidden=!reqFs||isStandalone();
-    btnFs.setAttribute("aria-pressed",on?"true":"false");
-    btnFs.setAttribute("aria-label",on?"Keluar layar penuh":"Layar penuh");
-    btnFs.title=on?"Keluar layar penuh":"Layar penuh";
-    btnFs.textContent=on?"🗗":"⛶";
+    if(btnFs){
+      btnFs.hidden=!reqFs||isStandalone();
+      btnFs.setAttribute("aria-pressed",on?"true":"false");
+      btnFs.setAttribute("aria-label",on?"Keluar layar penuh":"Layar penuh");
+      btnFs.title=on?"Keluar layar penuh":"Layar penuh";
+      btnFs.textContent=on?"🗗":"⛶";
+    }
+    if(ovFs){
+      const needFs=(forcedFs||(isMobile()&&!auto))&&!port.matches&&!!reqFs&&!on&&!isStandalone()&&!userExitedFs;
+      ovFs.hidden=!needFs;
+    }
   };
   if(btnFs&&reqFs){
     btnFs.onclick=()=>{
@@ -943,21 +958,39 @@ K.putarPembuka=play;
         enterFs();
       }
     };
-    const onFsChange=()=>{ syncFs(); window.dispatchEvent(new Event("resize")); setTimeout(()=>window.dispatchEvent(new Event("resize")),120); };
-    document.addEventListener("fullscreenchange",onFsChange);
-    document.addEventListener("webkitfullscreenchange",onFsChange);
-    syncFs();
   }
+  if(ovFs){
+    ovFs.onclick=e=>{
+      if(btnSkipFs&&(e.target===btnSkipFs||btnSkipFs.contains(e.target))){ userExitedFs=true; syncFs(); return; }
+      userExitedFs=false;
+      enterFs();
+    };
+    if(btnEnterFs) btnEnterFs.onclick=e=>{ e.stopPropagation(); userExitedFs=false; enterFs(); };
+    if(btnSkipFs) btnSkipFs.onclick=e=>{ e.stopPropagation(); userExitedFs=true; syncFs(); };
+  }
+  const onFsChange=()=>{ syncFs(); window.dispatchEvent(new Event("resize")); setTimeout(()=>window.dispatchEvent(new Event("resize")),150); };
+  document.addEventListener("fullscreenchange",onFsChange);
+  document.addEventListener("webkitfullscreenchange",onFsChange);
   K.enterFullscreen=enterFs;
 
-  if(auto&&!forcedPutar) return;
-  const cek=()=>{ if(pt) pt.hidden=!(port.matches&&coarse.matches&&phone()); };
-  const onGesture=()=>{ if(coarse.matches&&phone()&&!isFs()&&!isStandalone()&&!userExitedFs) enterFs(); else lockLand(); };
-  lockLand();
-  window.addEventListener("pointerdown",onGesture,{once:true,passive:true});
-  document.addEventListener("click",e=>{ if(btnFs&&e.target&&(e.target===btnFs||btnFs.contains(e.target))) return; if(coarse.matches&&phone()&&!isFs()&&!isStandalone()&&!userExitedFs) enterFs(); },{passive:true});
+  const cek=()=>{
+    if(pt) pt.hidden=!(port.matches&&isMobile()&&(!auto||forcedPutar));
+    syncFs();
+  };
+  if(!auto){
+    const onTap=e=>{
+      if(btnFs&&e.target&&(e.target===btnFs||btnFs.contains(e.target))) return;
+      if(btnSkipFs&&e.target&&(e.target===btnSkipFs||btnSkipFs.contains(e.target))) return;
+      if(isMobile()&&!isFs()&&!isStandalone()&&!userExitedFs) enterFs();
+      else lockLand();
+    };
+    document.addEventListener("click",onTap,{passive:true});
+    document.addEventListener("touchend",onTap,{passive:true});
+  }
   for(const m of [port,coarse]){ if(m.addEventListener) m.addEventListener("change",cek); else if(m.addListener) m.addListener(cek); }
-  window.addEventListener("resize",cek); cek();
+  window.addEventListener("resize",cek);
+  lockLand();
+  cek();
 })();
 })();
 </script>

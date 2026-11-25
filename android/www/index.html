@@ -21,7 +21,6 @@
   --shadow:0 2px 0 rgba(23,58,71,.18);
   --font:"Baloo 2","Trebuchet MS","Segoe UI",system-ui,sans-serif;
   color-scheme:light;
-  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -36,26 +35,27 @@
   color-scheme:dark;
 }
 *,*::before,*::after{box-sizing:border-box}
-html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+html{width:100%;height:100%;overflow:hidden;overscroll-behavior:none;scroll-padding-top:env(safe-area-inset-top,0px)}
 @supports (height:100dvh){html{height:100dvh}}
-body{height:100%;margin:0;background:var(--panel);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.35;overflow:hidden;-webkit-tap-highlight-color:transparent}
+body{width:100%;height:100%;margin:0;background:var(--panel);color:var(--ink);font-family:var(--font);font-size:clamp(14px,1.8vw,17px);line-height:1.35;overflow:hidden;overscroll-behavior:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 button{font:inherit;color:inherit;cursor:pointer}
 button:focus-visible,.card:focus-visible,select:focus-visible{outline:3px solid var(--lamp);outline-offset:2px}
-#app{height:100%;display:flex;flex-direction:column}
-.topbar{display:flex;align-items:center;gap:10px;padding:8px 12px;background:var(--surface);border-bottom:2px solid var(--line);flex-wrap:wrap}
-.brand{font-weight:800;font-size:20px;letter-spacing:.2px;margin-right:auto;display:flex;align-items:center;gap:8px;min-width:0;flex:1 1 0}
+#app{width:100%;height:100%;display:flex;flex-direction:column;overflow:hidden}
+.topbar{display:flex;align-items:center;gap:clamp(6px,1vw,10px);padding:calc(6px + env(safe-area-inset-top,0px)) calc(12px + env(safe-area-inset-right,0px)) 6px calc(12px + env(safe-area-inset-left,0px));background:var(--surface);border-bottom:2px solid var(--line);flex-wrap:nowrap;flex:0 0 auto;min-width:0}
+.brand{font-weight:800;font-size:clamp(16px,2.2vw,20px);letter-spacing:.2px;margin-right:auto;display:flex;align-items:center;gap:8px;min-width:0;flex:1 1 0}
 .stage-mini{display:none;font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .board-count{display:none;position:absolute;right:8px;top:6px;font-size:13px;font-weight:700;color:var(--ink-soft);background:var(--panel);border-radius:8px;padding:0 6px;z-index:1}
 .brand small{font-weight:600;color:var(--ink-soft);font-size:14px}
-.tb-btn,.tb-select{border:2px solid var(--line);background:var(--panel);border-radius:12px;padding:4px 12px;min-height:44px;font-weight:600}
+.tb-btn,.tb-select{border:2px solid var(--line);background:var(--panel);border-radius:12px;padding:4px 12px;min-height:44px;font-weight:600;flex:0 0 auto;white-space:nowrap}
+.tb-btn[hidden]{display:none}
 .tb-select{appearance:none;padding-right:28px;background-image:linear-gradient(45deg,transparent 50%,var(--ink) 50%),linear-gradient(135deg,var(--ink) 50%,transparent 50%);background-position:calc(100% - 15px) 52%,calc(100% - 10px) 52%;background-size:5px 5px;background-repeat:no-repeat}
-main{flex:1;min-height:0;display:flex}
+main{flex:1;min-height:0;display:flex;overflow:hidden}
 #worldWrap{position:relative;flex:0 0 60%;min-width:0;background:radial-gradient(ellipse at 50% 35%,var(--sea) 0%,var(--sea-2) 100%)}
 #world{position:absolute;inset:0}
 #world canvas{display:block;width:100%;height:100%}
-.stage-title{position:absolute;left:12px;top:10px;background:var(--surface);border-radius:14px;padding:4px 12px;font-weight:700;box-shadow:var(--shadow);max-width:calc(100% - 24px)}
+.stage-title{position:absolute;left:calc(12px + env(safe-area-inset-left,0px));top:10px;background:var(--surface);border-radius:14px;padding:4px 12px;font-weight:700;box-shadow:var(--shadow);max-width:calc(100% - 24px)}
 .stage-title span{display:block;font-size:13px;font-weight:600;color:var(--ink-soft)}
-.bubble{position:absolute;left:12px;right:12px;bottom:12px;background:var(--surface);border:2px solid var(--line);border-radius:18px;padding:10px 48px 10px 12px;box-shadow:var(--shadow);display:flex;gap:10px;align-items:flex-start;max-width:640px}
+.bubble{position:absolute;left:calc(12px + env(safe-area-inset-left,0px));right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));background:var(--surface);border:2px solid var(--line);border-radius:18px;padding:10px 48px 10px 12px;box-shadow:var(--shadow);display:flex;gap:10px;align-items:flex-start;max-width:640px}
 .bubble[hidden]{display:none}
 .bubble .who{flex:0 0 auto;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-size:24px;background:var(--panel);border:2px solid var(--line)}
 .bubble .who.bit{background:var(--lamp)}
@@ -64,7 +64,7 @@ main{flex:1;min-height:0;display:flex}
 .bubble .close{position:absolute;right:2px;top:2px;width:44px;height:44px;border:0;background:transparent;font-size:20px;border-radius:10px}
 .hint-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
 .hint-actions button{border:2px solid var(--line);background:var(--panel);border-radius:10px;padding:2px 12px;min-height:44px;font-weight:700}
-#editor{flex:1 1 40%;min-width:0;min-height:0;display:flex;flex-direction:column;gap:8px;padding:10px;background:var(--panel);border-left:2px solid var(--line)}
+#editor{flex:1 1 40%;min-width:0;min-height:0;display:flex;flex-direction:column;gap:8px;padding:10px calc(10px + env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) 10px;background:var(--panel);border-left:2px solid var(--line)}
 .zone-label{font-weight:700;font-size:14px;color:var(--ink-soft);margin:0 2px}
 .palette{display:flex;flex-wrap:wrap;gap:8px;position:relative}
 .palette.trash-mode::after{content:"🗑️ Lepas di sini untuk membuang";position:absolute;inset:-4px;display:grid;place-items:center;background:color-mix(in srgb,var(--danger) 16%,var(--panel));border:3px dashed var(--danger);border-radius:12px;font-weight:800;color:var(--ink);text-align:center;padding:4px}
@@ -238,35 +238,67 @@ textarea{width:100%;min-height:200px;font:13px/1.4 ui-monospace,Menlo,Consolas,m
   .board .card .kw{display:none}
   .bubble .who{width:34px;height:34px;font-size:19px}
 }
-/* HP lanskap / layar pendek: tata letak baris yang dipadatkan */
-@media (orientation:landscape) and (max-height:500px){
-  .topbar{padding:2px 8px;gap:6px}
-  .brand{font-size:16px} .brand small,.brand .name{display:none}
-  .stage-title{display:none} .stage-mini{display:inline}
+/* HP lanskap / layar pendek: tata letak responsif proporsional dengan ukuran layar (v26) */
+@media (orientation:landscape) and (max-height:520px){
+  .topbar{padding:calc(3px + env(safe-area-inset-top,0px)) calc(8px + env(safe-area-inset-right,0px)) 3px calc(8px + env(safe-area-inset-left,0px));gap:clamp(4px,.8vw,8px)}
+  .brand{font-size:clamp(13px,3.6dvh,17px);gap:5px}
+  .brand small,.brand .name{display:none}
+  .stage-title{display:none}
+  .stage-mini{display:inline;font-size:clamp(12.5px,3.4dvh,16px)}
   .tb-btn .lbl{display:none}
-  .tb-btn{min-width:44px;padding:2px 10px}
-  .palette-label{display:none}
-  #boardLabel{display:none} .board-count{display:block}
-  #worldWrap{flex-basis:48%}
-  #editor{padding:6px;gap:6px}
-  .ctl .lbl{display:none} .ctl.run .lbl{display:inline}
-  .ctl{min-width:46px;padding:2px 8px;font-size:16px}
-  .controls{gap:6px} .ctl.run{flex:1 1 90px}
-  #trash{display:none}
-  .card{font-size:15px}
+  .tb-btn{min-width:clamp(36px,9.5dvh,44px);min-height:clamp(34px,9dvh,44px);padding:2px clamp(7px,1.3vw,10px);border-radius:clamp(8px,2.2dvh,12px);font-size:clamp(14px,3.8dvh,17px);display:inline-grid;place-items:center}
+  .palette-label,#boardLabel{display:none}
+  .board-count{display:block;font-size:clamp(11px,2.8dvh,13px);right:6px;top:4px}
+  #worldWrap{flex:0 0 clamp(44%,47vw,52%)}
+  #editor{flex:1 1 auto;padding:clamp(4px,1.4dvh,8px) calc(clamp(5px,1vw,8px) + env(safe-area-inset-right,0px)) calc(clamp(4px,1.4dvh,8px) + env(safe-area-inset-bottom,0px)) clamp(5px,1vw,8px);gap:clamp(4px,1.2dvh,7px)}
+  .palette{gap:clamp(4px,.8vw,6px);max-height:30dvh;overflow-y:auto;align-content:flex-start}
+  .palette .card{min-height:clamp(34px,9.2dvh,44px);padding:clamp(2px,.8dvh,5px) clamp(7px,1.2vw,10px) clamp(2px,.8dvh,5px) clamp(8px,1.3vw,11px);gap:clamp(4px,.7vw,6px);border-radius:clamp(8px,2.2dvh,12px);font-size:clamp(12.5px,3.3dvh,15px)}
+  .palette .card .ic{width:clamp(20px,5.4dvh,26px);height:clamp(20px,5.4dvh,26px);font-size:clamp(12px,3.2dvh,15px);border-radius:6px}
+  .board{min-height:0;padding:clamp(4px,1.2dvh,7px);border-radius:clamp(10px,2.6dvh,14px)}
+  .board-empty{font-size:clamp(12px,3.2dvh,15px);padding:8px}
+  .board ol{gap:clamp(3px,.9dvh,6px)}
+  .board li{gap:4px}
+  .board li .num{width:18px;font-size:clamp(11px,2.8dvh,13px)}
+  .board li.in1{padding-left:12px} .board li.in2{padding-left:24px} .board li.in3{padding-left:36px}
+  .board .card{min-height:clamp(36px,9.6dvh,46px);padding:clamp(3px,.9dvh,5px) clamp(7px,1.2vw,10px) clamp(3px,.9dvh,5px) 6px;font-size:clamp(12.5px,3.4dvh,15px);border-radius:clamp(8px,2.2dvh,12px)}
   .board .card .kw{display:none}
-  .palette .card{min-height:44px;padding:4px 10px 4px 6px;gap:6px} .palette .card .ic{width:26px;height:26px;font-size:15px}
+  .board .card .ic{width:clamp(22px,5.8dvh,28px);height:clamp(22px,5.8dvh,28px);font-size:clamp(13px,3.4dvh,16px)}
+  .board .card.end{min-height:clamp(26px,7dvh,32px);font-size:clamp(11.5px,3dvh,13.5px)}
+  .grip{width:clamp(28px,6.5dvh,36px);font-size:clamp(15px,4dvh,19px);margin:-4px 0 -4px -6px}
+  .controls{flex-wrap:nowrap;gap:clamp(4px,.8vw,6px);align-items:stretch}
+  .ctl .lbl{display:none} .ctl.run .lbl{display:inline}
+  .ctl{flex:0 0 auto;min-width:clamp(36px,5.8vw,48px);min-height:clamp(36px,10dvh,48px);padding:2px clamp(6px,1.1vw,10px);border-radius:clamp(9px,2.4dvh,13px);font-size:clamp(13px,3.6dvh,16px);display:inline-flex;align-items:center;justify-content:center;gap:4px;white-space:nowrap}
+  .ctl.run{flex:1 1 0;min-width:0;padding:2px clamp(8px,1.4vw,12px)}
+  #trash{display:none}
+  .talk{right:8px;top:8px;width:clamp(36px,9.5dvh,44px);height:clamp(36px,9.5dvh,44px);font-size:clamp(16px,4.2dvh,20px)}
+  .bubble{left:calc(8px + env(safe-area-inset-left,0px));right:8px;bottom:calc(6px + env(safe-area-inset-bottom,0px));padding:clamp(5px,1.4dvh,8px) 38px clamp(5px,1.4dvh,8px) clamp(8px,1.4vw,10px);border-radius:clamp(10px,2.8dvh,16px);gap:6px}
   .bubble .who{display:none}
-  .stage-title{padding:2px 8px;font-size:14px} .stage-title span{display:none}
-  .bubble{padding:6px 40px 6px 8px;left:8px;right:8px;bottom:8px} .bubble p{font-size:14px} .bubble .who{width:30px;height:30px;font-size:17px}
-  .hint-actions{margin-top:4px}
+  .bubble b{font-size:clamp(11.5px,3dvh,13.5px)}
+  .bubble p{font-size:clamp(12px,3.3dvh,14.5px);line-height:1.3}
+  .bubble .close{width:clamp(34px,9dvh,42px);height:clamp(34px,9dvh,42px);font-size:clamp(15px,4dvh,18px)}
+  .hint-actions{margin-top:4px;gap:4px}
+  .hint-actions button{min-height:clamp(32px,8.5dvh,40px);padding:2px 10px;font-size:clamp(12px,3.2dvh,14px)}
+  .overlay{padding:calc(6px + env(safe-area-inset-top,0px)) calc(8px + env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) calc(8px + env(safe-area-inset-left,0px))}
+  .sheet{padding:clamp(10px,2.8dvh,16px);border-radius:clamp(12px,3.2dvh,18px);max-height:calc(100dvh - 12px)}
+  .sheet h2{font-size:clamp(17px,4.6dvh,22px);margin-bottom:4px}
+  .sheet p{font-size:clamp(13px,3.4dvh,15.5px);margin:4px 0}
+  .stars{font-size:clamp(28px,7.5dvh,40px);letter-spacing:4px}
+  .row{gap:6px;margin-top:clamp(6px,1.8dvh,10px)}
+  .big{min-height:clamp(36px,9.8dvh,46px);padding:4px clamp(10px,1.8vw,14px);font-size:clamp(13px,3.4dvh,15.5px);border-radius:clamp(9px,2.4dvh,13px)}
+  .pick-group{margin-top:6px}
+  .pick-opts{gap:6px}
+  .pick-opts button{min-width:clamp(46px,8vw,60px);min-height:clamp(38px,10dvh,48px);font-size:clamp(14px,3.8dvh,17px);border-radius:clamp(9px,2.4dvh,13px)}
+  #ovResult{padding:0 calc(8px + env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) calc(8px + env(safe-area-inset-left,0px))}
+  #ovResult .sheet{max-height:calc(100dvh - 16px);max-width:min(48%,420px)}
+  .t-opt{min-height:clamp(38px,10dvh,48px);padding:5px 10px;font-size:clamp(13px,3.4dvh,16px)}
+  .g-tile{min-width:clamp(40px,7vw,52px);min-height:clamp(38px,10dvh,48px);font-size:clamp(14px,3.8dvh,17px)}
 }
 /* Palet ringkas di layar sempit: label pendek lewat CSS (teks asli tetap ada untuk pembaca layar) */
 @media (max-width:480px){ .palette .card .t{font-size:0;line-height:0} .palette .card .t::after{content:attr(data-short);font-size:16px;line-height:1.2}
   .palette .card{padding:4px 8px 4px 6px;gap:5px} .palette .card .ic{width:24px;height:24px;font-size:14px} }
 /* HP landscape: palet tanpa ikon (warna tepi kartu tetap menandai jenis) agar tombol kontrol tidak keluar layar */
-@media (max-height:450px){ .palette .card .t{font-size:0;line-height:0} .palette .card .t::after{content:attr(data-short);font-size:15px;line-height:1.2}
-  .palette .card .ic{display:none} .palette .card{padding:4px 8px 4px 11px;min-width:48px;justify-content:center} .palette{gap:5px} }
+@media (max-height:450px){ .palette .card .t{font-size:0;line-height:0} .palette .card .t::after{content:attr(data-short);font-size:clamp(12px,3.2dvh,14.5px);line-height:1.2}
+  .palette .card .ic{display:none} .palette .card{padding:2px clamp(7px,1.2vw,10px) 2px clamp(9px,1.4vw,12px);min-width:clamp(40px,7vw,52px);justify-content:center} .palette{gap:clamp(3px,.7vw,5px)} }
 @media (prefers-reduced-motion: reduce){.pulse{animation:none;outline:3px solid var(--lamp)}.card.error{animation:none}}
 /* ---------- Halaman masuk & login (v25 landscape-first) ---------- */
 #ovMasuk{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;padding:14px;background:radial-gradient(ellipse at 25% 20%,#1F3D68 0%,#0E1E3B 70%,#081226 100%);overflow:auto;-webkit-overflow-scrolling:touch}
@@ -309,20 +341,28 @@ textarea{width:100%;min-height:200px;font:13px/1.4 ui-monospace,Menlo,Consolas,m
 .m-cap:focus{outline:none}
 .m-cap{font-size:17px;line-height:1.45;margin:4px 0 8px}
 .m-dots{display:flex;gap:6px;margin:6px 0}.m-dots i{width:10px;height:10px;border-radius:50%;background:var(--line)}.m-dots i.on{background:var(--lamp);box-shadow:0 0 0 2px var(--lamp-ink)}
-@media (max-height:500px){
-  #ovMasuk{padding:8px}
-  .m-wrap{gap:10px;grid-template-columns:minmax(0,42%) minmax(0,58%)}
-  .m-stage{min-height:0;border-radius:16px}
-  .m-card{padding:12px 14px;border-radius:16px;justify-content:flex-start}
-  .m-card h1{font-size:20px;margin-bottom:4px}
-  .m-card .row{margin-top:8px}
-  .m-card .big{min-height:44px;padding:4px 12px;font-size:15px}
-  .m-list{max-height:120px}
-  .m-pl{min-height:44px;font-size:15px}
-  .m-cap{font-size:15px;margin:4px 0 6px}
+@media (max-height:520px){
+  #ovMasuk{padding:calc(6px + env(safe-area-inset-top,0px)) calc(8px + env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) calc(8px + env(safe-area-inset-left,0px))}
+  .m-wrap{gap:clamp(8px,1.4vw,12px);grid-template-columns:minmax(0,40%) minmax(0,60%);height:calc(100dvh - 12px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px))}
+  .m-stage{min-height:0;border-radius:clamp(12px,3dvh,18px)}
+  .m-brand{padding:24px 10px 10px;font-size:clamp(18px,5.2dvh,28px)}
+  .m-brand small{font-size:clamp(11px,3dvh,13.5px)}
+  .m-card{padding:clamp(8px,2.4dvh,14px) clamp(10px,2vw,16px);border-radius:clamp(12px,3dvh,18px);justify-content:flex-start;max-height:100%}
+  .m-card h1{font-size:clamp(16px,4.8dvh,22px);margin-bottom:3px}
+  .m-card p{font-size:clamp(12.5px,3.3dvh,15px);margin:2px 0}
+  .m-card label{margin-top:6px;font-size:clamp(12.5px,3.3dvh,14.5px)}
+  .m-card input[type=text],.m-card input[type=password]{min-height:clamp(36px,9.5dvh,44px);font-size:clamp(14px,3.8dvh,16px);padding:4px 10px}
+  .m-card .row{margin-top:clamp(5px,1.6dvh,8px);gap:6px}
+  .m-card .big{min-height:clamp(36px,9.8dvh,44px);padding:4px clamp(10px,1.6vw,14px);font-size:clamp(13px,3.4dvh,15px)}
+  .m-list{max-height:min(28dvh,120px);gap:4px}
+  .m-pl{min-height:clamp(36px,9.8dvh,44px);font-size:clamp(13px,3.5dvh,15.5px);padding:4px 10px}
+  .m-av{font-size:clamp(18px,5dvh,24px)}
+  .m-chk{min-height:clamp(34px,9dvh,42px);font-size:clamp(12.5px,3.3dvh,14px)!important}
+  .m-link{min-height:clamp(34px,9dvh,42px);font-size:clamp(12.5px,3.3dvh,14px);padding:4px}
+  .m-cap{font-size:clamp(13px,3.6dvh,15.5px);margin:3px 0 5px}
 }
 /* ---------- Revisi Menu: Tab per tingkat + Grid tahap (v25) ---------- */
-#ovMenu{padding:12px}
+#ovMenu{padding:calc(10px + env(safe-area-inset-top,0px)) calc(12px + env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) calc(12px + env(safe-area-inset-left,0px))}
 #ovMenu .sheet.menu-sheet{max-width:860px;width:100%;height:min(90dvh,640px);max-height:calc(100dvh - 20px);padding:0;display:flex;flex-direction:column;overflow:hidden;border:2px solid var(--line)}
 .menu-head{display:flex;align-items:center;gap:12px;padding:12px 16px;background:var(--panel);border-bottom:2px solid var(--line);flex-wrap:wrap;flex:0 0 auto}
 .menu-head-main{flex:1 1 200px;min-width:0}
@@ -358,16 +398,28 @@ textarea{width:100%;min-height:200px;font:13px/1.4 ui-monospace,Menlo,Consolas,m
 .menu-pwa-banner{display:flex;align-items:center;gap:8px;padding:6px 14px;background:color-mix(in srgb,var(--lamp) 20%,var(--panel));border-bottom:2px solid var(--line);flex-wrap:wrap;flex:0 0 auto}
 .menu-pwa-banner[hidden]{display:none}
 .menu-pwa-banner .big{min-height:44px;padding:4px 12px;font-size:14px}
-@media (max-height:500px){
-  #ovMenu{padding:6px}
-  #ovMenu .sheet.menu-sheet{height:calc(100dvh - 12px);border-radius:16px}
-  .menu-head{padding:8px 12px;gap:8px}
-  .menu-head-main h2{font-size:18px}
-  .menu-tabs{padding:6px 10px}
-  .menu-tab{min-height:38px;padding:3px 10px;font-size:13.5px}
-  .menu-body{padding:10px 12px}
-  .stage-list.stage-grid{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
-  .stage-list.stage-grid .stage-item{min-height:58px;padding:8px 10px}
+@media (max-height:520px){
+  #ovMenu{padding:calc(5px + env(safe-area-inset-top,0px)) calc(6px + env(safe-area-inset-right,0px)) calc(5px + env(safe-area-inset-bottom,0px)) calc(6px + env(safe-area-inset-left,0px))}
+  #ovMenu .sheet.menu-sheet{height:calc(100dvh - 10px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));max-height:none;border-radius:clamp(12px,3dvh,16px)}
+  .menu-head{padding:clamp(5px,1.5dvh,8px) clamp(8px,1.6vw,12px);gap:6px;flex-wrap:nowrap}
+  .menu-head-main{flex:1 1 0}
+  .menu-head-main h2{font-size:clamp(15px,4.2dvh,19px)}
+  .menu-summary{font-size:clamp(11px,3dvh,13px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .menu-player{padding:2px 4px 2px 8px;gap:6px;font-size:clamp(12px,3.2dvh,14px);border-radius:10px}
+  .menu-player .mini-btn{min-height:clamp(30px,8dvh,36px);padding:2px 8px;font-size:clamp(11.5px,3dvh,13px)}
+  .menu-close{width:clamp(34px,9dvh,42px);height:clamp(34px,9dvh,42px);font-size:clamp(14px,3.8dvh,18px);border-radius:10px}
+  .menu-tabs{padding:clamp(4px,1.1dvh,6px) clamp(8px,1.4vw,10px);gap:5px}
+  .menu-tab{min-height:clamp(32px,8.5dvh,38px);padding:2px clamp(8px,1.4vw,11px);font-size:clamp(12px,3.2dvh,13.5px);border-radius:10px}
+  .menu-body{padding:clamp(6px,1.8dvh,10px) clamp(8px,1.6vw,12px)}
+  .menu-tier-bar{margin-bottom:8px;padding:clamp(6px,1.6dvh,9px) 10px;gap:8px}
+  .menu-tier-bar h3{font-size:clamp(14px,3.8dvh,16px)}
+  .menu-tier-bar small{font-size:clamp(11.5px,3dvh,13px)}
+  .stage-list.stage-grid{grid-template-columns:repeat(auto-fill,minmax(clamp(155px,27vw,210px),1fr));gap:clamp(6px,1vw,8px)}
+  .stage-list.stage-grid .stage-item{min-height:clamp(48px,13dvh,60px);padding:clamp(5px,1.4dvh,8px) clamp(7px,1.2vw,10px);gap:8px;border-radius:12px}
+  .stage-item .dot{width:clamp(32px,8.8dvh,40px);height:clamp(32px,8.8dvh,40px);font-size:clamp(16px,4.5dvh,20px)}
+  .stage-item span{font-size:clamp(11.5px,3dvh,13.5px)}
+  .stage-item em{font-size:clamp(13px,3.5dvh,16px)}
+  .menu-card{padding:8px 10px;gap:6px}
 }
 /* ---------- Page pembuka landscape + kunci landscape mobile (v25) ---------- */
 #ovBuka{position:fixed;inset:0;z-index:70;background:#081226;display:flex;justify-content:center;align-items:center;overflow:hidden;opacity:1;transition:opacity .4s ease}
@@ -412,6 +464,14 @@ textarea{width:100%;min-height:200px;font:13px/1.4 ui-monospace,Menlo,Consolas,m
 .pt-card h2{margin:10px 0 6px;font-size:24px;line-height:1.2}.pt-card p{margin:6px 0;font-size:16px;line-height:1.45;opacity:.92}
 .pt-ico{font-size:68px;line-height:1;display:inline-block;animation:ptTurn 2.4s ease-in-out infinite}
 @keyframes ptTurn{0%,20%{transform:rotate(0deg)}65%,100%{transform:rotate(-90deg)}}
+#ovFs{position:fixed;inset:0;z-index:75;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 35%,rgba(26,51,89,.94) 0%,rgba(8,18,38,.96) 100%);color:#fff;text-align:center;padding:12px;cursor:pointer}
+#ovFs[hidden]{display:none}
+.fs-card{max-width:420px;width:100%;background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.2);border-radius:clamp(16px,4dvh,24px);padding:clamp(14px,4dvh,24px) clamp(16px,3vw,24px);box-shadow:0 16px 40px rgba(0,0,0,.45);display:flex;flex-direction:column;align-items:center;gap:clamp(6px,1.8dvh,12px)}
+.fs-ico{font-size:clamp(34px,11dvh,56px);line-height:1}
+.fs-card h2{margin:0;font-size:clamp(18px,5.5dvh,24px);line-height:1.15}
+.fs-card p{margin:0;font-size:clamp(13px,3.6dvh,15.5px);line-height:1.35;opacity:.9;max-width:340px}
+.fs-btn{border:0;border-radius:14px;background:#FFC23C;color:#3A2A00;font-weight:800;font-size:clamp(15px,4.2dvh,18px);min-height:clamp(42px,12dvh,52px);padding:6px 22px;box-shadow:0 4px 16px rgba(0,0,0,.35)}
+.fs-skip{border:0;background:transparent;color:rgba(255,255,255,.72);font-size:clamp(12px,3.2dvh,14px);font-weight:600;text-decoration:underline;padding:4px 10px;min-height:32px}
 @media (prefers-reduced-motion: reduce){
   #ovBuka,#ovBuka *{transition:none!important;animation:none!important}
   .pt-ico{animation:none}
@@ -445,10 +505,12 @@ textarea{width:100%;min-height:200px;font:13px/1.4 ui-monospace,Menlo,Consolas,m
     <div class="bk-dots" id="bkDots" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
   </div>
 </div><button class="big bk-skip" id="bkSkip" type="button">Lewati ⏭</button></div>
+<div id="ovFs" hidden role="dialog" aria-modal="true" aria-label="Mode layar penuh"><div class="fs-card"><div class="fs-ico" aria-hidden="true">⛶</div><h2>Mode Layar Penuh</h2><p>Ketuk untuk menyembunyikan bilah browser dan bermain layar penuh.</p><button class="fs-btn" id="btnEnterFs" type="button">▶ Masuk Layar Penuh</button><button class="fs-skip" id="btnSkipFs" type="button">Lanjut di browser</button></div></div>
 <div id="ovPutar" hidden role="alert"><div class="pt-card"><div class="pt-ico" aria-hidden="true">📱</div><h2>Putar ponselmu mendatar</h2><p>Kode Nusantara dimainkan dengan ponsel dalam posisi mendatar (landscape).</p></div></div>
 <div id="app">
   <header class="topbar">
     <div class="brand">🏝️ <span class="name">Kode Nusantara</span> <small>Belajar Logika Pemrograman</small><span class="stage-mini" id="stageMini"></span></div>
+    <button id="btnFs" class="tb-btn" hidden aria-label="Layar penuh" aria-pressed="false" title="Layar penuh">⛶</button>
     <button id="btnMenu" class="tb-btn" aria-label="Peta dan menu">🗺️ <span class="lbl">Peta &amp; Menu</span></button>
     <button id="btnLog" class="tb-btn" aria-label="Catatan uji">📋 <span class="lbl">Catatan</span></button>
   </header>
@@ -850,18 +912,85 @@ try{ main(); }catch(e){ try{ ov.hidden=true; if(app){ app.inert=false; app.remov
 K.putarPembuka=play;
 { const r=$("#bkReplay"); if(r) r.onclick=()=>{ const m=$("#ovMenu"); if(m) m.hidden=true; play(); }; }
 
-/* ---- kunci landscape pada tampilan mobile ---- */
+/* ---- kunci layar penuh & landscape pada tampilan mobile (v26) ---- */
 (function(){
-  const pt=$("#ovPutar"); if(!pt) return;
-  if(auto&&!forcedPutar) return;
+  const pt=$("#ovPutar"), ovFs=$("#ovFs"), btnFs=$("#btnFs"), btnEnterFs=$("#btnEnterFs"), btnSkipFs=$("#btnSkipFs"), docEl=document.documentElement;
+  const reqFs=docEl.requestFullscreen||docEl.webkitRequestFullscreen;
+  const exitFs=document.exitFullscreen||document.webkitExitFullscreen;
+  const isFs=()=>!!(document.fullscreenElement||document.webkitFullscreenElement);
+  const isStandalone=()=>matchMedia("(display-mode: fullscreen)").matches||matchMedia("(display-mode: standalone)").matches||!!navigator.standalone||!!window.Capacitor;
   const coarse=matchMedia("(pointer: coarse)"), port=matchMedia("(orientation: portrait)");
-  const phone=()=>Math.min(screen.width,screen.height)<600;
-  const tryLock=()=>{ try{ if(coarse.matches&&phone()&&screen.orientation&&screen.orientation.lock) screen.orientation.lock("landscape").catch(()=>{}); }catch(e){} };
-  const cek=()=>{ pt.hidden=!(port.matches&&coarse.matches&&phone()); };
-  tryLock();
-  window.addEventListener("pointerdown",tryLock,{once:true,passive:true});
+  const isMobile=()=>coarse.matches&&(Math.min(screen.width,screen.height)<640||Math.min(innerWidth,innerHeight)<540);
+  const forcedFs=/(^|&)fs(=|&|$)/.test(q);
+  let userExitedFs=false;
+
+  const lockLand=()=>{ try{ if(isMobile()&&screen.orientation&&screen.orientation.lock) screen.orientation.lock("landscape").catch(()=>{}); }catch(e){} };
+  const enterFs=()=>{
+    if(!reqFs||isFs()||isStandalone()){ lockLand(); syncFs(); return Promise.resolve(); }
+    try{
+      const p=reqFs.call(docEl,{navigationUI:"hide"});
+      return (p&&p.then?p:Promise.resolve()).then(()=>{ lockLand(); syncFs(); },()=>{
+        try{ const p2=reqFs.call(docEl); return (p2&&p2.then?p2:Promise.resolve()).then(()=>{ lockLand(); syncFs(); },()=>{}); }catch(e){}
+      });
+    }catch(e){ try{ reqFs.call(docEl); }catch(_){} lockLand(); syncFs(); return Promise.resolve(); }
+  };
+  const syncFs=()=>{
+    const on=isFs();
+    if(btnFs){
+      btnFs.hidden=!reqFs||isStandalone();
+      btnFs.setAttribute("aria-pressed",on?"true":"false");
+      btnFs.setAttribute("aria-label",on?"Keluar layar penuh":"Layar penuh");
+      btnFs.title=on?"Keluar layar penuh":"Layar penuh";
+      btnFs.textContent=on?"🗗":"⛶";
+    }
+    if(ovFs){
+      const needFs=(forcedFs||(isMobile()&&!auto))&&!port.matches&&!!reqFs&&!on&&!isStandalone()&&!userExitedFs;
+      ovFs.hidden=!needFs;
+    }
+  };
+  if(btnFs&&reqFs){
+    btnFs.onclick=()=>{
+      if(isFs()){
+        userExitedFs=true;
+        try{ if(exitFs) exitFs.call(document); }catch(e){}
+      }else{
+        userExitedFs=false;
+        enterFs();
+      }
+    };
+  }
+  if(ovFs){
+    ovFs.onclick=e=>{
+      if(btnSkipFs&&(e.target===btnSkipFs||btnSkipFs.contains(e.target))){ userExitedFs=true; syncFs(); return; }
+      userExitedFs=false;
+      enterFs();
+    };
+    if(btnEnterFs) btnEnterFs.onclick=e=>{ e.stopPropagation(); userExitedFs=false; enterFs(); };
+    if(btnSkipFs) btnSkipFs.onclick=e=>{ e.stopPropagation(); userExitedFs=true; syncFs(); };
+  }
+  const onFsChange=()=>{ syncFs(); window.dispatchEvent(new Event("resize")); setTimeout(()=>window.dispatchEvent(new Event("resize")),150); };
+  document.addEventListener("fullscreenchange",onFsChange);
+  document.addEventListener("webkitfullscreenchange",onFsChange);
+  K.enterFullscreen=enterFs;
+
+  const cek=()=>{
+    if(pt) pt.hidden=!(port.matches&&isMobile()&&(!auto||forcedPutar));
+    syncFs();
+  };
+  if(!auto){
+    const onTap=e=>{
+      if(btnFs&&e.target&&(e.target===btnFs||btnFs.contains(e.target))) return;
+      if(btnSkipFs&&e.target&&(e.target===btnSkipFs||btnSkipFs.contains(e.target))) return;
+      if(isMobile()&&!isFs()&&!isStandalone()&&!userExitedFs) enterFs();
+      else lockLand();
+    };
+    document.addEventListener("click",onTap,{passive:true});
+    document.addEventListener("touchend",onTap,{passive:true});
+  }
   for(const m of [port,coarse]){ if(m.addEventListener) m.addEventListener("change",cek); else if(m.addListener) m.addListener(cek); }
-  window.addEventListener("resize",cek); cek();
+  window.addEventListener("resize",cek);
+  lockLand();
+  cek();
 })();
 })();
 </script>
@@ -2282,7 +2411,7 @@ let attempt=null, tutorialStep=0;
 let lastErrorIdx=-1;
 
 /* ---------- Logs ---------- */
-const APP_VERSION="v25";
+const APP_VERSION="v26";
 /* ---------- Progres pemain: tersimpan di perangkat ini saja (tanpa akun, tanpa nama) ---------- */
 const PROG_KEY=KN.kunci("kn_progres_v1"), OPEN_ALL_KEY="kn_buka_semua";
 let progress={done:{},last:null,gerbang:{}};
