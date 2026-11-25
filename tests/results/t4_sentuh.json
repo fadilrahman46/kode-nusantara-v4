@@ -69,6 +69,6 @@
     "id": "S09",
     "desc": "Pemilih nilai: tombol ≥ 44 px dan tombol \"Selesai\" terlihat tanpa scroll di 360×740",
     "ok": true,
-    "note": "{\"sheetH\":548,\"vh\":740,\"minBtn\":52,\"done\":true}"
+    "note": "{\"sheetH\":608,\"vh\":740,\"minBtn\":52,\"done\":true}"
   }
 ]

@@ -27,7 +27,7 @@
     "id": "J06x",
     "desc": "J06: putaran tak berujung (Selama ada jalan tanpa Maju) dihentikan dengan pesan, tombol kembali aktif",
     "ok": true,
-    "note": "berhenti setelah 0.9 dtk (mode cepat) | Kartu Selama berputar terus tanpa henti. Pastikan kartu di dalamnya mengubah keadaan, misalnya Maju."
+    "note": "berhenti setelah 0.7 dtk (mode cepat) | Kartu Selama berputar terus tanpa henti. Pastikan kartu di dalamnya mengubah keadaan, misalnya Maju."
   },
   {
     "id": "J06s",

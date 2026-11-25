@@ -9,7 +9,7 @@
     "id": "U2",
     "desc": "Menang MA03 → tombol “Gerbang Si Teka” di layar hasil → gerbang terbuka dengan teka-teki hitung(n)",
     "ok": true,
-    "note": "{\"ov\":true,\"vis\":true,\"stem\":\"🦉 Berapa hasil hitung(4)?\",\"opts\":[\"2\",\"16\",\"32\",\"1\"]}"
+    "note": "{\"ov\":true,\"vis\":true,\"stem\":\"🦉 Berapa hasil hitung(4)?\",\"opts\":[\"32\",\"1\",\"16\",\"2\"]}"
   },
   {
     "id": "U3",
@@ -39,13 +39,13 @@
     "id": "U7",
     "desc": "Tingkat Sulit: gerbang berbentuk ubin; ketuk ubin menyusun jawaban, ketuk lagi melepas, Hapus; benar → bonus",
     "ok": true,
-    "note": "{\"st\":{\"tiles\":[\"0\",\"4\",\"1\",\"5\",\"6\",\"2\"],\"opts\":0,\"ans\":\"10\"},\"s1\":1,\"s2\":0,\"live\":\"Benar!\"}"
+    "note": "{\"st\":{\"tiles\":[\"6\",\"4\",\"5\",\"2\",\"1\",\"0\"],\"opts\":0,\"ans\":\"10\"},\"s1\":1,\"s2\":0,\"live\":\"Benar!\"}"
   },
   {
     "id": "U8",
     "desc": "Progres gerbang tersimpan di perangkat: muat ulang halaman → status, bonus, dan ✓ di menu bertahan; “Hapus progres” menghapusnya",
     "ok": true,
-    "note": "{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":1,\"at\":\"2026-11-20\"} | 🦉Gerbang Si TekaTerjawab, bonus misi 🌟Gerbang Cermin · rekursi🌟"
+    "note": "{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":1,\"at\":\"2026-11-24\"} | 🦉Gerbang Si TekaTerjawab, bonus misi 🌟Gerbang Cermin · rekursi🌟"
   },
   {
     "id": "U9",

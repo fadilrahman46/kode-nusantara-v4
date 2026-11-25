@@ -81,7 +81,7 @@
     "id": "Q14",
     "desc": "Papan ketik di Ujian Senior: panah memilih pilihan berikutnya, Lanjut aktif setelah memilih; kode soal (jika ada) tampil sebagai blok berlabel",
     "ok": true,
-    "note": "{\"checked\":\"false,true,false,false,false\",\"dis\":false,\"live\":\"Soal 1 dari 10\",\"radios\":5} blok kode=5"
+    "note": "{\"checked\":\"false,true,false,false,false\",\"dis\":false,\"live\":\"Soal 1 dari 10\",\"radios\":5} blok kode=6"
   },
   {
     "id": "E1",

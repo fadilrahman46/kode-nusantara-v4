@@ -761,7 +761,7 @@
         "controlsBottomVisible": true
       },
       "picker": {
-        "sheetH": 548,
+        "sheetH": 608,
         "vh": 740,
         "btnMin": 52
       },
@@ -1061,13 +1061,13 @@
           "x": 10,
           "y": 371,
           "w": 370,
-          "h": 48
+          "h": 104
         },
         "board": {
           "x": 10,
-          "y": 454,
+          "y": 510,
           "w": 370,
-          "h": 320
+          "h": 264
         },
         "controls": {
           "x": 10,

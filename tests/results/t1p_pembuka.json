@@ -51,7 +51,7 @@
     "id": "R1",
     "desc": "Daftar dengan nama berspasi ganda: dinormalkan; PIN dan tokoh tersimpan; cerita dimulai di adegan 1",
     "ok": true,
-    "note": "{\"h\":\"Cerita, adegan 1 dari 5\",\"dots\":5,\"prev\":true,\"next\":\"Lanjut ▶\",\"svg\":true} s665124a"
+    "note": "{\"h\":\"Cerita, adegan 1 dari 5\",\"dots\":5,\"prev\":true,\"next\":\"Lanjut ▶\",\"svg\":true} sedf4d62"
   },
   {
     "id": "R2",
@@ -116,8 +116,8 @@
   {
     "id": "M4",
     "desc": "“Hapus progres” di dalam game hanya menghapus progres pemain aktif",
-    "ok": true,
-    "note": ""
+    "ok": false,
+    "note": "EXCEPTION Node is either not clickable or not an Element"
   },
   {
     "id": "M5",
@@ -129,7 +129,7 @@
     "id": "M6",
     "desc": "Tanpa crypto.subtle: PIN tetap bisa dibuat dan dipakai (hash cadangan berawalan f), PIN salah ditolak",
     "ok": true,
-    "note": "f4ec01185"
+    "note": "f61ca8dd6"
   },
   {
     "id": "T1",
@@ -165,7 +165,7 @@
     "id": "G4",
     "desc": "Setelah dipindahkan: kunci tamu kosong, kunci “siti” berisi B01",
     "ok": true,
-    "note": "{\"g\":null,\"s\":{\"done\":{\"p0\":{\"stars\":3,\"at\":\"2026-11-22\"}},\"last\":\"p0\",\"gerbang\":{}}}"
+    "note": "{\"g\":null,\"s\":{\"done\":{\"p0\":{\"stars\":3,\"at\":\"2026-11-25\"}},\"last\":\"p0\",\"gerbang\":{}}}"
   },
   {
     "id": "G5",
@@ -183,7 +183,7 @@
     "id": "J1",
     "desc": "Tautan ulang laporan (?tahap=...) melewati halaman pembuka dan memuat tahap itu",
     "ok": true,
-    "note": "{\"h\":true,\"t\":\"Peti & TombolB03 · Dermaga Gelap · Mudah\"}"
+    "note": "{\"h\":true,\"t\":\"Peti & TombolB03 · Dermaga Gelap\"}"
   },
   {
     "id": "D1",

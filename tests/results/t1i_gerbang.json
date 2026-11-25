@@ -219,43 +219,43 @@
     "id": "R-A",
     "desc": "Benar di percobaan pertama: status benar, bonus, 0 salah",
     "ok": true,
-    "note": "{\"ok\":true,\"salah\":0,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":1,\"at\":\"2026-11-20\"},\"done\":true}"
+    "note": "{\"ok\":true,\"salah\":0,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":1,\"at\":\"2026-11-24\"},\"done\":true}"
   },
   {
     "id": "R-B",
     "desc": "Salah sekali: pilihan salah ditandai, petunjuk belum muncul, lalu benar → bonus",
     "ok": true,
-    "note": "{\"salah\":1,\"ok\":true,\"hint1\":false,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":1,\"buka\":1,\"at\":\"2026-11-20\"}}"
+    "note": "{\"salah\":1,\"ok\":true,\"hint1\":false,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":1,\"buka\":1,\"at\":\"2026-11-24\"}}"
   },
   {
     "id": "R-C",
     "desc": "Salah 2 kali: petunjuk Si Teka muncul, gerbang belum selesai, 2 pilihan tercoret; benar sesudahnya membuka gerbang TANPA bonus (bonus hanya bila salah ≤ 1)",
     "ok": true,
-    "note": "{\"hint2\":true,\"unfinished\":true,\"mati\":2,\"ok\":true,\"salah\":2,\"rec\":{\"status\":\"benar\",\"bonus\":false,\"salah\":2,\"buka\":1,\"at\":\"2026-11-20\"}}"
+    "note": "{\"hint2\":true,\"unfinished\":true,\"mati\":2,\"ok\":true,\"salah\":2,\"rec\":{\"status\":\"benar\",\"bonus\":false,\"salah\":2,\"buka\":1,\"at\":\"2026-11-24\"}}"
   },
   {
     "id": "R-C2",
     "desc": "Terjawab tanpa bonus lalu mencoba lagi dari menu dan benar di percobaan pertama → bonus didapat",
     "ok": true,
-    "note": "{\"vNext\":0,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":2,\"at\":\"2026-11-20\"}}"
+    "note": "{\"vNext\":1,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":2,\"at\":\"2026-11-24\"}}"
   },
   {
     "id": "R-D",
     "desc": "Salah 3 kali: gerbang terbuka, jawaban ditampilkan, TANPA bonus, ada tombol Lanjut",
     "ok": true,
-    "note": "{\"selesai\":true,\"ok\":false,\"salah\":3,\"rec\":{\"status\":\"terbuka\",\"bonus\":false,\"salah\":3,\"buka\":1,\"at\":\"2026-11-20\"},\"fb\":\"Jawabannya: makan() dan terbang()\",\"msg\":true,\"btn\":true}"
+    "note": "{\"selesai\":true,\"ok\":false,\"salah\":3,\"rec\":{\"status\":\"terbuka\",\"bonus\":false,\"salah\":3,\"buka\":1,\"at\":\"2026-11-24\"},\"fb\":\"Jawabannya: makan() dan terbang()\",\"msg\":true,\"btn\":true}"
   },
   {
     "id": "R-E",
     "desc": "Kembali untuk bonus: soal berbeda dari yang pertama; menang → status benar dan bonus",
     "ok": true,
-    "note": "{\"v0\":0,\"v1\":1,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":2,\"at\":\"2026-11-20\"}}"
+    "note": "{\"v0\":0,\"v1\":1,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":0,\"buka\":2,\"at\":\"2026-11-24\"}}"
   },
   {
     "id": "R-E2",
     "desc": "Percobaan ulang yang gagal tidak menurunkan status maupun bonus yang sudah diperoleh",
     "ok": true,
-    "note": "{\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":3,\"buka\":3,\"at\":\"2026-11-20\"}}"
+    "note": "{\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":3,\"buka\":3,\"at\":\"2026-11-24\"}}"
   },
   {
     "id": "R-F",
@@ -273,13 +273,13 @@
     "id": "R-H",
     "desc": "Sulit: bentuk ubin; susunan salah dikosongkan dan dihitung salah; susunan benar → bonus",
     "ok": true,
-    "note": "{\"bentuk\":\"ubin\",\"afterWrong\":{\"salah\":1,\"sel\":0},\"ok\":true,\"salah\":1,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":1,\"buka\":1,\"at\":\"2026-11-20\"}}"
+    "note": "{\"bentuk\":\"ubin\",\"afterWrong\":{\"salah\":1,\"sel\":0},\"ok\":true,\"salah\":1,\"rec\":{\"status\":\"benar\",\"bonus\":true,\"salah\":1,\"buka\":1,\"at\":\"2026-11-24\"}}"
   },
   {
     "id": "R-I",
     "desc": "Sulit: 3 susunan salah → terbuka tanpa bonus (sama dengan pilihan ganda)",
     "ok": true,
-    "note": "{\"selesai\":true,\"ok\":false,\"salah\":3,\"rec\":{\"status\":\"terbuka\",\"bonus\":false,\"salah\":3,\"buka\":1,\"at\":\"2026-11-20\"}}"
+    "note": "{\"selesai\":true,\"ok\":false,\"salah\":3,\"rec\":{\"status\":\"terbuka\",\"bonus\":false,\"salah\":3,\"buka\":1,\"at\":\"2026-11-24\"}}"
   },
   {
     "id": "ERR",

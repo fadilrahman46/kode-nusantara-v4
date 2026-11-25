@@ -15,7 +15,7 @@
     "id": "U3",
     "desc": "SE03: papan sudah berisi 3 kartu dari temanmu (penuh); Jalankan menunjukkan jawaban loket di dasbor; satu perbaikan menyelesaikannya",
     "ok": true,
-    "note": "{\"cards\":3,\"lab\":\"Papan Program (3/3 kartu)\",\"dash\":\"🏬 Loket gudangPesanan: kopi 2 · gula 1 · teh 3#1/barang · pesan · kopi×2✅ berhasil#2/barang · lihat · gula×1🚫 aksi tidak boleh di alamat ini#3/barang · pesan \",\"bb\":\"Pesanan gula belum sampai (0 dari 1). Permintaan #2 dijawab “aksi tidak boleh di alamat ini”.\",\"ov\":true,\"rounds\":1}"
+    "note": "{\"cards\":3,\"lab\":\"Papan Program (3/3 kartu)\",\"dash\":\"🏬 Loket gudangPesanan: kopi 2 · gula 1 · teh 3#1/gudang · pesan · kopi×2❓ tidak ditemukan#2/barang · pesan · gula×1✅ berhasil#3/barang · pesan · teh×3✅ berhasi\",\"bb\":\"Pesanan kopi belum sampai (0 dari 2). Permintaan #1 dijawab “tidak ditemukan”. Tidak apa-apa, coba lagi!\",\"ov\":true,\"rounds\":1}"
   },
   {
     "id": "U4",
@@ -27,7 +27,7 @@
     "id": "U5",
     "desc": "SE09: kartu Gerbang memperbarui dasbor (gerbang terpasang, tabel rilis menunjukkan ⛔); kartu kedua ditolak karena anggaran; dasbor menampilkan baris Pemantau",
     "ok": true,
-    "note": "{\"d0\":\"🚦 Jalur rilisGerbang: belum ada · Pemantau: belum ada · Rollback: belum adabuildujistagin\",\"d1\":\"🚦 Jalur rilisGerbang: staging · Pemantau: belum ada · Rollback: belum adabuildujistagingproduksi#1cacat di staging✔✔⛔–#\",\"bb\":\"Anggaran gerbang habis: jalur hanya boleh punya 1 gerbang, karena tiap gerbang memperlambat semua rilis.\"}"
+    "note": "{\"d0\":\"🚦 Jalur rilisGerbang: belum ada · Pemantau: belum ada · Rollback: belum adabuildujistagin\",\"d1\":\"🚦 Jalur rilisGerbang: staging · Pemantau: belum ada · Rollback: belum adabuildujistagingproduksi#1baik✔✔✔✔#2cacat di uj\",\"bb\":\"Anggaran gerbang habis: jalur hanya boleh punya 1 gerbang, karena tiap gerbang memperlambat semua rilis.\"}"
   },
   {
     "id": "U6",
@@ -63,7 +63,7 @@
     "id": "DK",
     "desc": "Mode gelap: semua teks dasbor Papan Sistem (se04, se06, se09, se10, ex01, ex03, ex04, ex07, ex09) berkontras ≥ 4,5:1 terhadap latarnya sendiri",
     "ok": true,
-    "note": "se04:6.87(sy-okt:✅ sehat) | se06:6.39(sy-badt:3) | se09:5.52(off:–) | se10:6.39(:📭 stok habis) | ex01:7.1(sy-dim:belum ada aturan) | ex03:7.1(sy-dim:belum ada aturan) | ex04:7.1(sy-dim:belum ada kartu) | ex07:7.1(sy-dim:belum ada kartu) | ex09:7.1(sy-dim:belum ada kartu)"
+    "note": "se04:6.87(sy-okt:✅ sehat) | se06:6.39(sy-badt:2) | se09:5.52(off:–) | se10:6.39(:📭 stok habis) | ex01:7.1(sy-dim:belum ada aturan) | ex03:7.1(sy-dim:belum ada aturan) | ex04:7.1(sy-dim:belum ada kartu) | ex07:7.1(sy-dim:belum ada kartu) | ex09:7.1(sy-dim:belum ada kartu)"
   },
   {
     "id": "LT",

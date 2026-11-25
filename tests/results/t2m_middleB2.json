@@ -21,7 +21,7 @@
     "id": "MB09",
     "desc": "MB09: Kamar [lampu nyala; matikan] · Rumah [kamar = objek Kamar baru; tidur [Suruh diri.kamar matikan]] → menang; label kamar tampil",
     "ok": true,
-    "note": " | Berhasil! | kamar RumahAlampu: nyala / RumahAkamar: objek Kamar / kamar RumahBlampu: mati / RumahBkamar: objek Kamar"
+    "note": " | Berhasil! | kamar RumahAlampu: mati / RumahAkamar: objek Kamar / kamar RumahBlampu: nyala / RumahBkamar: objek Kamar"
   },
   {
     "id": "PK2",

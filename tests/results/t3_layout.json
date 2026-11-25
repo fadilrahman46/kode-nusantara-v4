@@ -183,7 +183,7 @@
     "id": "X-hp-portrait-390x844-b",
     "desc": "Papan Program menampilkan seluruh kartu (3) tanpa scroll (b7/b8)",
     "ok": true,
-    "note": "b7: 3/3 kartu terlihat utuh (papan 320px); b8: 3/3 (320px)"
+    "note": "b7: 3/3 kartu terlihat utuh (papan 320px); b8: 3/3 (264px)"
   },
   {
     "id": "X-hp-portrait-390x844-c",

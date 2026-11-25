@@ -2,8 +2,8 @@
   {
     "id": "A1",
     "desc": "Manifest berisi bidang wajib installability (name, start_url, display standalone, ikon 192 dan 512)",
-    "ok": true,
-    "note": "display=standalone start=./index.html"
+    "ok": false,
+    "note": "display=fullscreen start=./index.html"
   },
   {
     "id": "A2",
@@ -57,7 +57,7 @@
     "id": "B4",
     "desc": "Cache terpasang berisi halaman, manifest, dan semua ikon inti",
     "ok": true,
-    "note": "cache=kn-v24-1 isi=9 berkas"
+    "note": "cache=kn-v26-1 isi=11 berkas"
   },
   {
     "id": "B5",
@@ -93,13 +93,13 @@
     "id": "D1",
     "desc": "Versi baru terdeteksi: tombol \"Versi baru tersedia\" muncul di menu",
     "ok": true,
-    "note": "tinggi tombol=52px"
+    "note": "tinggi tombol=44px"
   },
   {
     "id": "D2",
     "desc": "Versi baru TIDAK mengambil alih sendiri: halaman tidak dimuat ulang dan masih versi lama",
     "ok": true,
-    "note": "cache=kn-v24-1,kn-v23-2"
+    "note": "cache=kn-v26-1,kn-v23-2"
   },
   {
     "id": "D3",

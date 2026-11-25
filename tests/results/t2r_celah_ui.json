@@ -27,7 +27,7 @@
     "id": "mb06-salah-energi tidak dikun",
     "desc": "MB06: cara salah “energi tidak dikunci” tidak menang lewat tombol ▶ dan memberi pesan",
     "ok": true,
-    "note": "Berhasil untuk satu keadaan, tapi belum untuk keadaan lain (6 perintah): Pipit."
+    "note": "Pipit.energi berhasil diubah dari luar."
   },
   {
     "id": "mb06-salah-terbang tanpa penj",
@@ -45,13 +45,13 @@
     "id": "mb08-salah-Bit yang bersuara",
     "desc": "MB08: cara salah “Bit yang bersuara” tidak menang lewat tombol ▶ dan memberi pesan",
     "ok": true,
-    "note": "Pelatih: membuat Tom dari Cetakan Kucing, tetapi Cetakan Kucing belum dibuat. Tidak apa-apa, coba lagi!"
+    "note": "Pelatih: membuat Oyen dari Cetakan Kucing, tetapi Cetakan Kucing belum dibuat. Tidak apa-apa, coba lagi!"
   },
   {
     "id": "mb08-salah-hanya cetakan Kuci",
     "desc": "MB08: cara salah “hanya cetakan Kucing” tidak menang lewat tombol ▶ dan memberi pesan",
     "ok": true,
-    "note": "Pelatih: membuat Kwak dari Cetakan Bebek, tetapi Cetakan Bebek belum dibuat. Tidak apa-apa, coba lagi!"
+    "note": "Pelatih: membuat Kwek dari Cetakan Bebek, tetapi Cetakan Bebek belum dibuat. Tidak apa-apa, coba lagi!"
   },
   {
     "id": "mb10-menang",
@@ -69,7 +69,7 @@
     "id": "mb10-salah-tampil tanpa penja",
     "desc": "MB10: cara salah “tampil tanpa penjaga” tidak menang lewat tombol ▶ dan memberi pesan",
     "ok": true,
-    "note": "Energi sempat minus (-1). Hewan hanya tampil bila energinya ada. Tidak apa-apa, coba lagi!"
+    "note": "Energi sempat minus (-2). Hewan hanya tampil bila energinya ada. Tidak apa-apa, coba lagi!"
   },
   {
     "id": "ex05-menang",
@@ -117,7 +117,7 @@
     "id": "ex08-salah-tanpa rak",
     "desc": "EX08: cara salah “tanpa rak” tidak menang lewat tombol ▶ dan memberi pesan",
     "ok": true,
-    "note": "Detak 5: server 1 melimpah, 33 permintaan hilang. Rak menyerap 0 dari 124 permintaan (belum ada rak)."
+    "note": "Detak 5: server 3 melimpah, 26 permintaan hilang. Rak menyerap 0 dari 124 permintaan (belum ada rak)."
   },
   {
     "id": "ex08-salah-tanpa server",

@@ -45,7 +45,7 @@
     "id": "B1",
     "desc": "/sw.js: no-cache (max-age=0, must-revalidate), tipe JavaScript, Service-Worker-Allowed \"/\"",
     "ok": true,
-    "note": "{\"cache-control\":\"public, max-age=0, must-revalidate\",\"connection\":\"keep-alive\",\"content-length\":\"2760\",\"content-type\":\"text/javascript; charset=utf-8\",\"date\":\"Mon, 23 Nov 2026 05:41:19 GMT\",\"keep-alive\":\"timeout=5\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"service-worker-allowed\":\"/\",\"x-content-type-options\":\"nosniff\"}"
+    "note": "{\"cache-control\":\"public, max-age=0, must-revalidate\",\"connection\":\"keep-alive\",\"content-length\":\"2760\",\"content-type\":\"text/javascript; charset=utf-8\",\"date\":\"Wed, 25 Nov 2026 04:38:48 GMT\",\"keep-alive\":\"timeout=5\",\"referrer-policy\":\"strict-origin-when-cross-origin\",\"service-worker-allowed\":\"/\",\"x-content-type-options\":\"nosniff\"}"
   },
   {
     "id": "B2",
@@ -81,7 +81,7 @@
     "id": "C2",
     "desc": "Cache SW memuat halaman dan ikon; tidak ada respons \"redirected\" tersimpan (jebakan SW + pengalihan)",
     "ok": true,
-    "note": "{\"n\":9,\"red\":0,\"k\":[\"kn-v24-1\"]}"
+    "note": "{\"n\":11,\"red\":0,\"k\":[\"kn-v26-1\"]}"
   },
   {
     "id": "C3",

@@ -21,7 +21,7 @@
     "id": "MA05x",
     "desc": "MA05: Untuk setiap satu per satu → ditolak karena melebihi 3 buku",
     "ok": true,
-    "note": "Pustakawan hanya mengizinkan membuka 3 buku di rak ini. Memeriksa satu per satu terlalu lama."
+    "note": "Berhasil untuk satu keadaan, tapi belum untuk keadaan lain (7 buku terurut, mencari buku 26): Pustakawan hanya mengizinkan membuka 3 buku di rak ini."
   },
   {
     "id": "MA06",
@@ -45,7 +45,7 @@
     "id": "MA08x",
     "desc": "MA08: pakai tumpukan → pesan urutan dilayani salah",
     "ok": true,
-    "note": "Baru 1 dari 4 warga dilayani. Tidak apa-apa, coba lagi!"
+    "note": "Baru 2 dari 5 warga dilayani. Tidak apa-apa, coba lagi!"
   },
   {
     "id": "MA09",
@@ -57,7 +57,7 @@
     "id": "MA09v",
     "desc": "MA09: setelah dijalankan, setiap map di panel bertanda sudah dikunjungi",
     "ok": true,
-    "note": "{\"n\":7,\"seen\":7}"
+    "note": "{\"n\":5,\"seen\":5}"
   },
   {
     "id": "MA10",

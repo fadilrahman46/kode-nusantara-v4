@@ -15,13 +15,13 @@
     "id": "X3",
     "desc": "EX01: aturan acuan menang; tabel menampilkan detak, tombol 1×/4×/Lewati ada",
     "ok": true,
-    "note": "{\"ov\":true,\"btns\":[\"1\",\"4\",\"skip\"],\"rows\":5}"
+    "note": "{\"ov\":true,\"btns\":[\"1\",\"4\",\"skip\"],\"rows\":6}"
   },
   {
     "id": "X4",
     "desc": "EX03: tombol ⏭ (lewati) menampilkan seluruh jejak sekaligus",
     "ok": true,
-    "note": "{\"before\":5,\"after\":6,\"skip\":\"skip\"}"
+    "note": "{\"before\":6,\"after\":6,\"skip\":\"skip\"}"
   },
   {
     "id": "X5",
@@ -45,13 +45,13 @@
     "id": "X8",
     "desc": "EX04: picker memilih jumlah pekerja lewat ketukan; dasbor menampilkan biaya; menang dengan 2 pekerja + penyangga 24",
     "ok": true,
-    "note": "{\"ov\":true,\"cost\":\"Biaya 10 dari anggaran 11DetakMasukAntreanHilang195–2910–3915–4920–5218–6216–Baris 6 dari 23 1×4×⏭▶ Hasil: tidak ada tugas hilang dan antrean kosong di akhir, dalam anggaran\",\"btns\":[\"1\",\"4\",\"skip\"]}"
+    "note": "{\"ov\":true,\"cost\":\"Biaya 10 dari anggaran 11DetakMasukAntreanHilang140–240–340–440–540–640–Baris 6 dari 23 1×4×⏭▶ Hasil: tidak ada tugas hilang dan antrean kosong di akhir, dalam anggaran\",\"btns\":[\"1\",\"4\",\"skip\"]}"
   },
   {
     "id": "X9",
     "desc": "EX09: urutan kartu Coba dan Cadangan berpengaruh (dibalik → gagal, dasbor menyebut urutan)",
     "ok": true,
-    "note": "Berhasil untuk satu keadaan, tapi belum untuk keadaan lain (server mati sebentar): Hanya 83% permintaan sukses lewat server utama (butuh 90% | Urutan penanganan: cadangan → coba lagi · pemutus aktif"
+    "note": "Hanya 83% permintaan sukses lewat server utama (butuh 90%). | Urutan penanganan: cadangan → coba lagi · pemutus aktif"
   },
   {
     "id": "X10",

@@ -533,9 +533,9 @@
   "d": "easy",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -544,9 +544,9 @@
   "d": "medium",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -654,9 +654,9 @@
   "d": "hard",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 255,
+  "boardH": 199,
   "worldH": 258,
-  "palH": 48,
+  "palH": 104,
   "runBottom": 730
  },
  {
@@ -687,9 +687,9 @@
   "d": "hard",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -764,9 +764,9 @@
   "d": "easy",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -819,9 +819,9 @@
   "d": "hard",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1039,9 +1039,9 @@
   "d": "medium",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1050,9 +1050,9 @@
   "d": "hard",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1105,9 +1105,9 @@
   "d": "medium",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 255,
+  "boardH": 199,
   "worldH": 258,
-  "palH": 48,
+  "palH": 104,
   "runBottom": 730
  },
  {
@@ -1215,9 +1215,9 @@
   "d": "hard",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1226,9 +1226,9 @@
   "d": "easy",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1237,9 +1237,9 @@
   "d": "medium",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1248,9 +1248,9 @@
   "d": "hard",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1259,9 +1259,9 @@
   "d": "easy",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1270,9 +1270,9 @@
   "d": "medium",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1281,9 +1281,9 @@
   "d": "hard",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1292,9 +1292,9 @@
   "d": "easy",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1303,9 +1303,9 @@
   "d": "medium",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1314,9 +1314,9 @@
   "d": "hard",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {
@@ -1380,9 +1380,9 @@
   "d": "hard",
   "vh": 740,
   "controlsFull": true,
-  "boardH": 199,
+  "boardH": 143,
   "worldH": 258,
-  "palH": 104,
+  "palH": 160,
   "runBottom": 730
  },
  {

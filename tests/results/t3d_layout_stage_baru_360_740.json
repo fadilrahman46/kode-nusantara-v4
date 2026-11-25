@@ -291,13 +291,13 @@
     "id": "360x740-j08-easy",
     "desc": "360x740 j08/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-j08-medium",
     "desc": "360x740 j08/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-j08-hard",
@@ -357,7 +357,7 @@
     "id": "360x740-j11-hard",
     "desc": "360x740 j11/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 255; palet 48"
+    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
   },
   {
     "id": "360x740-j12-easy",
@@ -375,7 +375,7 @@
     "id": "360x740-j12-hard",
     "desc": "360x740 j12/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-j13-easy",
@@ -417,7 +417,7 @@
     "id": "360x740-ma01-easy",
     "desc": "360x740 ma01/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-ma01-medium",
@@ -447,7 +447,7 @@
     "id": "360x740-ma02-hard",
     "desc": "360x740 ma02/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-ma03-easy",
@@ -567,13 +567,13 @@
     "id": "360x740-ma09-medium",
     "desc": "360x740 ma09/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-ma09-hard",
     "desc": "360x740 ma09/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-ma10-easy",
@@ -603,7 +603,7 @@
     "id": "360x740-mb01-medium",
     "desc": "360x740 mb01/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 255; palet 48"
+    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
   },
   {
     "id": "360x740-mb01-hard",
@@ -663,61 +663,61 @@
     "id": "360x740-mb04-hard",
     "desc": "360x740 mb04/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb05-easy",
     "desc": "360x740 mb05/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb05-medium",
     "desc": "360x740 mb05/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb05-hard",
     "desc": "360x740 mb05/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb06-easy",
     "desc": "360x740 mb06/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb06-medium",
     "desc": "360x740 mb06/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb06-hard",
     "desc": "360x740 mb06/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb07-easy",
     "desc": "360x740 mb07/easy: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb07-medium",
     "desc": "360x740 mb07/medium: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb07-hard",
     "desc": "360x740 mb07/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb08-easy",
@@ -753,7 +753,7 @@
     "id": "360x740-mb09-hard",
     "desc": "360x740 mb09/hard: tombol kontrol terlihat penuh, dunia ≥ 150 px, papan ≥ 100 px",
     "ok": true,
-    "note": "kontrol 730/740; dunia 258; papan 199; palet 104"
+    "note": "kontrol 730/740; dunia 258; papan 143; palet 160"
   },
   {
     "id": "360x740-mb10-easy",
